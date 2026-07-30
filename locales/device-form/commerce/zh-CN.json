@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "双电源功能使能",
+  "gen_power": "柴油机供电",
+  "generator_enable_before_shutdown": "停机前柴油机开启",
+  "grid_consum_power_upper_limit": "电网买电功率上限",
+  "grid_power": "电网供电",
+  "industry_info": "工商业信息",
+  "io_expansion_module": "是否有IO扩展模块",
+  "max_grid_charge_tooltip": "强充功能(SOC定向校准、SOC自动校准、欠压强充、充电时间段)的交流侧充电功率上限",
+  "max_meter_passing_power": "最大通过电表功率(kW)",
+  "maximum_grid_charging_power": "最大电网充电功率",
+  "off_grid_cut_off_soc": "离网截止SOC",
+  "power_type": "交流供电方式",
+  "pure_battery_enable": "纯电池功能使能",
+  "resume_soc": "离网恢复SOC",
+  "soc_calibrate": "SOC自动校准",
+  "soc_orientation_check": "SOC定向校准",
+  "sts_enable": "是否有STS",
+  "system_model": "系统型号"
+}

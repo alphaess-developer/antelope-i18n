@@ -1,0 +1,17 @@
+{
+  "battery_model": "Batterimodell",
+  "compatible_battery_models_cannot_repeat": "Kompatibla batterimodeller får inte upprepas.",
+  "coverage_area_country": "Täckningsområde/land",
+  "default_language": "Standardspråk",
+  "description": "Beskrivning",
+  "empty_fault_tip": "Vänligen ge en beskrivning på minst ett språk",
+  "fault_tip_must_be_filled": "Beskrivningar som motsvarar standardspråket kan inte vara tomma",
+  "max_number_character": "Upp till {number} tecken",
+  "please_set_the_default_language": "Ange standardspråk",
+  "report_error": "Rapportera fel",
+  "set_as_default": "Ange som standard",
+  "sn_coding_rules": "SN-kodningsregler",
+  "sn_rules_not_allow_repeat": "SN-identifieringsregler får inte upprepas",
+  "status": "Status",
+  "type": "Typ"
+}

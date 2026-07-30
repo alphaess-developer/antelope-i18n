@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "Activation de la fonction d’énergie double",
+  "gen_power": "Générateur diesel",
+  "generator_enable_before_shutdown": "Générateur diesel allumé avant l’arrêt PCS",
+  "grid_consum_power_upper_limit": "Puissance maximale à travers le compteur : limite supérieure de la puissance de consommation du réseau",
+  "grid_power": "Réseau",
+  "industry_info": "Infos systèmes commerciaux et industriels",
+  "io_expansion_module": "Y a-t-il un module d’extension IO",
+  "max_grid_charge_tooltip": "Puissance de charge réseau max. : la limite supérieure de la puissance de charge côté CA des fonctions de charge forcée (calibrage directionnel du SOC, calibrage automatique du SOC, charge forcée en sous-tension et périodes de charge)",
+  "max_meter_passing_power": "Puissance maximale via le compteur (kW)",
+  "maximum_grid_charging_power": "Puissance de charge réseau maximale",
+  "off_grid_cut_off_soc": "Hors réseau : SOC pour la déconnexion de charge",
+  "power_type": "Mode d’alimentation électrique CA",
+  "pure_battery_enable": "Activation de la fonction de batterie seule",
+  "resume_soc": "Hors réseau : SOC pour la reconnexion de charge",
+  "soc_calibrate": "Calibrage automatique du SOC",
+  "soc_orientation_check": "Calibrage directionnel du SOC",
+  "sts_enable": "STS",
+  "system_model": "Modèle du système"
+}

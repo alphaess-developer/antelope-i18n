@@ -1,0 +1,13 @@
+{
+  "ap_module": "AP-modul",
+  "arm_software_version": "ARM-mjukvaruversion",
+  "emsboot_version": "EMS Boot-version",
+  "hardware_version": "Hårdvaruversion",
+  "inverter": "Växelriktare",
+  "model": "Modell",
+  "platform": "Plattform",
+  "slave_software_version": "Mjukvaruversion för Slave-enhet",
+  "software_version": "Firmware-version",
+  "sta_module": "STA-modul",
+  "wireless_meter": "Trådlös mätare"
+}

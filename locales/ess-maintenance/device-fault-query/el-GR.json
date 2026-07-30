@@ -1,0 +1,8 @@
+{
+  "device_model": "Μοντέλο",
+  "error_code": "Κωδικός λάθους",
+  "license": "Άδεια",
+  "multiple_name_sep": "Το πολλαπλό {name} ξεκινά με '|' χώρισμα",
+  "reseller": "Μεταπωλητής",
+  "time": "Χρόνος"
+}

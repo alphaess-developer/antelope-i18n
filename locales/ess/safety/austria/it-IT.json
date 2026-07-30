@@ -1,0 +1,7 @@
+{
+  "absolute_value_rang": "Intervallo di valori assoluti: {min}~{max}",
+  "defaults": "Predefiniti",
+  "print": "Stampa",
+  "range_string": "Intervallo: {string}",
+  "update_time": "Tempo di aggiornamento"
+}

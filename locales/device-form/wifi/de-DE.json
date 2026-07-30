@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "Darf \\, \" oder : nicht enthalten. Die Länge muss 8–15 Zeichen betragen.",
+  "network_type": "Netzwerkart",
+  "wifi_hardware_version": "WLAN-Hardwareversion",
+  "wifi_manage": "WLAN-Management",
+  "wifi_module_sn": "WLAN-Modul SN",
+  "wifi_pwd": "WLAN Passwort",
+  "wifi_pwd_error": "Das Passwort muss aus Großbuchstaben, Kleinbuchstaben, Zahlen und Sonderzeichen (ausschließlich Leerzeichen, Schrägstrich \\ und Doppelpunkt :) bestehen. Es sollte mindestens 8 Zeichen lang sein (maximal 15 Zeichen) und keine sich wiederholenden oder aufeinanderfolgenden Zeichen enthalten.",
+  "wifi_software_version": "WLAN-Softwareversion"
+}

@@ -1,0 +1,8 @@
+{
+  "abnormal_charge_discharge": "Abnormal Charge/Discharge",
+  "device_model": "Model",
+  "exceptionally_offline": "Abnormal Offline",
+  "multiple_name_sep": "Multiple {name} starts with '|' partition",
+  "reseller": "Reseller",
+  "time": "Time"
+}

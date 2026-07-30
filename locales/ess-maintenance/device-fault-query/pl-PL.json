@@ -1,0 +1,8 @@
+{
+  "device_model": "Model",
+  "error_code": "Kod błędu",
+  "license": "Licencja",
+  "multiple_name_sep": "Wiele {name} jest podzielonych znakiem „|”",
+  "reseller": "Sprzedawca",
+  "time": "Czas"
+}

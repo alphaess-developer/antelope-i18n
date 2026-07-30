@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "批量删除",
+  "cycle_count": "循环次数",
+  "cycle_duration_min": "循环时长 [min]",
+  "cycle_task": "循环任务",
+  "end_time_ems_time": "结束时间 (EMS 时间)",
+  "min_pv": "最小功率值 [W]",
+  "no_match_data": "数据不存在或已被删除",
+  "running_state": "运行状态",
+  "select_date_time": "选择日期时间",
+  "single_task": "单任务",
+  "start_time_ems": "开始时间(EMS时间)"
+}

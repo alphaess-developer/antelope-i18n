@@ -1,0 +1,11 @@
+{
+  "build_status": "生成状态",
+  "exception_date": "异常日期",
+  "generate_reports": "生成报表",
+  "multiple_name_sep": "多个{name}以‘|’分割",
+  "one_click_generation": "一键生成",
+  "please_select_records": "请选择要执行的数据",
+  "scan_1": "扫描",
+  "selection_time": "选择时间",
+  "type": "类型"
+}

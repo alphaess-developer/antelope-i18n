@@ -1,0 +1,14 @@
+{
+  "audit_log": "Audit Logs",
+  "device": "Device",
+  "installer": "Installer",
+  "no_field_changes": "No field changes",
+  "num_changes": "{num} changes",
+  "open_api": "Open API",
+  "payload_codec_unsupported": "The format of changes to this record is not currently supported for display",
+  "schedule_task": "Scheduled task",
+  "show_empty_changes": "Show no-change records",
+  "system": "System",
+  "total_changes": "{num} changes in total",
+  "user": "user"
+}

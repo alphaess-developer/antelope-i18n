@@ -1,0 +1,7 @@
+{
+  "absolute_value_rang": "绝对值的取值范围：{min}~{max}",
+  "defaults": "默认设置",
+  "print": "打印",
+  "range_string": "范围：{string}",
+  "update_time": "更新时间"
+}

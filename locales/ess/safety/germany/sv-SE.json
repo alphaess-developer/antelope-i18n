@@ -1,0 +1,22 @@
+{
+  "cos_setting": "Cos-inställning",
+  "fixed_setpoint_cos": "Fast börvärde cos (φ)",
+  "frequency_decrease_protection_f": "Underfrekvensskydd f",
+  "frequency_hz_square": "Frekvens [Hz]",
+  "frequency_increase_protection_f": "Överfrekvensskydd f",
+  "germany_safety_tip": "Tidsinställningen \"< 100 ms\" för skyddsreläets inställningsvärde bygger på antagandet att den maximala svarstiden för NS-skyddet + gränssnittsbrytaren också är 100 ms. Detta resulterar i en maximal \"total frånkopplingstid\" på 200 ms. Om komponenternas svarstid är < 100 ms (t.ex. 50 ms) medger detta en längre period för att utföra mätningarna och utvärderingen av skyddsfunktionen (t.ex. upp till 150 ms). Detta skulle då resultera i ett inställningsvärde för skyddsreläet som är högre än \"< 100 ms\", dvs. \"< 150 ms\". I det fallet ska dock endast 100 ms visualiseras som inställningsvärde vid NS-skyddet. Frånkopplingstiden på 200 ms får dock aldrig överskridas. (VDE-AR-N:2018-11 S6.5.2)",
+  "lagging": "Eftersläpande",
+  "leading": "Ledande",
+  "limitation": "Begränsning",
+  "ns_protection": "NS-skydd",
+  "power_factor_cos_square": "Effektfaktor cos (φ)",
+  "protection_function": "Skyddsfunktion",
+  "q_u_curve": "Q (U)-kurva",
+  "q_u_curve_tip": "Q(U)-styrning gäller endast trefassystem eller system med AC-uteffekt på mer än 4,6 kVA (enligt VDE4105 kapitel 5.7.2.4)",
+  "setting_value": "Inställt värde",
+  "tripping_time": "Utlösningstid",
+  "tripping_value": "Utlösningsvärde",
+  "voltage_decrease_protection_u": "Underspänningsskydd U",
+  "voltage_increase_protection_u": "Överspänningsskydd U",
+  "voltage_v_square": "Spänning [V]"
+}

@@ -1,0 +1,17 @@
+{
+  "abnormal": "Abnormal",
+  "are_you_sure_to_unbind_the_charging_pile": "Are you sure to unbind the charging pile?",
+  "charging_pile_sn": "EV-charger SN",
+  "charging_pile_type": "EV Charger Model",
+  "charging_pile_type_enter_tip": "Please enter the charging pile SN and system SN first.",
+  "datetime": "Date/Time",
+  "device_status": "System State",
+  "install_charging_pile": "Install EV-Charger",
+  "install_date": "Installation Date",
+  "normal": "Normal",
+  "sn_check_code": "SN verification Code",
+  "supported_charging_pile_sn_suffix_formats": "Supported Charging Pile SN Suffix Formats:",
+  "supported_charging_pile_sn_suffix_formats_tip": "{index}. Ending with \"{rule}\" → {model}",
+  "unbind": "Unbind",
+  "warning": "Warning"
+}

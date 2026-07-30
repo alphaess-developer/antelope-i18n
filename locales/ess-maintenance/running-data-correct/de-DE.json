@@ -1,0 +1,6 @@
+{
+  "batch_delete": "Stapel löschen",
+  "batch_delete_confirm": "Möchten Sie die ausgewählten {count} Datensätze wirklich löschen?",
+  "device_time_zone": "Zeitzone des Geräts",
+  "generate_report": "Generieren Sie Berichte mit einem Klick"
+}

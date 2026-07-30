@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "Al menos un dato",
+  "charge_cut_off_soc": "Corte de carga SOC",
+  "discharge_cut_off_soc": "Corte de descarga SOC",
+  "feed_control_tip": "<p> Estimado cliente, <br /> Para facilitar la activación de la función que permite la descarga directa de energía desde su sistema de almacenamiento de energía a la red, le solicitamos amablemente que confirme lo siguiente: <br /> 1. Su dirección de instalación se encuentra dentro de la jurisdicción de <strong>{country}</strong>; <br /> 2. Usted cuenta con un acuerdo vigente y legalmente vinculante con su compañía eléctrica local como requisito previo para habilitar la descarga directa de energía desde su sistema de almacenamiento y/o su sistema fotovoltaico hacia la red. <br /> <strong> El incumplimiento de las condiciones anteriores puede dar lugar a riesgos de seguridad y posibles conflictos legales, de los cuales usted será plenamente responsable. Si no cumple con todas las condiciones anteriores, no debe confirmar y no podrá utilizar la función que permite la descarga directa de energía desde su sistema de almacenamiento a la red. </strong> <br /> Agradecemos su atención y colaboración con los requisitos previos mencionados anteriormente. </p>",
+  "feed_disabled_tip": "El control de alimentación a la red está deshabilitado porque este dispositivo está autorizado en un VPP",
+  "feed_energy_report": "Informe de energía de alimentación de red",
+  "feed_in_control": "Control de alimentación de red",
+  "feed_in_function": "Función de alimentación de red",
+  "feed_in_power": "Potencia de alimentación de red",
+  "feed_in_time_period": "Periodo de tiempo de alimentación a la red",
+  "feed_power_info": "La Potencia de alimentación de red se establece como un límite superior. Una vez que se suministra la potencia de salida del sistema a la carga, toda la potencia restante se transfiere a la red. Por lo tanto, la potencia de alimentación de red real puede fluctuar dentro de un determinado rango debido a los cambios en la carga.",
+  "home_ups_soc_tip": "Tu reserva actual de UPS es:",
+  "smart_charging": "Carga inteligente",
+  "start_less_than_end": "La hora de inicio debe ser menor que la hora de finalización",
+  "time_period_num": "Intervalo de tiempo {num}",
+  "time_period_overlap": "Los intervalos de tiempo se superponen.",
+  "today_feed_in": "Excedentes exportados a red"
+}

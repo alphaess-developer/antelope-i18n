@@ -1,0 +1,8 @@
+{
+  "device_model": "Modell",
+  "error_code": "Fehlercode",
+  "license": "Lizenz",
+  "multiple_name_sep": "Mehrere {name} beginnen mit '|' Trennwand",
+  "reseller": "Wiederverkäufer",
+  "time": "Zeit"
+}

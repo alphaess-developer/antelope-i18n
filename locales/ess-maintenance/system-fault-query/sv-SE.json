@@ -1,0 +1,19 @@
+{
+  "all": "Alla",
+  "backup_box_error": "BackupBox-fel",
+  "bms_error": "BMS-fel",
+  "clean_time": "Rensningstid",
+  "ems_error": "EMS-fel",
+  "error_code": "Felkod",
+  "event_happen_time": "Tidpunkt för händelse",
+  "fault_category": "Felkategori",
+  "fault_info": "Felinformation",
+  "inv_error": "Växelriktarfel",
+  "inv_warning": "Växelriktarvarning",
+  "level": "Nivå",
+  "meter_error": "Mätarfel",
+  "other_error": "Övriga fel",
+  "selection_time": "Välj tid",
+  "status": "Status",
+  "system_sn": "System-SN"
+}

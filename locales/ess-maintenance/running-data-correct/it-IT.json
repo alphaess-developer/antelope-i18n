@@ -1,0 +1,6 @@
+{
+  "batch_delete": "Elimina in blocco",
+  "batch_delete_confirm": "Sei sicuro di voler eliminare i {count} record selezionati?",
+  "device_time_zone": "Fuso orario del dispositivo",
+  "generate_report": "Genera report con un clic"
+}

@@ -1,0 +1,20 @@
+{
+  "address": "Adresa",
+  "basic_information": "Základní informace",
+  "electricity_tariff_info": "Informace o tarifech elektřiny",
+  "installed_capacity": "Instalovaná kapacita",
+  "installed_power": "Instalovaný výkon",
+  "number_of_ess": "Počet systémů pro ukládání energie",
+  "number_of_other_devices": "Počet příslušenství/jiného vybavení",
+  "overview": "Přehled",
+  "price_set": "Nastavení tarifu elektřiny",
+  "set": "Nastavení",
+  "site_address": "Adresa místa",
+  "site_basic_info": "Základní informace o webu",
+  "site_devices": "Zařízení",
+  "site_information": "Informace o webu",
+  "site_mode": "Režim webu",
+  "site_name": "Název místa",
+  "site_not_bound_user": "Stránka není vázána na uživatele",
+  "user_name": "Uživatelské jméno"
+}

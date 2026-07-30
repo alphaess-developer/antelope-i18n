@@ -1,0 +1,22 @@
+{
+  "add_name": "Ajouter - {name}",
+  "at_least_one_data": "Au moins une donnée",
+  "canonical_coding": "Codage canonique",
+  "edit_name": "Modifier - {name}",
+  "ems_code": "Code EMS",
+  "ems_firmware_version": "Version du firmware EMS",
+  "grid_connection_specifications": "Spécifications de raccordement au réseau",
+  "national_grid_connection_norms": "Normes nationales de raccordement au réseau",
+  "phase": "phase",
+  "publishing_agency": "Agence d’édition",
+  "regional_standards": "Normes régionales",
+  "single_phase": "Monophasé",
+  "specification_name": "Nom de la spécification",
+  "split_phase": "Phase auxiliaire",
+  "support_sub_code": "Inclusion ou non de normes régionales",
+  "support_version_control": "Si le contrôle de version est pris en charge",
+  "three_phase": "Triphasé",
+  "upgrade_version": "Version",
+  "validity_period": "Période de validité",
+  "version_description": "Description de la version"
+}

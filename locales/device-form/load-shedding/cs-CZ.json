@@ -1,0 +1,11 @@
+{
+  "area_list": "Seznam oblastí",
+  "area_name": "Název oblasti",
+  "charge_cut_off_soc": "Hodnota SOC pro odpojení nabíjení",
+  "click_for_details": "Kliknutím zobrazíte podrobnosti",
+  "load_shedding_msg_notification": "Oznámení o výpadku zatížení",
+  "load_shedding_tips1": "Tato funkce inteligentně nabíjí systém pro ukládání energie na základě plánu výpadku proudu ve vaší oblasti a nastavené hodnoty SOC pro vypnutí nabíjení, čímž vám a vaší rodině zajistí dostatek záložní energie při výpadku elektrického proudu. Aktivace této funkce může zvýšit domácí náklady na elektřinu",
+  "load_shedding_tips2": "Po zapnutí této funkce bude systém na základě místního výpadku napájení provádět inteligentní záložní napájení. Tato funkce je součástí nuceného nabíjení. Pokud chcete nabíjení zastavit, proveďte nastavení „Nastavení nabíjení/vybíjení“ – „Zastavení nabíjení“.",
+  "load_shedding_tips3": "Po zapnutí této funkce se vám na základě místních situací výpadku napájení zobrazí výzvy s informacemi o záložním napájení.",
+  "region": "Oblast"
+}

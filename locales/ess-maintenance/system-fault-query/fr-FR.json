@@ -1,0 +1,19 @@
+{
+  "all": "Tout",
+  "backup_box_error": "Erreur BackupBox",
+  "bms_error": "Erreur BMS",
+  "clean_time": "Durée d’effacement",
+  "ems_error": "Erreur EMS",
+  "error_code": "Code d’erreur",
+  "event_happen_time": "Date/heure du problème",
+  "fault_category": "Catégorie de défaillance",
+  "fault_info": "Informations sur la défaillance",
+  "inv_error": "Erreur d’onduleur",
+  "inv_warning": "Avertissement relatif à l’onduleur",
+  "level": "Niveau",
+  "meter_error": "Erreur de compteur",
+  "other_error": "Autre erreur",
+  "selection_time": "Sélectionner une date/heure",
+  "status": "État",
+  "system_sn": "SN du système"
+}

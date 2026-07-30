@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "Bitte kontaktieren Sie Ihren Installateur zur Entsperrung.",
+  "content": "Inhalt",
+  "current_status": "Aktueller Status",
+  "latest_run_records": "Neueste Betriebsaufzeichnungen",
+  "restart": "Neustart",
+  "restart_to_resolve": "Ein Neustart des Systems kann das Problem möglicherweise beheben.",
+  "status3_restart_tips": "Der Neustart wird etwa drei Minuten dauern. Bitte aktualisieren Sie die Seite nach drei Minuten, um den Fortschritt zu überprüfen. Möchten Sie wirklich fortfahren?",
+  "status4_unlock_tips": "Das Entsperren wird etwa drei Minuten dauern. Bitte aktualisieren Sie die Seite nach drei Minuten, um den Fortschritt zu überprüfen. Möchten Sie wirklich fortfahren?",
+  "unlock": "Entsperren",
+  "upload_time": "Upload-Zeit"
+}

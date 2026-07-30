@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "禁止输入\\\":三个字符,至少8个字符长度(最长15个字符)。",
+  "network_type": "网络类型",
+  "wifi_hardware_version": "WiFi硬件版本",
+  "wifi_manage": "WIFI管理",
+  "wifi_module_sn": "WiFi模块SN",
+  "wifi_pwd": "WiFi密码",
+  "wifi_pwd_error": "包含大写字母、小写字母、数字和特殊字符（禁止输入 \\ \" : 三个字符），至少8个字符长度（最长15个字符），密码不包含重复或连续的字符。",
+  "wifi_software_version": "WiFi软件版本"
+}

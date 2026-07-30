@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "Minst en datapost",
+  "charge_cut_off_soc": "Laddningsnivå (SOC) för laddningsstopp",
+  "discharge_cut_off_soc": "Laddningsnivå (SOC) för urladdningsstopp",
+  "feed_control_tip": "<p>       Bästa kund, <br />       För att aktivera funktionen som möjliggör direkt urladdning av effekt från ditt energilagringssystem till elnätet ber vi dig vänligen       bekräfta följande:       <br />       1. Din installationsadress ligger inom jurisdiktionen för <strong>{country}</strong>; <br />       2. Du har ett gällande, juridiskt bindande avtal med ditt lokala elnätsbolag som en förutsättning för att aktivera direkt urladdning av effekt från ditt       energilagringssystem och/eller solcellssystem till elnätet.       <br /> <strong>       Bristande efterlevnad av ovanstående villkor kan leda till säkerhetsrisker och potentiella juridiska tvister, för vilka du bär fullt ansvar. Om du       inte uppfyller samtliga ovanstående villkor ska du inte bekräfta och kommer inte att kunna använda funktionen för att aktivera direkt urladdning av effekt från ditt       energilagringssystem till elnätet. </strong>       <br />       Vi uppskattar din uppmärksamhet på och ditt samarbete kring ovanstående förutsättningar.     </p>",
+  "feed_disabled_tip": "Under VPP-schemaläggning är inmatningskontroll inaktiverad",
+  "feed_energy_report": "Rapport för inmatad energi till elnätet",
+  "feed_in_control": "Styrning av inmatning",
+  "feed_in_function": "Inmatningsfunktion",
+  "feed_in_power": "Inmatningseffekt",
+  "feed_in_time_period": "Inmatningstidsperiod",
+  "feed_power_info": "Inmatningseffekten är inställd som en övre gräns. När systemets uteffekt har försörjt lasten matas all återstående effekt in till elnätet. Därför kan den faktiska inmatningseffekten variera inom ett visst intervall beroende på lastens förändringar.",
+  "home_ups_soc_tip": "Aktuell UPS-reserv för hemmet är:",
+  "smart_charging": "Smart laddning",
+  "start_less_than_end": "Starttiden måste vara tidigare än sluttiden",
+  "time_period_num": "Tidsperiod {num}",
+  "time_period_overlap": "Tidsperioderna överlappar.",
+  "today_feed_in": "Inmatad energi idag"
+}

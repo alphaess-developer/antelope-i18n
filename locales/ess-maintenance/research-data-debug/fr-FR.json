@@ -1,0 +1,17 @@
+{
+  "all": "Tout",
+  "check_most_two": "En sélectionner deux max.",
+  "debug_data": "Données de débuggage",
+  "debug_status": "État du débuggage",
+  "debugging": "Débuggage",
+  "enter_debug": "Entrer en mode de débuggage",
+  "equipment_commission": "Débuggage du système",
+  "select_at_least_one_device": "Sélectionnez un appareil secondaire au minimum",
+  "start_issuing_command": "Démarrage de l’envoi de commande",
+  "stop_debugging": "Arrêter le débuggage",
+  "stop_issuing_command": "Arrêt de l’envoi de commande",
+  "stopped": "Arrêté",
+  "sub_device": "Appareil secondaire",
+  "time_seconds": "L’intervalle de temps doit être supérieur à 10 secondes",
+  "transmission_interval": "Intervalle d’envoi des données"
+}

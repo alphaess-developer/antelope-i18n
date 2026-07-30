@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Tijdstip",
+  "log_type": "Log type",
+  "origin": "Van",
+  "record_date": "Datum registratie",
+  "separate": "SN (meervoud gescheiden door |)",
+  "view_log_content": "Loginhoud bekijken"
+}

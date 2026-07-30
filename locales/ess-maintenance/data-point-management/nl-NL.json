@@ -1,0 +1,8 @@
+{
+  "data_center": "Datacentrum",
+  "data_center_list": "Datacenterlijst",
+  "data_center_name": "naam datacenter",
+  "data_upload_domain": "domeinnaam voor gegevensupload",
+  "is_encrypt_transmission": "Of de verzending moet worden gecodeerd",
+  "port_number": "poortnummer"
+}

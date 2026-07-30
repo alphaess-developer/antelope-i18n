@@ -1,0 +1,22 @@
+{
+  "activate": "Activer",
+  "activated": "Activé",
+  "channel_type": "Type de canal",
+  "content": "Contenu",
+  "deactivate": "Désactiver",
+  "deactivated": "Désactivé",
+  "disabled": "Désactivé",
+  "empty_template_content_tip": "Vous devez remplir le contenu du modèle dans au moins une langue",
+  "enable_alt": "Activé",
+  "enabled": "Activé",
+  "extra_params": "Paramètres supplémentaires",
+  "group_type": "Type de groupe",
+  "mail": "E-mail",
+  "notice": "Avis",
+  "push": "Notification push",
+  "status": "État",
+  "template_code": "Code du modèle",
+  "template_content": "Contenu du modèle",
+  "template_name": "Nom du modèle",
+  "title": "Titre"
+}

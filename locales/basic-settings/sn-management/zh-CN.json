@@ -1,0 +1,11 @@
+{
+  "check_code": "校验码",
+  "data_center": "数据中心",
+  "del_sys_data": "删除系统数据",
+  "delete_sn_related_system_data": "删除{sn}相关系统数据",
+  "household_savings_platform": "户储平台",
+  "micro_storage_platform": "微储平台",
+  "product_category": "产品类别",
+  "socket_data_center": "通信中心",
+  "view_check_code": "查看校验码"
+}

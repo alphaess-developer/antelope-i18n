@@ -1,0 +1,13 @@
+{
+  "ap_module": "AP module",
+  "arm_software_version": "ARM software version",
+  "emsboot_version": "EMS Boot Version",
+  "hardware_version": "Hardware Version",
+  "inverter": "Inverter",
+  "model": "Model",
+  "platform": "Platform",
+  "slave_software_version": "Slave software version",
+  "software_version": "Firmware Version",
+  "sta_module": "STA module",
+  "wireless_meter": "Wireless Meter"
+}

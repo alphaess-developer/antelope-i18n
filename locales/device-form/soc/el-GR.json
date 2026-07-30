@@ -1,0 +1,11 @@
+{
+  "calibrate_now": "Βαθμονόμηση τώρα",
+  "calibration_cycle": "Πρόγραμμα βαθμονόμησης",
+  "calibration_estimated_time": "Βαθμονόμηση σε εξέλιξη, εκτιμώμενος χρόνος που χρειάζεται: {num} λεπτά",
+  "days": "μέρα",
+  "next_calibration_date": "Ημερομηνία επόμενης βαθμονόμησης",
+  "next_calibration_time": "Ώρα επόμενης βαθμονόμησης",
+  "periodic_calibration": "Περιοδική βαθμονόμηση",
+  "soc_calibration": "Βαθμονόμηση SOC",
+  "stop_calibration": "Διακοπή βαθμονόμησης"
+}

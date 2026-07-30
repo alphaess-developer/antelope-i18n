@@ -1,0 +1,17 @@
+{
+  "battery_model": "Model baterie",
+  "compatible_battery_models_cannot_repeat": "Kompatibilní modely baterií se nemohou opakovat.",
+  "coverage_area_country": "Oblast pokrytí/země",
+  "default_language": "Výchozí jazyk",
+  "description": "Popis",
+  "empty_fault_tip": "Prosím, uveďte popis alespoň v jednom jazyce",
+  "fault_tip_must_be_filled": "Popisy odpovídající výchozímu jazyku nemohou být prázdné",
+  "max_number_character": "Až {number} znaků",
+  "please_set_the_default_language": "Nastavte prosím výchozí jazyk",
+  "report_error": "Nahlásit chybu",
+  "set_as_default": "Nastavit jako výchozí",
+  "sn_coding_rules": "Pravidla kódování SN",
+  "sn_rules_not_allow_repeat": "Pravidla identifikace SN nemohou být duplicitní",
+  "status": "Stav",
+  "type": "Typ"
+}

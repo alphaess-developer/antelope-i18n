@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Standardgarantie",
+  "battery": "Batterie",
+  "begin_time": "Startzeit",
+  "device_name": "Gerätename",
+  "device_type": "Ausrüstungstye",
+  "end_time": "Endzeit",
+  "extended_warranty": "Verlängerte Garantie",
+  "high_standard_warranty": "Hohe Garantie",
+  "invalid": "An Wirksamkeit Verlieren",
+  "inverter": "Wechselrichter",
+  "model_device": "Gerätemodell",
+  "modify_warranty_period": "Ändern Sie die Garantiezeit",
+  "order_time": "Bestellzeit",
+  "performance_warranty": "Leistungsgarantie",
+  "product_specifications": "Produktname",
+  "purchase_required": "Kaufpflicht",
+  "status": "Status",
+  "valid": "Gültig",
+  "valid_time": "Gültige Zeit",
+  "warranty_type": "Garantieart",
+  "whether_you_need_to_buy_it": "Ob Sie es kaufen müssen"
+}

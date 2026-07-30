@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "De back-upreserve van de batterij mag niet hoger zijn dan de ontladingsgrens SOC voor piekafvlakking {soc}%.",
+  "difference": "Verschil",
+  "discharge_cut_off_soc": "Het ontladen stopt bij de volgende ladingstoestand (SOC)",
+  "end_more_than_begin": "De eindtijd moet groter zijn dan de begintijd",
+  "hysteresis_value": "Hysteresewaarde",
+  "meter_time1_end": "Periode1-einde",
+  "meter_time1_start": "Periode1-start",
+  "meter_time2_end": "Periode2-einde",
+  "meter_time2_start": "Periode2-start",
+  "peak_cycle": "Piekafvlakkingscyclus",
+  "peak_periods": "Piekafvlakkingsperiode",
+  "peak_shaving_discharge_soc_conflict": "De ontladingsgrens SOC mag niet lager zijn dan de back-upreserve van de batterij {soc}%.",
+  "peak_shaving_valley_filling": "Piekafvlakking en dalvulling",
+  "peak_valley_period_overlap": "De piekafvlakkingsperiode en de dalvullingsperiode mogen niet overlappen",
+  "peak_valley_value_conflict": "De piek en dal instellingen conflicteren, resetten aub",
+  "peak_value": "Piekwaarde",
+  "peak_value_tip": "Stel alstublieft het maximale belastingvermogen in dat het huishouden mag (deze functie geldt alleen voor netgekoppelde belastingen).",
+  "valley_cycle": "Dalvullingscyclus",
+  "valley_periods": "Dalvullingsperiode",
+  "valley_value": "Dalwaarde"
+}

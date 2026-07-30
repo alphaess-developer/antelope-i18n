@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "Får inte innehålla \\, \" eller :. Längden måste vara 8–15 tecken.",
+  "network_type": "Nätverkstyp",
+  "wifi_hardware_version": "Wi-Fi-hårdvaruversion",
+  "wifi_manage": "Wi-Fi-hantering",
+  "wifi_module_sn": "Wi-Fi-modul SN",
+  "wifi_pwd": "Wi-Fi-lösenord",
+  "wifi_pwd_error": "Lösenordet måste innehålla stora bokstäver, små bokstäver, siffror och specialtecken (ej mellanslag, omvänt snedstreck \\ och kolon :). Det ska vara minst 8 tecken långt (högst 15 tecken) och får inte innehålla upprepade eller efterföljande tecken.",
+  "wifi_software_version": "Wi-Fi-mjukvaruversion"
+}

@@ -1,0 +1,18 @@
+{
+  "dispatch": "Dispatch",
+  "extra": "Extra",
+  "extra.clear_energy_statistics": "Duidelijke energiestatistieken",
+  "extra.clear_meter_data": "Clear metergegevens",
+  "extra.modify_mac_address": "Wijzig het MAC-adres",
+  "extra.modify_sn": "Modify SN",
+  "extra.restart_unit": "Start de component opnieuw",
+  "extra.restart_unit.restart_battery": "Start de accu opnieuw",
+  "extra.restart_unit.restart_inverter": "Start de omvormer opnieuw",
+  "extra.restore_factory_settings": "Fabrieksreset",
+  "remote_control": "Afstandsbediening",
+  "remote_control.close_mos": "Sluit MOS op afstand af voor het ontladen van de batterij",
+  "remote_control.forced_charge": "Dwing om de batterij volledig op te laden",
+  "remote_control.forced_work": "Dwing de batterij om in werkmodus te gaan (Parallelmodus)",
+  "restart": "Herstart",
+  "sync_time": "SyncTime"
+}

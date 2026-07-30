@@ -1,0 +1,22 @@
+{
+  "area": "Area",
+  "control_power_output": "Output Control",
+  "detect_time": "Detection Time",
+  "manual_reset": "Manual Reset",
+  "manual_reset_enable": "Manual Reset Enable",
+  "manual_reset_setting": "Manual Reset Switch",
+  "no_power_control": "Ineffective Power Control",
+  "off_short": "Off",
+  "on_short": "On",
+  "operating_power_factor": "Constant Power Factor Control",
+  "over_f": "AC Overfrequency Relay",
+  "over_v": "AC Overvoltage Relay",
+  "passive_island_detect": "Passive Isolated Operation Detection",
+  "power_recovery_delay": "Fixed Time Delaying After Reenergizing",
+  "set_time": "Setting-Time",
+  "set_value": "Setting-Value",
+  "suppression_voltage_degree": "Suppressing Rising Of Voltage Function",
+  "under_f": "AC Underfrequency Relay",
+  "under_v": "AC Undervoltage Relay",
+  "voltage_phase_jump_detect": "Voltage Phase Jump Detection Method"
+}

@@ -1,0 +1,7 @@
+{
+  "absolute_value_rang": "Rango de valores absolutos: {min}~{max}",
+  "defaults": "Valores predeterminados",
+  "print": "Imprimir",
+  "range_string": "Alcance: {string}",
+  "update_time": "Tiempo de actualizacion"
+}

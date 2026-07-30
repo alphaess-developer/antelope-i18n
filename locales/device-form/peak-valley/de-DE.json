@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "Die Batterie-Backup-Reserven dürfen den Spitzenlastkappungs-Entladungs-Cutoff-SOC ({soc}%) nicht überschreiten.",
+  "difference": "Abweichung",
+  "discharge_cut_off_soc": "Entladung SOC",
+  "end_more_than_begin": "Die Endzeit muss später als die Startzeit sein",
+  "hysteresis_value": "Hysteresewert",
+  "meter_time1_end": "Zeitraum1-Ende",
+  "meter_time1_start": "Zeitraum1-Beginn",
+  "meter_time2_end": "Zeitraum2-Ende",
+  "meter_time2_start": "Zeitraum2-Beginn",
+  "peak_cycle": "Spitzenlastkappungszyklus",
+  "peak_periods": "Spitzenlastkappungszeitraum",
+  "peak_shaving_discharge_soc_conflict": "Der Entladungs-Cutoff-SOC darf nicht unter der Batterie-Backup-Reserve {soc}% liegen.",
+  "peak_shaving_valley_filling": "Spitzenlastkappung",
+  "peak_valley_period_overlap": "Die Spitzenlastkappungsphase und die Talfüllphase dürfen sich nicht überschneiden",
+  "peak_valley_value_conflict": "Konflikt zwischen Spitzen- und Taleinstellungen, bitte neu einstellen",
+  "peak_value": "Spitzenwert",
+  "peak_value_tip": "Bitte stellen Sie die maximal zulässige Lastleistung im Haushalt ein (diese Funktion gilt nur für netzgebundene Lasten).",
+  "valley_cycle": "Füllen Sie den Zyklus",
+  "valley_periods": "Füllen Sie den Zeitraum",
+  "valley_value": "Talwert"
+}

@@ -1,0 +1,11 @@
+{
+  "backup_box": "Backup Box",
+  "backup_box_software_version": "Version du logiciel Backup Box",
+  "backupbox_sn": "Backupbox SN",
+  "level_num_priority": "Priorité L{num}",
+  "level_num_priority_triggering_soc_value": "Valeur SOC de déclenchement en priorité L{num}",
+  "policy_priorities_can_not_same": "Ne peut pas avoir la même priorité dans les politiques",
+  "priority_cannot_be_duplicated": "La priorité n’est pas reproductible, et plus la priorité est élevée, plus la valeur de réglage SOC correspondante est basse",
+  "soc_error": "Erreur de réglage du SOC, (10<=)SOC(<=100), il doit être rempli de la priorité la plus basse à la plus élevée",
+  "start_backup_box": "Activation de la gestion de charge"
+}

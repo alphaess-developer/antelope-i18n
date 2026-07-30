@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "启用限电功率支撑",
+  "end_time_num": "结束时间 {num}",
+  "meter_offset": "电表偏移量",
+  "power_rationing_support": "限电功率支撑",
+  "start_time_num": "开始时间 {num}",
+  "time_period_num": "时间段{num}"
+}

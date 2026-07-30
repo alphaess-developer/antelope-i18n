@@ -1,0 +1,21 @@
+{
+  "begin_time": "Start Tijd",
+  "charge": "Opladen",
+  "charge_cut_off_soc": "Het laden stopt bij de volgende laadtoestand (SOC)",
+  "charging_tip": "Als \"Opladen\" wordt geselecteerd en een oplaadtijdperiode is ingesteld, wordt de accu krachtig opgeladen gedurende de gespecificeerde tijdperiode. Gedurende deze periode wordt de accu niet ontladen. De accu zal het gebruik van zonne-energie voor opladen prioriteren. Als er onvoldoende zonne-energie is, zal de accu stroom van het net gebruiken om de oplaadstroom aan te vullen. Buiten deze tijdperiode werkt het systeem in \"Zelfverbruikmodus\". Sommige modellen ondersteunen momenteel functies voor opladen en laden gedurende 15 minuten en de ondersteunde modellen vereisen een firmware-upgrade. Modellen die dit niet ondersteunen blijven de vorige functie voor opladen en ontladen gedurende 1 uur-gebruiken.",
+  "daily": "Dagelijks",
+  "discharge": "Ontladen",
+  "discharge_cut_off_soc": "Het ontladen stopt bij de volgende ladingstoestand (SOC)",
+  "discharge_cut_off_soc_hint": "De batterij zal niet meer ontladen totdat de SOC de ingestelde SOC bereikt,",
+  "discharge_tip": "Als \\\"Ontladen\\\" is ingeschakeld en er een ontlaadtijdsperiode is ingesteld, wordt de batterij alleen ontladen gedurende de opgegeven periode. Als er zonne-energie beschikbaar is, wordt deze eerst worden gebruikt om de belasting te voeden en levert de batterij alleen stroom als er onvoldoende zonne-energie is. De batterij levert geen stroom terug aan het net, maar levert alleen stroom aan de belasting. Als er in deze periode een overschot aan zonne-energie is, kan dit ook worden gebruikt om de batterij op te laden. Buiten deze periode kan de batterij alleen opladen en niet ontladen.\\nMomenteel ondersteunen sommige modellen opladen/ontladen met intervallen van 15 minuten en zijn firmware-upgrades vereist voor deze modellen. Voor systemen die deze functie niet ondersteunen, blijft het opladen/ontladen op het vorige interval van 1 uur.\\n(Opmerking: Voor dagelijkse oplaad-/ontlaadinstellingen zijn overlappende tijdsperioden toegestaan. In gevallen waarin zowel oplaad- als ontlaadschema's overlappen, zal het opladen voorrang krijgen. Als er overlappende tijdsperioden zijn binnen dezelfde controlestrategie (opladen of ontladen), heeft het schema met de eerdere tijdsinstelling voorrang.)",
+  "end_time": "Eind tijd",
+  "execution_cycle": "Uitvoeringscyclus",
+  "off_grid_cut_off_soc": "Off-grid: SOC om verbruikers uit te schakelen",
+  "off_grid_soc_control": "Off-grid SOC-controle",
+  "off_grid_soc_value_tip": "De huidige instelling voor Off-grid wake-up-SOC is ongeldig als deze lager is dan Off-grid afsluit-SOC + 5%.",
+  "off_grid_wake_up_soc": "Off-grid wake-up-SOC",
+  "time_period_num": "Tijdsperiode {num}",
+  "ups_reserve_enable": "UPS reserve",
+  "ups_reserve_enable_hint": "Wanneer deze functie is ingeschakeld, zal het opslagsysteem, na herstel van off-grid naar on-grid, geforceerd stroom onttrekken aan zowel de PV als het net, waarbij prioriteit wordt gegeven aan het opladen van de batterij tot de cut-off SOC-waarde van de batterij. Wanneer deze functie is uitgeschakeld, zal het opslagsysteem bij herstel van off-grid naar on-grid geen geforceerde stroomvoorzieningslogica toepassen.",
+  "weekly": "Wekelijks"
+}

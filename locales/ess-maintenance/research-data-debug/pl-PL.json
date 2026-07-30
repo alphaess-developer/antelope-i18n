@@ -1,0 +1,17 @@
+{
+  "all": "Wszystkie",
+  "check_most_two": "Sprawdź najwyżej dwa.",
+  "debug_data": "Dane debugowania",
+  "debug_status": "Status debugowania",
+  "debugging": "Debugowanie",
+  "enter_debug": "Rozpocznij debugowanie",
+  "equipment_commission": "Dane debugowania systemu",
+  "select_at_least_one_device": "Wybierz co najmniej jedno urządzenie podrzędne",
+  "start_issuing_command": "Rozpocznij wydawanie poleceń",
+  "stop_debugging": "Zatrzymaj debugowanie",
+  "stop_issuing_command": "Zakończ wydawanie poleceń",
+  "stopped": "Wstrzymano",
+  "sub_device": "Urządzenie podrzędne",
+  "time_seconds": "Przedział czasowy musi być większy niż 10 sekund",
+  "transmission_interval": "Interwał wysyłania danych"
+}

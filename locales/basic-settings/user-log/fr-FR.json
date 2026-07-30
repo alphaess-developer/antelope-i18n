@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Date/heure du problème",
+  "log_type": "Type de journal",
+  "origin": "Origine",
+  "record_date": "Date de l’enregistrement",
+  "separate": "Séparez les SN avec un |",
+  "view_log_content": "Afficher le contenu du journal"
+}

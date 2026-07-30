@@ -1,0 +1,12 @@
+{
+  "alert_time": "Heure d’alerte",
+  "cmd_name": "Nom de la commande",
+  "command_code": "Code de commande",
+  "evaluate_detail_second": "Durée nécessaire à la résolution",
+  "last_dispatch_time": "Dernière heure de répartition",
+  "occur_count": "Nombre d’occurrences",
+  "occur_server_time": "Heure d’alerte serveur",
+  "resolved": "Résolu",
+  "status": "État",
+  "un_solved": "Non résolu"
+}

@@ -1,0 +1,8 @@
+{
+  "abnormal_charge_discharge": "Carga/descarga anormal",
+  "device_model": "Modelo",
+  "exceptionally_offline": "Fuera de línea de forma anómala",
+  "multiple_name_sep": "Múltiples {name} comienzan con '|' partición",
+  "reseller": "Revendedor",
+  "time": "Tiempo"
+}

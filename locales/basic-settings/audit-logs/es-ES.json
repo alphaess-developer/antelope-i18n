@@ -1,0 +1,14 @@
+{
+  "audit_log": "Registro de auditoría",
+  "device": "Dispositivo",
+  "installer": "Instalador",
+  "no_field_changes": "Sin cambios en el campo",
+  "num_changes": "{num} cambios",
+  "open_api": "Open API",
+  "payload_codec_unsupported": "El formato de los cambios en este registro no está actualmente soportado para la visualización",
+  "schedule_task": "Tarea programada",
+  "show_empty_changes": "Mostrar récords sin cambios",
+  "system": "Sistema",
+  "total_changes": "{num} cambios en total",
+  "user": "usuario"
+}

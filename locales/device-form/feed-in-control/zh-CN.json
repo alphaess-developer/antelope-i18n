@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "至少有一条数据",
+  "charge_cut_off_soc": "充电截止SOC",
+  "discharge_cut_off_soc": "放电截止SOC",
+  "feed_control_tip": "<p>  尊敬的客户：<br />  为了方便您启用将储能系统电力直接输送至电网的功能，我们恳请您  确认以下事项：  <br />  1. 您的安装地址位于<strong>{country}</strong>境内；<br />  2. 您已与当地电网公司签订有效的、具有法律约束力的协议，这是启用将储能系统和/或光伏系统电力直接输送至电网的前提条件。   <br />  <strong>  不遵守上述条件可能导致安全隐患和潜在的法律纠纷，您将承担全部责任。如果您 未能满足上述所有条件，则不应确认启用此功能，并且将无法使用将储能系统电力直接输送至电网的功能。  </strong>  <br />  非常感谢您对上述前提条件的关注和配合。  </p>",
+  "feed_disabled_tip": "VPP调度期间，禁用馈网控制",
+  "feed_energy_report": "馈网能量报表",
+  "feed_in_control": "馈网控制",
+  "feed_in_function": "馈网功能",
+  "feed_in_power": "馈网功率",
+  "feed_in_time_period": "馈网时间段",
+  "feed_power_info": "馈网功率设定的是一个馈网上限值。系统输出功率在供给负载后其余全部功率馈网，所以馈网功率实际大小因负载的变化会有一定范围的波动",
+  "home_ups_soc_tip": "当前家庭设置的UPS储备为：",
+  "smart_charging": "智能充电",
+  "start_less_than_end": "开始时间必须小于结束时间",
+  "time_period_num": "时间段{num}",
+  "time_period_overlap": "时间段交叉",
+  "today_feed_in": "馈网电量"
+}

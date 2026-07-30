@@ -1,0 +1,22 @@
+{
+  "activate": "启用",
+  "activated": "激活",
+  "channel_type": "通道类型",
+  "content": "内容",
+  "deactivate": "停用",
+  "deactivated": "停用",
+  "disabled": "已停用",
+  "empty_template_content_tip": "至少需要填写一个语种的模板内容",
+  "enable_alt": "启用",
+  "enabled": "已开启",
+  "extra_params": "额外参数",
+  "group_type": "组类型",
+  "mail": "邮箱",
+  "notice": "通知",
+  "push": "推送",
+  "status": "状态",
+  "template_code": "模板代码",
+  "template_content": "模板内容",
+  "template_name": "模板名称",
+  "title": "标题"
+}

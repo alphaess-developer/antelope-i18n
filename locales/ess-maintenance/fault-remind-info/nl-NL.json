@@ -1,0 +1,17 @@
+{
+  "battery_model": "Batterij model",
+  "compatible_battery_models_cannot_repeat": "Compatibele batterijmodellen mogen niet worden herhaald.",
+  "coverage_area_country": "Dekkingsgebied/land",
+  "default_language": "Standaardtaal",
+  "description": "Beschrijving",
+  "empty_fault_tip": "Geef alstublieft een beschrijving in ten minste één taal",
+  "fault_tip_must_be_filled": "Beschrijvingen die overeenkomen met de standaardtaal mogen niet leeg zijn",
+  "max_number_character": "Maximaal {number} tekens",
+  "please_set_the_default_language": "Stel de standaardtaal in",
+  "report_error": "Fout melden",
+  "set_as_default": "Instellen als standaard",
+  "sn_coding_rules": "SN coderingsregels",
+  "sn_rules_not_allow_repeat": "SN-identificatieregels mogen niet worden gedupliceerd.",
+  "status": "Status",
+  "type": "Type"
+}

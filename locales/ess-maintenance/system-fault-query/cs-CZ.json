@@ -1,0 +1,19 @@
+{
+  "all": "Vše",
+  "backup_box_error": "Chyba záložní jednotky",
+  "bms_error": "Chyba BMS",
+  "clean_time": "Vymazat čas",
+  "ems_error": "Chyba EMS",
+  "error_code": "Chybový kód",
+  "event_happen_time": "Čas výskytu",
+  "fault_category": "Kategorie chyby",
+  "fault_info": "Informace o chybě",
+  "inv_error": "Chyba měniče",
+  "inv_warning": "Varování měniče",
+  "level": "Úroveň",
+  "meter_error": "Chyba měřiče",
+  "other_error": "Jiná chyba",
+  "selection_time": "Vyberte čas",
+  "status": "Stav",
+  "system_sn": "Sériové číslo systému"
+}

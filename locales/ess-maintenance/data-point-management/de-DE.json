@@ -1,0 +1,8 @@
+{
+  "data_center": "Datenzentrum",
+  "data_center_list": "Datencenter-Liste",
+  "data_center_name": "Name des Rechenzentrums",
+  "data_upload_domain": "Daten-Upload-Domänenname",
+  "is_encrypt_transmission": "Ob die Übertragung verschlüsselt werden soll",
+  "port_number": "Portnummer"
+}

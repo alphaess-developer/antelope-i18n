@@ -1,0 +1,16 @@
+{
+  "active": "Aktiv",
+  "ct_tip": "Om mätaren är konfigurerad med CT måste \"CT\" markeras, sedan kan CT-förhållandet redigeras. OBS: gäller endast Acrel ADL3000 CT-mätare eller ACR10R CT-mätare, där \"CT\" ska markeras.",
+  "grid_connected_meter": "Mätare vid nätanslutningspunkt",
+  "grid_side_meter": "Elnätsmätare",
+  "hardware_version": "Hårdvaruversion",
+  "meter_ct": "Mätarens CT-förhållande",
+  "meter_ct_rate": "CT:ns märkförhållande",
+  "meter_mode": "Mätarmodell",
+  "meter_on_grid_tips": "I ett nätanslutet system: om en mätare är installerad på elnätssidan, klicka på \"mätare\"-knappen. Om en CT är direkt ansluten på elnätssidan, klicka på \"CT\"-knappen.",
+  "meter_on_pv_tips": "I AC- eller hybridkopplat arbetsläge: om en mätare är installerad på solcellsväxelriktarens sida, klicka på \"mätare\"-knappen. Om en CT är direkt ansluten på solcellsväxelriktarens sida, klicka på \"CT\"-knappen.",
+  "pv_side_meter": "Mätare på PV-sidan",
+  "software_version": "Firmware-version",
+  "unactive": "Ej aktiverad",
+  "wireless_meter": "Trådlös mätare"
+}

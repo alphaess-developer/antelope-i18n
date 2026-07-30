@@ -1,0 +1,22 @@
+{
+  "activate": "Aktivovat",
+  "activated": "Povoleno",
+  "channel_type": "Typ kanálu",
+  "content": "Obsah",
+  "deactivate": "Deaktivovat",
+  "deactivated": "Deaktivováno",
+  "disabled": "Neaktivní",
+  "empty_template_content_tip": "Musíte vyplnit obsah šablony alespoň v jednom jazyce",
+  "enable_alt": "Povolit",
+  "enabled": "Povoleno",
+  "extra_params": "Doplňkové parametry",
+  "group_type": "Typ skupiny",
+  "mail": "E-mail",
+  "notice": "Oznámení",
+  "push": "Tlačit",
+  "status": "Stav",
+  "template_code": "Kód šablony",
+  "template_content": "Obsah šablony",
+  "template_name": "Název šablony",
+  "title": "Název"
+}

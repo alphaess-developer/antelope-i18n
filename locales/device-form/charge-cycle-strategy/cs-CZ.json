@@ -1,0 +1,21 @@
+{
+  "begin_time": "Čas spuštění",
+  "charge": "Nabíjení",
+  "charge_cut_off_soc": "Hodnota SOC pro odpojení nabíjení",
+  "charging_tip": "Pokud je vybrána možnost „Nabíjet“ a je nastavena doba nabíjení, bude baterie během zadané doby nuceně nabíjena. Během této doby se baterie nevybíjí. K nabíjení bude přednostně využívat solární energii. Pokud je solární energie nedostatečná, odebírá energii ze sítě, aby doplnila úroveň nabití. Mimo tuto dobu bude systém pracovat v režimu „vlastní spotřeby“. Některé modely v současné době podporují funkce 15minutového nabíjení a vybíjení a podporované modely vyžadují aktualizaci firmwaru. Modely, které ji nepodporují, budou nadále používat předchozí funkci nabíjení a vybíjení o délce 1 hodiny.",
+  "daily": "Každý den",
+  "discharge": "Vybíjení",
+  "discharge_cut_off_soc": "Hodnota SOC pro odpojení vybíjení",
+  "discharge_cut_off_soc_hint": "Baterie se nebude vybíjet, dokud hodnota SOC nedosáhne nastavené hodnoty SOC.",
+  "discharge_tip": "Pokud je povolena funkce „Vybíjení“ a je nastavena doba vybíjení, bude se baterie vybíjet pouze během zadané doby. Pokud je k dispozici solární energie, bude nejprve napájet zátěž a baterie bude dodávat energii pouze v případě, že je solární energie nedostatečná. Baterie nebude dodávat energii zpět do sítě; bude dodávat energii pouze do zátěže. Pokud je v tomto období k dispozici přebytek solární energie, může být rovněž použit k nabíjení baterie. Mimo toto období se baterie může pouze nabíjet a nemůže se vybíjet.\\nV současné době některé modely podporují nabíjení/vybíjení v 15minutových intervalech a pro tyto modely je nutná aktualizace firmwaru. U systémů, které tuto funkci nepodporují, zůstane nabíjení/vybíjení v předchozím 1hodinovém intervalu.\\n(Poznámka: U nastavení denního nabíjení/vybíjení je povoleno překrývání časových úseků. V případech, kdy se časové plány nabíjení i vybíjení překrývají, bude mít přednost nabíjení. Pokud se časové úseky překrývají v rámci stejné řídicí strategie (nabíjení nebo vybíjení), bude mít přednost plán s dřívějším časovým nastavením).",
+  "end_time": "Čas ukončení",
+  "execution_cycle": "Cyklus provádění",
+  "off_grid_cut_off_soc": "Mimo síť: Hodnota SOC pro odpojení zátěže",
+  "off_grid_soc_control": "Řízení SOC mimo síť",
+  "off_grid_soc_value_tip": "Aktuálně Hodnota SOC pro probuzení mimo síť < Hodnota SOC pro odpojení mimo síť + 5 %, nastavení neplatné",
+  "off_grid_wake_up_soc": "Hodnota SOC probuzení mimo síť",
+  "time_period_num": "Časový úsek {num}",
+  "ups_reserve_enable": "Povolení rezervy UPS",
+  "ups_reserve_enable_hint": "Po zapnutí této funkce, když se systém obnoví z režimu mimo síť do režimu připojení k síti, systém pro ukládání energie bude nuceně odebírat energii z FV systému i ze sítě a přednostně nabíjet baterii až na hodnotu SOC pro odpojení baterie. Po vypnutí této funkce systém pro ukládání energie po obnovení ze stavu mimo síť do připojení k síti neprovede logiku nuceného dobíjení.",
+  "weekly": "Každý týden"
+}

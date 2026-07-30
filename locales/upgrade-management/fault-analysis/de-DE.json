@@ -1,0 +1,9 @@
+{
+  "error_code": "Fehlercode",
+  "error_description": "Fehlerbeschreibung",
+  "error_name": "Fehler-Bezeichnung",
+  "failure_level": "Fehlerstufe",
+  "fix_suggestion": "Lösungsvorschlag",
+  "language": "Sprache",
+  "title_trouble_shooting": "Fehlersuche"
+}

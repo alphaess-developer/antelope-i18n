@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "标准质保",
+  "battery": "电池",
+  "begin_time": "开始时间",
+  "device_name": "设备名称",
+  "device_type": "设备类型",
+  "end_time": "结束时间",
+  "extended_warranty": "延保",
+  "high_standard_warranty": "高标准质保",
+  "invalid": "失效",
+  "inverter": "逆变器",
+  "model_device": "设备型号",
+  "modify_warranty_period": "修改质保时间",
+  "order_time": "下单时间",
+  "performance_warranty": "性能质保",
+  "product_specifications": "产品名称",
+  "purchase_required": "需要购买",
+  "status": "状态",
+  "valid": "有效",
+  "valid_time": "有效时间",
+  "warranty_type": "质保类型",
+  "whether_you_need_to_buy_it": "是否需要购买"
+}

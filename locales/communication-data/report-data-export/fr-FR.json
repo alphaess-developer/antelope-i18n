@@ -1,0 +1,7 @@
+{
+  "energy_details_data": "Données des détails de l’énergie",
+  "energy_summary_data": "Données de l’aperçu de l’énergie",
+  "power_data": "Données d’énergie",
+  "time_interval_cannot_exceed_31_days": "L'intervalle de temps saisi ne peut pas dépasser les 31 jours",
+  "time_interval_cannot_exceed_num_days": "L’intervalle de temps d’entrée ne peut pas dépasser {num} jours"
+}

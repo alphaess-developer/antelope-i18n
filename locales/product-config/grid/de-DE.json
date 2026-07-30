@@ -1,0 +1,22 @@
+{
+  "add_name": "Hinzufügen - {name}",
+  "at_least_one_data": "Mindestens ein Datensatz",
+  "canonical_coding": "Kanonische Codierung",
+  "edit_name": "Bearbeitung - {name}",
+  "ems_code": "EMS-Code",
+  "ems_firmware_version": "EMS-Firmware-Version",
+  "grid_connection_specifications": "Netzspezifikationen",
+  "national_grid_connection_norms": "Nationale Netzanschlussnormen",
+  "phase": "Phase",
+  "publishing_agency": "Verlagsagentur",
+  "regional_standards": "Regionale Standards",
+  "single_phase": "1-Phasig",
+  "specification_name": "Spezifikationsname",
+  "split_phase": "Geteilte Phase",
+  "support_sub_code": "Ob regionale Standards berücksichtigt werden",
+  "support_version_control": "Gibt an, ob die Versionskontrolle unterstützt wird",
+  "three_phase": "3-phasig",
+  "upgrade_version": "Version",
+  "validity_period": "Gültigkeitszeitraum",
+  "version_description": "Versionsbeschreibung"
+}

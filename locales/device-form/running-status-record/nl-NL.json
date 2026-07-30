@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "Neem contact op met de installateur voor het ontgrendelen.",
+  "content": "Inhoud",
+  "current_status": "Huidige status",
+  "latest_run_records": "Laatste bedieningsrecords",
+  "restart": "Herstarten",
+  "restart_to_resolve": "Het opnieuw opstarten van het systeem kan het probleem oplossen.",
+  "status3_restart_tips": "Het opnieuw opstarten duurt ongeveer drie minuten. Vernieuw de pagina na drie minuten om de voortgang te controleren. Weet u zeker dat u wilt doorgaan?",
+  "status4_unlock_tips": "Het ontgrendelen duurt ongeveer drie minuten. Vernieuw de pagina na drie minuten om de voortgang te controleren. Weet u zeker dat u wilt doorgaan?",
+  "unlock": "Ontgrendelen",
+  "upload_time": "Uploadtijd"
+}

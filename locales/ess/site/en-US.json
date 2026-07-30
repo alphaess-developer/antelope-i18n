@@ -1,0 +1,20 @@
+{
+  "address": "Address",
+  "basic_information": "Basic Information",
+  "electricity_tariff_info": "Electricity Tariff",
+  "installed_capacity": "Installed Capacity",
+  "installed_power": "Installed Power",
+  "number_of_ess": "Number of ESS",
+  "number_of_other_devices": "Number of accessories",
+  "overview": "Overview",
+  "price_set": "Electricity Tariff Setting",
+  "set": "Settings",
+  "site_address": "Site Address",
+  "site_basic_info": "Basic site information",
+  "site_devices": "Devices",
+  "site_information": "Site Info",
+  "site_mode": "Site mode",
+  "site_name": "Site Name",
+  "site_not_bound_user": "The site is not bound to a user",
+  "user_name": "User Name"
+}

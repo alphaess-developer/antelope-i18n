@@ -1,0 +1,19 @@
+{
+  "associated_devices": "Zugehörige Geräte",
+  "category": "Kategorie",
+  "comp_name": "Name der Firma",
+  "company_no_license": "Die Firma hat die Lizenz noch nicht gebunden!",
+  "contact_person": "Kontaktperson",
+  "end_user": "Anlagenbetreiber",
+  "generate_license": "Lizenz generieren",
+  "go_to_bind": "Zum Binden",
+  "installer": "Installateur",
+  "investor": "Investor",
+  "license": "Lizenz",
+  "mail": "E-Mail-Adresse",
+  "primary_admin": "Hauptkonto",
+  "reseller": "Wiederverkäufer",
+  "status": "Status",
+  "total_company": "Gesamtzahl der Kompanien",
+  "wholesaler": "Großhändler"
+}

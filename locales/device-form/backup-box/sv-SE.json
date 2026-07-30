@@ -1,0 +1,11 @@
+{
+  "backup_box": "Backup Box",
+  "backup_box_software_version": "Programvaruversion för BackupBox",
+  "backupbox_sn": "Backupbox-SN",
+  "level_num_priority": "L{num} prioritet",
+  "level_num_priority_triggering_soc_value": "Lägsta SOC-värde för utlösning av L{num}",
+  "policy_priorities_can_not_same": "Strategier kan inte ha samma prioritet.",
+  "priority_cannot_be_duplicated": "Prioriteten får inte upprepas, och ju högre prioritet desto lägre ska motsvarande SOC-värde vara",
+  "soc_error": "Fel i SOC-inställning, (10<=)SOC(<=100), ska anges från lägsta till högsta prioritet",
+  "start_backup_box": "Aktivera lasthantering"
+}

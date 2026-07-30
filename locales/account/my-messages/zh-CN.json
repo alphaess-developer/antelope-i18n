@@ -1,0 +1,13 @@
+{
+  "all_read": "全部已读",
+  "device_notification": "设备通知",
+  "has_read": "已读",
+  "message_type": "消息类型",
+  "msg_content": "消息内容",
+  "msg_subject": "消息标题",
+  "not_read": "未读",
+  "notifications": "我的消息",
+  "other_notification": "其他通知",
+  "receiving_time": "接收时间",
+  "status": "状态"
+}

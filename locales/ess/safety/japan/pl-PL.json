@@ -1,0 +1,22 @@
+{
+  "area": "Obszar",
+  "control_power_output": "Regulacja wyjścia",
+  "detect_time": "Czas detekcji",
+  "manual_reset": "Reset ręczny",
+  "manual_reset_enable": "Włącz reset ręczny",
+  "manual_reset_setting": "Przełącznik resetu ręcznego",
+  "no_power_control": "Nieefektywna regulacja mocy",
+  "off_short": "Wyłącz",
+  "on_short": "Otwarte",
+  "operating_power_factor": "Regulacja stałego współczynnika mocy",
+  "over_f": "Przekaźnik nadczęstotliwościowy AC",
+  "over_v": "Przekaźnik przepięciowy AC",
+  "passive_island_detect": "Pasywna detekcja pojedynczej operacji",
+  "power_recovery_delay": "Ustalony czas opóźnienia po ponownym włączeniu zasilania",
+  "set_time": "Ustawienia — czas",
+  "set_value": "Ustawienia — wartość",
+  "suppression_voltage_degree": "Funkcja tłumienia wzrostu napięcia",
+  "under_f": "Przekaźnik podczęstotliwościowy AC",
+  "under_v": "Przekaźnik podnapięciowy AC",
+  "voltage_phase_jump_detect": "Metoda wykrywania skoków faz napięcia"
+}

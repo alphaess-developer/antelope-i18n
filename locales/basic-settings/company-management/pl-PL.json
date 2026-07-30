@@ -1,0 +1,19 @@
+{
+  "associated_devices": "Powiązane urządzenia",
+  "category": "Kategoria",
+  "comp_name": "Nazwa firmy",
+  "company_no_license": "Firma nie powiązała jeszcze licencji!",
+  "contact_person": "Osoba do kontaktu",
+  "end_user": "Użytkownik końcowy",
+  "generate_license": "Wygeneruj licencję",
+  "go_to_bind": "Przejdź do powiązania",
+  "installer": "Instalator",
+  "investor": "Inwestor",
+  "license": "Licencja",
+  "mail": "Adres e-mail",
+  "primary_admin": "Główne konto",
+  "reseller": "Sprzedawca",
+  "status": "Stan",
+  "total_company": "Liczba firm łącznie",
+  "wholesaler": "Hurtownik"
+}

@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "Nie można zawierać \\, \" lub :. Długość musi wynosić 8–15 znaków.",
+  "network_type": "Rodzaj sieci",
+  "wifi_hardware_version": "Wersja sprzętowa Wi-Fi",
+  "wifi_manage": "Zarządzanie Wi-Fi",
+  "wifi_module_sn": "SN modułu Wi-Fi",
+  "wifi_pwd": "Hasło Wi-Fi",
+  "wifi_pwd_error": "Hasło powinno składać się z małych i wielkich liter, cyfr i znaków specjalnych (w tym spacje, ukośnik \\, i dwukropek :). Powinno zawierać min. 8 znaków (maks. 15 znaków) i nie powinno zawierać powtarzających się znaków lub sekwencji.",
+  "wifi_software_version": "Wersja oprogramowania Wi-Fi"
+}

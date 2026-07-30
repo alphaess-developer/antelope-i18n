@@ -1,0 +1,12 @@
+{
+  "alert_time": "Larmtid",
+  "cmd_name": "Kommandonamn",
+  "command_code": "Kommandokod",
+  "evaluate_detail_second": "Tid för att lösa ärendet",
+  "last_dispatch_time": "Senaste utskickstid",
+  "occur_count": "Förekomstantal",
+  "occur_server_time": "Servervarningstid",
+  "resolved": "Löst",
+  "status": "Status",
+  "un_solved": "Olöst"
+}

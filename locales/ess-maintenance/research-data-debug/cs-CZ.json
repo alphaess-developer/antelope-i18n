@@ -1,0 +1,17 @@
+{
+  "all": "Vše",
+  "check_most_two": "Zkontrolovat maximálně dvě.",
+  "debug_data": "Ladění dat",
+  "debug_status": "Stav ladění",
+  "debugging": "Probíhá ladění",
+  "enter_debug": "Zadání ladění",
+  "equipment_commission": "Ladění systému",
+  "select_at_least_one_device": "Vyberte alespoň jedno dílčí zařízení",
+  "start_issuing_command": "Zahájit vydávání příkazů",
+  "stop_debugging": "Zastavit ladění",
+  "stop_issuing_command": "Zastavit vydávání příkazů",
+  "stopped": "Zastaveno",
+  "sub_device": "Dílčí zařízení",
+  "time_seconds": "Časový interval musí být delší než 10 sekund",
+  "transmission_interval": "Interval odesílání dat"
+}

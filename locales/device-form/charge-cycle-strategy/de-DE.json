@@ -1,0 +1,21 @@
+{
+  "begin_time": "Startzeit",
+  "charge": "Laden",
+  "charge_cut_off_soc": "Ladeabschaltung SOC",
+  "charging_tip": "Wenn „Laden“ ausgewählt und eine Ladezeitspanne eingestellt ist, wird der Akku während der angegebenen Zeitspanne zwangsweise aufgeladen. Während dieser Zeit wird der Akku nicht entladen. Die Nutzung von Solarenergie hat beim Laden den Vorrang. Reicht der Solarstrom nicht aus,  wird der Strom zur Ergänzung der Ladeleistung aus dem Netz bezogen. Außerhalb dieses Zeitraums arbeitet die Anlage im Modus „Eigenverbrauch“. Einige Modelle unterstützen derzeit die 15-Minuten-Lade- und Entladefunktion und die unterstützten Modelle erfordern ein Firmware-Upgrade. Modelle, die dies nicht unterstützen, nutzen weiterhin die bisherige 1-Stunden-Lade- und Entladefunktion.",
+  "daily": "Täglich",
+  "discharge": "Entladen",
+  "discharge_cut_off_soc": "Entladung SOC",
+  "discharge_cut_off_soc_hint": "Die Batterie entlädt sich nicht mehr, wenn der SOC den eingestellten SOC erreicht.",
+  "discharge_tip": "Wenn „Entladen“ aktiviert und ein Entladezeitraum eingestellt ist, wird die Batterie nur während des angegebenen Zeitraums entladen. Wenn Solarstrom verfügbar ist, wird zuerst die Last versorgt, und die Batterie liefert nur dann Strom, wenn der Solarstrom nicht ausreicht. Die Batterie speist nicht in das Netz zurück, sondern versorgt nur die Last mit Strom. Wenn während dieses Zeitraums überschüssige Solarenergie vorhanden ist, kann diese auch zum Laden der Batterie verwendet werden. Außerhalb dieses Zeitraums kann die Batterie nur laden und nicht entladen werden.\\n\\nDerzeit unterstützen einige Modelle das Laden/Entladen in 15-Minuten-Intervallen, und für diese Modelle sind Firmware-Upgrades erforderlich. Bei Systemen, die diese Funktion nicht unterstützen, bleibt das Laden/Entladen im vorherigen 1-Stunden-Intervall.\\n\\n(Hinweis: Bei täglichen Lade-/Entladeeinstellungen sind überlappende Zeiträume zulässig. In Fällen, in denen sich sowohl Lade- als auch Entladepläne überschneiden, hat das Laden Vorrang. Wenn es überlappende Zeiträume innerhalb derselben Steuerungsstrategie gibt (entweder Laden oder Entladen), hat der Zeitplan mit der früheren Zeiteinstellung Vorrang.)",
+  "end_time": "Endzeit",
+  "execution_cycle": "Betriebstage",
+  "off_grid_cut_off_soc": "Off-Grid SOC für Lasttrennung",
+  "off_grid_soc_control": "Off-Grid-Ladezustandskontrolle",
+  "off_grid_soc_value_tip": "Der aktuelle Off-Grid-Weckzustand des Ladezustands ist ungültig, wenn er weniger als Off-Grid-Abschaltzustand des Ladezustands plus 5% beträgt.",
+  "off_grid_wake_up_soc": "Off-Grid-Weckzustand des Ladezustands",
+  "time_period_num": "Zeitrahmen {num}",
+  "ups_reserve_enable": "USV-Reserve aktivieren",
+  "ups_reserve_enable_hint": "Wenn diese Funktion eingeschaltet ist und das System aus dem netzunabhängigen Zustand in den netzgekoppelten Zustand zurückkehrt, nimmt das Energiespeichersystem zwangsweise Strom aus der PV und dem Netz und lädt die Batterie vorzugsweise auf den abgeschalteten SOC Wert der Batterie. Wenn diese Funktion ausgeschaltet ist und das System aus dem netzunabhängigen Zustand in den netzgekoppelten Zustand zurückkehrt, führt das Energiespeichersystem keine Zwangsladung der Batterien durch.",
+  "weekly": "Wöchentlich"
+}

@@ -1,0 +1,7 @@
+{
+  "energy_details_data": "Energetické údaje",
+  "energy_summary_data": "Souhrnné energetické údaje",
+  "power_data": "Údaje o napájení",
+  "time_interval_cannot_exceed_31_days": "Vstupní časový interval nesmí překročit 31 dní",
+  "time_interval_cannot_exceed_num_days": "Časový interval vstupu nesmí přesáhnout {num} dní"
+}

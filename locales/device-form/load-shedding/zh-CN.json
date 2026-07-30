@@ -1,0 +1,11 @@
+{
+  "area_list": "区域列表",
+  "area_name": "区域名称",
+  "charge_cut_off_soc": "充电截止SOC",
+  "click_for_details": "点击查看详情",
+  "load_shedding_msg_notification": "LoadShedding消息通知",
+  "load_shedding_tips1": "该功能根据您所在地区的停电时间表和设置的截止充电SOC对储能系统进行智能充电，确保您和您的家人可以在停电期间有足够的备用能量，激活此功能可能会导致家庭电费增加。",
+  "load_shedding_tips2": "开启该功能后，基于当地停电情况，系统将进行智能备电，该功能属于强充操作，如果想停止充电，请进行“充放电设置”-“停止充电”操作。",
+  "load_shedding_tips3": "开启该功能后，基于当地停电情况，将给您发送备电信息提示。",
+  "region": "地区"
+}

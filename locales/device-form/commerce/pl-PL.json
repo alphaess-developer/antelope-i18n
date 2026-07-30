@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "Włącz funkcję podwójnego zasilania",
+  "gen_power": "Generator z silnikiem Diesla",
+  "generator_enable_before_shutdown": "Generator z silnikiem Diesla włączony przed wyłączeniem PCS",
+  "grid_consum_power_upper_limit": "Maks. Moc przepływająca przez licznik: górna granica poboru mocy z sieci",
+  "grid_power": "Sieć",
+  "industry_info": "Informacje o systemach komercyjnych i przemysłowych",
+  "io_expansion_module": "Czy dostępny jest moduł rozszerzeń IO?",
+  "max_grid_charge_tooltip": "Maks. Moc ładowania sieci: górna granica mocy ładowania po stronie AC funkcji wymuszonego ładowania (kalibracja kierunkowa SOC, kalibracja automatyczna SOC, wymuszone ładowanie podnapięcia i przedziały czasowe ładowania)",
+  "max_meter_passing_power": "Maksymalna moc przepływająca przez licznik (kW)",
+  "maximum_grid_charging_power": "Maksymalna moc ładowania z sieci",
+  "off_grid_cut_off_soc": "Poza siecią: SOC w przypadku odłączania odbiornika",
+  "power_type": "Tryb zasilania AC",
+  "pure_battery_enable": "Włącz funkcję czystego akumulatora",
+  "resume_soc": "Poza siecią: SOC w przypadku ponownego podłączania odbiornika",
+  "soc_calibrate": "Automatyczna kalibracja SOC",
+  "soc_orientation_check": "Kalibracja kierunkowa SOC",
+  "sts_enable": "STS",
+  "system_model": "Model systemu"
+}

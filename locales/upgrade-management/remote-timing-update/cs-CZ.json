@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Dávkové smazání",
+  "cycle_count": "Počet cyklů",
+  "cycle_duration_min": "Doba trvání cyklu [min]",
+  "cycle_task": "Úloha cyklu",
+  "end_time_ems_time": "Čas ukončení (čas EMS)",
+  "min_pv": "Min. Hodnota výkonu [W]",
+  "no_match_data": "Data neexistují nebo byla smazána",
+  "running_state": "Status spuštění",
+  "select_date_time": "Vybrat datum a čas",
+  "single_task": "Samostatná úloha",
+  "start_time_ems": "Čas spuštění (čas EMS)"
+}

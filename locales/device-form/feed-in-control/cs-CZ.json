@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "Alespoň jeden záznam",
+  "charge_cut_off_soc": "Hodnota SOC pro odpojení nabíjení",
+  "discharge_cut_off_soc": "Hodnota SOC pro odpojení vybíjení",
+  "feed_control_tip": "<p> Vážený zákazníku, <br /> Abychom mohli aktivovat funkci umožňující přímé dodávání energie z vašeho systému pro ukládání energie do sítě, žádáme vás o potvrzení následujícího: <br /> 1. Vaše instalační adresa se nachází v jurisdikci <strong>{country}</strong>; <br /> 2. Máte platnou, právně závaznou smlouvu s vaší místní distribuční společností, což je předpokladem pro povolení přímé dodávky energie z vašeho systému pro ukládání energie a/nebo fotovoltaického systému do sítě. <br /> <strong> Nedodržení výše uvedených podmínek může vést k bezpečnostním rizikům a možným právním sporům, za které ponesete plnou odpovědnost. Pokud nesplňujete všechny výše uvedené podmínky, neměli byste potvrzovat a nebudete moci použít funkci umožňující přímé dodávání energie z vašeho systému pro ukládání energie do sítě. </strong> <br /> Velmi si vážíme vaší pozornosti a spolupráce s výše uvedenými předpoklady. </p>",
+  "feed_disabled_tip": "Během plánování VPP je řízení feederu deaktivováno",
+  "feed_energy_report": "Zpráva o přetocích energie do sítě",
+  "feed_in_control": "Řízení přetoků do sítě",
+  "feed_in_function": "Funkce přetoku do sítě",
+  "feed_in_power": "Výkon přetoku do sítě",
+  "feed_in_time_period": "Časové období dodávky",
+  "feed_power_info": "Výkon přetoku do sítě je nastaven jako horní mez. Po dodání výstupního výkonu systému do zátěže je veškerý zbývající výkon dodáván do sítě. Proto může skutečný výkon dodávaný do sítě kolísat v určitém rozmezí v důsledku změn zatížení.",
+  "home_ups_soc_tip": "Vaše současná rezerva UPS je:",
+  "smart_charging": "Chytré nabíjení",
+  "start_less_than_end": "Čas začátku musí být kratší než čas konce.",
+  "time_period_num": "Časový úsek {num}",
+  "time_period_overlap": "Časové úseky se překrývají.",
+  "today_feed_in": "Přetok do sítě dnes"
+}

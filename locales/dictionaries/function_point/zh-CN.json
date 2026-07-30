@@ -1,0 +1,9 @@
+{
+  "BACKUP_LOAD": "Backup 侧负载",
+  "BB_PLUS": "BB Plus（BackupBox Plus）",
+  "EV_CHARGER": "EV 充电桩",
+  "GENERATOR": "柴油机",
+  "PEAK_SHAVING": "削峰填谷",
+  "SG_READY": "SG Ready",
+  "VPP": "调度标志位（VPP）"
+}

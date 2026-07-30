@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "Kan \\ niet bevatten, \" of :. De lengte moet 8–15 tekens zijn.",
+  "network_type": "Netwerk type",
+  "wifi_hardware_version": "Wi-Fi-hardwareversie",
+  "wifi_manage": "Wi-Fi-beheer",
+  "wifi_module_sn": "S/N van Wi-Fi module",
+  "wifi_pwd": "Wi-Fi-wachtwoord",
+  "wifi_pwd_error": "Bevat hoofdletters, kleine letters, cijfers en speciale tekens (spaties, de backslash \\ en de dubbele punt : zijn niet toegestaan), met een lengte van minimaal 8 tekens (maximaal 15 tekens), en het wachtwoord mag geen herhaalde of opeenvolgende tekens bevatten.",
+  "wifi_software_version": "Wi-Fi-softwareversie"
+}

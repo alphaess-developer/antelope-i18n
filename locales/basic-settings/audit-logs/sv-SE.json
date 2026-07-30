@@ -1,0 +1,14 @@
+{
+  "audit_log": "Revisionslogg",
+  "device": "Enhet",
+  "installer": "Installatör",
+  "no_field_changes": "Inga förändringar i planen",
+  "num_changes": "{num} förändringar",
+  "open_api": "Open API",
+  "payload_codec_unsupported": "Formatet för ändringar i denna post stöds för närvarande inte för visning",
+  "schedule_task": "Schemalagd uppgift",
+  "show_empty_changes": "Visa oförändrade rekord",
+  "system": "System",
+  "total_changes": "{num} förändringar i total",
+  "user": "användare"
+}

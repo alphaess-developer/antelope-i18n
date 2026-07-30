@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Abilita il supporto dell'alimentazione per brownout",
+  "end_time_num": "Ora di fine {num}",
+  "meter_offset": "Potenza di offset del misuratore",
+  "power_rationing_support": "Supporto al razionamento dell'energia",
+  "start_time_num": "Ora di inizio {num}",
+  "time_period_num": "Periodo di tempo {num}"
+}

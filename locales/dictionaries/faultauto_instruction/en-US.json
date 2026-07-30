@@ -1,0 +1,18 @@
+{
+  "dispatch": "Dispatch",
+  "extra": "Extra",
+  "extra.clear_energy_statistics": "Clear energy statistics",
+  "extra.clear_meter_data": "Clear meter data",
+  "extra.modify_mac_address": "Modify the MAC address",
+  "extra.modify_sn": "Modify SN",
+  "extra.restart_unit": "Restart the component",
+  "extra.restart_unit.restart_battery": "Restart the battery",
+  "extra.restart_unit.restart_inverter": "Restart the inverter",
+  "extra.restore_factory_settings": "Factory reset",
+  "remote_control": "Remote control",
+  "remote_control.close_mos": "Remotely closes MOS for battery discharging",
+  "remote_control.forced_charge": "Force to fully charge the battery",
+  "remote_control.forced_work": "Force the battery to enter work mode (Parallel mode)",
+  "restart": "Restart",
+  "sync_time": "SyncTime"
+}

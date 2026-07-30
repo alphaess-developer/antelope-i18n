@@ -1,0 +1,20 @@
+{
+  "address": "地址",
+  "basic_information": "基本信息",
+  "electricity_tariff_info": "电价信息",
+  "installed_capacity": "装机容量",
+  "installed_power": "装机功率",
+  "number_of_ess": "储能系统数量",
+  "number_of_other_devices": "配件/其他设备数",
+  "overview": "概览",
+  "price_set": "电价设置",
+  "set": "设置",
+  "site_address": "站点地址",
+  "site_basic_info": "站点基本信息",
+  "site_devices": "设备",
+  "site_information": "站点信息",
+  "site_mode": "站点模式",
+  "site_name": "站点名称",
+  "site_not_bound_user": "站点未绑定用户",
+  "user_name": "用户名称"
+}

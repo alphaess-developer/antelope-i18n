@@ -1,0 +1,22 @@
+{
+  "add_name": "Add - {name}",
+  "at_least_one_data": "At least One Data",
+  "canonical_coding": "Canonical Coding",
+  "edit_name": "Edit - {name}",
+  "ems_code": "EMS code",
+  "ems_firmware_version": "EMS Firmware Version",
+  "grid_connection_specifications": "Grid Specs",
+  "national_grid_connection_norms": "National grid connection norms",
+  "phase": "Phase",
+  "publishing_agency": "Publishing agency",
+  "regional_standards": "Regional standards",
+  "single_phase": "Single-Phase",
+  "specification_name": "Specification Name",
+  "split_phase": "Split Phase",
+  "support_sub_code": "Whether regional standards are included",
+  "support_version_control": "Whether version control is supported",
+  "three_phase": "Three-phase",
+  "upgrade_version": "Version",
+  "validity_period": "Validity Period",
+  "version_description": "Version Description"
+}

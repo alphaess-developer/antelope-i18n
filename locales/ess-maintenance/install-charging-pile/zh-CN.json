@@ -1,0 +1,17 @@
+{
+  "abnormal": "异常",
+  "are_you_sure_to_unbind_the_charging_pile": "确认解绑充电桩？",
+  "charging_pile_sn": "充电桩SN",
+  "charging_pile_type": "充电桩型号",
+  "charging_pile_type_enter_tip": "请先输入充电桩SN和系统SN",
+  "datetime": "日期/时间",
+  "device_status": "设备状态",
+  "install_charging_pile": "安装充电桩",
+  "install_date": "安装日期",
+  "normal": "正常",
+  "sn_check_code": "SN校验码",
+  "supported_charging_pile_sn_suffix_formats": "支持的充电桩SN后缀格式：",
+  "supported_charging_pile_sn_suffix_formats_tip": "{index}. 以 \"{rule}\" 结尾 → {model}",
+  "unbind": "解绑",
+  "warning": "警告"
+}

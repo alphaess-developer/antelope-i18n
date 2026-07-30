@@ -1,0 +1,11 @@
+{
+  "area_list": "Liste des zones",
+  "area_name": "Nom de la zone",
+  "charge_cut_off_soc": "Arrêt de la charge à un SOC de",
+  "click_for_details": "Cliquer pour en savoir plus",
+  "load_shedding_msg_notification": "Notification de délestage de charge",
+  "load_shedding_tips1": "Cette fonction charge de façon intelligente le système de stockage d’énergie (ESS) en fonction des coupures de courant programmées dans votre zone et du SOC d’arrêt de charge défini, afin que votre famille et vous ayez suffisamment d’énergie de secours durant les coupures de courant. L’activation de cette fonction peut augmenter les coûts en électricité du foyer.",
+  "load_shedding_tips2": "Une fois cette fonction activée, et en fonction des cas de panne de courant locaux, le système effectuera une sauvegarde intelligente de l'alimentation. Cette fonction fait partie des opérations de charge forcée. Si vous souhaitez arrêter la charge, rendez-vous dans les « Réglages de charge/décharge » et sélectionnez « Arrêter la charge ».",
+  "load_shedding_tips3": "Une fois cette fonction activée, et en fonction des cas de panne de courant locaux, vous recevrez des messages d’information relatifs à l’énergie de secours.",
+  "region": "Région"
+}

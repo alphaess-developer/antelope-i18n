@@ -1,0 +1,22 @@
+{
+  "add_name": "Lägg till - {name}",
+  "at_least_one_data": "Minst en datapost",
+  "canonical_coding": "Standardkod",
+  "edit_name": "Redigera - {name}",
+  "ems_code": "EMS-kod",
+  "ems_firmware_version": "EMS-firmwareversion",
+  "grid_connection_specifications": "Nätspecifikationer",
+  "national_grid_connection_norms": "Nationella nätanslutningskrav",
+  "phase": "Fas",
+  "publishing_agency": "Utgivande organ",
+  "regional_standards": "Regionala standarder",
+  "single_phase": "Enfas",
+  "specification_name": "Specifikationsnamn",
+  "split_phase": "Delad fas",
+  "support_sub_code": "Innehåller regionala standarder",
+  "support_version_control": "Stöder versionshantering",
+  "three_phase": "Trefas",
+  "upgrade_version": "Version",
+  "validity_period": "Giltighetsperiod",
+  "version_description": "Versionsbeskrivning"
+}

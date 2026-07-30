@@ -1,0 +1,19 @@
+{
+  "all": "Wszystkie",
+  "backup_box_error": "Błąd BackupBox",
+  "bms_error": "Błąd BMS",
+  "clean_time": "Wyczyść czas",
+  "ems_error": "Błąd EMS",
+  "error_code": "Kod błędu",
+  "event_happen_time": "Czas wystąpienia",
+  "fault_category": "Kategoria błędu",
+  "fault_info": "Informacje o błędach",
+  "inv_error": "Błąd falownika",
+  "inv_warning": "Ostrzeżenie dotyczące falownika",
+  "level": "Poziom",
+  "meter_error": "Błąd licznika prądu",
+  "other_error": "Inny błąd",
+  "selection_time": "Wybierz przedział czasowy",
+  "status": "Stan",
+  "system_sn": "SN systemu"
+}

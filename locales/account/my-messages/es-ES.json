@@ -1,0 +1,13 @@
+{
+  "all_read": "Todos marcados como leídos",
+  "device_notification": "Notificaciones del dispositivo",
+  "has_read": "Han leído",
+  "message_type": "Tipo de mensaje",
+  "msg_content": "Mensaje",
+  "msg_subject": "Asunto del mensaje",
+  "not_read": "No leído",
+  "notifications": "Notificaciones",
+  "other_notification": "Otros avisos",
+  "receiving_time": "Tiempo de recepción",
+  "status": "Estado"
+}

@@ -1,0 +1,19 @@
+{
+  "certificate_code": "Certifikatnummer",
+  "comp_name": "Företagsnamn",
+  "confirm_queren": "OK",
+  "contact_person": "Kontaktperson",
+  "download_certificate": "Ladda ner certifikat",
+  "email_sending_license": "E-post för licensutskick",
+  "end_user": "Slutanvändare",
+  "generate_license": "Generera licens",
+  "installer": "Installatör",
+  "installer_name_anzhuanggong": "Installatörsnamn",
+  "license": "Licens",
+  "mail": "E-postadress",
+  "send_email_message": "Licens: {license} kommer att skickas till installatörens e-post {emali}, bekräfta.",
+  "set_installer_info": "Ange installatörsinformation",
+  "set_installer_information": "Ange installatörsinformation",
+  "street_number_plus": "Gatunummer (gata + husnummer)",
+  "telephone": "Telefonnummer"
+}

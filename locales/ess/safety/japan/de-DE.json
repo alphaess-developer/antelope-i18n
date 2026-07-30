@@ -1,0 +1,22 @@
+{
+  "area": "Bereich",
+  "control_power_output": "Leistungsregelung",
+  "detect_time": "Entdeckungszeit",
+  "manual_reset": "Manueller Reset",
+  "manual_reset_enable": "Manuellen Reset aktivieren",
+  "manual_reset_setting": "Manueller Reset-Schalter",
+  "no_power_control": "Steuerung der unwirksamen Leistung",
+  "off_short": "Ausschalten",
+  "on_short": "Einschalten",
+  "operating_power_factor": "Steuerung des konstanten Leistungsfaktors",
+  "over_f": "AC-Überfrequenzrelais (OFR)",
+  "over_v": "AC-Überspannungsrelais (OVR)",
+  "passive_island_detect": "Passive Erkennung des Inselbetriebs",
+  "power_recovery_delay": "Feste Zeitverzögerung nach Wiedereinschalten",
+  "set_time": "Einstellungszeitpunkt",
+  "set_value": "Einstellwert",
+  "suppression_voltage_degree": "Unterdrückung des Spannungsanstiegs",
+  "under_f": "AC-Unterfrequenzrelais (UFR)",
+  "under_v": "AC-Unterspannungsrelais (UVR)",
+  "voltage_phase_jump_detect": "Erkennungsmethode für Spannungsphasensprünge"
+}

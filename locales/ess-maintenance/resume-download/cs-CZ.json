@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Dodání šarží",
+  "breakpoint_end_time": "Čas ukončení zarážky",
+  "breakpoint_start_time": "Čas zahájení zarážky",
+  "command_is_issued": "Příkaz je vydán",
+  "data_completion_status": "Stav dokončení dat",
+  "data_validation": "Ověření dat",
+  "delivered": "Doručil",
+  "interval_time_min": "Časový interval (min)",
+  "multiple_name_sep": "Vícenásobné {name} začíná na '|' oddíl",
+  "not_issued": "Nevydáno",
+  "not_uploaded": "Není nahráno",
+  "one_click_generation": "Generování jedním kliknutím",
+  "partial_uploads": "Částečná nahrávání",
+  "please_select_records": "Vyberte data, která chcete provést",
+  "scan_1": "snímání",
+  "selection_time": "Vyberte čas",
+  "the_command_is_issued": "Příkaz je vydán",
+  "the_upload_is_complete": "Nahrávání je dokončeno",
+  "tips": "Upozornění",
+  "type": "Typ"
+}

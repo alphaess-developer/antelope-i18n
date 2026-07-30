@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "Las reservas de respaldo de la batería no deben superar el SOC de corte de descarga por reducción de picos {soc}%",
+  "difference": "Diferencia",
+  "discharge_cut_off_soc": "Corte de descarga SOC",
+  "end_more_than_begin": "La hora de finalización debe ser mayor que la hora de inicio",
+  "hysteresis_value": "Valor de histéresis",
+  "meter_time1_end": "Período1-Fin",
+  "meter_time1_start": "Período1-Inicio",
+  "meter_time2_end": "Período2-Fin",
+  "meter_time2_start": "Período2-Inicio",
+  "peak_cycle": "Ciclo de reducción de picos",
+  "peak_periods": "Período de tiempo de reducción de picos",
+  "peak_shaving_discharge_soc_conflict": "El SOC del corte de descarga no debe ser inferior a la reserva de respaldo de la batería del {soc}%",
+  "peak_shaving_valley_filling": "Reducción de picos y relleno de valles",
+  "peak_valley_period_overlap": "El periodo de reducción de picos y el periodo de relleno de valles no deben solaparse",
+  "peak_valley_value_conflict": "Conflicto de configuración de pico y valle, reinicie",
+  "peak_value": "Valor pico",
+  "peak_value_tip": "Por favor, fije la potencia máxima de carga permitida por el hogar (esta función solo se aplica a cargas conectadas a la red).",
+  "valley_cycle": "Ciclo de relleno de valles",
+  "valley_periods": "Período de tiempo de relleno de valles",
+  "valley_value": "Valor del valle"
+}

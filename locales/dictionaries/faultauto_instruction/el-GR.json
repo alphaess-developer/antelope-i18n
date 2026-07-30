@@ -1,0 +1,18 @@
+{
+  "dispatch": "Αποστολή",
+  "extra": "Επιπλέον",
+  "extra.clear_energy_statistics": "Σαφή στατιστικά στοιχεία ενέργειας",
+  "extra.clear_meter_data": "Διαγραφή δεδομένων μετρητή",
+  "extra.modify_mac_address": "Τροποποιήστε τη διεύθυνση MAC",
+  "extra.modify_sn": "Τροποποίηση SN",
+  "extra.restart_unit": "Επανεκκινήστε το στοιχείο",
+  "extra.restart_unit.restart_battery": "Επανεκκινήστε την μπαταρία",
+  "extra.restart_unit.restart_inverter": "Επανεκκινήστε τον μετατροπέα",
+  "extra.restore_factory_settings": "Επαναφορά εργοστασιακών ρυθμίσεων",
+  "remote_control": "Τηλεχειριστήριο",
+  "remote_control.close_mos": "Κλείνει εξ αποστάσεως το MOS για αποφόρτιση της μπαταρίας",
+  "remote_control.forced_charge": "Δύναμη για πλήρη φόρτιση της μπαταρίας",
+  "remote_control.forced_work": "Αναγκάστε την μπαταρία να εισέλθει σε λειτουργία εργασίας (Παράλληλη λειτουργία)",
+  "restart": "Επανεκκίνηση",
+  "sync_time": "Συγχρονισμός"
+}

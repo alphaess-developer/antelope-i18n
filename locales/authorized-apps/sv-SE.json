@@ -1,0 +1,11 @@
+{
+  "authorized": "auktoriserad",
+  "authorized_app": "Auktoriserad app",
+  "authorized_app_description": "Tredjepartsappar får åtkomst till dina enhetsdata via AlphaESS OpenAPI.",
+  "control_exclusive": "Kontroll (exklusiv)",
+  "device_apps_count": "{count} appar",
+  "location": "Plats",
+  "no_authorized_desc_1": "Inga auktoriserade appar finns tillgängliga för närvarande",
+  "no_authorized_desc_2": "Tredjepartsappar som är godkända för din enhet visas här.",
+  "telemetry": "Telemetri"
+}

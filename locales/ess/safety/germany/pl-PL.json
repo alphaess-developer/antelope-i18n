@@ -1,0 +1,22 @@
+{
+  "cos_setting": "Ustawienie cos",
+  "fixed_setpoint_cos": "Stały Setpoint cos (φ)",
+  "frequency_decrease_protection_f": "Frequency Decrease Protection f",
+  "frequency_hz_square": "Częstotliwość [Hz]",
+  "frequency_increase_protection_f": "Zabezpieczenie przed wzrostem częstotliwości f",
+  "germany_safety_tip": "The duration set-point “< 100 ms” for the protection relay setting value is based on the assumption             that the maximum response time for NS protection + interface switch is also 100 ms. This results in a maximum “total disconnection time” of 200 ms.             If the response time of the components is < 100 ms (e. g. 50 ms), then this allows for a longer period during which to perform the measurements             and the evaluation of the protective function (e. g. up to 150 ms). This would then result in a protection relay setting value higher than “< 100             ms”, i. e. “< 150 ms”. However, in that case, only the 100 ms shall be visualised as the setting value at the NS protection. Nevertheless, the             disconnection time of 200 ms shall in no case be exceeded. (VDE-AR-N:2018-11 S6.5.2）",
+  "lagging": "Opóźniający",
+  "leading": "Wyprzedzający",
+  "limitation": "Ograniczenia",
+  "ns_protection": "Ochrona SN",
+  "power_factor_cos_square": "Współczynnik mocy cos (φ)",
+  "protection_function": "Funkcja zabezpieczenia",
+  "q_u_curve": "Krzywa Q (U)",
+  "q_u_curve_tip": "Kontrola Q(U) ma zastosowanie tylko do systemów trójfazowych lub systemów z mocą wyjścia AC ponad 4,6 kVA (według VDE4105 rozdział 5.7.2.4)",
+  "setting_value": "Wartość ustawienia",
+  "tripping_time": "Czas zadziałania",
+  "tripping_value": "Wartość zadziałania",
+  "voltage_decrease_protection_u": "Voltage Decrease Protection U",
+  "voltage_increase_protection_u": "Voltage Increase Protection U",
+  "voltage_v_square": "Napięcie (V)"
+}

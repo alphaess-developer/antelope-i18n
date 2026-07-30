@@ -1,0 +1,21 @@
+{
+  "begin_time": "Starttid",
+  "charge": "Laddning",
+  "charge_cut_off_soc": "Laddningsnivå (SOC) för laddningsstopp",
+  "charging_tip": "Om \"Ladda\" är vald och en laddningsperiod är inställd, tvingas batteriet att laddas under den angivna perioden. Batteriet urladdas inte under denna period. Det prioriterar att använda solenergi för laddning. Om solenergin är otillräcklig hämtas effekt från elnätet för att komplettera laddningseffekten. Utanför denna period körs systemet i läget \"Egenförbrukning\". Vissa modeller stöder för närvarande laddning och urladdning på 15-minutersnivå, och de modeller som stöds kräver en firmware-uppgradering. Modeller som inte stöder det fortsätter att använda den tidigare laddnings- och urladdningsfunktionen på 1-timmesnivå.",
+  "daily": "Dagligen",
+  "discharge": "Urladdning",
+  "discharge_cut_off_soc": "Laddningsnivå (SOC) för urladdningsstopp",
+  "discharge_cut_off_soc_hint": "Batteriet slutar urladda när laddningsnivån (SOC) når det inställda värdet.",
+  "discharge_tip": "Om \"Urladda\" är aktiverat och en urladdningsperiod är inställd, urladdas batteriet endast under den angivna perioden. Om det finns tillgänglig solenergi försörjer den lasterna först, och batteriet ger endast effekt om solenergin är otillräcklig. Batteriet matar inte tillbaka till elnätet, det försörjer endast lasterna. Om det finns överskott av solenergi under denna period kan den även användas för att ladda batteriet. Utanför denna period kan batteriet endast laddas och inte urladdas.\\nVissa modeller stöder för närvarande laddning/urladdning med 15-minutersintervall, och firmware-uppgraderingar krävs för dessa modeller. För system som inte stöder denna funktion förblir laddning/urladdning på det tidigare 1-timmesintervallet.\\n(Obs: För dagliga laddnings-/urladdningsinställningar tillåts överlappande tidsperioder. I fall där både laddnings- och urladdningsscheman överlappar prioriteras laddning. Om det finns överlappande tidsperioder inom samma styrstrategi (antingen laddning eller urladdning) har schemat med den tidigare tidsinställningen företräde.)",
+  "end_time": "Sluttid",
+  "execution_cycle": "Driftcykel",
+  "off_grid_cut_off_soc": "Ö-drift: SOC för frånkoppling av last",
+  "off_grid_soc_control": "SOC-styrning vid ö-drift",
+  "off_grid_soc_value_tip": "Inställningen är ogiltig om den aktuella väck-SOC:n för ö-drift är < SOC för urladdningsstopp vid ö-drift + 5 %.",
+  "off_grid_wake_up_soc": "Väck-SOC för ö-drift",
+  "time_period_num": "Tidsperiod {num}",
+  "ups_reserve_enable": "Aktivera UPS-reserv",
+  "ups_reserve_enable_hint": "När denna funktion är aktiverad hämtar energilagringssystemet, när systemet återgår från ö-drift till nätansluten drift, tvångsmässigt effekt från både solceller (PV) och elnätet och prioriterar att ladda batteriet upp till värdet för batteriets laddningsnivå (SOC) för stopp. När denna funktion är inaktiverad utför energilagringssystemet inte någon tvångsmässig påfyllningslogik när systemet återgår från ö-drift till nätansluten drift.",
+  "weekly": "Varje vecka"
+}

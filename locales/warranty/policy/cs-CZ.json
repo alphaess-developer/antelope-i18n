@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Standardní záruka",
+  "battery": "Baterie",
+  "begin_time": "Čas spuštění",
+  "device_name": "Název zařízení",
+  "device_type": "Typ zařízení",
+  "end_time": "Čas ukončení",
+  "extended_warranty": "Prodloužená záruka",
+  "high_standard_warranty": "Záruka vysoké kvality",
+  "invalid": "Neplatné",
+  "inverter": "Měnič",
+  "model_device": "Model zařízení",
+  "modify_warranty_period": "Upravte záruční dobu",
+  "order_time": "Čas objednávky",
+  "performance_warranty": "Záruka výkonu",
+  "product_specifications": "Specifikace produktu",
+  "purchase_required": "Povinný nákup",
+  "status": "Stav",
+  "valid": "Platné",
+  "valid_time": "Doba platnosti",
+  "warranty_type": "Typ záruky",
+  "whether_you_need_to_buy_it": "Zda si ho musíte koupit"
+}

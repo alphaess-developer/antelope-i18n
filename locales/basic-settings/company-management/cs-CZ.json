@@ -1,0 +1,19 @@
+{
+  "associated_devices": "Související zařízení",
+  "category": "Kategorie",
+  "comp_name": "Název společnosti",
+  "company_no_license": "Společnost zatím licenci nevázala!",
+  "contact_person": "Kontaktní osoba",
+  "end_user": "Koncový uživatel",
+  "generate_license": "Vygenerovat licenci",
+  "go_to_bind": "Přejít k navázání",
+  "installer": "Instalační firma",
+  "investor": "Investor",
+  "license": "Licence",
+  "mail": "E-mail",
+  "primary_admin": "Primární účet",
+  "reseller": "Prodejce",
+  "status": "Stav",
+  "total_company": "Celkový počet společností",
+  "wholesaler": "velkoobchodník"
+}

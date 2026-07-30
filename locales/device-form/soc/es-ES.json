@@ -1,0 +1,11 @@
+{
+  "calibrate_now": "Calibrar ahora",
+  "calibration_cycle": "Ciclo de calibración",
+  "calibration_estimated_time": "Calibración en curso, tiempo estimado requerido: {num} min",
+  "days": "día",
+  "next_calibration_date": "Fecha de siguiente calibración",
+  "next_calibration_time": "Hora de siguiente calibración",
+  "periodic_calibration": "Calibración periódica",
+  "soc_calibration": "Calibración de SOC",
+  "stop_calibration": "Detener calibración"
+}

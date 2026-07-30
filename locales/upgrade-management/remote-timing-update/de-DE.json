@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Batch-Löschung",
+  "cycle_count": "Zyklenzahl",
+  "cycle_duration_min": "Zyklusdauer [min]",
+  "cycle_task": "Schleifenaufgabe",
+  "end_time_ems_time": "Endzeit (EMS-Zeit)",
+  "min_pv": "Mindestleistungswert [W]",
+  "no_match_data": "Die Daten existieren nicht oder wurden gelöscht",
+  "running_state": "Betriebszustand",
+  "select_date_time": "Bitte wählen Sie das Datum der Auswahl",
+  "single_task": "Einzelne Aufgabe",
+  "start_time_ems": "Startzeit(EMS-Zeit)"
+}

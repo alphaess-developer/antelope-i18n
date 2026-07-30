@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "Veuillez contacter l'installateur pour le déverrouillage.",
+  "content": "Contenu",
+  "current_status": "État actuel",
+  "latest_run_records": "Derniers enregistrements d'opération",
+  "restart": "Redémarrer",
+  "restart_to_resolve": "Le redémarrage du système peut résoudre le problème.",
+  "status3_restart_tips": "Le redémarrage prendra environ trois minutes. Veuillez actualiser la page après trois minutes pour vérifier la progression. Voulez-vous vraiment continuer ?",
+  "status4_unlock_tips": "Le déverrouillage prendra environ trois minutes. Veuillez actualiser la page après trois minutes pour vérifier la progression. Voulez-vous vraiment continuer ?",
+  "unlock": "Déverrouiller",
+  "upload_time": "Durée de téléchargement"
+}

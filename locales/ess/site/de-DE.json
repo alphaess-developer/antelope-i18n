@@ -1,0 +1,20 @@
+{
+  "address": "Adresse",
+  "basic_information": "Grundlegende Informationen",
+  "electricity_tariff_info": "Stromtarifinformationen",
+  "installed_capacity": "Installierte Kapazität",
+  "installed_power": "Installierte Leistung",
+  "number_of_ess": "Anzahl der Energiespeichersysteme",
+  "number_of_other_devices": "Anzahl von Zubehör/sonstiger Ausrüstung",
+  "overview": "Übersicht",
+  "price_set": "Stromtarifeinstellung",
+  "set": "Einstellung",
+  "site_address": "Standortadresse",
+  "site_basic_info": "Grundlegende Informationen zur Website",
+  "site_devices": "Geräte",
+  "site_information": "Informationen zum Standort",
+  "site_mode": "Site-Modus",
+  "site_name": "Name des Standorts",
+  "site_not_bound_user": "Die Seite ist nicht an einen Nutzer gebunden",
+  "user_name": "Benutzername"
+}

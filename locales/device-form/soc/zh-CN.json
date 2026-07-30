@@ -1,0 +1,11 @@
+{
+  "calibrate_now": "立即校准",
+  "calibration_cycle": "校准周期",
+  "calibration_estimated_time": "校准中,预计需要校准时间{num}min",
+  "days": "天",
+  "next_calibration_date": "下次校准日期",
+  "next_calibration_time": "下次校准时间",
+  "periodic_calibration": "循环校准",
+  "soc_calibration": "SOC校准",
+  "stop_calibration": "停止校准"
+}

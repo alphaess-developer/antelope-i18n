@@ -1,0 +1,14 @@
+{
+  "audit_log": "Prüfungsprotokoll",
+  "device": "Gerät",
+  "installer": "Installateur",
+  "no_field_changes": "Keine Spielfeldänderungen",
+  "num_changes": "{num} Veränderungen",
+  "open_api": "Open API",
+  "payload_codec_unsupported": "Das Format der Änderungen an diesem Datensatz wird derzeit nicht für die Darstellung unterstützt",
+  "schedule_task": "Geplante Aufgabe",
+  "show_empty_changes": "Zeigen der Rekorde ohne Änderung",
+  "system": "System",
+  "total_changes": "{num} Änderungen insgesamt",
+  "user": "Benutzer"
+}

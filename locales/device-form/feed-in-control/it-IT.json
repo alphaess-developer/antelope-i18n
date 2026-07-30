@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "Almeno un dato",
+  "charge_cut_off_soc": "La ricarica si interrompe al SOC",
+  "discharge_cut_off_soc": "SOC limite di scarica",
+  "feed_control_tip": "<p>       Dear Customer, <br />       To facilitate the activation of the feature enabling direct power discharge from your electricity storage system to the grid, we kindly request your       confirmation of the following:       <br />       1. Your installation address is situated within the jurisdiction of <strong>{country}</strong>; <br />       2. You possess a current, legally binding agreement with your local grid company as a prerequisite for enabling the direct discharge of power from your       electricity storage system and/or photovoltaic system into the grid.       <br /> <strong>       Non-compliance with the above conditions may lead to safety hazards and potential legal entanglements, for which you will bear full responsibility. If you       do not meet all the above conditions, you should not confirm and will not be able to use the feature to enable the direct power discharge from your       electricity storage system to the grid. </strong>       <br />       Your attention to and cooperation with the above prerequisites is greatly appreciated.     </p>",
+  "feed_disabled_tip": "Il controllo dell'immissione in rete è disabilitato poiché questo dispositivo è autorizzato per un VPP",
+  "feed_energy_report": "Rapporto energetico di immissione in rete",
+  "feed_in_control": "Controllo dell'immissione",
+  "feed_in_function": "Funzione di immissione",
+  "feed_in_power": "Potenza di immissione",
+  "feed_in_time_period": "Periodo di immissione in rete",
+  "feed_power_info": "La potenza di immissione in rete è impostata come limite superiore. Dopo la fornitura della potenza in uscita del sistema al carico, la potenza rimanente viene immessa in rete. Pertanto, l'effettiva potenza di immissione può fluttuare entro un determinato intervallo a causa delle variazioni del carico.",
+  "home_ups_soc_tip": "La tua riserva attuale UPS è:",
+  "smart_charging": "Ricarica intelligente",
+  "start_less_than_end": "L'ora di inizio deve essere inferiore all'ora di fine",
+  "time_period_num": "Periodo di tempo {num}",
+  "time_period_overlap": "I periodi di tempo si sovrappongono.",
+  "today_feed_in": "Immissione in rete di oggi"
+}

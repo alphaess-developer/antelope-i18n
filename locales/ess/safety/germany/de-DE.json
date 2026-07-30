@@ -1,0 +1,22 @@
+{
+  "cos_setting": "Cos Einstelltung",
+  "fixed_setpoint_cos": "Fester Leistungsfaktor cos (φ)",
+  "frequency_decrease_protection_f": "Frequenzrückgangsschutz f",
+  "frequency_hz_square": "Frequenz [Hz]",
+  "frequency_increase_protection_f": "Frequenzsteigerungsschutz f",
+  "germany_safety_tip": "Die Auslösezeit umfasst den Zeitraum von der Grenzwertverletzung U/f bis zum Auslösesignal an den             Kuppelschalter. Bei der Planung der Erzeugungsanlage ist die Eigenzeit des Kuppelschalters zum höchsten oben ermittelten Zeitwert zu addieren. Die             Abschaltzeit (Summe der Auslösezeit NA-Schultz zzgl. Eigenzeit des Kuppelschalts) darf 200ms nicht überschreiten. (VDE-AR-N:2018-11 S6.5.2）",
+  "lagging": "Nacheilend",
+  "leading": "Führend",
+  "limitation": "Beschränkung",
+  "ns_protection": "NS-Schutz",
+  "power_factor_cos_square": "Leistungsfaktor cos (φ)",
+  "protection_function": "Schutzfunktion",
+  "q_u_curve": "Q (U)-Kurve",
+  "q_u_curve_tip": "Q(U) Regelung gilt nur für dreiphasige Systeme bzw. Systeme mit der AC-Ausgangsleistung von mehr als 4,6 kVA (gemäß VDE4105 §5.7.2.4)",
+  "setting_value": "Einstellwert",
+  "tripping_time": "Auslösezeit",
+  "tripping_value": "Auslösewert",
+  "voltage_decrease_protection_u": "Spannungsrückgangsschutz U",
+  "voltage_increase_protection_u": "Spannungssteigerungsschutz U",
+  "voltage_v_square": "Spannung [V]"
+}

@@ -1,0 +1,10 @@
+{
+  "device_status": "Systemstatus",
+  "lease_status": "Leasingstatus",
+  "normal_lease": "Normal leasing",
+  "normal_lease_tips": "Normal leasing: Växelriktaren fungerar som vanligt. Stoppa leasing: EMS skickar ett kommando till växelriktaren, varefter den inte kan producera el eller växelrikta (batteriet kan inte ladda eller urladda, solcellerna kan inte producera el), men den kan köpa el från bypass-elnätet för att försörja lasten.",
+  "offline_days": "Tidsgräns för offline",
+  "offline_days_tips": "Systemet stoppas när det varit offline under den inställda perioden.",
+  "stop_lease": "Stoppa leasing",
+  "value_range_min_max": "Värdeintervall:{min}-{max}"
+}

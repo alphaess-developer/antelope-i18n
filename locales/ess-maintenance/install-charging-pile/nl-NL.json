@@ -1,0 +1,17 @@
+{
+  "abnormal": "Abnormaal",
+  "are_you_sure_to_unbind_the_charging_pile": "Weet je zeker dat je de Wallbox wilt loskoppelen?",
+  "charging_pile_sn": "Wallbox-SN",
+  "charging_pile_type": "Wallbox model",
+  "charging_pile_type_enter_tip": "Voer eerst de Wallbox SN en systeem SN in.",
+  "datetime": "Datum/Tijd",
+  "device_status": "Status van het systeem",
+  "install_charging_pile": "Installatie van de Wallbox",
+  "install_date": "Installatiedatum",
+  "normal": "Normaal",
+  "sn_check_code": "SN-controlecode",
+  "supported_charging_pile_sn_suffix_formats": "Ondersteunde Wallbox SN-achtervoegselformaten:",
+  "supported_charging_pile_sn_suffix_formats_tip": "{index}. Eindigend met \"{rule}\" → {model}",
+  "unbind": "Ontkoppelen",
+  "warning": "Waarschuwing"
+}

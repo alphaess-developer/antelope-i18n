@@ -1,0 +1,7 @@
+{
+  "absolute_value_rang": "Absolutvärdesintervall: {min}~{max}",
+  "defaults": "Standardvärden",
+  "print": "Skriv ut",
+  "range_string": "Intervall: {string}",
+  "update_time": "Uppdateringstid"
+}

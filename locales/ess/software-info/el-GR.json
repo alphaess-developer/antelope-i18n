@@ -1,0 +1,13 @@
+{
+  "ap_module": "Μονάδα AP",
+  "arm_software_version": "Αριθμός έκδοσης λογισμικού ARM",
+  "emsboot_version": "Έκδοση εκκίνησης EMS",
+  "hardware_version": "Έκδοση υλικού",
+  "inverter": "Μετατροπέας",
+  "model": "Μοντέλο",
+  "platform": "Πλατφόρμα",
+  "slave_software_version": "Αριθμός έκδοσης λογισμικού Slave",
+  "software_version": "Αριθμός έκδοσης λογισμικού",
+  "sta_module": "Μονάδα STA",
+  "wireless_meter": "Ασύρματος μετρητής"
+}

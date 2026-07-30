@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "Dubbele voedingsfunctie ingeschakeld",
+  "gen_power": "Generator",
+  "generator_enable_before_shutdown": "Diesel generator inschakelen voor uitschakelen PCS",
+  "grid_consum_power_upper_limit": "Max. vermogen door de meter: de bovengrens van het netstroomverbruik",
+  "grid_power": "Stroomnet",
+  "industry_info": "Commerciële en industriële systeeminformatie",
+  "io_expansion_module": "Is er een IO-uitbreidingsmodule",
+  "max_grid_charge_tooltip": "Max. netlaadvermogen: de bovengrens van het laadvermogen aan de AC-zijde van de functies voor geforceerd laden (SOC directionele kalibratie, SOC automatische kalibratie, geforceerd laden met onderspanning en laadtijdperioden)",
+  "max_meter_passing_power": "Maximaal vermogen door meter(kW)",
+  "maximum_grid_charging_power": "Maximum vermogen laden van net",
+  "off_grid_cut_off_soc": "Off-grid: SOC om verbruikers uit te schakelen",
+  "power_type": "AC-voedingsmodus",
+  "pure_battery_enable": "Pure batterijfunctie ingeschakeld",
+  "resume_soc": "Off-grid: SOC voor heraansluiting van ladingen",
+  "soc_calibrate": "Automatische SOC-kalibratie",
+  "soc_orientation_check": "SOC-richtingskalibratie",
+  "sts_enable": "STS",
+  "system_model": "Systeem model"
+}

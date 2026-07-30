@@ -1,0 +1,19 @@
+{
+  "all": "Tutti",
+  "backup_box_error": "Errore di BackupBox",
+  "bms_error": "Errore BMS",
+  "clean_time": "Cancella orario",
+  "ems_error": "Errore EMS",
+  "error_code": "Codice di errore",
+  "event_happen_time": "Il tempo si è verificato",
+  "fault_category": "Categoria di Errore",
+  "fault_info": "Informazioni sul guasto",
+  "inv_error": "Errore inverter",
+  "inv_warning": "Avviso inverter",
+  "level": "Livello",
+  "meter_error": "Errore del misuratore",
+  "other_error": "Altro errore",
+  "selection_time": "Seleziona l'ora",
+  "status": "Stato",
+  "system_sn": "SN del sistema"
+}

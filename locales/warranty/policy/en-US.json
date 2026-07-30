@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Standard Warranty",
+  "battery": "Battery",
+  "begin_time": "Start time",
+  "device_name": "Device Name",
+  "device_type": "Equipment Type",
+  "end_time": "End Time",
+  "extended_warranty": "Extended warranty",
+  "high_standard_warranty": "High standard warranty",
+  "invalid": "Invalid",
+  "inverter": "Inverter",
+  "model_device": "Device model",
+  "modify_warranty_period": "Modify Warranty Period",
+  "order_time": "Order Time",
+  "performance_warranty": "Performance Warranty",
+  "product_specifications": "Product Specifications",
+  "purchase_required": "Purchase required",
+  "status": "Status",
+  "valid": "Valid",
+  "valid_time": "Valid Time",
+  "warranty_type": "Warranty Type",
+  "whether_you_need_to_buy_it": "Whether you need to buy it"
+}

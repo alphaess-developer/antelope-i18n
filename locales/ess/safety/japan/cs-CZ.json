@@ -1,0 +1,22 @@
+{
+  "area": "Oblast",
+  "control_power_output": "Řízení výstupu",
+  "detect_time": "Doba detekce",
+  "manual_reset": "Ruční reset",
+  "manual_reset_enable": "Manuální reset Povolit",
+  "manual_reset_setting": "Manuální resetovací spínač",
+  "no_power_control": "Neúčinné řízení výkonu",
+  "off_short": "Pryč",
+  "on_short": "Otevřeno",
+  "operating_power_factor": "Konstantní řízení účiníku",
+  "over_f": "Relé s nadfrekvencí střídavého proudu",
+  "over_v": "Relé s přepětím střídavého proudu",
+  "passive_island_detect": "Pasivní detekce izolovaných operací",
+  "power_recovery_delay": "Pevné zpoždění po opětovném nabití energie",
+  "set_time": "Čas nastavení",
+  "set_value": "Nastavená hodnota",
+  "suppression_voltage_degree": "Potlačení nárůstu napěťové funkce",
+  "under_f": "Relé s podfrekvencí střídavého proudu",
+  "under_v": "Relé s podnapětím střídavého proudu",
+  "voltage_phase_jump_detect": "Metoda detekce fázového skoku napětí"
+}

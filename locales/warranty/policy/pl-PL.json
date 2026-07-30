@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Standardowa gwarancja",
+  "battery": "Akumulator",
+  "begin_time": "Czas rozpoczęcia",
+  "device_name": "Nazwa urządzenia",
+  "device_type": "Rodzaj sprzętu",
+  "end_time": "Czas zakończenia",
+  "extended_warranty": "Przedłużona gwarancja",
+  "high_standard_warranty": "Gwarancja wysokiego standardu",
+  "invalid": "Nieprawidłowy",
+  "inverter": "Falownik",
+  "model_device": "Model urządzenia",
+  "modify_warranty_period": "Zmodyfikuj okres gwarancji",
+  "order_time": "Czas zamówienia",
+  "performance_warranty": "Gwarancja wydajności",
+  "product_specifications": "Specyfikacja produktu",
+  "purchase_required": "Wymagany zakup",
+  "status": "Stan",
+  "valid": "Ważne",
+  "valid_time": "Obowiązujący czas",
+  "warranty_type": "Rodzaj gwarancji",
+  "whether_you_need_to_buy_it": "Czy musisz go kupić"
+}

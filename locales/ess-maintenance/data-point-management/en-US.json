@@ -1,0 +1,8 @@
+{
+  "data_center": "Data center",
+  "data_center_list": "Data Center List",
+  "data_center_name": "data center name",
+  "data_upload_domain": "data upload domain name",
+  "is_encrypt_transmission": "Whether to encrypt transmission",
+  "port_number": "port number"
+}

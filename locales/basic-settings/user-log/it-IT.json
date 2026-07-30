@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Il tempo si è verificato",
+  "log_type": "Tipo di registro",
+  "origin": "Origine",
+  "record_date": "Data di registrazione",
+  "separate": "Separare più SN con |",
+  "view_log_content": "Visualizza contenuto registro"
+}

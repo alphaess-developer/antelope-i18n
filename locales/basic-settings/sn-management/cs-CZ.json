@@ -1,0 +1,11 @@
+{
+  "check_code": "Ověřovací kód",
+  "data_center": "Datové centrum",
+  "del_sys_data": "Smazat systémová data",
+  "delete_sn_related_system_data": "Smazat systémová data související s {sn}",
+  "household_savings_platform": "Platforma pro domácí úložiště energie",
+  "micro_storage_platform": "Platforma pro malé úložiště energie",
+  "product_category": "Kategorie produktu",
+  "socket_data_center": "Socket Data Center",
+  "view_check_code": "Zobrazit Kontrolní kód"
+}

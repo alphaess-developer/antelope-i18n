@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "Rezerwa zapasowa baterii nie może przekraczać SOC odcięcia rozładowania przy spłaszczaniu szczytowym {soc}%",
+  "difference": "Różnica",
+  "discharge_cut_off_soc": "Odcięcie rozładowania SOC",
+  "end_more_than_begin": "Czas zakończenia musi następować po czasie rozpoczęcia",
+  "hysteresis_value": "Wartość histerezy",
+  "meter_time1_end": "Okres 1 — Zakończenie",
+  "meter_time1_start": "Okres 1 — Rozpoczęcie",
+  "meter_time2_end": "Okres 2 — Zakończenie",
+  "meter_time2_start": "Okres 2 — Rozpoczęcie",
+  "peak_cycle": "Cykl spłaszczania szczytowego",
+  "peak_periods": "Okres spłaszczania szczytowego",
+  "peak_shaving_discharge_soc_conflict": "SOC odcięcia rozładowania nie może być niższe niż rezerwa zapasowa baterii {soc}%",
+  "peak_shaving_valley_filling": "Spłaszczanie szczytowe i spłycanie dolnej części wykresu",
+  "peak_valley_period_overlap": "Okres spłaszczania szczytowego i okres wypełniania dolin nie mogą się nakładać",
+  "peak_valley_value_conflict": "Powstał konflikt wartości ustawień szczytowych i dolnych; zresetuj.",
+  "peak_value": "Wartość szczytowa",
+  "peak_value_tip": "Proszę ustawić maksymalną dopuszczalną moc obciążenia w gospodarstwie domowym (ta funkcja dotyczy tylko urządzeń podłączonych do sieci).",
+  "valley_cycle": "Wypełnij cykl",
+  "valley_periods": "Wypełnij przedział czasu",
+  "valley_value": "Wartość dolna"
+}

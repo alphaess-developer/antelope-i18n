@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Τυπική εγγύηση",
+  "battery": "Μπαταρία",
+  "begin_time": "Ώρα έναρξης",
+  "device_name": "Όνομα συσκευής",
+  "device_type": "Τύπος εξοπλισμού",
+  "end_time": "Ώρα λήξης",
+  "extended_warranty": "Εκτεταμένη εγγύηση",
+  "high_standard_warranty": "Εγγύηση υψηλών προδιαγραφών",
+  "invalid": "Άκυρο",
+  "inverter": "Μετατροπέας",
+  "model_device": "Μοντέλο συσκευής",
+  "modify_warranty_period": "Τροποποιήστε την περίοδο εγγύησης",
+  "order_time": "Ώρα παραγγελίας",
+  "performance_warranty": "Εγγύηση απόδοσης",
+  "product_specifications": "Προδιαγραφές προϊόντος",
+  "purchase_required": "Απαιτείται αγορά",
+  "status": "Κατάσταση",
+  "valid": "Έγκυρος",
+  "valid_time": "Έγκυρος χρόνος",
+  "warranty_type": "Τύπος εγγύησης",
+  "whether_you_need_to_buy_it": "Αν πρέπει να το αγοράσετε"
+}

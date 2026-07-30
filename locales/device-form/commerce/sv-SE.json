@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "Aktivera dubbel strömkälla",
+  "gen_power": "Dieselgenerator",
+  "generator_enable_before_shutdown": "Dieselgenerator startas före PCS-avstängning",
+  "grid_consum_power_upper_limit": "Max. effekt genom mätaren: övre gräns för effekt från elnätet",
+  "grid_power": "Elnät",
+  "industry_info": "Information om kommersiellt och industriellt system",
+  "io_expansion_module": "Finns det en IO-expansionsmodul",
+  "max_grid_charge_tooltip": "Max. laddeffekt från elnätet: övre gräns för AC-sidans laddeffekt vid forcerad laddning (SOC riktad kalibrering, SOC automatisk kalibrering, forcerad laddning vid underspänning och laddningstidsperioder)",
+  "max_meter_passing_power": "Maximal effekt genom mätaren (kW)",
+  "maximum_grid_charging_power": "Maximal laddningseffekt från elnätet",
+  "off_grid_cut_off_soc": "Ö-drift: SOC för frånkoppling av last",
+  "power_type": "AC-matningssätt",
+  "pure_battery_enable": "Aktivera rent batteriläge",
+  "resume_soc": "Ö-drift: SOC för återanslutning av last",
+  "soc_calibrate": "SOC automatisk kalibrering",
+  "soc_orientation_check": "Riktad SOC-kalibrering",
+  "sts_enable": "STS",
+  "system_model": "Systemmodell"
+}

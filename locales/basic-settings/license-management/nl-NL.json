@@ -1,0 +1,19 @@
+{
+  "certificate_code": "Certificaatcode",
+  "comp_name": "Bedrijfsnaam",
+  "confirm_queren": "OK",
+  "contact_person": "Contactpersoon",
+  "download_certificate": "Certificaat downloaden",
+  "email_sending_license": "Licentie voor het verzenden van e-mail",
+  "end_user": "Eindgebruiker",
+  "generate_license": "Licentie aanmaken",
+  "installer": "Installateur",
+  "installer_name_anzhuanggong": "Installateursnaam",
+  "license": "Licentie",
+  "mail": "E-mail vereist",
+  "send_email_message": "Licentie: {license} wordt verzonden naar het e-mailadres van het installatieprogramma {emali}, gelieve te bevestigen.",
+  "set_installer_info": "Installateursinformatie ingeven",
+  "set_installer_information": "Stel installateurs informatie in",
+  "street_number_plus": "Straatnummer (straat + huisnummer)",
+  "telephone": "Contactnummer"
+}

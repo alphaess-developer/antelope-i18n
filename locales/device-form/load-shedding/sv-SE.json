@@ -1,0 +1,11 @@
+{
+  "area_list": "Områdeslista",
+  "area_name": "Områdesnamn",
+  "charge_cut_off_soc": "Laddningsnivå (SOC) för laddningsstopp",
+  "click_for_details": "Klicka för detaljer",
+  "load_shedding_msg_notification": "Aviseringar om LoadShedding",
+  "load_shedding_tips1": "Denna funktion laddar energilagringssystemet intelligent enligt strömavbrottsschemat i ditt område och den inställda avbrytnivån för laddning (SOC), så att du och din familj har tillräckligt med reservenergi under strömavbrott. Att aktivera funktionen kan leda till ökade elkostnader i hushållet.",
+  "load_shedding_tips2": "När funktionen är aktiverad utför systemet en intelligent reservladdning baserat på lokala strömavbrott. Detta är en tvångsladdning. Om du vill avbryta laddningen, gå till \"Inställningar för laddning och urladdning\" - \"Stoppa laddning\".",
+  "load_shedding_tips3": "När funktionen är aktiverad skickas en avisering om reservkraft till dig baserat på lokala strömavbrott.",
+  "region": "Region"
+}

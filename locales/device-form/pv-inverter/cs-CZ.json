@@ -1,0 +1,8 @@
+{
+  "pv_inv_info": "Informace o FV měniči",
+  "pv_inv_model": "Model FV měniče",
+  "pv_inv_pos": "Instalační pozice měniče v síti",
+  "pv_inv_quantity": "Počet FV měničů",
+  "sts_grid_side": "STS na straně sítě",
+  "sts_load_side": "STS na straně zátěže"
+}

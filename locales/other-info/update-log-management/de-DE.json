@@ -1,0 +1,12 @@
+{
+  "end_user": "Anlagenbetreiber",
+  "installer": "Installateur",
+  "log_title": "Protokolltitel",
+  "optimize": "Optimierung",
+  "repair": "Reparatur",
+  "reseller": "Wiederverkäufer",
+  "system_deadline": "System-Frist",
+  "system_update_time": "System-Update-Protokoll",
+  "title": "Titel",
+  "user_role": "Benutzer-Rolle"
+}

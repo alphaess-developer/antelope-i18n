@@ -1,0 +1,19 @@
+{
+  "associated_devices": "Associated devices",
+  "category": "Category",
+  "comp_name": "Company Name",
+  "company_no_license": "The company has not yet bound the license!",
+  "contact_person": "Contact Person",
+  "end_user": "End-user",
+  "generate_license": "Generate License",
+  "go_to_bind": "Go to Bind",
+  "installer": "Installer",
+  "investor": "Investor",
+  "license": "License",
+  "mail": "E-mail Address",
+  "primary_admin": "Primary Account",
+  "reseller": "Reseller",
+  "status": "Status",
+  "total_company": "Number of total companies",
+  "wholesaler": "wholesaler"
+}

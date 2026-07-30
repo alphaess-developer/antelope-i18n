@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "Wymagany jest co najmniej jeden zestaw danych",
+  "charge_cut_off_soc": "Ładowanie zatrzymuje się przy SOC",
+  "discharge_cut_off_soc": "Odcięcie rozładowania SOC",
+  "feed_control_tip": "<p>       Dear Customer, <br />       To facilitate the activation of the feature enabling direct power discharge from your electricity storage system to the grid, we kindly request your       confirmation of the following:       <br />       1. Your installation address is situated within the jurisdiction of <strong>{country}</strong>; <br />       2. You possess a current, legally binding agreement with your local grid company as a prerequisite for enabling the direct discharge of power from your       electricity storage system and/or photovoltaic system into the grid.       <br /> <strong>       Non-compliance with the above conditions may lead to safety hazards and potential legal entanglements, for which you will bear full responsibility. If you       do not meet all the above conditions, you should not confirm and will not be able to use the feature to enable the direct power discharge from your       electricity storage system to the grid. </strong>       <br />       Your attention to and cooperation with the above prerequisites is greatly appreciated.     </p>",
+  "feed_disabled_tip": "Podczas harmonogramowania VPP kontrola zasilającego jest wyłączona",
+  "feed_energy_report": "Raport dotyczący energii zasilania sieci",
+  "feed_in_control": "Sterowanie zasilaniem sieci",
+  "feed_in_function": "Funkcja zasilania sieci",
+  "feed_in_power": "Moc zasilania sieci",
+  "feed_in_time_period": "Okres zasilania sieci",
+  "feed_power_info": "Moc zasilania sieci jest ustawiona jako górna granica. Po dostarczeniu mocy wyjściowej systemu do odbiornika, cała pozostała moc jest dostarczana do sieci. W związku z tym, faktyczna moc zasilania sieci może wahać się w określonym zakresie z powodu zmian obciążenia.",
+  "home_ups_soc_tip": "Twoja obecna rezerwa UPS to:",
+  "smart_charging": "Inteligentne ładowanie",
+  "start_less_than_end": "Czas rozpoczęcia musi poprzedzać czas zakończenia.",
+  "time_period_num": "Przedział czasowy {num}",
+  "time_period_overlap": "Przedziały czasowe nakładają się.",
+  "today_feed_in": "Dzisiejsze zasilanie sieci"
+}

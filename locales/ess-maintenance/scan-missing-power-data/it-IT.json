@@ -1,0 +1,11 @@
+{
+  "build_status": "Stato di compilazione",
+  "exception_date": "Data dell'eccezione",
+  "generate_reports": "Generare report",
+  "multiple_name_sep": "Più {name} inizia con '|' partizione",
+  "one_click_generation": "Generazione con un clic",
+  "please_select_records": "Seleziona i dati che desideri eseguire",
+  "scan_1": "scansione",
+  "selection_time": "Seleziona l'ora",
+  "type": "Tipo"
+}

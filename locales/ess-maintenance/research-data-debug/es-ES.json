@@ -1,0 +1,17 @@
+{
+  "all": "Todo",
+  "check_most_two": "Marque como máximo dos.",
+  "debug_data": "Datos de depuración",
+  "debug_status": "Estado de depuración",
+  "debugging": "Depuración",
+  "enter_debug": "Entrar en depuración",
+  "equipment_commission": "Depuración de equipos",
+  "select_at_least_one_device": "Seleccione al menos un subdispositivo",
+  "start_issuing_command": "Comience a emitir el comando",
+  "stop_debugging": "Dejar de depurar",
+  "stop_issuing_command": "Deja de dar órdenes",
+  "stopped": "Interrumpido",
+  "sub_device": "Dispositivo secundario",
+  "time_seconds": "El intervalo de tiempo debe ser superior a 10 segundos.",
+  "transmission_interval": "Intervalo de envío de datos"
+}

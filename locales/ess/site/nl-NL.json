@@ -1,0 +1,20 @@
+{
+  "address": "Adres",
+  "basic_information": "Basis Informatie",
+  "electricity_tariff_info": "Electriciteitstarief",
+  "installed_capacity": "Geïnstalleerde capaciteit",
+  "installed_power": "Geïnstalleerd vermogen",
+  "number_of_ess": "Aantal energieopslagsystemen",
+  "number_of_other_devices": "Aantal accessoires/andere apparatuur",
+  "overview": "Overzicht",
+  "price_set": "Vaststelling van de elektriciteitsprijs",
+  "set": "Instellingen",
+  "site_address": "Website-adres",
+  "site_basic_info": "Algemene informatie over de site",
+  "site_devices": "Apparaten",
+  "site_information": "Informatie over de site",
+  "site_mode": "Modus van de site",
+  "site_name": "Naam van de locatie",
+  "site_not_bound_user": "De site is niet gekoppeld aan een gebruiker",
+  "user_name": "Gebruikersnaam"
+}

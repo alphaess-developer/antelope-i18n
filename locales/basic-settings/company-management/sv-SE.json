@@ -1,0 +1,19 @@
+{
+  "associated_devices": "Anslutna enheter",
+  "category": "Kategori",
+  "comp_name": "Företagsnamn",
+  "company_no_license": "Företaget har ännu inte kopplat någon licens!",
+  "contact_person": "Kontaktperson",
+  "end_user": "Slutanvändare",
+  "generate_license": "Generera licens",
+  "go_to_bind": "Koppla",
+  "installer": "Installatör",
+  "investor": "Investerare",
+  "license": "Licens",
+  "mail": "E-postadress",
+  "primary_admin": "Huvudkonto",
+  "reseller": "Återförsäljare",
+  "status": "Status",
+  "total_company": "Antal företag totalt",
+  "wholesaler": "Grossist"
+}

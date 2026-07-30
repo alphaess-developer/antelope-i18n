@@ -1,0 +1,19 @@
+{
+  "certificate_code": "Kód certifikátu",
+  "comp_name": "Název společnosti",
+  "confirm_queren": "OK",
+  "contact_person": "Kontaktní osoba",
+  "download_certificate": "Stáhnout certifikát",
+  "email_sending_license": "Licence pro odesílání e-mailů",
+  "end_user": "Koncový uživatel",
+  "generate_license": "Vygenerovat licenci",
+  "installer": "Instalační firma",
+  "installer_name_anzhuanggong": "Název instalační firmy",
+  "license": "Licence",
+  "mail": "E-mail",
+  "send_email_message": "Licence: {license} bude odeslána na e-mail instalační firmy {emali}, potvrďte prosím.",
+  "set_installer_info": "Zadat informace o instalační firmě",
+  "set_installer_information": "Zadat informace o instalační firmě",
+  "street_number_plus": "Číslo ulice (ulice + číslo domu)",
+  "telephone": "Kontaktní číslo"
+}

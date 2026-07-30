@@ -1,0 +1,8 @@
+{
+  "pv_inv_info": "PV-Wechselrichter - Info",
+  "pv_inv_model": "PPV-Wechselrichtermodell",
+  "pv_inv_pos": "Installationsort des netzgekoppelten Wechselrichters",
+  "pv_inv_quantity": "PV-Wechselrichter - Anzahl",
+  "sts_grid_side": "STS-Netzseite",
+  "sts_load_side": "STS-Lastseite"
+}

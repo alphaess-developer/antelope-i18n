@@ -1,0 +1,22 @@
+{
+  "activate": "Aktivera",
+  "activated": "Aktiverad",
+  "channel_type": "Kanaltyp",
+  "content": "Innehåll",
+  "deactivate": "Inaktivera",
+  "deactivated": "Inaktiverad",
+  "disabled": "Inaktiverad",
+  "empty_template_content_tip": "Du måste fylla i mallinnehållet på minst ett språk",
+  "enable_alt": "Aktivera",
+  "enabled": "Aktiverad",
+  "extra_params": "Extra parametrar",
+  "group_type": "Grupptyp",
+  "mail": "E-postadress",
+  "notice": "Avisering",
+  "push": "Push",
+  "status": "Status",
+  "template_code": "Mallkod",
+  "template_content": "Mallinnehåll",
+  "template_name": "Mallnamn",
+  "title": "Titel"
+}

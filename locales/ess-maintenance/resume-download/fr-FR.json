@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Livraison par lots",
+  "breakpoint_end_time": "Heure de fin du point d’arrêt",
+  "breakpoint_start_time": "Heure de début du point d’arrêt",
+  "command_is_issued": "L’ordre est donné",
+  "data_completion_status": "État d’achèvement des données",
+  "data_validation": "Validation des données",
+  "delivered": "Livré",
+  "interval_time_min": "Temps d’intervalle (min)",
+  "multiple_name_sep": "Plusieurs {name} sont séparés par '|'",
+  "not_issued": "Non délivré",
+  "not_uploaded": "Non téléchargé",
+  "one_click_generation": "Génération en un clic",
+  "partial_uploads": "Téléchargements partiels",
+  "please_select_records": "Sélectionnez les données que vous souhaitez exécuter",
+  "scan_1": "Scanner",
+  "selection_time": "Sélectionner une date/heure",
+  "the_command_is_issued": "La commande est émise",
+  "the_upload_is_complete": "Le téléchargement est terminé",
+  "tips": "Remarque",
+  "type": "Type"
+}

@@ -1,0 +1,10 @@
+{
+  "device_status": "État du système",
+  "lease_status": "État du bail",
+  "normal_lease": "Bail normal",
+  "normal_lease_tips": "Bail normal : l’onduleur fonctionne comme d’ordinaire. Arrêt de bail : une instruction est envoyée par l’EMS à l’onduleur, après quoi l’onduleur ne peut pas produire d’électricité et ne peut pas transformer la tension (la batterie ne peut ni se charger ni se décharger, l’énergie PV ne peut pas produire d’électricité), mais il est possible d’acheter de l’électricité du réseau de dérivation pour alimenter la charge.",
+  "offline_days": "Période d’expiration hors ligne",
+  "offline_days_tips": "Le fonctionnement du système est interrompu lorsqu’il reste hors ligne durant la période définie",
+  "stop_lease": "Arrêt du bail",
+  "value_range_min_max": "Plage de valeurs : {min} à {max}"
+}

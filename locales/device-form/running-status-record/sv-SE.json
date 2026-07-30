@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "Kontakta installatören för att låsa upp.",
+  "content": "Innehåll",
+  "current_status": "Aktuell status",
+  "latest_run_records": "Senaste driftposter",
+  "restart": "Starta om",
+  "restart_to_resolve": "Att starta om systemet kan lösa problemet.",
+  "status3_restart_tips": "Omstart tar cirka tre minuter. Uppdatera sidan efter tre minuter för att se förloppet. Vill du fortsätta?",
+  "status4_unlock_tips": "Upplåsning tar cirka tre minuter. Uppdatera sidan efter tre minuter för att se förloppet. Vill du fortsätta?",
+  "unlock": "Lås upp",
+  "upload_time": "Uppladdningstid"
+}

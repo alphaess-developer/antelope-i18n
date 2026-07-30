@@ -1,0 +1,14 @@
+{
+  "audit_log": "Auditlogboek",
+  "device": "Apparaat",
+  "installer": "Installateur",
+  "no_field_changes": "Geen veldwijzigingen",
+  "num_changes": "{num} veranderingen",
+  "open_api": "Open API",
+  "payload_codec_unsupported": "Het formaat van wijzigingen aan dit record wordt momenteel niet ondersteund voor weergave",
+  "schedule_task": "Geplande taak",
+  "show_empty_changes": "Toon records zonder wijziging",
+  "system": "Systeem",
+  "total_changes": "{num} veranderingen in totaal",
+  "user": "gebruiker"
+}

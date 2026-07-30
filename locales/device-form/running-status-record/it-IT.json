@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "Contattare l'installatore per lo sblocco.",
+  "content": "Contenuto",
+  "current_status": "Stato attuale",
+  "latest_run_records": "Ultimi record operativi",
+  "restart": "Riavvia",
+  "restart_to_resolve": "Il riavvio del sistema può risolvere il problema.",
+  "status3_restart_tips": "Il riavvio richiede circa tre minuti. Aggiornare la pagina dopo tre minuti per verificare l'avanzamento. Procedere?",
+  "status4_unlock_tips": "Lo sblocco richiede circa tre minuti. Aggiornare la pagina dopo tre minuti per verificare l'avanzamento. Procedere?",
+  "unlock": "Sblocca",
+  "upload_time": "Ora di caricamento"
+}

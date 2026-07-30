@@ -1,0 +1,21 @@
+{
+  "begin_time": "Temps de démarrage",
+  "charge": "Charge",
+  "charge_cut_off_soc": "Arrêt de la charge à un SOC de",
+  "charging_tip": "Si « Charge » est sélectionné et qu'une période de charge est définie, la batterie sera chargée de force durant la période de temps spécifiée. La batterie ne se déchargera pas pendant cette période. Elle utilisera en priorité l'énergie solaire pour la charge. Si l'énergie solaire est insuffisante, l'énergie du réseau sera utilisée en complément. En dehors de cette période, le système fonctionnera en mode « Autoconsommation ». Certains modèles prennent actuellement en charge des fonctions de charge et de décharge à intervalles de 15 minutes, et les modèles compatibles nécessitent une mise à niveau du firmware. Les modèles qui ne les prennent pas en charge continueront d'utiliser la fonction précédente de charge et décharge à intervalles d'une heure.",
+  "daily": "Tous les jours",
+  "discharge": "Décharge",
+  "discharge_cut_off_soc": "Arrêt de la décharge à un SOC de",
+  "discharge_cut_off_soc_hint": "La batterie cessera de se décharger jusqu’à ce que le SOC atteigne la valeur définie.",
+  "discharge_tip": "Si « Décharge » est activé et qu’une période de décharge est définie, la décharge de la batterie ne s’effectuera que durant la période de temps spécifiée. Si l'énergie solaire est disponible, elle alimentera d’abord la charge et la batterie ne fournira d’énergie que si l’énergie solaire est insuffisante. La batterie n’alimentera pas le réseau ; elle n’alimentera que la charge. En cas de surplus d’énergie solaire durant cette période, celle-ci peut également être utilisée pour charger la batterie. En dehors de cette période, la batterie ne peut que charger et la décharge est impossible.\\nActuellement, certains modèles prennent en charge la charge et la décharge à intervalles de 15 minutes, et une mise à niveau du firmware est nécessaire pour ces modèles. Pour les systèmes qui ne prennent pas en charge cette fonction, la charge/décharge se fera comme précédemment à intervalles d’1 heure.\\n(Remarque : pour le paramétrage de charge/décharge quotidiennes, les périodes peuvent se chevaucher. En cas de chevauchement de programmes de charge et de programmes de décharge, c’est la charge qui est prioritaire. S’il y a un chevauchement de périodes pour la même stratégie de contrôle (charge ou décharge), la priorité sera donnée au programme paramétré pour commencer plus tôt.)",
+  "end_time": "Date/Heure de fin",
+  "execution_cycle": "Cycle d’exécution",
+  "off_grid_cut_off_soc": "Hors réseau : SOC pour la déconnexion de charge",
+  "off_grid_soc_control": "Contrôle du SOC hors réseau",
+  "off_grid_soc_value_tip": "SOC de réveil hors réseau actuel < SOC d’arrêt hors réseau + 5 %, réglage non valide",
+  "off_grid_wake_up_soc": "SOC de réveil hors réseau",
+  "time_period_num": "Période {num}",
+  "ups_reserve_enable": "Activation de la réserve UPS",
+  "ups_reserve_enable_hint": "Lorsque cette fonction est activée, le système de stockage d’énergie tirera de force de l’énergie PV et de l’énergie du réseau en chargeant en priorité la batterie jusqu’à la valeur de SOC d’arrêt quand le système passe du mode hors réseau au mode sur réseau. Lorsque cette fonction est désactivée, le système de stockage d’énergie n’effectuera pas ce changement d’alimentation forcée.",
+  "weekly": "Toutes les semaines"
+}

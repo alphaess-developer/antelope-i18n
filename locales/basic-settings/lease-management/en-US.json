@@ -1,0 +1,10 @@
+{
+  "device_status": "System State",
+  "lease_status": "Lease Status",
+  "normal_lease": "Normal Lease",
+  "normal_lease_tips": "Normal Lease: The inverter operates as usual. Stop Lease: An instruction is sent to the inverter by the EMS, after which the inverter cannot generate electricity and cannot invert (the battery cannot charge or discharge, PV cannot generate electricity), but it can purchase electricity from the bypass grid to supply power to the load.",
+  "offline_days": "Offline Timeout Period",
+  "offline_days_tips": "The system is halted when staying offline for the set period",
+  "stop_lease": "Stop Lease",
+  "value_range_min_max": "Value Range:{min}-{max}"
+}

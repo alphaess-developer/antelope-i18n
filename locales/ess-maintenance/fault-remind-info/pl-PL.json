@@ -1,0 +1,17 @@
+{
+  "battery_model": "Model akumulatora",
+  "compatible_battery_models_cannot_repeat": "Modele akumulatorów kompatybilnych nie mogą się powtarzać.",
+  "coverage_area_country": "Obszar/kraj",
+  "default_language": "Język domyślny",
+  "description": "Opis",
+  "empty_fault_tip": "Proszę podać opis przynajmniej w jednym języku",
+  "fault_tip_must_be_filled": "Opisy odpowiadające językowi domyślnemu nie mogą być puste",
+  "max_number_character": "Do {number} znaków",
+  "please_set_the_default_language": "Ustaw domyślny język",
+  "report_error": "Zgłoś błąd",
+  "set_as_default": "Ustaw jako domyślne",
+  "sn_coding_rules": "Zasady kodowania SN",
+  "sn_rules_not_allow_repeat": "Zasady identyfikacji SN nie mogą się powielać",
+  "status": "Stan",
+  "type": "Rodzaj"
+}

@@ -1,0 +1,9 @@
+{
+  "error_code": "Chybový kód",
+  "error_description": "Popis chyby",
+  "error_name": "Zkratka chyby",
+  "failure_level": "Úroveň chyby",
+  "fix_suggestion": "Návrh opravy",
+  "language": "Jazyk",
+  "title_trouble_shooting": "Řešení problémů"
+}

@@ -1,0 +1,19 @@
+{
+  "certificate_code": "Certificate Code",
+  "comp_name": "Company Name",
+  "confirm_queren": "OK",
+  "contact_person": "Contact Person",
+  "download_certificate": "Download certificate",
+  "email_sending_license": "Email Sending License",
+  "end_user": "End-user",
+  "generate_license": "Generate License",
+  "installer": "Installer",
+  "installer_name_anzhuanggong": "Installer Name",
+  "license": "License",
+  "mail": "E-mail Address",
+  "send_email_message": "License: {license} will be sent to the installer email {emali}, please confirm.",
+  "set_installer_info": "Set Installer Info",
+  "set_installer_information": "Set installer information",
+  "street_number_plus": "Street Number (Street + House Number)",
+  "telephone": "Contact number"
+}

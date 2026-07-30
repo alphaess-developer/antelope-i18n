@@ -1,0 +1,8 @@
+{
+  "abnormal_charge_discharge": "充放电异常",
+  "device_model": "机型",
+  "exceptionally_offline": "异常离线",
+  "multiple_name_sep": "多个{name}以‘|’分割",
+  "reseller": "分销商",
+  "time": "时间"
+}

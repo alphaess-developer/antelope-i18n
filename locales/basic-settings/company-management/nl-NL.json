@@ -1,0 +1,19 @@
+{
+  "associated_devices": "Gerelateerde apparaten",
+  "category": "Categorie",
+  "comp_name": "Bedrijfsnaam",
+  "company_no_license": "Het bedrijf heeft de licentie nog niet gekoppeld!",
+  "contact_person": "Contactpersoon",
+  "end_user": "Eindgebruiker",
+  "generate_license": "Licentie aanmaken",
+  "go_to_bind": "Naar koppelen",
+  "installer": "Installateur",
+  "investor": "Investeerder",
+  "license": "Licentie",
+  "mail": "E-mail vereist",
+  "primary_admin": "Primaire rekening",
+  "reseller": "Reseller",
+  "status": "Status",
+  "total_company": "Totaal aantal bedrijven",
+  "wholesaler": "groothandelaar"
+}

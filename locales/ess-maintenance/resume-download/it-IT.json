@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Consegna in batch",
+  "breakpoint_end_time": "Ora di fine del punto di interruzione",
+  "breakpoint_start_time": "Ora di inizio del punto di interruzione",
+  "command_is_issued": "Viene emesso il comando",
+  "data_completion_status": "Stato di completamento dei dati",
+  "data_validation": "Convalida dei dati",
+  "delivered": "Consegnato",
+  "interval_time_min": "Intervallo di tempo (min)",
+  "multiple_name_sep": "Più {name} inizia con '|' partizione",
+  "not_issued": "Non rilasciato",
+  "not_uploaded": "Non caricato",
+  "one_click_generation": "Generazione con un clic",
+  "partial_uploads": "Caricamenti parziali",
+  "please_select_records": "Seleziona i dati che desideri eseguire",
+  "scan_1": "scansione",
+  "selection_time": "Seleziona l'ora",
+  "the_command_is_issued": "Il comando viene emesso",
+  "the_upload_is_complete": "Il caricamento è completo",
+  "tips": "Avviso",
+  "type": "Tipo"
+}

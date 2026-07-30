@@ -1,0 +1,19 @@
+{
+  "certificate_code": "Code du certificat",
+  "comp_name": "Nom de l’entreprise",
+  "confirm_queren": "OK",
+  "contact_person": "Personne de contact",
+  "download_certificate": "Télécharger le certificat",
+  "email_sending_license": "Licence d’envoi d’e-mail",
+  "end_user": "Utilisateur final",
+  "generate_license": "Génération d’une licence",
+  "installer": "Installateur",
+  "installer_name_anzhuanggong": "Nom de l’installateur",
+  "license": "Licence",
+  "mail": "E-mail",
+  "send_email_message": "La licence : {license} sera envoyée à l’adresse e-mail de l’installateur {emali}, veuillez confirmer.",
+  "set_installer_info": "Ajout des informations de l’installateur",
+  "set_installer_information": "Saisir les informations relatives à l’installateur",
+  "street_number_plus": "Numéro de rue (numéro de rue + maison)",
+  "telephone": "Numéro de téléphone"
+}

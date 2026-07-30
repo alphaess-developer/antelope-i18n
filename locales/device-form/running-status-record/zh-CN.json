@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "请联系安装商进行解锁",
+  "content": "内容",
+  "current_status": "当前状态",
+  "latest_run_records": "最新运行记录",
+  "restart": "重启",
+  "restart_to_resolve": "重启系统可尝试解决该问题",
+  "status3_restart_tips": "重启预计需要三分钟，请三分钟后刷新页面查看进度，请确认？",
+  "status4_unlock_tips": "解锁预计需要三分钟，请三分钟后刷新页面查看进度，请确认？",
+  "unlock": "解锁",
+  "upload_time": "上传时间"
+}

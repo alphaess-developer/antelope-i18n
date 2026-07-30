@@ -1,0 +1,11 @@
+{
+  "area_list": "Lista area",
+  "area_name": "Nombre del área",
+  "charge_cut_off_soc": "Corte de carga SOC",
+  "click_for_details": "Haga clic para más detalles",
+  "load_shedding_msg_notification": "Notificación de mensaje LoadShedding",
+  "load_shedding_tips1": "Esta función carga de manera inteligente el sistema de almacenamiento de energía de acuerdo con el cronograma de cortes de energía en su área y el SOC de carga de corte establecido, lo que garantiza que usted y su familia puedan tener suficiente energía de respaldo durante los cortes de energía. La activación de esta función puede causar un aumento en el consumo de energía en el hogar. facturas de electricidad.",
+  "load_shedding_tips2": "Después de activar esta función, el sistema realizará un respaldo de energía inteligente basado en las condiciones de corte de energía local. Esta función es una operación de carga forzada. Si desea detener la carga, realice la operación \"Configuración de carga y descarga\" - \"Detener carga\".",
+  "load_shedding_tips3": "Después de activar esta función, se le enviará un recordatorio de información de respaldo de energía según la situación del corte de energía local.",
+  "region": "Región"
+}

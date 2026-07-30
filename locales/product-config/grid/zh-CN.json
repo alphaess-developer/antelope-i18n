@@ -1,0 +1,22 @@
+{
+  "add_name": "新增 - {name}",
+  "at_least_one_data": "至少有一条数据",
+  "canonical_coding": "规范编码",
+  "edit_name": "编辑 - {name}",
+  "ems_code": "EMS编码",
+  "ems_firmware_version": "EMS软件版本号",
+  "grid_connection_specifications": "并网规范",
+  "national_grid_connection_norms": "国家并网规范",
+  "phase": "相位",
+  "publishing_agency": "发布机构",
+  "regional_standards": "区域标准",
+  "single_phase": "单相",
+  "specification_name": "规范名称",
+  "split_phase": "裂相",
+  "support_sub_code": "是否包含区域标准",
+  "support_version_control": "是否支持版本控制",
+  "three_phase": "三相",
+  "upgrade_version": "版本",
+  "validity_period": "有效期",
+  "version_description": "版本描述"
+}

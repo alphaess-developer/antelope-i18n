@@ -1,0 +1,10 @@
+{
+  "device_status": "Estado del sistema",
+  "lease_status": "Estado del suministro",
+  "normal_lease": "Suministro normal",
+  "normal_lease_tips": "Suministro normal: el inversor funciona con normalidad. Detener suministro: se envía una instrucción al inversor por el EMS, tras lo cual el inversor no puede generar electricidad ni puede invertir (la batería no puede cargar ni descargar, el PV no puede generar electricidad), pero puede adquirir electricidad de la red de desviación para suministrar energía a la carga.",
+  "offline_days": "Periodo de espera por inactividad",
+  "offline_days_tips": "El sistema se detiene si se está desconectado más tiempo del periodo designado.",
+  "stop_lease": "Detener suministro",
+  "value_range_min_max": "rango de valores:{min}-{max}"
+}

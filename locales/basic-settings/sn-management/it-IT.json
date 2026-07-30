@@ -1,0 +1,11 @@
+{
+  "check_code": "Controlla il codice",
+  "data_center": "Centro dati",
+  "del_sys_data": "Elimina dati di sistema",
+  "delete_sn_related_system_data": "Elimina i dati di sistema correlati a {sn}",
+  "household_savings_platform": "Piattaforma di risparmio domestico",
+  "micro_storage_platform": "Piattaforma di micro-accumulo",
+  "product_category": "Categoria di prodotto",
+  "socket_data_center": "Centro dati Socket",
+  "view_check_code": "Visualizza codice di controllo"
+}

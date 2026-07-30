@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Usunięcie pakietu",
+  "cycle_count": "Liczba cykli",
+  "cycle_duration_min": "Czas trwania cyklu [min]",
+  "cycle_task": "Zadanie cykliczne",
+  "end_time_ems_time": "Czas zakończenia (czas EMS)",
+  "min_pv": "Min. Wartość mocy [W]",
+  "no_match_data": "Dane nie istnieją lub zostały usunięte",
+  "running_state": "Stan pracy",
+  "select_date_time": "Wybierz datę godzinę",
+  "single_task": "Pojedyncze zadanie",
+  "start_time_ems": "Czas rozpoczęcia (czas EMS)"
+}

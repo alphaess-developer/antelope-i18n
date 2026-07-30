@@ -1,0 +1,16 @@
+{
+  "active": "Active",
+  "ct_tip": "If the meter is configured with a CT/CTs, 'CT' button needs to be ticked, then, the CT ratio can be edited. P.S. only for Acrel ADL3000 CT meter or ACR10R CT meter, the 'CT' button should be ticked.",
+  "grid_connected_meter": "Grid Connected Meter",
+  "grid_side_meter": "Grid Meter",
+  "hardware_version": "Hardware Version",
+  "meter_ct": "Meter CT ratio",
+  "meter_ct_rate": "the rated magnification ratio of CT",
+  "meter_mode": "Meter Model",
+  "meter_on_grid_tips": "In grid connected system, if a meter is installed on the grid side, please click the 'meter' button. If a CT is connected on the grid side directly, please click the 'CT' button.",
+  "meter_on_pv_tips": "In AC-/ hybrid-coupled work mode, if a meter is installed on the PV-inverter side, please click the 'meter' button . If a CT is directly connected on PV-inverter side, please click the 'CT' button.",
+  "pv_side_meter": "PV Side Meter",
+  "software_version": "Firmware Version",
+  "unactive": "Not Actived",
+  "wireless_meter": "Wireless Meter"
+}

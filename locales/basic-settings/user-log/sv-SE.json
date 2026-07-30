@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Tidpunkt för händelse",
+  "log_type": "Loggtyp",
+  "origin": "Ursprung",
+  "record_date": "Registreringsdatum",
+  "separate": "Separera flera SN med |",
+  "view_log_content": "Visa logginnehåll"
+}

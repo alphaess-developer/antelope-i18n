@@ -1,0 +1,10 @@
+{
+  "device_status": "Stato del sistema",
+  "lease_status": "Stato della locazione",
+  "normal_lease": "Locazione normale",
+  "normal_lease_tips": "Locazione normale: l'inverter funziona normalmente. Interruzione locazione: l'EMS invia un'istruzione all'inverter. Successivamente l'inverter non può generare elettricità e non può invertire (la batteria non può caricare o scaricare, il fotovoltaico non può generare elettricità), ma può acquistare elettricità dalla rete di bypass per fornire energia al carico.",
+  "offline_days": "Periodo di timeout offline",
+  "offline_days_tips": "Il sistema si arresta quando resta offline per il periodo impostato.",
+  "stop_lease": "Interruzione locazione",
+  "value_range_min_max": "Intervallo di valori:{min}-{max}"
+}

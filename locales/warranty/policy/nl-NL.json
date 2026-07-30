@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Standaardgarantie",
+  "battery": "Batterij",
+  "begin_time": "Start Tijd",
+  "device_name": "Naam van het apparaat",
+  "device_type": "Uitrustingstype",
+  "end_time": "Eind tijd",
+  "extended_warranty": "Verlengde garantie",
+  "high_standard_warranty": "Hoge garantie",
+  "invalid": "Ongeldig",
+  "inverter": "Omvormer",
+  "model_device": "Apparaatmodel",
+  "modify_warranty_period": "Pas de garantieperiode aan",
+  "order_time": "Besteltijd",
+  "performance_warranty": "Prestatiegarantie",
+  "product_specifications": "Productspecificaties",
+  "purchase_required": "Aankoop vereist",
+  "status": "Status",
+  "valid": "Geldig",
+  "valid_time": "Geldige tijd",
+  "warranty_type": "Garantietype",
+  "whether_you_need_to_buy_it": "Of je het nu moet kopen"
+}

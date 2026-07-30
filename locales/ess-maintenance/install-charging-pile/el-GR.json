@@ -1,0 +1,17 @@
+{
+  "abnormal": "Μη φυσιολογική κατάσταση",
+  "are_you_sure_to_unbind_the_charging_pile": "Επιβεβαίωση αποσύνδεσης του Wallbox;",
+  "charging_pile_sn": "Σειριακός αριθμός (SN) Wallbox",
+  "charging_pile_type": "Μοντέλο Wallbox",
+  "charging_pile_type_enter_tip": "Εισαγάγετε πρώτα το SN του Wallbox και το SN του συστήματος.",
+  "datetime": "Ημερομηνία/ώρα",
+  "device_status": "Κατάσταση συστήματος",
+  "install_charging_pile": "Εγκατάσταση Wallbox",
+  "install_date": "Ημερομηνία εγκατάστασης",
+  "normal": "Κανονικό",
+  "sn_check_code": "Κωδικός ελέγχου σειριακού αριθμού",
+  "supported_charging_pile_sn_suffix_formats": "Υποστηριζόμενες μορφές επιθήματος SN του Wallbox:",
+  "supported_charging_pile_sn_suffix_formats_tip": "{index}. Τελειώνοντας με \"{rule}\" → {model}",
+  "unbind": "Αποσύνδεση",
+  "warning": "Προειδοποίηση"
+}

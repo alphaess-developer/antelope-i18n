@@ -1,0 +1,11 @@
+{
+  "calibrate_now": "Kalibrera nu",
+  "calibration_cycle": "Kalibreringscykel",
+  "calibration_estimated_time": "Kalibrering pågår, beräknad tid: {num} min",
+  "days": "Dag",
+  "next_calibration_date": "Nästa kalibreringsdatum",
+  "next_calibration_time": "Nästa kalibreringstid",
+  "periodic_calibration": "Periodisk kalibrering",
+  "soc_calibration": "SOC-kalibrering",
+  "stop_calibration": "Stoppa kalibrering"
+}

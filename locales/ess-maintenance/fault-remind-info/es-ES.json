@@ -1,0 +1,17 @@
+{
+  "battery_model": "Modelo de batería",
+  "compatible_battery_models_cannot_repeat": "La batería compatible no se puede repetir",
+  "coverage_area_country": "Área de cobertura/país",
+  "default_language": "Idioma por defecto",
+  "description": "Descripción",
+  "empty_fault_tip": "Por favor, proporciona una descripción en al menos un idioma",
+  "fault_tip_must_be_filled": "Las descripciones correspondientes al idioma predeterminado no pueden estar vacías",
+  "max_number_character": "Hasta {number} caracteres",
+  "please_set_the_default_language": "Establezca el idioma predeterminado",
+  "report_error": "Informar de un error",
+  "set_as_default": "Establecer como predeterminado",
+  "sn_coding_rules": "Reglas de codificación SN",
+  "sn_rules_not_allow_repeat": "Las reglas de identificación de SN no permiten la duplicación",
+  "status": "Estado",
+  "type": "Tipo"
+}

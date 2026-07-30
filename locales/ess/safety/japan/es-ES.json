@@ -1,0 +1,22 @@
+{
+  "area": "Área",
+  "control_power_output": "Control de salida",
+  "detect_time": "Tiempo de detección",
+  "manual_reset": "Reinicio manual",
+  "manual_reset_enable": "Habilitar reinicio manual",
+  "manual_reset_setting": "Interruptor de reinicio manual",
+  "no_power_control": "Control de potencia ineficaz",
+  "off_short": "Apagado",
+  "on_short": "Encendido",
+  "operating_power_factor": "Control de factor de potencia constante",
+  "over_f": "Relé de sobrefrecuencia de CA",
+  "over_v": "Relé de sobretensión de CA",
+  "passive_island_detect": "Detección pasiva de funcionamiento en isla",
+  "power_recovery_delay": "Retardo de tiempo fijo después de la reconexión de la energía",
+  "set_time": "Hora de configuración",
+  "set_value": "Valor de configuración",
+  "suppression_voltage_degree": "Función de supresión del aumento de tensión",
+  "under_f": "Relé de subfrecuencia de CA",
+  "under_v": "Relé de subtensión de CA",
+  "voltage_phase_jump_detect": "Método de detección de salto de fase de tensión"
+}

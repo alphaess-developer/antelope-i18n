@@ -1,0 +1,19 @@
+{
+  "all": "全部",
+  "backup_box_error": "BackupBox错误",
+  "bms_error": "BMS错误",
+  "clean_time": "清除时间",
+  "ems_error": "EMS错误",
+  "error_code": "故障代码",
+  "event_happen_time": "发生时间",
+  "fault_category": "故障类别",
+  "fault_info": "故障信息",
+  "inv_error": "逆变器错误",
+  "inv_warning": "逆变器警告",
+  "level": "等级",
+  "meter_error": "电表错误",
+  "other_error": "其他错误",
+  "selection_time": "选择时间",
+  "status": "状态",
+  "system_sn": "系统SN"
+}

@@ -1,0 +1,16 @@
+{
+  "active": "Attivo",
+  "ct_tip": "Se il misuratore è configurato con un CT/CTs, il pulsante 'CT' deve essere spuntato, quindi il rapporto CT può essere modificato. P.S. Solo per il misuratore Acrel ADL3000 CT o ACR10R CT, il pulsante 'CT' deve essere spuntato.",
+  "grid_connected_meter": "Contatore connesso alla rete",
+  "grid_side_meter": "Contatore lato rete",
+  "hardware_version": "Versione hardware",
+  "meter_ct": "Rapporto CT del misuratore",
+  "meter_ct_rate": "il rapporto di ingrandimento nominale di CT",
+  "meter_mode": "Modello misuratore",
+  "meter_on_grid_tips": "Nel sistema collegato alla rete, se un contatore è installato sul lato della rete, clicchi il pulsante 'contatore'. Se un CT è collegato direttamente alla rete, clicchi il pulsante 'CT'.",
+  "meter_on_pv_tips": "In modalità di lavoro accoppiato AC/ibrido, se un contatore è installato sul lato PV-inverter, clicchi il pulsante 'meter' . Se un CT è collegato direttamente sul lato PV-inverter, clicchi il pulsante 'CT'.",
+  "pv_side_meter": "Contatore lato fotovoltaico",
+  "software_version": "Versione software",
+  "unactive": "inattivato",
+  "wireless_meter": "Contatore wireless"
+}

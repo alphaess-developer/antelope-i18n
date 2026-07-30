@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Suppression groupée",
+  "cycle_count": "Compteur de cycles",
+  "cycle_duration_min": "Durée de cycle [min]",
+  "cycle_task": "Tâche de cycle",
+  "end_time_ems_time": "Temps de fin (temps EMS)",
+  "min_pv": "Valeur de puissance min. [W]",
+  "no_match_data": "Les données n'existent pas ou ont été supprimées",
+  "running_state": "État de fonctionnement",
+  "select_date_time": "Sélection de la date et de l’heure",
+  "single_task": "Tâche unique",
+  "start_time_ems": "Temps de démarrage (temps EMS)"
+}

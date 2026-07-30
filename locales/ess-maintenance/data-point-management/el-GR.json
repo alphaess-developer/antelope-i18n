@@ -1,0 +1,8 @@
+{
+  "data_center": "Κέντρο δεδομένων",
+  "data_center_list": "Λίστα κέντρων δεδομένων",
+  "data_center_name": "Όνομα κέντρου δεδομένων",
+  "data_upload_domain": "Όνομα τομέα μεταφόρτωσης δεδομένων",
+  "is_encrypt_transmission": "Κρυπτογράφηση μετάδοσης",
+  "port_number": "Αριθμός θύρας"
+}

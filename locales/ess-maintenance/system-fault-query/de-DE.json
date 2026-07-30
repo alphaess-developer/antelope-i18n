@@ -1,0 +1,19 @@
+{
+  "all": "Alle",
+  "backup_box_error": "Backup Box Fehler",
+  "bms_error": "BMS-Fehler",
+  "clean_time": "Löschzeitpunkt",
+  "ems_error": "EMS-Fehler",
+  "error_code": "Fehlercode",
+  "event_happen_time": "Auftretenszeit",
+  "fault_category": "Fehlerkategorie",
+  "fault_info": "Störungsinformationen",
+  "inv_error": "Wechselrichter - Fehler",
+  "inv_warning": "Wechselrichter - Warnung",
+  "level": "Fehlerstufe",
+  "meter_error": "Stromzähler-Fehler",
+  "other_error": "Andere Fehler",
+  "selection_time": "Auswahlzeitraum",
+  "status": "Status",
+  "system_sn": "System SN"
+}

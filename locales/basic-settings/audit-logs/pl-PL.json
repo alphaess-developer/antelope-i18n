@@ -1,0 +1,14 @@
+{
+  "audit_log": "Dziennik audytu",
+  "device": "Urządzenie",
+  "installer": "Instalator",
+  "no_field_changes": "Brak zmian na boisku",
+  "num_changes": "{num} zmiany",
+  "open_api": "Open API",
+  "payload_codec_unsupported": "Format zmian w tym rekordzie nie jest obecnie obsługiwany dla wyświetlania",
+  "schedule_task": "Zadanie zaplanowane",
+  "show_empty_changes": "Pokaż rekordy bez zmian",
+  "system": "System",
+  "total_changes": "{num} zmiany całkowite",
+  "user": "użytkownik"
+}

@@ -1,0 +1,16 @@
+{
+  "active": "Activo",
+  "ct_tip": "Si el medidor está configurado con un CT/CTs, se debe marcar el botón 'CT' y luego se puede editar la relación CT. PD solo para el medidor CT Acrel ADL3000 o el medidor CT ACR10R, el botón 'CT' debe estar marcado.",
+  "grid_connected_meter": "Medidor conectado a la red",
+  "grid_side_meter": "Medidor de red",
+  "hardware_version": "Versión del hardware",
+  "meter_ct": "Relación de CT del medidor",
+  "meter_ct_rate": "La relación de aumento nominal de CT",
+  "meter_mode": "Modelo de medidor",
+  "meter_on_grid_tips": "En un sistema conectado a la red, si hay un medidor instalado en el lado de la red, haga clic en el botón 'medidor'. Si un CT está conectado en el lado de la red directamente, haga clic en el botón 'CT'.",
+  "meter_on_pv_tips": "En el modo de trabajo acoplado a AC/híbrido, si hay un medidor instalado en el lado del inversor fotovoltaico, haga clic en el botón 'medidor'. Si un CT está conectado directamente en el lado del inversor fotovoltaico, haga clic en el botón 'CT'.",
+  "pv_side_meter": "Medidor lateral fotovoltaico",
+  "software_version": "Versión del software",
+  "unactive": "Inactivo",
+  "wireless_meter": "Medidor inalámbrico"
+}

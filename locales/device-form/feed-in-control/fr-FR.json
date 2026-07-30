@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "Au moins une donnée",
+  "charge_cut_off_soc": "Arrêt de la charge à un SOC de",
+  "discharge_cut_off_soc": "Arrêt de la décharge à un SOC de",
+  "feed_control_tip": "<p>       Dear Customer, <br />       To facilitate the activation of the feature enabling direct power discharge from your electricity storage system to the grid, we kindly request your       confirmation of the following:       <br />       1. Your installation address is situated within the jurisdiction of <strong>{country}</strong>; <br />       2. You possess a current, legally binding agreement with your local grid company as a prerequisite for enabling the direct discharge of power from your       electricity storage system and/or photovoltaic system into the grid.       <br /> <strong>       Non-compliance with the above conditions may lead to safety hazards and potential legal entanglements, for which you will bear full responsibility. If you       do not meet all the above conditions, you should not confirm and will not be able to use the feature to enable the direct power discharge from your       electricity storage system to the grid. </strong>       <br />       Your attention to and cooperation with the above prerequisites is greatly appreciated.     </p>",
+  "feed_disabled_tip": "Lors de la planification des VPP, le contrôle des alimentateurs est désactivé",
+  "feed_energy_report": "Rapport énergétique de l'injection au réseau",
+  "feed_in_control": "Contrôle de l'injection",
+  "feed_in_function": "Fonction d'injection",
+  "feed_in_power": "Puissance d'injection",
+  "feed_in_time_period": "Période d’injection",
+  "feed_power_info": "La puissance d’injection au réseau est fixée en tant que limite haute. Une fois que la puissance de sortie du système alimente la charge, toute la puissance restante est injectée dans le réseau. La puissance d’injection au réseau réelle peut ainsi varier dans une certaine plage en raison des changements de la charge.",
+  "home_ups_soc_tip": "Votre réserve actuelle d’UPS est la suivante :",
+  "smart_charging": "Charge intelligente",
+  "start_less_than_end": "Le temps de démarrage doit être antérieur au temps d’arrêt.",
+  "time_period_num": "Période {num}",
+  "time_period_overlap": "Croisement de périodes",
+  "today_feed_in": "Injection pour aujourd’hui"
+}

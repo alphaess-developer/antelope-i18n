@@ -1,0 +1,13 @@
+{
+  "ap_module": "AP-Modul",
+  "arm_software_version": "Versionsnummer der ARM-Software",
+  "emsboot_version": "EMS Boot Versionsnummer",
+  "hardware_version": "Hardwareversion",
+  "inverter": "Wechselrichter",
+  "model": "Modell",
+  "platform": "Plattform",
+  "slave_software_version": "Versionsnummer der Slave-Software",
+  "software_version": "Firmwareversion",
+  "sta_module": "STA-Modul",
+  "wireless_meter": "Drahtloser Zähler"
+}

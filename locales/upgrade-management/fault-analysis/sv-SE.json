@@ -1,0 +1,9 @@
+{
+  "error_code": "Felkod",
+  "error_description": "Felbeskrivning",
+  "error_name": "Felnamn",
+  "failure_level": "Felnivå",
+  "fix_suggestion": "Åtgärdsförslag",
+  "language": "Språk",
+  "title_trouble_shooting": "Felsökning"
+}

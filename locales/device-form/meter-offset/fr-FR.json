@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Activation de l’assistance en alimentation limitée",
+  "end_time_num": "Heure de fin {num}",
+  "meter_offset": "Puissance de compensation du compteur",
+  "power_rationing_support": "Assistance en alimentation pendant le délestage de charge",
+  "start_time_num": "Heure de début {num}",
+  "time_period_num": "Période {num}"
+}

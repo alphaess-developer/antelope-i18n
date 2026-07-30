@@ -1,0 +1,19 @@
+{
+  "all": "Todo",
+  "backup_box_error": "Error de copia de seguridad",
+  "bms_error": "Error BMS",
+  "clean_time": "Tiempo claro",
+  "ems_error": "Error de EMS",
+  "error_code": "Código de error",
+  "event_happen_time": "Hora Ocurrida",
+  "fault_category": "Categoría de falla",
+  "fault_info": "Información de falla",
+  "inv_error": "Error del inversor",
+  "inv_warning": "Advertencia de inversor",
+  "level": "Nivel",
+  "meter_error": "Error del medidor",
+  "other_error": "Otro error",
+  "selection_time": "Período de selección",
+  "status": "Estado",
+  "system_sn": "Número de serie del sistema"
+}

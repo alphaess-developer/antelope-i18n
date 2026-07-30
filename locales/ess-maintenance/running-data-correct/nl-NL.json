@@ -1,0 +1,6 @@
+{
+  "batch_delete": "Bulk verwijderen",
+  "batch_delete_confirm": "Weet u zeker dat u de geselecteerde {count} records wilt verwijderen?",
+  "device_time_zone": "Apparaattijdzone",
+  "generate_report": "Genereer rapporten met één klik"
+}

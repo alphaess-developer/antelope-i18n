@@ -1,0 +1,22 @@
+{
+  "activate": "Aktivieren",
+  "activated": "Aktiviert",
+  "channel_type": "Kanaltyp",
+  "content": "Inhalt",
+  "deactivate": "Deaktivieren",
+  "deactivated": "Deaktiviert",
+  "disabled": "Deaktiviert",
+  "empty_template_content_tip": "Du musst die Vorlageninhalte in mindestens einer Sprache ausfüllen",
+  "enable_alt": "aktiviert",
+  "enabled": "Aktiviert",
+  "extra_params": "Zusätzliche Parameter",
+  "group_type": "Art der Gruppe",
+  "mail": "E-Mail-Adresse",
+  "notice": "Benachrichtigung",
+  "push": "Push",
+  "status": "Status",
+  "template_code": "Vorlagen-Code",
+  "template_content": "Vorlageninhalt",
+  "template_name": "Vorlagenname",
+  "title": "Titel"
+}

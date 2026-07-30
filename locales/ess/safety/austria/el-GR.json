@@ -1,0 +1,7 @@
+{
+  "absolute_value_rang": "Εύρος απόλυτων τιμών: {min}~{max}",
+  "defaults": "Προεπιλογές",
+  "print": "Εκτυπώστε",
+  "range_string": "Εύρος: {string}",
+  "update_time": "Ώρα ενημέρωσης"
+}

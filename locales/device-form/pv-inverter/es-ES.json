@@ -1,0 +1,8 @@
+{
+  "pv_inv_info": "Información del inversor fotovoltaico",
+  "pv_inv_model": "Modelo de inversor fotovoltaico",
+  "pv_inv_pos": "Lugar de instalación de la máquina conectada a la red",
+  "pv_inv_quantity": "Cantidad de inversores fotovoltaicos",
+  "sts_grid_side": "Lado de red STS",
+  "sts_load_side": "Lado de carga STS"
+}

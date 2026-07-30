@@ -1,0 +1,17 @@
+{
+  "battery_model": "Μοντέλο μπαταρίας",
+  "compatible_battery_models_cannot_repeat": "Τα συμβατά μοντέλα μπαταρίας δεν μπορούν να επαναλαμβάνονται.",
+  "coverage_area_country": "Περιοχή/χώρα κάλυψης",
+  "default_language": "Προεπιλεγμένη γλώσσα",
+  "description": "Περιγραφή",
+  "empty_fault_tip": "Παρακαλείσθε να δώσετε μια περιγραφή σε τουλάχιστον μία γλώσσα",
+  "fault_tip_must_be_filled": "Οι περιγραφές που αντιστοιχούν στην προεπιλεγμένη γλώσσα δεν μπορούν να είναι κενές",
+  "max_number_character": "Έως {number} χαρακτήρες",
+  "please_set_the_default_language": "Παρακαλώ ορίστε την προεπιλεγμένη γλώσσα",
+  "report_error": "Σφάλμα αναφοράς",
+  "set_as_default": "Ορισμός ως προεπιλογής",
+  "sn_coding_rules": "Κανόνες κωδικοποίησης SN",
+  "sn_rules_not_allow_repeat": "Οι κανόνες αναγνώρισης SN δεν επιτρέπεται να αντιγραφούν",
+  "status": "Κατάσταση",
+  "type": "Τύπος"
+}

@@ -1,0 +1,11 @@
+{
+  "build_status": "Build status",
+  "exception_date": "Exception date",
+  "generate_reports": "Generate reports",
+  "multiple_name_sep": "Multiple {name} starts with '|' partition",
+  "one_click_generation": "One-click generation",
+  "please_select_records": "Select the data you want to execute",
+  "scan_1": "Scan",
+  "selection_time": "Select Time",
+  "type": "Type"
+}

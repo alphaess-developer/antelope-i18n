@@ -1,0 +1,9 @@
+{
+  "error_code": "Κωδικός λάθους",
+  "error_description": "Περιγραφή σφάλματος",
+  "error_name": "Συντομογραφία σφάλματος",
+  "failure_level": "Επίπεδο αποτυχίας",
+  "fix_suggestion": "Συστάσεις επιδιόρθωσης",
+  "language": "Γλώσσα",
+  "title_trouble_shooting": "Επίλυση σφαλμάτων"
+}

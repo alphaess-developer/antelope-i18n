@@ -1,0 +1,20 @@
+{
+  "address": "Adress",
+  "basic_information": "Grundläggande information",
+  "electricity_tariff_info": "Eltariff",
+  "installed_capacity": "Installerad kapacitet",
+  "installed_power": "Installerad effekt",
+  "number_of_ess": "Antal energilagringssystem",
+  "number_of_other_devices": "Antal tillbehör",
+  "overview": "Översikt",
+  "price_set": "Inställning av eltariff",
+  "set": "Inställningar",
+  "site_address": "Platsadress",
+  "site_basic_info": "Grundläggande platsinformation",
+  "site_devices": "Enheter",
+  "site_information": "Platsinformation",
+  "site_mode": "Platsläge",
+  "site_name": "Platsnamn",
+  "site_not_bound_user": "Platsen är inte kopplad till en användare",
+  "user_name": "Användarnamn"
+}

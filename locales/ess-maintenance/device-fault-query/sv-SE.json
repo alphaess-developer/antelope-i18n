@@ -1,0 +1,8 @@
+{
+  "device_model": "Modell",
+  "error_code": "Felkod",
+  "license": "Licens",
+  "multiple_name_sep": "Flera {name} avgränsas med '|'",
+  "reseller": "Återförsäljare",
+  "time": "Tid"
+}

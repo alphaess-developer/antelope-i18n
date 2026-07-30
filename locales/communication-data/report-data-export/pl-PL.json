@@ -1,0 +1,7 @@
+{
+  "energy_details_data": "Szczegółowe dane dotyczące energii elektrycznej",
+  "energy_summary_data": "Podsumowanie danych dotyczących energii elektrycznej",
+  "power_data": "Dane dotyczące mocy",
+  "time_interval_cannot_exceed_31_days": "Przedział czasowy wejścia nie może przekroczyć 31 dni",
+  "time_interval_cannot_exceed_num_days": "Interwał czasu wejścia nie może przekroczyć {num} dni"
+}

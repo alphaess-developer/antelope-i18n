@@ -1,0 +1,11 @@
+{
+  "area_list": "Gebiedslijst",
+  "area_name": "Gebiedsnaam",
+  "charge_cut_off_soc": "Het laden stopt bij de volgende laadtoestand (SOC)",
+  "click_for_details": "Klik voor details",
+  "load_shedding_msg_notification": "Berichtmelding van LoadShedding",
+  "load_shedding_tips1": "Deze functie laadt het energieopslagsysteem op intelligente wijze op, gebaseerd op het stroomuitvalschema in uw regio en de ingestelde eindlaad-SOC, zodat u en uw gezin voldoende back-upenergie hebben tijdens stroomuitval. Het activeren van deze functie kan een verhoging van de huishoudelijke elektriciteitsrekening veroorzaken.",
+  "load_shedding_tips2": "Nadat u deze functie hebt ingeschakeld, voert het systeem een intelligente stroomback-up uit op basis van de lokale stroomuitval. Deze functie is een geforceerde oplaadbewerking. Als u het opladen wilt stoppen, voert u de bewerking 'Instellingen voor opladen en ontladen' - 'Opladen stoppen' uit.",
+  "load_shedding_tips3": "Nadat u deze functie hebt ingeschakeld, wordt er een herinnering met informatie over de stroomback-up naar u verzonden op basis van de plaatselijke stroomstoring.",
+  "region": "Regio"
+}

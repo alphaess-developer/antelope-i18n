@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Offset der eingeschränkten Leistung aktivieren",
+  "end_time_num": "Endzeit {num}",
+  "meter_offset": "Zähler-Offset",
+  "power_rationing_support": "Leistungsbegrenzungsunterstützung",
+  "start_time_num": "Startzeit {num}",
+  "time_period_num": "Zeitrahmen {num}"
+}

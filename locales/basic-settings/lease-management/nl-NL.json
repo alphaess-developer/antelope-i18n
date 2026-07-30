@@ -1,0 +1,10 @@
+{
+  "device_status": "Status van het systeem",
+  "lease_status": "Leasestatus",
+  "normal_lease": "Normale lease",
+  "normal_lease_tips": "Normale lease: De omvormer werkt als gebruikelijk. Lease beëindigen: Er wordt een instructie naar de omvormer gestuurd door het EMS, waarna de omvormer geen elektriciteit kan genereren en deze niet kan omzetten (de accu kan niet worden opgeladen of ontladen, de PV kan geen elektriciteit genereren), maar het kan elektriciteit inkopen van het bypassnet om elektriciteit te leveren aan de belasting.",
+  "offline_days": "Offline time-outperiode",
+  "offline_days_tips": "Het systeem wordt gestopt wanneer het gedurende de ingestelde periode offline blijft",
+  "stop_lease": "Lease beëindigen",
+  "value_range_min_max": "waardebereik:{min}-{max}"
+}

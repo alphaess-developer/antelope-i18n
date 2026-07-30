@@ -1,0 +1,6 @@
+{
+  "batch_delete": "Eliminar en lote",
+  "batch_delete_confirm": "¿Está seguro de que desea eliminar los {count} registros seleccionados?",
+  "device_time_zone": "Huso horario del dispositivo",
+  "generate_report": "Genera informes con un solo clic"
+}

@@ -1,0 +1,14 @@
+{
+  "audit_log": "审计日志",
+  "device": "设备",
+  "installer": "安装商",
+  "no_field_changes": "无字段变更",
+  "num_changes": "{num} 项变更",
+  "open_api": "开放接口",
+  "payload_codec_unsupported": "该记录的变更内容格式暂不支持展示",
+  "schedule_task": "定时任务",
+  "show_empty_changes": "显示无变更记录",
+  "system": "系统",
+  "total_changes": "共 {num} 次变更",
+  "user": "用户"
+}

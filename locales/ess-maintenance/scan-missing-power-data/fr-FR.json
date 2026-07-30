@@ -1,0 +1,11 @@
+{
+  "build_status": "État de la build",
+  "exception_date": "Date d’exception",
+  "generate_reports": "Générer des rapports",
+  "multiple_name_sep": "Plusieurs {name} sont séparés par '|'",
+  "one_click_generation": "Génération en un clic",
+  "please_select_records": "Sélectionnez les données que vous souhaitez exécuter",
+  "scan_1": "Scanner",
+  "selection_time": "Sélectionner une date/heure",
+  "type": "Type"
+}

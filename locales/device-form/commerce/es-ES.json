@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "Habilitar función de doble alimentación",
+  "gen_power": "Generador de diesel",
+  "generator_enable_before_shutdown": "Generador diésel encendido antes del apagado del PCS",
+  "grid_consum_power_upper_limit": "Potencia máxima a través del contador: el límite superior de la potencia de consumo de red",
+  "grid_power": "Red",
+  "industry_info": "Información del sistema comercial e industrial",
+  "io_expansion_module": "¿Hay un módulo de expansión IO?",
+  "max_grid_charge_tooltip": "Potencia máxima de carga de red: el límite superior de la potencia de carga de CA de las funciones de carga forzada (calibración direccional del estado de carga, calibración automática del estado de carga, carga forzada de baja tensión y períodos de carga)",
+  "max_meter_passing_power": "Potencia máxima a través del medidor (kW)",
+  "maximum_grid_charging_power": "Potencia máxima de carga de red",
+  "off_grid_cut_off_soc": "Fuera de la red: SOC para desconexión de carga",
+  "power_type": "Modo de fuente de alimentación de CA",
+  "pure_battery_enable": "Habilitar función de batería pura",
+  "resume_soc": "Fuera de la red: SOC para reconexión de carga",
+  "soc_calibrate": "Calibración automática SOC",
+  "soc_orientation_check": "Calibración direccional SOC",
+  "sts_enable": "STS",
+  "system_model": "Modelo de sistema"
+}

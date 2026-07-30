@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "Cannot contain \\, \" or :. Length must be 8–15 characters.",
+  "network_type": "Network Type",
+  "wifi_hardware_version": "Wi-Fi Hardware Version",
+  "wifi_manage": "Wi-Fi Management",
+  "wifi_module_sn": "Wi-Fi Module SN",
+  "wifi_pwd": "Wi-Fi Password",
+  "wifi_pwd_error": "The password must include uppercase letters, lowercase letters, numbers, and special characters (excluding spaces, counter slash \\, and colon :). It should be at least 8 characters long (up to a maximum of 15 characters) and should not contain repeated or consecutive characters.",
+  "wifi_software_version": "Wi-Fi Software Version"
+}

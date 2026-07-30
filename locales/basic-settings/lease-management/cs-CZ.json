@@ -1,0 +1,10 @@
+{
+  "device_status": "Stav systému",
+  "lease_status": "Stav pronájmu",
+  "normal_lease": "Normální pronájem",
+  "normal_lease_tips": "Normální pronájem: Měnič pracuje jako obvykle. Zastavení pronájmu: EMS vyšle měniči pokyn, po kterém měnič nemůže vyrábět elektřinu a nemůže invertovat proud (baterie se nemůže nabíjet ani vybíjet, fotovoltaika nemůže vyrábět elektřinu), ale může nakupovat elektřinu ze sítě a dodávat ji do zátěže.",
+  "offline_days": "Doba vypršení offline",
+  "offline_days_tips": "Systém se zastaví, pokud zůstane offline po nastavenou dobu",
+  "stop_lease": "Zastavit pronájem",
+  "value_range_min_max": "Rozsah hodnot: {min}–{max}"
+}

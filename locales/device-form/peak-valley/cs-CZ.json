@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "Záložní rezerva baterie nesmí překročit SOC pro ukončení vybíjení při vyhlazování špiček {soc}%",
+  "difference": "Rozdíl",
+  "discharge_cut_off_soc": "Hodnota SOC pro odpojení vybíjení",
+  "end_more_than_begin": "Čas ukončení musí být později než čas zahájení",
+  "hysteresis_value": "Hodnota hystereze",
+  "meter_time1_end": "Období 1 – konec",
+  "meter_time1_start": "Období 1 – začátek",
+  "meter_time2_end": "Období 2 – konec",
+  "meter_time2_start": "Období 2 – začátek",
+  "peak_cycle": "Cyklus vyhlazování špiček",
+  "peak_periods": "Doba vyhlazování špiček",
+  "peak_shaving_discharge_soc_conflict": "SOC pro ukončení vybíjení nesmí být nižší než záložní rezerva baterie {soc}%",
+  "peak_shaving_valley_filling": "Vyhlazování špiček a plnění údolí",
+  "peak_valley_period_overlap": "Období vyhlazování špiček a období plnění údolí se nesmí překrývat.",
+  "peak_valley_value_conflict": "Nastavení hodnoty v režimu špičky a v režimu nízkého tarifu jsou v rozporu, resetujte je.",
+  "peak_value": "Špičková hodnota",
+  "peak_value_tip": "Nastavte prosím maximální povolený výkon spotřebiče v domácnosti (tato funkce platí pouze pro spotřebiče připojené k síti).",
+  "valley_cycle": "Cyklus plnění údolí",
+  "valley_periods": "Doba plnění údolí",
+  "valley_value": "Hodnota nízkého tarifu"
+}

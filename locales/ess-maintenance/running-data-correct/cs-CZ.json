@@ -1,0 +1,6 @@
+{
+  "batch_delete": "Hromadně odstranit",
+  "batch_delete_confirm": "Opravdu chcete odstranit vybrané {count} záznamy?",
+  "device_time_zone": "Časové pásmo zařízení",
+  "generate_report": "Generujte zprávy jedním kliknutím"
+}

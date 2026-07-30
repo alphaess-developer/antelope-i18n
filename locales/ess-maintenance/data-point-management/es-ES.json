@@ -1,0 +1,8 @@
+{
+  "data_center": "Centro de datos",
+  "data_center_list": "Lista de centros de datos",
+  "data_center_name": "nombre del centro de datos",
+  "data_upload_domain": "nombre de dominio de carga de datos",
+  "is_encrypt_transmission": "Si cifrar la transmisión",
+  "port_number": "número de puerto"
+}

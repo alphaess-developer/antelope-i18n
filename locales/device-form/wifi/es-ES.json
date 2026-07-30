@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "No puede contener \\, \" o :. La longitud debe ser de 8 a 15 caracteres.",
+  "network_type": "Tipo de red",
+  "wifi_hardware_version": "Versión de hardware de Wi-Fi",
+  "wifi_manage": "Gestión del WIFI",
+  "wifi_module_sn": "Número de serie del módulo Wi-Fi",
+  "wifi_pwd": "Contraseña del Wi-Fi",
+  "wifi_pwd_error": "Contiene letras mayúsculas, minúsculas, números y caracteres especiales (no se permite ingresar \\ \" : tres caracteres), al menos 8 caracteres de longitud (máximo 15 caracteres) y la contraseña no contiene caracteres repetidos o consecutivos.",
+  "wifi_software_version": "Versión de software del Wi-Fi"
+}

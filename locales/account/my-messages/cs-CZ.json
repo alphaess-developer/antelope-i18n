@@ -1,0 +1,13 @@
+{
+  "all_read": "Označit vše jako přečtené",
+  "device_notification": "Oznámení zařízení",
+  "has_read": "Přečetl/a jsem si",
+  "message_type": "Typ zprávy",
+  "msg_content": "Zpráva",
+  "msg_subject": "Předmět zprávy",
+  "not_read": "Nepřečtené",
+  "notifications": "Oznámení",
+  "other_notification": "Další oznámení",
+  "receiving_time": "Doba přijímání",
+  "status": "Stav"
+}

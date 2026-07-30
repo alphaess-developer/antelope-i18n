@@ -1,0 +1,8 @@
+{
+  "pv_inv_info": "并网机信息",
+  "pv_inv_model": "并网机型号",
+  "pv_inv_pos": "并网机安装位置",
+  "pv_inv_quantity": "并网机数量",
+  "sts_grid_side": "STS电网侧",
+  "sts_load_side": "STS负载侧"
+}

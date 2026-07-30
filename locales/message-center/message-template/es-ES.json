@@ -1,0 +1,22 @@
+{
+  "activate": "Activar",
+  "activated": "Activado",
+  "channel_type": "Tipo de canal",
+  "content": "Contenido",
+  "deactivate": "Desactivar",
+  "deactivated": "Desactivado",
+  "disabled": "Deshabilitado",
+  "empty_template_content_tip": "Necesitas rellenar el contenido de la plantilla en al menos un idioma",
+  "enable_alt": "Activado",
+  "enabled": "Activado",
+  "extra_params": "Parámetros adicionales",
+  "group_type": "Tipo de grupo",
+  "mail": "Correo electrónico",
+  "notice": "Aviso",
+  "push": "Push",
+  "status": "Estado",
+  "template_code": "Código de plantilla",
+  "template_content": "Contenido de la plantilla",
+  "template_name": "Nombre de la plantilla",
+  "title": "Título"
+}

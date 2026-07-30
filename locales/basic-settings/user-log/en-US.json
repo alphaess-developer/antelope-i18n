@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Time of Occurrence",
+  "log_type": "Type of Logs",
+  "origin": "Origin",
+  "record_date": "Record Date",
+  "separate": "Separate multiple SN with |",
+  "view_log_content": "View Log Content"
+}

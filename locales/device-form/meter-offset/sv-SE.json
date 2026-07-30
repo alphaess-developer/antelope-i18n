@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Aktivera begränsat effektstöd",
+  "end_time_num": "Sluttid {num}",
+  "meter_offset": "Mätaroffset",
+  "power_rationing_support": "Effektstöd vid eltransportbegränsning",
+  "start_time_num": "Starttid {num}",
+  "time_period_num": "Tidsperiod {num}"
+}

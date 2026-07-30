@@ -1,0 +1,16 @@
+{
+  "active": "激活",
+  "ct_tip": "若电表配置了CT，需要勾选，勾选后可编辑CT倍率。 P.S. 只有安科瑞ADL3000 CT电表或者ACR10R。CT电表，CT需要勾选。",
+  "grid_connected_meter": "并网点电表",
+  "grid_side_meter": "电网侧电表",
+  "hardware_version": "硬件版本号",
+  "meter_ct": "电表CT比率",
+  "meter_ct_rate": "指CT的额定倍率比值",
+  "meter_mode": "电表型号",
+  "meter_on_grid_tips": "并网系统中，电网侧如果安装了电表，请点击按钮指向电表，电网侧如果直接接入了CT，请点击按钮指向CT。",
+  "meter_on_pv_tips": "在AC或者Hybrid耦合方式下，光伏逆变器侧如果安装了电表，请点击按钮指向电表，如果光伏逆变器侧直接接入了CT，请点击按钮指向CT。",
+  "pv_side_meter": "PV侧电表",
+  "software_version": "软件版本号",
+  "unactive": "未激活",
+  "wireless_meter": "无线电表"
+}

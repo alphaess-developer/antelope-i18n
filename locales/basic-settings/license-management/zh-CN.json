@@ -1,0 +1,19 @@
+{
+  "certificate_code": "证书编号",
+  "comp_name": "公司名称",
+  "confirm_queren": "确认",
+  "contact_person": "联系人",
+  "download_certificate": "下载证书",
+  "email_sending_license": "邮件发送License",
+  "end_user": "终端用户",
+  "generate_license": "生成License",
+  "installer": "安装商",
+  "installer_name_anzhuanggong": "安装工名称",
+  "license": "License",
+  "mail": "邮箱",
+  "send_email_message": "License：{license}将被发送至安装商邮箱{emali}，请确认。",
+  "set_installer_info": "设置安装商信息",
+  "set_installer_information": "设置安装工信息",
+  "street_number_plus": "街道号（街道+门牌号）",
+  "telephone": "电话"
+}

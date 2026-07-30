@@ -1,0 +1,13 @@
+{
+  "all_read": "Tout marquer comme lus",
+  "device_notification": "Notifications de l’appareil",
+  "has_read": "Lu(s)",
+  "message_type": "Type de message",
+  "msg_content": "Message",
+  "msg_subject": "Objet du message",
+  "not_read": "Non lu(s)",
+  "notifications": "Notifications",
+  "other_notification": "Autres avis",
+  "receiving_time": "Temps de réception",
+  "status": "État"
+}

@@ -1,0 +1,21 @@
+{
+  "begin_time": "Hora de inicio",
+  "charge": "Carga",
+  "charge_cut_off_soc": "Corte de carga SOC",
+  "charging_tip": "Si se selecciona «Cargar» y se establece un tiempo de carga, la batería se cargará forzosamente durante el intervalo de tiempo especificado. La batería no se descargará durante este intervalo y priorizará el uso de energía solar para la carga. Si la energía solar no es suficiente, obtendrá energía de la red para complementar la potencia de carga. Fuera de este intervalo, el sistema funcionará en modo «Autoconsumo». Algunos modelos actualmente admiten funciones de carga y descarga de 15 minutos, y los modelos compatibles requieren una actualización de firmware. Los modelos no compatibles seguirán utilizando la función anterior de carga y descarga de 1 hora.",
+  "daily": "Diario",
+  "discharge": "Descarga",
+  "discharge_cut_off_soc": "Corte de descarga SOC",
+  "discharge_cut_off_soc_hint": "La batería dejará de descargarse, hasta que el SOC alcance el SOC establecido,",
+  "discharge_tip": "Si se habilita \\\"Descarga\\\" y se establece un intervalo de tiempo de descarga, la batería se descargará solamente durante el intervalo de tiempo especificado. Si hay disponible energía solar, primeramente suministrará la carga, y la batería proporcionará energía únicamente si la energía solar no es suficiente. La batería no verterá de nuevo la energía a la red; únicamente suministrará energía a la carga. Si hay exceso de energía solar durante este intervalo de tiempo, también puede usarse para cargar la batería. Fuera de este intervalo de tiempo, la batería solo puede cargarse y no puede descargarse.\\nAlgunos modelos actualmente admiten la carga y descarga en intervalos de 15 minutos, y, en el caso de estos modelos, se necesita una actualización del firmware. En el caso de sistemas que no sean compatibles con esta función, seguirán utilizando la función anterior de carga y descarga en intervalos de 1 hora.\\n(Nota: Para los ajustes de carga/descarga diaria, se permite el solapamiento de intervalos de tiempo. En los casos en los que se solape la programación de la carga y descarga, la carga tendrá prioridad. Si hay intervalos de tiempo que se solapan dentro de la misma estrategia de control (ya sea de carga o de descarga), tendrá prioridad la programación con el ajuste de tiempo más temprano).",
+  "end_time": "Hora de finalización",
+  "execution_cycle": "Ciclo de ejecución",
+  "off_grid_cut_off_soc": "Fuera de la red: SOC para desconexión de carga",
+  "off_grid_soc_control": "Control del Estado de Carga Fuera de la Red",
+  "off_grid_soc_value_tip": "El valor actual del Estado de Carga de Despertar Fuera de la Red es inválido si es menor que el Estado de Carga de Corte Fuera de la Red más el 5%.",
+  "off_grid_wake_up_soc": "Estado de Carga de Despertar Fuera de la Red",
+  "time_period_num": "Intervalo de tiempo {num}",
+  "ups_reserve_enable": "Habilitación de reserva de UPS",
+  "ups_reserve_enable_hint": "Con esta función habilitada, cuando el sistema se recupera del modo fuera de la red al modo conectado a la red, el sistema de almacenamiento de energía extraerá energía a la fuerza tanto de la energía fotovoltaica como de la red, y priorizará la carga de la batería al valor de SOC de corte de la batería. Con esta función deshabilitada, cuando el sistema se recupera del modo aislado al modo conectado a la red, el sistema de almacenamiento de energía no realizará una lógica de suministro de energía forzada.",
+  "weekly": "Semanal"
+}

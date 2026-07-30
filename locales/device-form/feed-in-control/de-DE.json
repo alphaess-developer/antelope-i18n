@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "Mindestens ein Datensatz",
+  "charge_cut_off_soc": "Ladeabschaltung SOC",
+  "discharge_cut_off_soc": "Entladung SOC",
+  "feed_control_tip": "<p>       Sehr geehrter Kunde, <br />       um die Aktivierung der Funktion zu erleichtern, mit der Sie Strom direkt aus Ihrem Energiespeichersystem in das Netz einspeisen können, bitten wir Sie höflich um       eine Bestätigung der folgenden Punkte:       <br />       1. Ihre Installationsadresse befindet sich im Zuständigkeitsbereich von <strong>{country}</strong>; <br />       2. Sie verfügen über eine aktuelle, rechtsverbindliche Vereinbarung mit Ihrem lokalen Netzbetreiber, die Voraussetzung dafür ist, die direkte       Einspeisung von Strom aus Ihrem Energiespeichersystem und/oder Photovoltaiksystem in das Netz zu aktivieren.       <br /> <strong>       Bei Nichteinhaltung der oben genannten Bedingungen können Sicherheitsrisiken und mögliche rechtliche Konsequenzen entstehen, für die Sie die volle       Verantwortung tragen. Wenn Sie nicht alle oben genannten Bedingungen erfüllen, dürfen Sie nicht bestätigen und können die Funktion zur direkten       Einspeisung von Strom aus Ihrem Energiespeichersystem in das Netz nicht nutzen. </strong>       <br />       Wir danken Ihnen für Ihre Aufmerksamkeit und Zusammenarbeit hinsichtlich der oben genannten Voraussetzungen.     </p>",
+  "feed_disabled_tip": "Während der VPP-Planung wird die Einspeisesteuerung deaktiviert",
+  "feed_energy_report": "Protokoll der Einspeisungsenergie",
+  "feed_in_control": "Einspeisekontrolle",
+  "feed_in_function": "Einspeisefunktion",
+  "feed_in_power": "Einspeiseleistung",
+  "feed_in_time_period": "Zeitraum der Einspeisung",
+  "feed_power_info": "Die eingestellte Einspeisungsleistung ist ein oberer Grenzwert der Einspeiserung. Die Ausgangsleistung vom System wird zuerst in der Last verwendet, dann wird die überschüssige Leistung in das Stromnetz eingespeist. Anhand dieses Prinzip wird die tatsächliche Größe der Einspeisungsleistung von der Größe der Lasten beeinfusst.",
+  "home_ups_soc_tip": "Ihre aktuelle UPS-Reserve ist:",
+  "smart_charging": "Intelligentes Laden",
+  "start_less_than_end": "Die Startzeit muss kleiner als die Endzeit sein",
+  "time_period_num": "Zeitrahmen {num}",
+  "time_period_overlap": "Zeitspannenüberschneidung",
+  "today_feed_in": "Einspeisung - Heute"
+}

@@ -1,0 +1,11 @@
+{
+  "area_list": "Lista area",
+  "area_name": "Nome area",
+  "charge_cut_off_soc": "La ricarica si interrompe al SOC",
+  "click_for_details": "Clicca per vedere i dettagli",
+  "load_shedding_msg_notification": "Notifica del messaggio di LoadShedding",
+  "load_shedding_tips1": "Questa funzione carica in modo intelligente il sistema di accumulo dell'energia in base al programma di interruzione di corrente nella tua zona e al SOC di ricarica di interruzione impostato, garantendo che tu e la tua famiglia possiate avere abbastanza energia di riserva durante le interruzioni di corrente. L'attivazione di questa funzione può causare un aumento del consumo domestico bollette elettriche.",
+  "load_shedding_tips2": "Dopo aver attivato questa funzione, il sistema eseguirà un backup energetico intelligente in base alle condizioni di interruzione di corrente locale. Questa funzione è un'operazione di ricarica forzata. Se si desidera interrompere la ricarica, eseguire l'operazione \"Impostazioni di carica e scarica\" - \"Interrompi ricarica\" .",
+  "load_shedding_tips3": "Dopo aver attivato questa funzione, ti verrà inviato un promemoria con le informazioni sul backup dell'alimentazione in base alla situazione di interruzione di corrente locale.",
+  "region": "regione"
+}

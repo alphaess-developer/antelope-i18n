@@ -1,0 +1,12 @@
+{
+  "alert_time": "Czas alertu",
+  "cmd_name": "Nazwa polecenia",
+  "command_code": "Kod polecenia",
+  "evaluate_detail_second": "Czas poświęcony na rozwiązanie",
+  "last_dispatch_time": "Ostatni czas wysyłki",
+  "occur_count": "Liczba występów",
+  "occur_server_time": "Czas alertu serwera",
+  "resolved": "Rozwiązano",
+  "status": "Stan",
+  "un_solved": "Nie rozwiązano"
+}

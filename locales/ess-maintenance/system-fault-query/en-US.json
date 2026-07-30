@@ -1,0 +1,19 @@
+{
+  "all": "All",
+  "backup_box_error": "BackupBox Error",
+  "bms_error": "BMS Error",
+  "clean_time": "Clear Time",
+  "ems_error": "EMS Error",
+  "error_code": "Error code",
+  "event_happen_time": "Time of Occurrence",
+  "fault_category": "Fault Category",
+  "fault_info": "Fault Information",
+  "inv_error": "Inverter Error",
+  "inv_warning": "Inverter Warning",
+  "level": "Level",
+  "meter_error": "Meter Error",
+  "other_error": "Other Error",
+  "selection_time": "Select Time",
+  "status": "Status",
+  "system_sn": "System SN"
+}

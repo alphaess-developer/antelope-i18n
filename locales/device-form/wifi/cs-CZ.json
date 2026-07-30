@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "Nelze obsahovat \\, \" nebo :. Délka musí být 8–15 znaků.",
+  "network_type": "Typ sítě",
+  "wifi_hardware_version": "Verze hardwaru Wi-Fi",
+  "wifi_manage": "Správa Wi-Fi",
+  "wifi_module_sn": "SN modulu Wi-Fi",
+  "wifi_pwd": "Heslo Wi-Fi",
+  "wifi_pwd_error": "Heslo musí obsahovat velká písmena, malá písmena, číslice a speciální znaky (kromě mezer, lomítka \\ a dvojtečky :). Musí obsahovat alespoň 8 znaků (maximálně 15 znaků) a nesmí obsahovat opakující se nebo po sobě jdoucí znaky.",
+  "wifi_software_version": "Verze softwaru Wi-Fi"
+}

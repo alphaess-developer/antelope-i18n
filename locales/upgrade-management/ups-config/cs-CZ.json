@@ -1,0 +1,7 @@
+{
+  "sn_coding_rules": "Pravidla kódování SN",
+  "sn_rule_must_7_bits": "Pravidla kódování SN musí být dlouhá 7 bitů",
+  "system_chip_model": "Model systému nebo čipu",
+  "ups_mode_type": "Typ režimu UPS",
+  "ups_value": "Hodnota UPS"
+}

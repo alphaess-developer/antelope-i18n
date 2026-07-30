@@ -1,0 +1,11 @@
+{
+  "build_status": "Stav sestavení",
+  "exception_date": "Datum výjimky",
+  "generate_reports": "Generování zpráv",
+  "multiple_name_sep": "Vícenásobné {name} začíná na '|' oddíl",
+  "one_click_generation": "Generování jedním kliknutím",
+  "please_select_records": "Vyberte data, která chcete provést",
+  "scan_1": "snímání",
+  "selection_time": "Vyberte čas",
+  "type": "Typ"
+}

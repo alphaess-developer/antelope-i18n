@@ -1,0 +1,21 @@
+{
+  "begin_time": "Ora di inizio",
+  "charge": "Carica",
+  "charge_cut_off_soc": "La ricarica si interrompe al SOC",
+  "charging_tip": "Se si seleziona “Carica” e si imposta un periodo di tempo di ricarica, la batteria verrà caricata in modo forzato durante il tempo specificato. La batteria non si scarica in questo intervallo di tempo. Per la ricarica verrà data priorità all'energia solare. Se l'energia solare è insufficiente, il sistema preleva energia dalla rete per integrare la ricarica. Oltre questo periodo di tempo, il sistema funzionerà in modalità “Autoconsumo”. Alcuni modelli supportano le funzioni di carica e scarica della durata di 15 minuti. Per i modelli supportati occorre aggiornare il firmware. I modelli non supportati, continueranno a utilizzare la precedente funzione di carica e scarica della durata di 1 ora.",
+  "daily": "Giornaliero",
+  "discharge": "Scarica",
+  "discharge_cut_off_soc": "SOC limite di scarica",
+  "discharge_cut_off_soc_hint": "La batteria smetterà di scaricarsi finché il SOC non raggiungerà il SOC impostato,",
+  "discharge_tip": "Se si attiva la funzione “Scarica” e si imposta un periodo di tempo di scarica, la batteria dovrà scaricarsi durante il periodo specificato. Se è disponibile energia solare, il carico verrà alimentato per primo e la batteria fornirà energia solo se quella solare è insufficiente. La batteria non alimenta la rete, ma si limita a fornire energia al carico. Se durante questo periodo l'energia solare è in eccesso, può essere utilizzata anche per caricare la batteria. Oltre questo periodo di tempo, la batteria può solo caricare e non scaricare.\\nAlcuni modelli supportano le funzioni di carica e scarica della durata di 15 minuti e occorre eseguire l’aggiornamento del firmware. Per i sistemi che non supportano questa funzione, la carica/scarica resterà dell’intervallo di 1 ora.\\n(Nota: per le impostazioni di carica/scarica giornaliera, sono consentiti periodi di tempo sovrapposti. Quando i programmi di carica e scarica si sovrappongono, la carica ha la priorità. Se nella stessa strategia di controllo si sovrappongono periodi di tempo (carica e scarica), avrà la precedenza il programma con l'impostazione temporale precedente).",
+  "end_time": "Ora di fine",
+  "execution_cycle": "Ciclo di esecuzione",
+  "off_grid_cut_off_soc": "Off-grid: SOC per la disconnessione del carico",
+  "off_grid_soc_control": "Controllo SOC Fuori Rete",
+  "off_grid_soc_value_tip": "L'attuale SOC di risveglio fuori rete non è valido se inferiore al SOC di interruzione fuori rete più il 5%.",
+  "off_grid_wake_up_soc": "SOC di Risveglio Fuori Rete",
+  "time_period_num": "Periodo di tempo {num}",
+  "ups_reserve_enable": "Abilitazione riserva UPS",
+  "ups_reserve_enable_hint": "Dopo l'attivazione di questa funzione, quando il sistema ritorna allo stato di connessione alla rete dallo stato off-grid, il sistema di accumulo di energia prenderà forzatamente energia dal fotovoltaico e dalla rete e caricherà preferibilmente la batteria al SOC di cut-off valore della batteria. Dopo che questa funzione è stata disattivata, quando il sistema torna allo stato di connessione alla rete dallo stato off-grid, il sistema di accumulo di energia assorbirà energia solo dal fotovoltaico e caricherà preferibilmente la batteria al valore SOC di cut-off di la batteria.",
+  "weekly": "Settimanale"
+}

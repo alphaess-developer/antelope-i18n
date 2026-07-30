@@ -1,0 +1,9 @@
+{
+  "error_code": "Error code",
+  "error_description": "Error Description",
+  "error_name": "Error Name",
+  "failure_level": "Error Level",
+  "fix_suggestion": "Repair Suggestion",
+  "language": "Language",
+  "title_trouble_shooting": "Trouble Shooting"
+}

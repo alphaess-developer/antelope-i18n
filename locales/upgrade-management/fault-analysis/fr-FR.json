@@ -1,0 +1,9 @@
+{
+  "error_code": "Code d’erreur",
+  "error_description": "Description de la défaillance",
+  "error_name": "Abréviation de l’erreur",
+  "failure_level": "Niveau d’erreur",
+  "fix_suggestion": "Suggestion de réparation",
+  "language": "Langue",
+  "title_trouble_shooting": "Dépannage"
+}

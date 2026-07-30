@@ -1,0 +1,22 @@
+{
+  "area": "Zone",
+  "control_power_output": "Contrôle de sortie",
+  "detect_time": "Temps de détection",
+  "manual_reset": "Réinitialisation manuelle",
+  "manual_reset_enable": "Activation de la réinitialisation manuelle",
+  "manual_reset_setting": "Interrupteur de la réinitialisation manuelle",
+  "no_power_control": "Contrôle d’alimentation inefficace",
+  "off_short": "Arrêt",
+  "on_short": "Marche",
+  "operating_power_factor": "Contrôle constant du facteur de puissance",
+  "over_f": "Relais de surfréquence CA",
+  "over_v": "Relais de surtension CA",
+  "passive_island_detect": "Détection passive de fonctionnement isolé",
+  "power_recovery_delay": "Temps de décalage fixe après remise sous tension",
+  "set_time": "Réglage-Temps",
+  "set_value": "Réglage-Valeur",
+  "suppression_voltage_degree": "Fonction de suppression de l’augmentation de la tension",
+  "under_f": "Relais de sous-fréquence CA",
+  "under_v": "Relais de sous-tension CA",
+  "voltage_phase_jump_detect": "Méthode de détection de saut de phase de la tension"
+}

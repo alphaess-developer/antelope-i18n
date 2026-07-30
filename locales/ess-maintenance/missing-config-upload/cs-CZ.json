@@ -1,0 +1,12 @@
+{
+  "alert_time": "Čas výstrahy",
+  "cmd_name": "Název příkazu",
+  "command_code": "Kód příkazu",
+  "evaluate_detail_second": "Doba potřebná k vyřešení",
+  "last_dispatch_time": "Čas posledního dispečinku",
+  "occur_count": "Počet výskytů",
+  "occur_server_time": "Čas upozornění na serveru",
+  "resolved": "Usneseno",
+  "status": "Stav",
+  "un_solved": "Nevyřešeno"
+}

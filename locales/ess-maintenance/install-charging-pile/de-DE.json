@@ -1,0 +1,17 @@
+{
+  "abnormal": "Abnormal",
+  "are_you_sure_to_unbind_the_charging_pile": "Bestätigung der Entbindung von der Wallbox?",
+  "charging_pile_sn": "Wallbox Seriennummer (S/N)",
+  "charging_pile_type": "Wallbox-Modell",
+  "charging_pile_type_enter_tip": "Bitte geben Sie zuerst die Wallbox-SN und die System-SN ein.",
+  "datetime": "Datum/Uhrzeit",
+  "device_status": "Status der Anlage",
+  "install_charging_pile": "Wallbox installieren",
+  "install_date": "Installationsdatum",
+  "normal": "Normal",
+  "sn_check_code": "SN-Verifizierungscode",
+  "supported_charging_pile_sn_suffix_formats": "Unterstützte Wallbox-SN-Suffix-Formate:",
+  "supported_charging_pile_sn_suffix_formats_tip": "{index}. Endend mit \"{rule}\" → {model}",
+  "unbind": "Entbinden",
+  "warning": "Warnung"
+}

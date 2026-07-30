@@ -1,0 +1,13 @@
+{
+  "ap_module": "Module AP",
+  "arm_software_version": "Numéro de version du logiciel ARM",
+  "emsboot_version": "Numéro de la version matérielle EMS Boost",
+  "hardware_version": "Version matérielle",
+  "inverter": "Onduleur",
+  "model": "Modèle",
+  "platform": "Quai",
+  "slave_software_version": "Numéro de version du logiciel Slave",
+  "software_version": "Software Version",
+  "sta_module": "Module STA",
+  "wireless_meter": "Compteur sans fil"
+}

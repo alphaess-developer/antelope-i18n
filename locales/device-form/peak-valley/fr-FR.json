@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "Les réserves de batterie de secours ne doivent pas dépasser le seuil de décharge de réduction de crête SOC {soc} %",
+  "difference": "Différence",
+  "discharge_cut_off_soc": "Arrêt de la décharge à un SOC de",
+  "end_more_than_begin": "Le temps de fin doit être postérieur au temps de démarrage",
+  "hysteresis_value": "Valeur d’hystérésis",
+  "meter_time1_end": "Période 1 - Fin",
+  "meter_time1_start": "Période 1 - Démarrage",
+  "meter_time2_end": "Période 2 - Fin",
+  "meter_time2_start": "Période 2 - Démarrage",
+  "peak_cycle": "Cycle d'écrêtement des pointes",
+  "peak_periods": "Période d'écrêtement des pointes",
+  "peak_shaving_discharge_soc_conflict": "Le SOC de coupure de décharge ne doit pas être inférieur à la réserve de secours de batterie {soc} %",
+  "peak_shaving_valley_filling": "Écrêtement des pointes et comblement des creux",
+  "peak_valley_period_overlap": "La période d’écrêtement des pointes et la période de comblement des creux ne doivent pas se chevaucher.",
+  "peak_valley_value_conflict": "Il y a un conflit entre les réglages de valeurs de pointe et de creux, veuillez les réinitialiser.",
+  "peak_value": "Valeur de pointe",
+  "peak_value_tip": "Veuillez définir la puissance maximale autorisée par le foyer (cette fonction ne s’applique qu’aux charges connectées au réseau).",
+  "valley_cycle": "Cycle de comblement des creux",
+  "valley_periods": "Période de comblement des creux",
+  "valley_value": "Valeur de creux"
+}

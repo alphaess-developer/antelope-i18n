@@ -1,0 +1,11 @@
+{
+  "build_status": "Build-Status",
+  "exception_date": "Datum der Ausnahme",
+  "generate_reports": "Generieren von Berichten",
+  "multiple_name_sep": "Mehrere {name} beginnen mit '|' Trennwand",
+  "one_click_generation": "Ein-Klick-Generierung",
+  "please_select_records": "Wählen Sie die Daten aus, die Sie ausführen möchten",
+  "scan_1": "Scannen",
+  "selection_time": "Auswahlzeitraum",
+  "type": "Typ"
+}

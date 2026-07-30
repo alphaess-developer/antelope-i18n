@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "At least One Data",
+  "charge_cut_off_soc": "Charging Cut-off SOC",
+  "discharge_cut_off_soc": "Discharging Cut-off SOC",
+  "feed_control_tip": "<p> Dear Customer, <br /> To facilitate the activation of the feature enabling direct power discharge from your electricity storage system to the grid, we kindly request your confirmation of the following: <br /> 1. Your installation address is situated within the jurisdiction of <strong>{country}</strong>; <br /> 2. You possess a current, legally binding agreement with your local grid company as a prerequisite for enabling the direct discharge of power from your electricity storage system and/or photovoltaic system into the grid. <br /> <strong> Non-compliance with the above conditions may lead to safety hazards and potential legal entanglements, for which you will bear full responsibility. If you do not meet all the above conditions, you should not confirm and will not be able to use the feature to enable the direct power discharge from your electricity storage system to the grid. </strong> <br /> Your attention to and cooperation with the above prerequisites is greatly appreciated. </p>",
+  "feed_disabled_tip": "Feed-in control is disabled as this device is authorized to a VPP",
+  "feed_energy_report": "Grid Feed-in Energy Report",
+  "feed_in_control": "Feed-in Control",
+  "feed_in_function": "Feed-in Function",
+  "feed_in_power": "Feed-in Power",
+  "feed_in_time_period": "Feed-in time period",
+  "feed_power_info": "The Grid Feed-in Power is set as an upper limit. After the system output power is supplied to the load, all the remaining power is fed into the grid. Therefore, the actual grid feed-in power may fluctuate within a certain range due to changes in the load.",
+  "home_ups_soc_tip": "Your current UPS reserve is:",
+  "smart_charging": "Smart charging",
+  "start_less_than_end": "Start time must be less than end time",
+  "time_period_num": "Time Period {num}",
+  "time_period_overlap": "Time periods overlap.",
+  "today_feed_in": "Today's Feed in"
+}

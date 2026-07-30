@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "Dual Power Function Enable",
+  "gen_power": "Diesel Generator",
+  "generator_enable_before_shutdown": "Diesel Generator turned on before PCS Shutdown",
+  "grid_consum_power_upper_limit": "Max. Power through the Meter: the upper limit of Grid Consumption Power",
+  "grid_power": "Grid",
+  "industry_info": "Commercial & Industrial System Information",
+  "io_expansion_module": "Is there an IO Expansion Module",
+  "max_grid_charge_tooltip": "Max. Grid Charging Power: the upper limit of AC-side Charging Power of the Forced Charging functions (SOC Directional Calibration, SOC Automatic Calibration, Undervoltage Forced Charging, and Charging Time Periods)",
+  "max_meter_passing_power": "Maximum Power Through Meter(kW)",
+  "maximum_grid_charging_power": "Maximum Grid Charging Power",
+  "off_grid_cut_off_soc": "Off-grid: SOC for Load Disconnectting",
+  "power_type": "AC Power Supply Mode",
+  "pure_battery_enable": "Pure Battery Function Enable",
+  "resume_soc": "Off-grid: SOC for Load Reconnectting",
+  "soc_calibrate": "SOC Automatic Calibration",
+  "soc_orientation_check": "SOC Directional Calibration",
+  "sts_enable": "STS",
+  "system_model": "System Model"
+}

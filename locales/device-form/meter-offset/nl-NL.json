@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Ondersteuning voor stroomonderbrekingen inschakelen",
+  "end_time_num": "Eindtijd {num}",
+  "meter_offset": "Meter offset vermogen",
+  "power_rationing_support": "Ondersteuning bij stroomrantsoenering",
+  "start_time_num": "Starttijd {num}",
+  "time_period_num": "Tijdsperiode {num}"
+}

@@ -1,0 +1,6 @@
+{
+  "batch_delete": "一键删除",
+  "batch_delete_confirm": "确认删除所选的 {count} 条记录?",
+  "device_time_zone": "设备时区",
+  "generate_report": "一键生成报表"
+}

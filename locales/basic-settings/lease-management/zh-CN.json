@@ -1,0 +1,10 @@
+{
+  "device_status": "设备状态",
+  "lease_status": "租赁状态",
+  "normal_lease": "正常租赁",
+  "normal_lease_tips": "正常租赁：逆变器正常工作；停止租赁：由EMS给逆变器发送一个指令，然后逆变器不能发电不能逆变（电池不能充放电，PV不能发电，可以从bypass电网买电给负载供电。）",
+  "offline_days": "离线使用天数",
+  "offline_days_tips": "网络断开时长达到设置天数后，系统进入停机状态。",
+  "stop_lease": "停止租赁",
+  "value_range_min_max": "取值范围:{min}-{max}"
+}

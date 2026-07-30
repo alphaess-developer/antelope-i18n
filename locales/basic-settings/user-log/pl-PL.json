@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Czas wystąpienia",
+  "log_type": "Typ dziennika",
+  "origin": "Źródło",
+  "record_date": "Data zapisu",
+  "separate": "Oddziel numery SN znakiem |",
+  "view_log_content": "Wyświetl zawartość dziennika"
+}

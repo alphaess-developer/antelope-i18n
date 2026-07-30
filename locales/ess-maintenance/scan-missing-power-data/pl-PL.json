@@ -1,0 +1,11 @@
+{
+  "build_status": "Stan kompilacji",
+  "exception_date": "Data wyjątku",
+  "generate_reports": "Generowanie raportów",
+  "multiple_name_sep": "Wiele {name} jest podzielonych znakiem „|”",
+  "one_click_generation": "Generowanie jednym kliknięciem",
+  "please_select_records": "Wybierz dane, które chcesz wykonać",
+  "scan_1": "Skanuj",
+  "selection_time": "Wybierz przedział czasowy",
+  "type": "Rodzaj"
+}

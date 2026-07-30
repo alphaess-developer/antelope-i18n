@@ -1,0 +1,13 @@
+{
+  "ap_module": "AP模块",
+  "arm_software_version": "ARM软件版本号",
+  "emsboot_version": "EMS boot版本号",
+  "hardware_version": "硬件版本号",
+  "inverter": "逆变器",
+  "model": "型号",
+  "platform": "平台",
+  "slave_software_version": "从机软件版本号",
+  "software_version": "软件版本号",
+  "sta_module": "STA模块",
+  "wireless_meter": "无线电表"
+}

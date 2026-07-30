@@ -1,0 +1,6 @@
+{
+  "batch_delete": "Usuń zbiorczo",
+  "batch_delete_confirm": "Czy na pewno chcesz usunąć wybrane {count} rekordy?",
+  "device_time_zone": "Strefa czasowa urządzenia",
+  "generate_report": "Generuj raporty jednym kliknięciem"
+}

@@ -1,0 +1,8 @@
+{
+  "pv_inv_info": "Informations sur l’onduleur PV",
+  "pv_inv_model": "Modèle de l’onduleur PV",
+  "pv_inv_pos": "Position d’installation de l’onduleur sur réseau",
+  "pv_inv_quantity": "Quantité d’onduleurs PV",
+  "sts_grid_side": "STS côté réseau",
+  "sts_load_side": "STS côté charge"
+}

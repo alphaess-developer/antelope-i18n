@@ -1,0 +1,16 @@
+{
+  "active": "Aktywny",
+  "ct_tip": "Jeśli licznik jest skonfigurowany z jednym lub wieloma CT, to przycisk „CT” musi być zaznaczony, dopiero potem można edytować wskaźnik CT. P.S. Przycisk „CT” powinien być zaznaczony tylko w przypadku licznika CT Acrel ADL3000 lub ACR10R.",
+  "grid_connected_meter": "Licznik prądu sieciowego",
+  "grid_side_meter": "Licznik prądu sieciowego",
+  "hardware_version": "Wersja sprzętowa",
+  "meter_ct": "Wskaźnik CT licznika",
+  "meter_ct_rate": "znamionowy wskaźnik powiększania CT",
+  "meter_mode": "Model licznika prądu",
+  "meter_on_grid_tips": "W przypadku systemu połączonego z siecią, jeśli licznik prądu jest zainstalowany po stronie sieci, kliknij przycisk „Licznik”. Jeśli przekładnik prądowy (CT) jest podłączony do sieci bezpośrednio, naciśnij przycisk „CT”.",
+  "meter_on_pv_tips": "W przypadku trybu pracy sprzężenia AC lub hybrydowego, jeśli licznik prądu jest zainstalowany po stronie falownika PV, kliknij przycisk „Licznik”. Jeśli przekładnik prądowy (CT) jest podłączony bezpośrednio po stronie falownika PV, naciśnij przycisk „CT”.",
+  "pv_side_meter": "Licznik po stronie PV",
+  "software_version": "Wersja oprogramowania",
+  "unactive": "Nieaktywny",
+  "wireless_meter": "Miernik bezprzewodowy"
+}

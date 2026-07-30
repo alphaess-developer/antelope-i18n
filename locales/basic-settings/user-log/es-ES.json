@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Hora Ocurrida",
+  "log_type": "Tipo de registro",
+  "origin": "Origen",
+  "record_date": "Grabar fecha",
+  "separate": "SN (múltiplos separados por |)",
+  "view_log_content": "Ver contenido de registro"
+}

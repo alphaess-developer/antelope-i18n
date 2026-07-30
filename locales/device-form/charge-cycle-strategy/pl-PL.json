@@ -1,0 +1,21 @@
+{
+  "begin_time": "Czas rozpoczęcia",
+  "charge": "Ładowanie",
+  "charge_cut_off_soc": "Ładowanie zatrzymuje się przy SOC",
+  "charging_tip": "Jeśli opcja „Ładuj” jest wybrana i przedział czasowy ładowania jest określony, to akumulator zostanie zmuszony do ładowania podczas konkretnego przedziału czasowego. Akumulator nie będzie rozładowywany w tym przedziale czasowym. Energia solarna będzie miała pierwszeństwo ładowania. W przypadku braku wystarczającej energii solarnej energia zostanie pobrana z sieci, aby uzupełnić energię ładowania. Po upływie zadanego przedziału czasowego system przejdzie w tryb Autokonsumpcji. Obecnie niektóre modele obsługują 15-minutowy poziom funkcji ładowania i rozładowania, ale wspierane modele wymagają aktualizacji sprzętowej. Modele, które nie mają takiej opcji w dalszym ciągu korzystają z funkcji ładowania i rozładowania na poziomie 1 godziny.",
+  "daily": "Codziennie",
+  "discharge": "Rozładowanie",
+  "discharge_cut_off_soc": "Odcięcie rozładowania SOC",
+  "discharge_cut_off_soc_hint": "Akumulator wstrzyma rozładowanie, dopóki SOC nie osiągnie zadanej wartości SOC.",
+  "discharge_tip": "Jeśli opcja Rozładowanie jest włączona i ustawiony jest czas rozładowania, rozładowanie akumulatora nastąpi tylko w tym określonym czasie. Jeśli jest dostępna energia słoneczna, to najpierw będzie ładowany odbiornik, a akumulator dostarczy energię tylko jeśli energia słoneczna jest niewystarczająca. Akumulator nie będzie oddawał energii do sieci; będzie jedynie dostarczał energię do odbiornika. Jeśli wystąpi nadmiar energii słonecznej w tym czasie, można ją również wykorzystać do ładowania akumulatora. Poza określonym czasem akumulator może jedynie ładować, a nie rozładowywać.\\nObecnie niektóre modele obsługują proces ładowania lub rozładowania w 15-minutowych przedziałach czasowych. Dla tych modeli wymagana jest aktualizacja oprogramowania sprzętowego. Dla systemów, które nie obsługują takiej funkcji, ładowanie lub rozładowanie pozostanie oparte na 1-godzinnym przedziale czasowym.\\n(Uwaga: Dla dziennych ustawień ładowania lub rozładowania dopuszczalne jest nakładanie się przedziałów czasowych. W przypadkach nakładania się harmonogramów ładowania i rozładowania pierwszeństwo będzie miało ładowanie. Dla nakładających się okresów czasowych w ramach tej samej strategii sterowania (zarówno ładowanie jak i rozładowanie), pierwszeństwo będzie miał harmonogram z wcześniejszym ustawieniem czasu.)",
+  "end_time": "Czas zakończenia",
+  "execution_cycle": "Cykl wykonania",
+  "off_grid_cut_off_soc": "Poza siecią: SOC w przypadku odłączania odbiornika",
+  "off_grid_soc_control": "Kontrola SOC poza siecią",
+  "off_grid_soc_value_tip": "Aktualne wybudzanie się SOC poza siecią < odcięcie SOC poza siecią + 5%; ustawienie nieprawidłowe",
+  "off_grid_wake_up_soc": "Wybudzanie się SOC poza siecią",
+  "time_period_num": "Przedział czasowy {num}",
+  "ups_reserve_enable": "Uruchom rezerwowy UPS",
+  "ups_reserve_enable_hint": "Przy włączonej funkcji, gdy system restartuje się po przejściu z trybu poza siecią do trybu w sieci, system magazynowania energii wymusi pobieranie energii zarówno z PV jak i z sieci, a następnie nada priorytet ładowaniu akumulatora do wartości odcięcia SOC. Przy wyłączonej funkcji, gdy system restartuje się po przejściu z trybu poza siecią do trybu w sieci, system magazynowania energii nie wykona wymuszonej operacji zasilania.",
+  "weekly": "Co tydzień"
+}

@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Eliminación por lotes",
+  "cycle_count": "Recuento de ciclos",
+  "cycle_duration_min": "Duración del ciclo [min]",
+  "cycle_task": "Tarea de ciclo",
+  "end_time_ems_time": "Hora de finalización (hora de EMS)",
+  "min_pv": "Valor mínimo de potencia [W]",
+  "no_match_data": "Los datos no existen o han sido eliminados",
+  "running_state": "Estado de ejecución",
+  "select_date_time": "Seleccionar Fecha Hora",
+  "single_task": "Tarea única",
+  "start_time_ems": "Hora de inicio (hora de EMS)"
+}

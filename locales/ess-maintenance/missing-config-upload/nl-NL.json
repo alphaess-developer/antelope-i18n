@@ -1,0 +1,12 @@
+{
+  "alert_time": "Tijd van de alertheid",
+  "cmd_name": "Commando naam",
+  "command_code": "Command Code",
+  "evaluate_detail_second": "Tijd tot oplossing",
+  "last_dispatch_time": "Laatste Dispatchtijd",
+  "occur_count": "Aantal voorkomsten",
+  "occur_server_time": "Serverwaarschuwingstijd",
+  "resolved": "Opgelost",
+  "status": "Status",
+  "un_solved": "Onopgelost"
+}

@@ -1,0 +1,11 @@
+{
+  "backup_box": "Backup-box",
+  "backup_box_software_version": "BackupBox-softwareversienummer",
+  "backupbox_sn": "Backupbox serienummer",
+  "level_num_priority": "L{num}-prioriteit",
+  "level_num_priority_triggering_soc_value": "L{num}-SOC-triggerwaarde voor prioriteit",
+  "policy_priorities_can_not_same": "Kan niet dezelfde prioriteit hebben",
+  "priority_cannot_be_duplicated": "De prioriteit is niet herhaalbaar, en hoe hoger de prioriteit, hoe lager de bijbehorende SOC-instelling waarde",
+  "soc_error": "SOC-instelfout, (10<=)SOC(<=100), moet worden ingevuld van de laagste tot de hoogste prioriteit",
+  "start_backup_box": "Lastenbeheer inschakelen"
+}

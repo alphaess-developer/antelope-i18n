@@ -1,0 +1,8 @@
+{
+  "data_center": "Datacenter",
+  "data_center_list": "Lista över datacenter",
+  "data_center_name": "Datacenternamn",
+  "data_upload_domain": "Domän för datauppladdning",
+  "is_encrypt_transmission": "Kryptera överföring",
+  "port_number": "Portnummer"
+}

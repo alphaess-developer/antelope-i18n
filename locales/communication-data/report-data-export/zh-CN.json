@@ -1,0 +1,7 @@
+{
+  "energy_details_data": "能量详情数据",
+  "energy_summary_data": "能量汇总数据",
+  "power_data": "功率数据",
+  "time_interval_cannot_exceed_31_days": "输入时间间隔不能超过31天",
+  "time_interval_cannot_exceed_num_days": "输入时间间隔不能超过{num}天"
+}

@@ -1,0 +1,17 @@
+{
+  "abnormal": "Onormal",
+  "are_you_sure_to_unbind_the_charging_pile": "Vill du verkligen koppla bort Wallboxen?",
+  "charging_pile_sn": "Wallboxens SN",
+  "charging_pile_type": "Wallbox-modell",
+  "charging_pile_type_enter_tip": "Ange Wallboxens SN och systemets SN först.",
+  "datetime": "Datum/tid",
+  "device_status": "Systemstatus",
+  "install_charging_pile": "Installera Wallbox",
+  "install_date": "Installationsdatum",
+  "normal": "Normal",
+  "sn_check_code": "SN-kontrollkod",
+  "supported_charging_pile_sn_suffix_formats": "Format för Wallboxens SN-suffix som stöds:",
+  "supported_charging_pile_sn_suffix_formats_tip": "{index}. Slutar med \"{rule}\" → {model}",
+  "unbind": "Häv bindning",
+  "warning": "Varning"
+}

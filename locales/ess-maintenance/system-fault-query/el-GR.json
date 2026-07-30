@@ -1,0 +1,19 @@
+{
+  "all": "Όλοι",
+  "backup_box_error": "Σφάλμα BackupBox",
+  "bms_error": "Σφάλμα BMS",
+  "clean_time": "Χρόνος εκκαθάρισης",
+  "ems_error": "Σφάλμα EMS",
+  "error_code": "Κωδικός λάθους",
+  "event_happen_time": "Χρονικό συμβάντος",
+  "fault_category": "Κατηγορία σφάλματος",
+  "fault_info": "Πληροφορίες σφάλματος",
+  "inv_error": "Σφάλμα αντιστροφέα",
+  "inv_warning": "Προειδοποίηση μετατροπέα",
+  "level": "Επίπεδο",
+  "meter_error": "Σφάλμα μετρητή",
+  "other_error": "Άλλο σφάλμα",
+  "selection_time": "Επιλέξτε ώρα",
+  "status": "Κατάσταση",
+  "system_sn": "Σειριακός αριθμός συστήματος"
+}

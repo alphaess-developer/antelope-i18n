@@ -1,0 +1,6 @@
+{
+  "batch_delete": "Supprimer en masse",
+  "batch_delete_confirm": "Êtes-vous sûr de vouloir supprimer les {count} enregistrements sélectionnés ?",
+  "device_time_zone": "Fuseau horaire de l’appareil",
+  "generate_report": "Générez des rapports en un clic"
+}

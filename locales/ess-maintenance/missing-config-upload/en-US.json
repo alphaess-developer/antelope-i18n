@@ -1,0 +1,12 @@
+{
+  "alert_time": "Alert time",
+  "cmd_name": "Command Name",
+  "command_code": "Command Code",
+  "evaluate_detail_second": "Time taken for a resolution",
+  "last_dispatch_time": "Last Dispatch Time",
+  "occur_count": "Occurrence Count",
+  "occur_server_time": "Server Alert Time",
+  "resolved": "Resolved",
+  "status": "Status",
+  "un_solved": "Unsolved"
+}

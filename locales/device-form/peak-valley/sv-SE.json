@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "Batterireserven får inte överstiga urladdningsgränsen för topplastkapning (SOC {soc}%).",
+  "difference": "Avvikelse",
+  "discharge_cut_off_soc": "Laddningsnivå (SOC) för urladdningsstopp",
+  "end_more_than_begin": "Sluttiden måste vara senare än starttiden",
+  "hysteresis_value": "Hysteresvärde",
+  "meter_time1_end": "Period 1 – slut",
+  "meter_time1_start": "Period 1 – start",
+  "meter_time2_end": "Period 2 – slut",
+  "meter_time2_start": "Period 2 – start",
+  "peak_cycle": "Topplastkapningscykel",
+  "peak_periods": "Topplastkapningsperiod",
+  "peak_shaving_discharge_soc_conflict": "Urladdningsavstängnings-SOC får inte vara lägre än batterireserven {soc}%.",
+  "peak_shaving_valley_filling": "Topplastkapning",
+  "peak_valley_period_overlap": "Perioden för topplastkapning och perioden för dalfyllnad får inte överlappa",
+  "peak_valley_value_conflict": "Inställningarna för topp- och dalvärde står i konflikt, ställ in dem på nytt.",
+  "peak_value": "Toppvärde",
+  "peak_value_tip": "Vänligen ställ in den maximala belastningseffekten som tillåts av hushållet (denna funktion gäller endast för nätanslutna laster).",
+  "valley_cycle": "Dalfyllningscykel",
+  "valley_periods": "Dalfyllningsperiod",
+  "valley_value": "Dalvärde"
+}

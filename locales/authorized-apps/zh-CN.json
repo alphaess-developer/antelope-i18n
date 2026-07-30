@@ -1,0 +1,11 @@
+{
+  "authorized": "授权",
+  "authorized_app": "授权应用",
+  "authorized_app_description": "第三方应用通过AlphaESS OpenAPI访问您的设备数据。",
+  "control_exclusive": "控制（独家）",
+  "device_apps_count": "{count} 应用",
+  "location": "所在地",
+  "no_authorized_desc_1": "暂无已授权应用",
+  "no_authorized_desc_2": "为您的设备授权的第三方应用将显示在此处。",
+  "telemetry": "遥测数据"
+}

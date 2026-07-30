@@ -1,0 +1,13 @@
+{
+  "ap_module": "AP modul",
+  "arm_software_version": "Číslo verze softwaru ARM",
+  "emsboot_version": "Verze zavádění EMS",
+  "hardware_version": "Verze hardwaru",
+  "inverter": "Měnič",
+  "model": "Model",
+  "platform": "Platforma",
+  "slave_software_version": "Číslo verze podřízeného softwaru",
+  "software_version": "Číslo verze softwaru",
+  "sta_module": "STA modul",
+  "wireless_meter": "Bezdrátový měřič"
+}

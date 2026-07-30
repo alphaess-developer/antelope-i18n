@@ -1,0 +1,16 @@
+{
+  "active": "Actif",
+  "ct_tip": "Pour un compteur configuré avec un ou des TC, il faut cocher le bouton « TC », et le rapport TC pourra alors être modifié. P.S. : pour un compteur TC Acrel ADL3000 ou ACR10R, le bouton « TC » doit être coché.",
+  "grid_connected_meter": "Compteur connecté au réseau",
+  "grid_side_meter": "Compteur réseau",
+  "hardware_version": "Version matérielle",
+  "meter_ct": "Rapport TC du compteur",
+  "meter_ct_rate": "le rapport d’amplification nominale du TC",
+  "meter_mode": "Modèle de compteur",
+  "meter_on_grid_tips": "Pour un système connecté au réseau, cliquez sur le bouton « Compteur » si un compteur est installé côté réseau. Si un TC est directement connecté côté réseau, cliquez sur le bouton « TC ».",
+  "meter_on_pv_tips": "En mode de fonctionnement par couplage CA/hybride,cliquez sur le bouton « Compteur » si un compteur est installé côté onduleur PV. Si un TC est directement connecté côté onduleur PV, cliquez sur le bouton « TC ».",
+  "pv_side_meter": "Compteur côté PV",
+  "software_version": "Software Version",
+  "unactive": "Inactif",
+  "wireless_meter": "Compteur sans fil"
+}

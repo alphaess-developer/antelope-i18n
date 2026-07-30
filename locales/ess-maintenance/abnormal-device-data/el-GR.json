@@ -1,0 +1,8 @@
+{
+  "abnormal_charge_discharge": "Μη φυσιολογική φόρτιση/εκφόρτιση",
+  "device_model": "Μοντέλο",
+  "exceptionally_offline": "Κατ' εξαίρεση εκτός σύνδεσης",
+  "multiple_name_sep": "Το πολλαπλό {name} ξεκινά με '|' χώρισμα",
+  "reseller": "Μεταπωλητής",
+  "time": "Χρόνος"
+}

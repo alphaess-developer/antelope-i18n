@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "La riserva di backup della batteria non deve superare il SOC di interruzione della scarica per il livellamento dei picchi del {soc}%.",
+  "difference": "Differenza",
+  "discharge_cut_off_soc": "SOC limite di scarica",
+  "end_more_than_begin": "L'ora di fine deve essere maggiore dell'ora di inizio",
+  "hysteresis_value": "Valore isteresi",
+  "meter_time1_end": "Periodo1-Fine",
+  "meter_time1_start": "Periodo1-Inizio",
+  "meter_time2_end": "Periodo2-Fine",
+  "meter_time2_start": "Periodo2-Inizio",
+  "peak_cycle": "Ciclo di livellamento dei picchi",
+  "peak_periods": "Periodo di livellamento dei picchi",
+  "peak_shaving_discharge_soc_conflict": "Il SOC di interruzione della scarica non deve essere inferiore alla riserva di backup della batteria del {soc}%.",
+  "peak_shaving_valley_filling": "Livellamento dei picchi e riempimento delle valli",
+  "peak_valley_period_overlap": "Il periodo di livellamento dei picchi e il periodo di riempimento della valle non devono sovrapporsi",
+  "peak_valley_value_conflict": "Le impostazioni dei valori di picco e di valle sono in conflitto, si prega di reimpostarle.",
+  "peak_value": "Valore di picco",
+  "peak_value_tip": "Per favore, imposta la potenza massima consentita dalla famiglia (questa funzione vale solo per carichi collegati alla rete).",
+  "valley_cycle": "Ciclo di riempimento della valle",
+  "valley_periods": "Periodo di riempimento della valle",
+  "valley_value": "Valore della valle"
+}

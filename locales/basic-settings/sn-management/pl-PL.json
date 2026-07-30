@@ -1,0 +1,11 @@
+{
+  "check_code": "Kod kontrolny",
+  "data_center": "Centrum danych",
+  "del_sys_data": "Usuń dane systemowe",
+  "delete_sn_related_system_data": "Usuń dane systemowe związane z {sn}",
+  "household_savings_platform": "Platforma oszczędności dla gospodarstw domowych",
+  "micro_storage_platform": "Platforma magazynowania energii dla mikroinstalacji",
+  "product_category": "Kategoria produktu",
+  "socket_data_center": "Centrum Danych Gniazdowych",
+  "view_check_code": "Wyświetl CheckCode"
+}

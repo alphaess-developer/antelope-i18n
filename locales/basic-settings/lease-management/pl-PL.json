@@ -1,0 +1,10 @@
+{
+  "device_status": "Stan systemu",
+  "lease_status": "Status dzierżawy",
+  "normal_lease": "Zwykła dzierżawa",
+  "normal_lease_tips": "Zwykła dzierżawa: Falownik pracuje jak zwykle. Zakończ dzierżawę: Do falownika została wysłana instrukcja przez EMS, po otrzymaniu której falownik nie może produkować energii elektrycznej i nie może działać (akumulator nie może ładować ani rozładowywać, PV nie może produkować prądu), ale może kupić energię z sieci obejściowej, aby dostarczyć prąd do odbiorników.",
+  "offline_days": "Przekroczenie limitu czasu w trybie offline",
+  "offline_days_tips": "System zostanie zatrzymany, gdy pozostanie w trybie offline przez zadany czas",
+  "stop_lease": "Zakończ dzierżawę",
+  "value_range_min_max": "Zakres wartości: {min}–{max}"
+}

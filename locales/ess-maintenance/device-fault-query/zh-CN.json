@@ -1,0 +1,8 @@
+{
+  "device_model": "机型",
+  "error_code": "故障代码",
+  "license": "License",
+  "multiple_name_sep": "多个{name}以‘|’分割",
+  "reseller": "分销商",
+  "time": "时间"
+}

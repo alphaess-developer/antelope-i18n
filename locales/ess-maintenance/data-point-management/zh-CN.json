@@ -1,0 +1,8 @@
+{
+  "data_center": "数据中心",
+  "data_center_list": "数据中心列表",
+  "data_center_name": "数据中心名称",
+  "data_upload_domain": "数据上传域名",
+  "is_encrypt_transmission": "是否加密传输",
+  "port_number": "端口号"
+}

@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Povolit omezenou podporu napájení",
+  "end_time_num": "Konec času {num}",
+  "meter_offset": "Posunutí výkonu měřiče",
+  "power_rationing_support": "Podpora omezení výkonu",
+  "start_time_num": "Čas začátku {num}",
+  "time_period_num": "Časový úsek {num}"
+}

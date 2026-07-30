@@ -1,0 +1,11 @@
+{
+  "build_status": "Status van de build",
+  "exception_date": "Datum van uitzondering",
+  "generate_reports": "Rapporten genereren",
+  "multiple_name_sep": "Meerdere {name} worden gescheiden door '|'",
+  "one_click_generation": "Genereren met één klik",
+  "please_select_records": "Selecteer de gegevens die u wilt uitvoeren",
+  "scan_1": "scannen",
+  "selection_time": "Selectie periode",
+  "type": "Type"
+}

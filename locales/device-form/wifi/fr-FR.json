@@ -1,0 +1,10 @@
+{
+  "name_rule_8_15": "Ne peut pas contenir \\, \" ou :. La longueur doit être de 8 à 15 caractères.",
+  "network_type": "Type de réseau",
+  "wifi_hardware_version": "Version matérielle Wi-Fi",
+  "wifi_manage": "Gestion Wi-Fi",
+  "wifi_module_sn": "SN du module Wi-Fi",
+  "wifi_pwd": "Mot de passe Wi-Fi",
+  "wifi_pwd_error": "Le mot de passe doit comprendre des majuscules, des minuscules, des chiffres et des caractères spéciaux (à l’exception des espaces, des barres obliques inversées \\ et des deux-points :). Il doit comporter au moins 8 caractères (jusqu’à 15 caractères maximum) et ne doit pas inclure de caractères identiques répétés ou consécutifs.",
+  "wifi_software_version": "Version du logiciel Wi-Fi"
+}

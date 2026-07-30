@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Eliminazione in batch",
+  "cycle_count": "Conteggio dei cicli",
+  "cycle_duration_min": "Durata del ciclo [min]",
+  "cycle_task": "Attività ciclo",
+  "end_time_ems_time": "Ora di fine (ora EMS)",
+  "min_pv": "Valore di potenza minimo [W]",
+  "no_match_data": "I dati non esistono o sono stati eliminati",
+  "running_state": "Stato corrente",
+  "select_date_time": "Seleziona Data e ora",
+  "single_task": "Attività Singola",
+  "start_time_ems": "Ora di inizio(ora EMS)"
+}

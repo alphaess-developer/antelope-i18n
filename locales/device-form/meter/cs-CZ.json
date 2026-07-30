@@ -1,0 +1,16 @@
+{
+  "active": "Aktivní",
+  "ct_tip": "Pokud je měřič nakonfigurován s proudovým transformátorem (proudovými transformátory, CT), je třeba zaškrtnout tlačítko „CT“ a poté lze upravit převodní poměr CT. Pozn.: Tlačítko „CT“ by mělo být zaškrtnuto pouze u měřiče Acrel ADL3000 CT nebo ACR10R CT.",
+  "grid_connected_meter": "Měřič připojení k síti",
+  "grid_side_meter": "Měřič sítě",
+  "hardware_version": "Verze hardwaru",
+  "meter_ct": "Převodní poměr CT měřiče",
+  "meter_ct_rate": "Jmenovité zvětšení převodního poměru CT",
+  "meter_mode": "Model měřiče",
+  "meter_on_grid_tips": "Pokud je v systému připojeném k síti instalován měřič na straně sítě, klikněte na tlačítko „měřič“. Pokud je CT připojen přímo na straně sítě, klikněte na tlačítko „CT“.",
+  "meter_on_pv_tips": "Pokud je v systému se střídavým a hybridním zapojením na straně FV měniče nainstalován měřič, klikněte na tlačítko „Měřič“. Pokud je CT připojen přímo na straně FV měniče, klikněte na tlačítko „CT“.",
+  "pv_side_meter": "Měřič na straně FV systému",
+  "software_version": "Číslo verze softwaru",
+  "unactive": "Neaktivováno",
+  "wireless_meter": "Bezdrátový měřič"
+}

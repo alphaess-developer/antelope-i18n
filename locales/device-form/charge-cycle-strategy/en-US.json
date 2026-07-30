@@ -1,0 +1,21 @@
+{
+  "begin_time": "Start time",
+  "charge": "Charge",
+  "charge_cut_off_soc": "Charging Cut-off SOC",
+  "charging_tip": "If \"Charge\" is selected and a charging time period is set, the battery will be forcibly charged during the specified time period. The battery will not discharge during this period. It will prioritize using solar power for charging. If the solar power is insufficient, it will draw power from the grid to supplement the charging power. Outside of this time period, the system will operate in \"Self-Consumption\" mode. Some models currently support 15-minute-level charge and discharge functions, and the supported models require a firmware upgrade. Models that do not support it will continue to use the previous 1-hour-level charge and discharge function.",
+  "daily": "Daily",
+  "discharge": "Discharge",
+  "discharge_cut_off_soc": "Discharging Cut-off SOC",
+  "discharge_cut_off_soc_hint": "The battery will stop discharging, until the SOC reaches the set SOC,",
+  "discharge_tip": "If \\\"Discharging\\\" is enabled and a discharging time period is set, the battery will discharge only during the specified period. If there is available solar power, it will supply the loads first, and the battery will provide power only if the solar power is insufficient. The battery will not feed back into the grid; it will only supply power to the loads. If there is excess solar energy during this period, it can also be used to charge the battery. Outside of this time period, the battery can only charge and cannot discharge.\\nCurrently, some models support charging/discharging at 15-minute intervals, and firmware upgrades are required for these models. For systems that do not support this feature, the charging/discharging will remain at the previous 1-hour interval.\\n(Note: For daily charge/discharge settings, overlapping time periods are allowed. In cases where both charging and discharging schedules overlap, charging will take priority. If there are overlapping time periods within the same control strategy (either charging or discharging), the schedule with the earlier time setting will take precedence.)",
+  "end_time": "End Time",
+  "execution_cycle": "Operation Cycle",
+  "off_grid_cut_off_soc": "Off-grid: SOC for Load Disconnectting",
+  "off_grid_soc_control": "Off-grid SOC Control",
+  "off_grid_soc_value_tip": "The current off-grid wake-up SOC setting is invalid if it is < off-grid cut-off SOC + 5%.",
+  "off_grid_wake_up_soc": "Off-grid Wake-up SOC",
+  "time_period_num": "Time Period {num}",
+  "ups_reserve_enable": "UPS reserve enable",
+  "ups_reserve_enable_hint": "With this function enabled, when the system recovers from off-grid mode to on-grid mode, the energy storage system will forcibly draw power from both PV and the grid, and prioritize charging the battery to the battery cut-off SOC value. With this function disabled, when the system recovers from off-grid mode to on-grid mode, the energy storage system will not perform a forced power-supply logic.",
+  "weekly": "Weekly"
+}

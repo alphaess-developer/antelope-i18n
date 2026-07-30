@@ -1,0 +1,8 @@
+{
+  "pv_inv_info": "Informazioni sugli inverter fotovoltaici",
+  "pv_inv_model": "Modello di inverter FV",
+  "pv_inv_pos": "Posizione di installazione della macchina connessa alla rete",
+  "pv_inv_quantity": "Quantità di inverter fotovoltaici",
+  "sts_grid_side": "Lato rete STS",
+  "sts_load_side": "STS lato carico"
+}

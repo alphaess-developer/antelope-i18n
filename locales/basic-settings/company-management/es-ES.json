@@ -1,0 +1,19 @@
+{
+  "associated_devices": "Dispositivos asociados",
+  "category": "Categoría",
+  "comp_name": "Nombre de la empresa",
+  "company_no_license": "¡La empresa aún no ha vinculado la licencia!",
+  "contact_person": "Persona de contacto",
+  "end_user": "Usuario final",
+  "generate_license": "Generar licencia",
+  "go_to_bind": "Ir a vincular",
+  "installer": "Instalador",
+  "investor": "Inversor",
+  "license": "Licencia",
+  "mail": "Correo electrónico",
+  "primary_admin": "Cuenta principal",
+  "reseller": "Revendedor",
+  "status": "Estado",
+  "total_company": "Número total de empresas",
+  "wholesaler": "mayorista"
+}

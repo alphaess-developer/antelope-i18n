@@ -1,0 +1,19 @@
+{
+  "all": "Alles",
+  "backup_box_error": "Backup-Box-Fout",
+  "bms_error": "BMS Fout",
+  "clean_time": "Tijdstip van wissen",
+  "ems_error": "EMS fout",
+  "error_code": "Foutcodes",
+  "event_happen_time": "Tijdstip",
+  "fault_category": "Fout Categorie",
+  "fault_info": "Foutinformatie",
+  "inv_error": "Omvormer fout",
+  "inv_warning": "Waarschuwing omvormer",
+  "level": "Niveau",
+  "meter_error": "Meter fout",
+  "other_error": "Andere fout",
+  "selection_time": "Selectie periode",
+  "status": "Status",
+  "system_sn": "Systeem-SN"
+}

@@ -1,0 +1,9 @@
+{
+  "error_code": "Foutcodes",
+  "error_description": "Fout Omschrijving",
+  "error_name": "Foutafkorting",
+  "failure_level": "Fout niveau",
+  "fix_suggestion": "Reparatie suggesties",
+  "language": "Taal",
+  "title_trouble_shooting": "Probleemoplossing"
+}

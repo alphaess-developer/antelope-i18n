@@ -1,0 +1,7 @@
+{
+  "energy_details_data": "Energy Details Data",
+  "energy_summary_data": "Energy Summary Data",
+  "power_data": "Power Data",
+  "time_interval_cannot_exceed_31_days": "Input time interval cannot exceed 31 days",
+  "time_interval_cannot_exceed_num_days": "The input time interval cannot exceed {num} days"
+}

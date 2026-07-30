@@ -1,0 +1,13 @@
+{
+  "all_read": "Markera alla som lästa",
+  "device_notification": "Enhetsaviseringar",
+  "has_read": "Läst",
+  "message_type": "Meddelandetyp",
+  "msg_content": "Meddelande",
+  "msg_subject": "Meddelandeämne",
+  "not_read": "Oläst",
+  "notifications": "Aviseringar",
+  "other_notification": "Övriga aviseringar",
+  "receiving_time": "Mottagningstid",
+  "status": "Status"
+}

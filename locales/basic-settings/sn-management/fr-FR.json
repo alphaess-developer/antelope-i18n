@@ -1,0 +1,11 @@
+{
+  "check_code": "Code de vérification",
+  "data_center": "Centre de données",
+  "del_sys_data": "Suppression des données du système",
+  "delete_sn_related_system_data": "Supprimer les données système liées à {sn}",
+  "household_savings_platform": "Plateforme d'épargne des ménages",
+  "micro_storage_platform": "Plateforme de micro-stockage",
+  "product_category": "Catégorie de produit",
+  "socket_data_center": "Centre de données Socket",
+  "view_check_code": "Afficher le code de vérification"
+}

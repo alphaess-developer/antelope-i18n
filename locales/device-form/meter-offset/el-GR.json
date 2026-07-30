@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Ενεργοποίηση της υποστήριξης περιορισμένης ισχύος",
+  "end_time_num": "Ώρα λήξης {num}",
+  "meter_offset": "Μετρητής ισχύος αντιστάθμησης",
+  "power_rationing_support": "Υποστήριξη περιορισμένης ισχύος",
+  "start_time_num": "Ώρα έναρξης {num}",
+  "time_period_num": "Χρονικό διάστημα {num}"
+}

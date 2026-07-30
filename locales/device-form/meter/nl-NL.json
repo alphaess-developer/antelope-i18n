@@ -1,0 +1,16 @@
+{
+  "active": "Actief",
+  "ct_tip": "Als de meter is uitgerust met CT('s), moet het vakje 'CT' worden aangevinkt. Daarna kan de CT-verhouding worden bewerkt. P.S. Alleen bij de Acrel ADL3000 CT-meter of de ACR10R CT-meter moet het vakje 'CT' worden aangevinkt.",
+  "grid_connected_meter": "Meter netzijde",
+  "grid_side_meter": "Net meter",
+  "hardware_version": "Hardware versie",
+  "meter_ct": "Verhouding stroomtransformator",
+  "meter_ct_rate": "Verwijst naar de nominale vergrotingsverhouding van CT",
+  "meter_mode": "Model elektriciteitsmeter",
+  "meter_on_grid_tips": "Als er een meter is geïnstalleerd aan de netzijde in een netgekoppeld systeem, klik dan op de knop om de meter aan te wijzen. Als een stroomtransformator rechtstreeks op het net is aangesloten, klik dan op de knop om de stroomtransformator aan te wijzen.",
+  "meter_on_pv_tips": "Als er een meter is geïnstalleerd aan de zijkant van de PV-omvormer in AC/hybride gekoppelde werkmodus, klik dan op de knop om de meter aan te wijzen. Als een stroomtransformator rechtstreeks op de PV-omvormer is aangesloten, klik dan op de knop om de stroomtransformator aan te wijzen.",
+  "pv_side_meter": "Meter PV kant",
+  "software_version": "Softwareversie",
+  "unactive": "Niet actief",
+  "wireless_meter": "Draadloze meter"
+}

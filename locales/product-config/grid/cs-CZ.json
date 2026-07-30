@@ -1,0 +1,22 @@
+{
+  "add_name": "Přidat - {name}",
+  "at_least_one_data": "Alespoň jeden záznam",
+  "canonical_coding": "Kanonické kódování",
+  "edit_name": "Upravit - {name}",
+  "ems_code": "EMS kód",
+  "ems_firmware_version": "Verze firmwaru EMS",
+  "grid_connection_specifications": "Specifikace gridu",
+  "national_grid_connection_norms": "Národní normy pro připojení k síti",
+  "phase": "fáze",
+  "publishing_agency": "Vydavatelská agentura",
+  "regional_standards": "Regionální standardy",
+  "single_phase": "Jednofázový",
+  "specification_name": "Specifikační název",
+  "split_phase": "Rozdělit fázi",
+  "support_sub_code": "Zda jsou zahrnuty regionální normy",
+  "support_version_control": "Zda je podporována správa verzí",
+  "three_phase": "Třífázový",
+  "upgrade_version": "verze",
+  "validity_period": "Období platnosti",
+  "version_description": "Popis verze"
+}

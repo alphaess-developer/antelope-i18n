@@ -1,0 +1,8 @@
+{
+  "data_center": "Datové centrum",
+  "data_center_list": "Seznam datových center",
+  "data_center_name": "název datového centra",
+  "data_upload_domain": "název domény pro nahrávání dat",
+  "is_encrypt_transmission": "Zda šifrovat přenos",
+  "port_number": "číslo portu"
+}

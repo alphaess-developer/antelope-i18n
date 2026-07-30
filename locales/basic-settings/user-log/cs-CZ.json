@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Čas výskytu",
+  "log_type": "Typ protokolu",
+  "origin": "Od",
+  "record_date": "Datum záznamu",
+  "separate": "Oddělte více SN pomocí |",
+  "view_log_content": "Zobrazit obsah protokolu"
+}

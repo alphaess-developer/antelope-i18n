@@ -1,0 +1,22 @@
+{
+  "area": "Område",
+  "control_power_output": "Uteffektstyrning",
+  "detect_time": "Detekteringstid",
+  "manual_reset": "Manuell återställning",
+  "manual_reset_enable": "Aktivera manuell återställning",
+  "manual_reset_setting": "Brytare för manuell återställning",
+  "no_power_control": "Styrning av reaktiv effekt (föreliggande)",
+  "off_short": "Av",
+  "on_short": "På",
+  "operating_power_factor": "Styrning av konstant effektfaktor",
+  "over_f": "Överfrekvensrelä för AC (OFR)",
+  "over_v": "Överspänningsrelä för AC (OVR)",
+  "passive_island_detect": "Passiv ö-driftsdetektering",
+  "power_recovery_delay": "Fast tidsfördröjning efter återinkoppling",
+  "set_time": "Inställningstid",
+  "set_value": "Inställningsvärde",
+  "suppression_voltage_degree": "Funktion för att dämpa spänningsökning",
+  "under_f": "Underfrekvensrelä för AC (UFR)",
+  "under_v": "Underspänningsrelä för AC (UVR)",
+  "voltage_phase_jump_detect": "Metod för detektering av spänningsfashopp"
+}

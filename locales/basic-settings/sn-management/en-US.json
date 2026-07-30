@@ -1,0 +1,11 @@
+{
+  "check_code": "Check code",
+  "data_center": "Data center",
+  "del_sys_data": "Delete System Data",
+  "delete_sn_related_system_data": "Delete {sn}-related system data",
+  "household_savings_platform": "Household savings platform",
+  "micro_storage_platform": "Micro storage platform",
+  "product_category": "Product Category",
+  "socket_data_center": "Socket Data Center",
+  "view_check_code": "View CheckCode"
+}

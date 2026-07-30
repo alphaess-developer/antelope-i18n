@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Batch delivery",
+  "breakpoint_end_time": "Breakpoint end time",
+  "breakpoint_start_time": "Breakpoint start time",
+  "command_is_issued": "Command is issued",
+  "data_completion_status": "Data completion status",
+  "data_validation": "Data validation",
+  "delivered": "Delivered",
+  "interval_time_min": "Interval Time (min)",
+  "multiple_name_sep": "Multiple {name} starts with '|' partition",
+  "not_issued": "Not issued",
+  "not_uploaded": "Not uploaded",
+  "one_click_generation": "One-click generation",
+  "partial_uploads": "Partial uploads",
+  "please_select_records": "Select the data you want to execute",
+  "scan_1": "Scan",
+  "selection_time": "Select Time",
+  "the_command_is_issued": "The command is issued",
+  "the_upload_is_complete": "The upload is complete",
+  "tips": "Prompt",
+  "type": "Type"
+}

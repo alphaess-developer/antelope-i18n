@@ -1,0 +1,11 @@
+{
+  "area_list": "Gebietsliste",
+  "area_name": "Gebietsname",
+  "charge_cut_off_soc": "Ladeabschaltung SOC",
+  "click_for_details": "Für Einzelheiten Anklicken",
+  "load_shedding_msg_notification": "LoadShedding-Nachrichtenbenachrichtigung",
+  "load_shedding_tips1": "Diese Funktion lädt das Energiespeichersystem intelligent entsprechend dem Stromausfallplan in Ihrer Region und dem eingestellten Abschaltlade-SOC auf und stellt so sicher, dass Sie und Ihre Familie bei Stromausfällen über genügend Backup-Energie verfügen. Die Aktivierung dieser Funktion kann zu einer Vergrößerung der Haushaltskapazität führen Stromrechnung.",
+  "load_shedding_tips2": "Nach dem Einschalten dieser Funktion führt das System eine intelligente Notstromversorgung basierend auf den örtlichen Stromausfallbedingungen durch. Bei dieser Funktion handelt es sich um einen erzwungenen Ladevorgang. Wenn Sie den Ladevorgang stoppen möchten, führen Sie bitte den Vorgang „Lade- und Entladeeinstellungen“ – „Ladevorgang stoppen“ aus .",
+  "load_shedding_tips3": "Nach dem Einschalten dieser Funktion wird Ihnen basierend auf der örtlichen Stromausfallsituation eine Erinnerung mit Informationen zur Stromsicherung gesendet.",
+  "region": "Region"
+}

@@ -1,0 +1,9 @@
+{
+  "error_code": "故障代码",
+  "error_description": "故障说明",
+  "error_name": "故障简称",
+  "failure_level": "故障等级",
+  "fix_suggestion": "修复建议",
+  "language": "语言",
+  "title_trouble_shooting": "故障排除"
+}

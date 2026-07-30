@@ -1,0 +1,22 @@
+{
+  "area": "Gebied",
+  "control_power_output": "Uitvoercontrole",
+  "detect_time": "Detectietijd",
+  "manual_reset": "Handmatige reset",
+  "manual_reset_enable": "Handmatige Reset Inschakelen",
+  "manual_reset_setting": "Schakelaar voor handmatige reset",
+  "no_power_control": "Ineffectieve vermogenscontrole",
+  "off_short": "Uit",
+  "on_short": "Open",
+  "operating_power_factor": "Constante vermogensfactorregeling",
+  "over_f": "AC-overfrequentierelais",
+  "over_v": "AC-overspanningsrelais",
+  "passive_island_detect": "Passieve detectie van geïsoleerde werking",
+  "power_recovery_delay": "Vaste tijdvertraging na opnieuw inschakelen",
+  "set_time": "Instellingstijd",
+  "set_value": "Instelwaarde",
+  "suppression_voltage_degree": "Functie voor het onderdrukken van spanningsstijging",
+  "under_f": "AC onderfrequentierelais",
+  "under_v": "AC onderspanningsrelais",
+  "voltage_phase_jump_detect": "Opsporingsmethode voor spanningssprongen"
+}

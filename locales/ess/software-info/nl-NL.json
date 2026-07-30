@@ -1,0 +1,13 @@
+{
+  "ap_module": "AP-module",
+  "arm_software_version": "Versienummer van de ARM-software",
+  "emsboot_version": "EMS bootversie",
+  "hardware_version": "Hardware versie",
+  "inverter": "Omvormer",
+  "model": "Model",
+  "platform": "Platform",
+  "slave_software_version": "Versienummer slave-software",
+  "software_version": "Softwareversie",
+  "sta_module": "STA-module",
+  "wireless_meter": "Draadloze meter"
+}

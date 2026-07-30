@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "Pro odemknutí kontaktujte instalační firmu.",
+  "content": "Obsah",
+  "current_status": "Aktuální stav",
+  "latest_run_records": "Poslední provozní záznamy",
+  "restart": "Restartovat",
+  "restart_to_resolve": "Restartování systému může tento problém vyřešit.",
+  "status3_restart_tips": "Restart bude trvat přibližně tři minuty. Po třech minutách obnovte stránku a zkontrolujte průběh. Opravdu chcete pokračovat?",
+  "status4_unlock_tips": "Odemčení bude trvat přibližně tři minuty. Po třech minutách obnovte stránku a zkontrolujte průběh. Opravdu chcete pokračovat?",
+  "unlock": "Odemknout",
+  "upload_time": "Doba nahrávání"
+}

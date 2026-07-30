@@ -1,0 +1,18 @@
+{
+  "dispatch": "Centrale",
+  "extra": "Extra",
+  "extra.clear_energy_statistics": "Statistiche energetiche chiare",
+  "extra.clear_meter_data": "Dati chiari dei contatori",
+  "extra.modify_mac_address": "Modifica l'indirizzo MAC",
+  "extra.modify_sn": "Modifica SN",
+  "extra.restart_unit": "Riavvia il componente",
+  "extra.restart_unit.restart_battery": "Riavvia la batteria",
+  "extra.restart_unit.restart_inverter": "Riavvia l'inverter",
+  "extra.restore_factory_settings": "Ripristino di fabbrica",
+  "remote_control": "Telecomando",
+  "remote_control.close_mos": "Chiude remotamente il MOS per la scarica della batteria",
+  "remote_control.forced_charge": "Forza per caricare completamente la batteria",
+  "remote_control.forced_work": "Forzare la batteria a entrare in modalità lavoro (modalità parallela)",
+  "restart": "Riavvio",
+  "sync_time": "SyncTime"
+}

@@ -1,0 +1,18 @@
+{
+  "dispatch": "Dispatch",
+  "extra": "Extra",
+  "extra.clear_energy_statistics": "清除能量统计",
+  "extra.clear_meter_data": "清除电表数据",
+  "extra.modify_mac_address": "修改MAC地址",
+  "extra.modify_sn": "修改SN",
+  "extra.restart_unit": "重启组件",
+  "extra.restart_unit.restart_battery": "重启电池",
+  "extra.restart_unit.restart_inverter": "重启逆变器",
+  "extra.restore_factory_settings": "恢复出厂设置",
+  "remote_control": "远程控制",
+  "remote_control.close_mos": "远程闭合电池放电MOS",
+  "remote_control.forced_charge": "强制电池充电至满电状态",
+  "remote_control.forced_work": "强制电池进入work模式（并机模式）",
+  "restart": "Restart",
+  "sync_time": "SyncTime"
+}

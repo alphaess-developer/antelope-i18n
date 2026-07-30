@@ -1,0 +1,6 @@
+{
+  "electric_current": "Strom(A)",
+  "fault_record": "Fehleraufzeichnung",
+  "upload_date": "Datum des Hochladens",
+  "volt_v": "Stromspannung(V)"
+}

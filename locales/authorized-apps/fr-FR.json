@@ -1,0 +1,11 @@
+{
+  "authorized": "autorisé",
+  "authorized_app": "Application autorisée",
+  "authorized_app_description": "Les applications tierces accèdent aux données de votre appareil via AlphaESS OpenAPI.",
+  "control_exclusive": "Contrôle (exclusif)",
+  "device_apps_count": "{count} applications",
+  "location": "Emplacement",
+  "no_authorized_desc_1": "Aucune application autorisée n’est disponible pour le moment",
+  "no_authorized_desc_2": "Les applications tierces autorisées pour votre appareil seront affichées ici.",
+  "telemetry": "Télémétrie"
+}

@@ -1,0 +1,22 @@
+{
+  "cos_setting": "Cos instelling",
+  "fixed_setpoint_cos": "Vast setpunt cos (φ)",
+  "frequency_decrease_protection_f": "Frequentieverlagingsbeveiliging f",
+  "frequency_hz_square": "Frekwentie (Hz)",
+  "frequency_increase_protection_f": "Beveiliging tegen frequentieverhoging f",
+  "germany_safety_tip": "Het duurinstelpunt “< 100 ms” voor de instelwaarde van het beveiligingsrelais is gebaseerd op de aanname dat de maximale reactietijd voor de NS-beveiliging + interfaceschakelaar eveneens 100 ms bedraagt. Dit resulteert in een maximale “totale uitschakeltijd” van 200 ms. Als de reactietijd van de componenten < 100 ms is (bijv. 50 ms), biedt dit een langere periode voor het uitvoeren van de metingen en de beoordeling van de beveiligingsfunctie (bijv. tot 150 ms). Dit zou dan resulteren in een instelwaarde van het beveiligingsrelais die hoger is dan “< 100 ms”, d.w.z. “< 150 ms”. In dat geval mag echter alleen de 100 ms worden weergegeven als instelwaarde bij de NS-beveiliging. De uitschakeltijd van 200 ms mag echter in geen geval worden overschreden. (VDE-AR-N:2018-11 S6.5.2)",
+  "lagging": "Achterlopend",
+  "leading": "Voorlopend",
+  "limitation": "Limiet",
+  "ns_protection": "NS-bescherming",
+  "power_factor_cos_square": "Arbeidsfactor (φ)",
+  "protection_function": "Beschermingsfunctie",
+  "q_u_curve": "Q (U) Curve",
+  "q_u_curve_tip": "Q(U)-regeling is alleen van toepassing op driefasesystemen of systemen met een AC-uitgangsvermogen van meer dan 4,6 kVA (volgens VDE4105 hoofdstuk 5.7.2.4)",
+  "setting_value": "Instelwaarde",
+  "tripping_time": "Trip tijd",
+  "tripping_value": "Uitschakelwaarde",
+  "voltage_decrease_protection_u": "Beveiliging tegen spanningsverlaging U",
+  "voltage_increase_protection_u": "Spanningsverhogingsbeveiliging U",
+  "voltage_v_square": "Spanning (V)"
+}

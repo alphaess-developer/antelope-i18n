@@ -1,0 +1,11 @@
+{
+  "build_status": "Genereringsstatus",
+  "exception_date": "Avvikelsedatum",
+  "generate_reports": "Generera rapporter",
+  "multiple_name_sep": "Flera {name} avgränsas med '|'",
+  "one_click_generation": "Generera med ett klick",
+  "please_select_records": "Välj de data du vill köra",
+  "scan_1": "Skanna",
+  "selection_time": "Välj tid",
+  "type": "Typ"
+}

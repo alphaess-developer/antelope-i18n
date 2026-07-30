@@ -1,0 +1,13 @@
+{
+  "all_read": "Oznaczono jako przeczytane",
+  "device_notification": "Powiadomienia urządzenia",
+  "has_read": "Zapoznałem(-am) się",
+  "message_type": "Rodzaj wiadomości",
+  "msg_content": "Wiadomość",
+  "msg_subject": "Temat wiadomości",
+  "not_read": "Nie przeczytano",
+  "notifications": "Powiadomienia",
+  "other_notification": "Inne uwagi",
+  "receiving_time": "Czas odbioru",
+  "status": "Stan"
+}

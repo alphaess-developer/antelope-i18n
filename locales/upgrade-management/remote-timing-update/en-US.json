@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Batch Deletion",
+  "cycle_count": "Cycle Count",
+  "cycle_duration_min": "Cycle Duration [min]",
+  "cycle_task": "Cycle Task",
+  "end_time_ems_time": "End Time (EMS Time)",
+  "min_pv": "Min. Power Value [W]",
+  "no_match_data": "The data does not exist or has been deleted",
+  "running_state": "Running State",
+  "select_date_time": "Select Date Time",
+  "single_task": "Single Task",
+  "start_time_ems": "Start Time(EMS Time)"
+}

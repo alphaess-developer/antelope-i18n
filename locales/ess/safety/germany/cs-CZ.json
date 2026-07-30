@@ -1,0 +1,22 @@
+{
+  "cos_setting": "Nastavení Cos",
+  "fixed_setpoint_cos": "Pevná nastavená hodnota cos (φ)",
+  "frequency_decrease_protection_f": "Frequency Decrease Protection f",
+  "frequency_hz_square": "Frekvence [Hz]",
+  "frequency_increase_protection_f": "Ochrana proti zvýšení frekvence f",
+  "germany_safety_tip": "The duration set-point “< 100 ms” for the protection relay setting value is based on the assumption             that the maximum response time for NS protection + interface switch is also 100 ms. This results in a maximum “total disconnection time” of 200 ms.             If the response time of the components is < 100 ms (e. g. 50 ms), then this allows for a longer period during which to perform the measurements             and the evaluation of the protective function (e. g. up to 150 ms). This would then result in a protection relay setting value higher than “< 100             ms”, i. e. “< 150 ms”. However, in that case, only the 100 ms shall be visualised as the setting value at the NS protection. Nevertheless, the             disconnection time of 200 ms shall in no case be exceeded. (VDE-AR-N:2018-11 S6.5.2）",
+  "lagging": "Zpožďující",
+  "leading": "Předbíhající",
+  "limitation": "Omezení",
+  "ns_protection": "Ochrana NS",
+  "power_factor_cos_square": "Účinek cos (φ)",
+  "protection_function": "Ochranná funkce",
+  "q_u_curve": "Křivka Q (U)",
+  "q_u_curve_tip": "Regulace Q(U) se vztahuje pouze na třífázové systémy nebo systémy se střídavým výstupním výkonem vyšším než 4,6 kVA (podle VDE4105 kapitola 5.7.2.4).",
+  "setting_value": "Nastavená hodnota",
+  "tripping_time": "Vypínací čas",
+  "tripping_value": "Vypínací hodnota",
+  "voltage_decrease_protection_u": "Ochrana proti snížení napětí U",
+  "voltage_increase_protection_u": "Voltage Increase Protection U",
+  "voltage_v_square": "Napětí [V]"
+}

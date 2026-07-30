@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Habilitar el soporte de potencia limitada",
+  "end_time_num": "Fin del tiempo {num}",
+  "meter_offset": "Potencia de compensación del medidor",
+  "power_rationing_support": "Soporte de racionamiento de energía",
+  "start_time_num": "Hora de inicio {num}",
+  "time_period_num": "Intervalo de tiempo {num}"
+}

@@ -1,0 +1,19 @@
+{
+  "at_least_one_data": "Τουλάχιστον ένα δεδομένο",
+  "charge_cut_off_soc": "Διακοπή φόρτισης SOC",
+  "discharge_cut_off_soc": "Αποκοπή εκφόρτισης SOC",
+  "feed_control_tip": "<p>       Dear Customer, <br />       To facilitate the activation of the feature enabling direct power discharge from your electricity storage system to the grid, we kindly request your       confirmation of the following:       <br />       1. Your installation address is situated within the jurisdiction of <strong>{country}</strong>; <br />       2. You possess a current, legally binding agreement with your local grid company as a prerequisite for enabling the direct discharge of power from your       electricity storage system and/or photovoltaic system into the grid.       <br /> <strong>       Non-compliance with the above conditions may lead to safety hazards and potential legal entanglements, for which you will bear full responsibility. If you       do not meet all the above conditions, you should not confirm and will not be able to use the feature to enable the direct power discharge from your       electricity storage system to the grid. </strong>       <br />       Your attention to and cooperation with the above prerequisites is greatly appreciated.     </p>",
+  "feed_disabled_tip": "Κατά τον προγραμματισμό VPP, ο έλεγχος τροφοδότη είναι απενεργοποιημένος",
+  "feed_energy_report": "Αναφορά ενέργειας τροφοδοσίας δικτύου",
+  "feed_in_control": "Έλεγχος τροφοδοσίας δικτύου",
+  "feed_in_function": "Λειτουργία τροφοδοσίας δικτύου",
+  "feed_in_power": "Ισχύς τροφοδοσίας δικτύου",
+  "feed_in_time_period": "Χρονική περίοδος τροφοδοσίας",
+  "feed_power_info": "Η ισχύς τροφοδοσίας δικτύου ορίζεται ως ανώτατο όριο. Μετά την παροχή της ισχύος εξόδου του συστήματος στο φορτίο, όλη η υπόλοιπη ισχύς τροφοδοτείται στο δίκτυο. Ως εκ τούτου, η πραγματική ισχύς τροφοδότησης δικτύου μπορεί να κυμαίνεται εντός ενός ορισμένου εύρους λόγω αλλαγών στο φορτίο.",
+  "home_ups_soc_tip": "Το τρέχον αποθεματικό σας UPS είναι:",
+  "smart_charging": "Έξυπνη φόρτιση",
+  "start_less_than_end": "Η ώρα έναρξης πρέπει να είναι μικρότερη από την ώρα λήξης.",
+  "time_period_num": "Χρονικό διάστημα {num}",
+  "time_period_overlap": "Διασταύρωση χρονικής περιόδου",
+  "today_feed_in": "Η σημερινή τροφοδοσία δικτύου"
+}

@@ -1,0 +1,22 @@
+{
+  "activate": "Activeer",
+  "activated": "Geactiveerd",
+  "channel_type": "Type kanaal",
+  "content": "Inhoud",
+  "deactivate": "Deactiveer",
+  "deactivated": "Uitschakelen",
+  "disabled": "Uit",
+  "empty_template_content_tip": "Je moet de sjablooninhoud in minstens één taal invullen",
+  "enable_alt": "Activeren",
+  "enabled": "Ingeschakeld",
+  "extra_params": "Aanvullende parameters",
+  "group_type": "Type groep",
+  "mail": "E-mail vereist",
+  "notice": "Kennisgeving",
+  "push": "Duwen",
+  "status": "Status",
+  "template_code": "Sjabloon code",
+  "template_content": "Sjablooninhoud",
+  "template_name": "Sjabloonnaam",
+  "title": "Titel"
+}

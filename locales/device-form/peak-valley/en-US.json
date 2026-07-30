@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "Battery backup reserves must not exceed peak shaving discharge cutoff SOC {soc}%",
+  "difference": "Difference",
+  "discharge_cut_off_soc": "Discharging Cut-off SOC",
+  "end_more_than_begin": "End time must be greater than start time",
+  "hysteresis_value": "Hysteresis Value",
+  "meter_time1_end": "Period1-End",
+  "meter_time1_start": "Period 1 - Start",
+  "meter_time2_end": "Period2-End",
+  "meter_time2_start": "Period 2 - Start",
+  "peak_cycle": "Peak shaving cycle",
+  "peak_periods": "Peak shaving time period",
+  "peak_shaving_discharge_soc_conflict": "Discharge cutoff SOC must not be lower than battery backup reserve {soc}%",
+  "peak_shaving_valley_filling": "Peak Shaving",
+  "peak_valley_period_overlap": "The peak shaving period and valley filling period must not overlap",
+  "peak_valley_value_conflict": "The peak and valley value settings conflict, please reset.",
+  "peak_value": "Peak Value",
+  "peak_value_tip": "Please set the maximum load power allowed by the household (this function only applies to grid-connected loads).",
+  "valley_cycle": "Fill the cycle",
+  "valley_periods": "Fill the time period",
+  "valley_value": "Valley Value"
+}

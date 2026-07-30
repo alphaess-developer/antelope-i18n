@@ -1,0 +1,11 @@
+{
+  "calibrate_now": "Nu kalibreren",
+  "calibration_cycle": "Kalibratiecyclus",
+  "calibration_estimated_time": "Kalibratie wordt uitgevoerd, geschatte benodigde tijd: {num} min",
+  "days": "Dag",
+  "next_calibration_date": "Volgende kalibratiedatum",
+  "next_calibration_time": "Volgende kalibratietijd",
+  "periodic_calibration": "Periodieke kalibratie",
+  "soc_calibration": "SOC-kalibratie",
+  "stop_calibration": "Kalibreren stoppen"
+}

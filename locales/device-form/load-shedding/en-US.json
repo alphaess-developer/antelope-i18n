@@ -1,0 +1,11 @@
+{
+  "area_list": "Area List",
+  "area_name": "Area Name",
+  "charge_cut_off_soc": "Charging Cut-off SOC",
+  "click_for_details": "Click for Details",
+  "load_shedding_msg_notification": "LoadShedding message notification",
+  "load_shedding_tips1": "This function intelligently charges the energy storage system according to the power outage schedule in your area and the set cut-off charging SOC, ensuring that you and your family can have enough backup energy during power outages. Activating this function may cause an increase in household electricity bills.",
+  "load_shedding_tips2": "After turning on this function, the system will perform intelligent power backup based on local power outage conditions. This function is a forced charging operation. If you want to stop charging, please perform the \"Charge and Discharge Settings\" - \"Stop Charging\" operation.",
+  "load_shedding_tips3": "After turning on this function, a power backup information reminder will be sent to you based on the local power outage situation.",
+  "region": "Region"
+}

@@ -1,0 +1,22 @@
+{
+  "add_name": "Προσθήκη - {name}",
+  "at_least_one_data": "Τουλάχιστον ένα δεδομένο",
+  "canonical_coding": "Κανονική κωδικοποίηση",
+  "edit_name": "Επεξεργασία - {name}",
+  "ems_code": "Κωδικός EMS",
+  "ems_firmware_version": "Αριθμός έκδοσης λογισμικού EMS",
+  "grid_connection_specifications": "Προδιαγραφές πλέγματος",
+  "national_grid_connection_norms": "Εθνικά πρότυπα σύνδεσης στο δίκτυο",
+  "phase": "φάση",
+  "publishing_agency": "Εκδοτικό γραφείο",
+  "regional_standards": "Περιφερειακά πρότυπα",
+  "single_phase": "Μονοφασικό (ηλεκτρικό ρεύμα)",
+  "specification_name": "Όνομα προδιαγραφών",
+  "split_phase": "Διαχωρισμένη φάση",
+  "support_sub_code": "Αν περιλαμβάνονται περιφερειακά πρότυπα",
+  "support_version_control": "Εάν υποστηρίζεται ο έλεγχος έκδοσης",
+  "three_phase": "Τριφασικό ρεύμα",
+  "upgrade_version": "Έκδοση",
+  "validity_period": "Περίοδος ισχύος",
+  "version_description": "Περιγραφή έκδοσης"
+}

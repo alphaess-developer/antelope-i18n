@@ -1,0 +1,19 @@
+{
+  "associated_devices": "Dispositivi associati",
+  "category": "Categoria",
+  "comp_name": "Nome azienda",
+  "company_no_license": "L'azienda non ha ancora vincolato la licenza!",
+  "contact_person": "Referente",
+  "end_user": "Utente finale",
+  "generate_license": "Genera licenza",
+  "go_to_bind": "Associa",
+  "installer": "Installatore",
+  "investor": "Investitore",
+  "license": "Licenza",
+  "mail": "E-mail",
+  "primary_admin": "Account principale",
+  "reseller": "Rivenditore",
+  "status": "Stato",
+  "total_company": "Numero totale di aziende",
+  "wholesaler": "grossista"
+}

@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Massradering",
+  "cycle_count": "Antal cykler",
+  "cycle_duration_min": "Cykellängd [min]",
+  "cycle_task": "Cyklisk uppgift",
+  "end_time_ems_time": "Sluttid (EMS-tid)",
+  "min_pv": "Min. effektvärde [W]",
+  "no_match_data": "Data finns inte eller har tagits bort",
+  "running_state": "Driftstatus",
+  "select_date_time": "Välj datum och tid",
+  "single_task": "Enkel uppgift",
+  "start_time_ems": "Starttid (EMS-tid)"
+}

@@ -1,0 +1,8 @@
+{
+  "pv_inv_info": "PV-Inverter",
+  "pv_inv_model": "PV-Inverter Model",
+  "pv_inv_pos": "On-Grid Inverter Installation Position",
+  "pv_inv_quantity": "PV-Inverter Quantity",
+  "sts_grid_side": "STS Grid Side",
+  "sts_load_side": "STS Load Side"
+}

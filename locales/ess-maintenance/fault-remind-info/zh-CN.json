@@ -1,0 +1,17 @@
+{
+  "battery_model": "电池型号",
+  "compatible_battery_models_cannot_repeat": "可配电池不可重复",
+  "coverage_area_country": "覆盖区域/国家",
+  "default_language": "默认语种",
+  "description": "描述",
+  "empty_fault_tip": "请至少填写一个语种的描述",
+  "fault_tip_must_be_filled": "默认语种对应的描述不能为空",
+  "max_number_character": "最多{number}个字符",
+  "please_set_the_default_language": "请设置默认语言",
+  "report_error": "报错",
+  "set_as_default": "设为默认",
+  "sn_coding_rules": "SN编码规则",
+  "sn_rules_not_allow_repeat": "SN识别规则不允许重复",
+  "status": "状态",
+  "type": "类型"
+}

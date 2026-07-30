@@ -1,0 +1,16 @@
+{
+  "active": "Aktiv",
+  "ct_tip": "Wenn der Zähler mit einem Stromwandler (CT) konfiguriert ist, muss die Schaltfläche bei „CT“ eingestellt werden. Der Vergrößerungsfaktor von dem Stromwandler (CT) hilft bei der Umrechnung.Wichtige Hinweis: Der dreiphasige Stromwandler gilt nur für den Zähler mit dem Modell von „ADL3000 CT“ oder „ACR10R CT“.",
+  "grid_connected_meter": "Netzgekoppelter Zähler",
+  "grid_side_meter": "Netzzähler",
+  "hardware_version": "Hardwareversion",
+  "meter_ct": "Stromwandler-Ratio",
+  "meter_ct_rate": "das Nennvergrößerungsverhältnis des Stromwandlers",
+  "meter_mode": "Stromzähler-Modell",
+  "meter_on_grid_tips": "Wenn in einem netzgekoppelten System ein Zähler auf der Netzseite installiert ist, klicken Sie bitte auf die Schaltfläche \"Zähler\". Wenn ein Stromwandler direkt an das Netz angeschlossen ist, klicken Sie bitte auf die Schaltfläche \"Stromwandler",
+  "meter_on_pv_tips": "Wenn im AC-/hybridgekoppelten Arbeitsmodus ein Zähler auf der Seite des PV-Wechselrichters installiert ist, klicken Sie bitte auf die Schaltfläche \"Zähler\". Wenn ein Stromwandler direkt an den PV-Wechselrichter angeschlossen ist, klicken Sie bitte auf die Schaltfläche \"Stromwandler\".",
+  "pv_side_meter": "PV-Zähler",
+  "software_version": "Firmwareversion",
+  "unactive": "inaktiviert",
+  "wireless_meter": "Drahtloser Zähler"
+}

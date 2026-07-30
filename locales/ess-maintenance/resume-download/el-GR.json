@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Παράδοση παρτίδας",
+  "breakpoint_end_time": "Ώρα λήξης σημείου διακοπής",
+  "breakpoint_start_time": "Ώρα έναρξης σημείου διακοπής",
+  "command_is_issued": "Η εντολή εκδίδεται",
+  "data_completion_status": "Κατάσταση συμπλήρωσης δεδομένων",
+  "data_validation": "Επικύρωση δεδομένων",
+  "delivered": "Παραδοθεί",
+  "interval_time_min": "Χρόνος διαστήματος (λεπτά)",
+  "multiple_name_sep": "Το πολλαπλό {name} ξεκινά με '|' χώρισμα",
+  "not_issued": "Δεν έχει εκδοθεί",
+  "not_uploaded": "Δεν ανέβηκε",
+  "one_click_generation": "Δημιουργία με ένα κλικ",
+  "partial_uploads": "Μερικές μεταφορτώσεις",
+  "please_select_records": "Επιλέξτε τα δεδομένα που θέλετε να εκτελέσετε",
+  "scan_1": "Σάρωση",
+  "selection_time": "Επιλέξτε ώρα",
+  "the_command_is_issued": "Η εντολή εκδίδεται",
+  "the_upload_is_complete": "Η μεταφόρτωση ολοκληρώθηκε",
+  "tips": "Προτροπή",
+  "type": "Τύπος"
+}

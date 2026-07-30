@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Standardgaranti",
+  "battery": "Batteri",
+  "begin_time": "Starttid",
+  "device_name": "Enhetsnamn",
+  "device_type": "Enhetstyp",
+  "end_time": "Sluttid",
+  "extended_warranty": "Förlängd garanti",
+  "high_standard_warranty": "Högklassig garanti",
+  "invalid": "Ogiltig",
+  "inverter": "Växelriktare",
+  "model_device": "Enhetsmodell",
+  "modify_warranty_period": "Ändra garantiperiod",
+  "order_time": "Ordertid",
+  "performance_warranty": "Prestandagaranti",
+  "product_specifications": "Produktspecifikationer",
+  "purchase_required": "Köp krävs",
+  "status": "Status",
+  "valid": "Giltig",
+  "valid_time": "Giltig tid",
+  "warranty_type": "Garantityp",
+  "whether_you_need_to_buy_it": "Om köp krävs"
+}

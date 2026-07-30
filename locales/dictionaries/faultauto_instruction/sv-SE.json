@@ -1,0 +1,18 @@
+{
+  "dispatch": "Dispatch",
+  "extra": "Extra",
+  "extra.clear_energy_statistics": "Klara energistatistik",
+  "extra.clear_meter_data": "Clearingmätardata",
+  "extra.modify_mac_address": "Byt MAC-adress",
+  "extra.modify_sn": "Modifiera SN",
+  "extra.restart_unit": "Starta om komponenten",
+  "extra.restart_unit.restart_battery": "Starta om batteriet",
+  "extra.restart_unit.restart_inverter": "Starta invertern om",
+  "extra.restore_factory_settings": "Återställ fabriksinställningarna",
+  "remote_control": "Fjärrkontroll",
+  "remote_control.close_mos": "Fjärrstänger MOS för batteriurladdning",
+  "remote_control.forced_charge": "Tvinga batteriet att ladda batteriet helt",
+  "remote_control.forced_work": "Tvinga batteriet att gå in i arbetsläge (parallellt läge)",
+  "restart": "Starta om",
+  "sync_time": "SyncTime"
+}

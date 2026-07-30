@@ -1,0 +1,7 @@
+{
+  "absolute_value_rang": "Rozsah absolutních hodnot: {min}~{max}",
+  "defaults": "Výchozí nastavení",
+  "print": "Tisk",
+  "range_string": "Dosah: {string}",
+  "update_time": "Čas aktualizace"
+}

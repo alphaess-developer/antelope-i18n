@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "发生时间",
+  "log_type": "日志类型",
+  "origin": "来源",
+  "record_date": "记录日期",
+  "separate": "SN(多个以|分割)",
+  "view_log_content": "查看日志内容"
+}

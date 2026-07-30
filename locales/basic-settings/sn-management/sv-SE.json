@@ -1,0 +1,11 @@
+{
+  "check_code": "Kontrollkod",
+  "data_center": "Datacenter",
+  "del_sys_data": "Ta bort systemdata",
+  "delete_sn_related_system_data": "Ta bort systemdata kopplade till {sn}",
+  "household_savings_platform": "Plattform för hemlagring",
+  "micro_storage_platform": "Plattform för mikrolagring",
+  "product_category": "Produktkategori",
+  "socket_data_center": "Kommunikationscenter",
+  "view_check_code": "Visa kontrollkod"
+}

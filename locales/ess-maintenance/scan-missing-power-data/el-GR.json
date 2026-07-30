@@ -1,0 +1,11 @@
+{
+  "build_status": "Κατάσταση κατασκευής",
+  "exception_date": "Ημερομηνία εξαίρεσης",
+  "generate_reports": "Δημιουργία αναφορών",
+  "multiple_name_sep": "Το πολλαπλό {name} ξεκινά με '|' χώρισμα",
+  "one_click_generation": "Δημιουργία με ένα κλικ",
+  "please_select_records": "Επιλέξτε τα δεδομένα που θέλετε να εκτελέσετε",
+  "scan_1": "Σάρωση",
+  "selection_time": "Επιλέξτε ώρα",
+  "type": "Τύπος"
+}

@@ -1,0 +1,17 @@
+{
+  "all": "All",
+  "check_most_two": "Check at most two.",
+  "debug_data": "Debug Data",
+  "debug_status": "Debug Status",
+  "debugging": "Debugging",
+  "enter_debug": "Enter Debug",
+  "equipment_commission": "System Debug",
+  "select_at_least_one_device": "Please select at least one sub-device",
+  "start_issuing_command": "Start issuing command",
+  "stop_debugging": "Stop Debugging",
+  "stop_issuing_command": "Stop issuing commands",
+  "stopped": "Stopped",
+  "sub_device": "Sub device",
+  "time_seconds": "Time interval must be greater than 10 seconds",
+  "transmission_interval": "Data sending interval"
+}

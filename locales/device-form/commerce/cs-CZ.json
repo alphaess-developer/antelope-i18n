@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "Povolení funkce duálního napájení",
+  "gen_power": "Naftový generátor",
+  "generator_enable_before_shutdown": "Naftový generátor zapnutý před vypnutím systému PCS",
+  "grid_consum_power_upper_limit": "Max. Výkon přes měřič: horní hranice výkonu spotřeby ze sítě",
+  "grid_power": "Síť",
+  "industry_info": "Informace o komerčních a průmyslových systémech",
+  "io_expansion_module": "Je k dispozici rozšiřující modul IO",
+  "max_grid_charge_tooltip": "Max. Nabíjecí výkon v síti: horní hranice nabíjecího výkonu na straně střídavého proudu u funkcí nuceného nabíjení (směrová kalibrace SOC, automatická kalibrace SOC, nucené nabíjení při podpětí a časové periody nabíjení)",
+  "max_meter_passing_power": "Maximální výkon přes měřič",
+  "maximum_grid_charging_power": "Maximální nabíjecí výkon ze sítě",
+  "off_grid_cut_off_soc": "Mimo síť: Hodnota SOC pro odpojení zátěže",
+  "power_type": "Režim napájení střídavým proudem",
+  "pure_battery_enable": "Povolení funkce čisté baterie",
+  "resume_soc": "Mimo síť: Hodnota SOC pro opětovné připojení",
+  "soc_calibrate": "Automatická kalibrace SOC",
+  "soc_orientation_check": "Směrová kalibrace SOC",
+  "sts_enable": "STS",
+  "system_model": "Model systému"
+}

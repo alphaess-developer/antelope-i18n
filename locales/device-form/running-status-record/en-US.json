@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "Please contact the installer for unlocking.",
+  "content": "Content",
+  "current_status": "Current Status",
+  "latest_run_records": "Latest Operation Records",
+  "restart": "Restart",
+  "restart_to_resolve": "Restarting the system may resolve the issue.",
+  "status3_restart_tips": "Restarting will take approximately three minutes. Please refresh the page after three minutes to check the progress. Are you sure to proceed?",
+  "status4_unlock_tips": "Unlocking will take approximately three minutes. Please refresh the page after three minutes to check the progress. Are you sure to proceed?",
+  "unlock": "Unlock",
+  "upload_time": "Upload Time"
+}

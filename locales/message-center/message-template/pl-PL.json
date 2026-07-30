@@ -1,0 +1,22 @@
+{
+  "activate": "Aktywuj",
+  "activated": "Włączono",
+  "channel_type": "Typ kanału",
+  "content": "treść",
+  "deactivate": "Dezaktywuj",
+  "deactivated": "Dezaktywowano",
+  "disabled": "Wyłączono",
+  "empty_template_content_tip": "Musisz wypełnić zawartość szablonu przynajmniej w jednym języku",
+  "enable_alt": "Włączono",
+  "enabled": "Włączono",
+  "extra_params": "Parametry dodatkowe",
+  "group_type": "Typ grupy",
+  "mail": "Adres e-mail",
+  "notice": "Powiadomienie",
+  "push": "Wypychanie",
+  "status": "Stan",
+  "template_code": "Kod szablonu",
+  "template_content": "Treści szablonu",
+  "template_name": "Nazwa szablonu",
+  "title": "Tytuł"
+}

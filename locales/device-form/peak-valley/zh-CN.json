@@ -1,0 +1,22 @@
+{
+  "battery_backup_reserve_peak_shaving_conflict": "电池备电储备不能高于削峰放电截止 SOC {soc}%",
+  "difference": "误差值",
+  "discharge_cut_off_soc": "放电截止SOC",
+  "end_more_than_begin": "结束时间要大于开始时间",
+  "hysteresis_value": "回差值",
+  "meter_time1_end": "时间段1-结束",
+  "meter_time1_start": "时间段1-开始",
+  "meter_time2_end": "时间段2-结束",
+  "meter_time2_start": "时间段2-开始",
+  "peak_cycle": "削峰周期",
+  "peak_periods": "削峰时间段",
+  "peak_shaving_discharge_soc_conflict": "放电截止 SOC 不能低于电池备电储备 {soc}%",
+  "peak_shaving_valley_filling": "削峰填谷",
+  "peak_valley_period_overlap": "削峰时段与填谷时段不能重叠",
+  "peak_valley_value_conflict": "峰谷值设置冲突，请重设",
+  "peak_value": "峰值",
+  "peak_value_tip": "请根据家庭实际允许接入的最大负载功率进行设置（该功能仅对并网负载生效）",
+  "valley_cycle": "填谷周期",
+  "valley_periods": "填谷时间段",
+  "valley_value": "谷值"
+}

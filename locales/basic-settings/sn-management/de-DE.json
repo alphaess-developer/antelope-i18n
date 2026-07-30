@@ -1,0 +1,11 @@
+{
+  "check_code": "Prüfcode",
+  "data_center": "Datenzentrum",
+  "del_sys_data": "Systemdaten löschen",
+  "delete_sn_related_system_data": "Lösche {sn}-bezogene Systemdaten",
+  "household_savings_platform": "Haushaltsspeicherplattform",
+  "micro_storage_platform": "Mikrospeicherplattform",
+  "product_category": "Produktkategorie",
+  "socket_data_center": "Socket-Datenzentrum",
+  "view_check_code": "CheckCode anzeigen"
+}

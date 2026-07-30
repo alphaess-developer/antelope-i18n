@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Batch levering",
+  "breakpoint_end_time": "Eindtijd breekpunt",
+  "breakpoint_start_time": "Starttijd breakpoint",
+  "command_is_issued": "Opdracht wordt gegeven",
+  "data_completion_status": "Status van voltooiing van gegevens",
+  "data_validation": "Gegevensvalidatie",
+  "delivered": "Geleverd",
+  "interval_time_min": "Intervaltijd (min)",
+  "multiple_name_sep": "Meerdere {name} worden gescheiden door '|'",
+  "not_issued": "Niet uitgegeven",
+  "not_uploaded": "Niet geüpload",
+  "one_click_generation": "Genereren met één klik",
+  "partial_uploads": "Gedeeltelijke uploads",
+  "please_select_records": "Selecteer de gegevens die u wilt uitvoeren",
+  "scan_1": "scannen",
+  "selection_time": "Selectie periode",
+  "the_command_is_issued": "De opdracht wordt gegeven",
+  "the_upload_is_complete": "Het uploaden is voltooid",
+  "tips": "Melding",
+  "type": "Type"
+}

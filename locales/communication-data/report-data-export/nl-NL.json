@@ -1,0 +1,7 @@
+{
+  "energy_details_data": "Energiedetails",
+  "energy_summary_data": "Energiesamenvatting",
+  "power_data": "Vermogensgegevens",
+  "time_interval_cannot_exceed_31_days": "Tijdsinterval opgave mag niet groter zijn dan 31 dagen",
+  "time_interval_cannot_exceed_num_days": "Het tijdinterval mag niet langer zijn dan {num} dagen"
+}

@@ -1,0 +1,7 @@
+{
+  "absolute_value_rang": "Plage de valeurs absolues : {min}~{max}",
+  "defaults": "Valeurs par défaut",
+  "print": "Imprimer",
+  "range_string": "Portée : {string}",
+  "update_time": "Mettre le temps à jour"
+}

@@ -1,0 +1,22 @@
+{
+  "area": "Area",
+  "control_power_output": "Controllo dell'uscita",
+  "detect_time": "Tempo di rilevamento",
+  "manual_reset": "Ripristino manuale",
+  "manual_reset_enable": "Abilitazione ripristino manuale",
+  "manual_reset_setting": "Interruttore di ripristino manuale",
+  "no_power_control": "Controllo della potenza inefficace",
+  "off_short": "Spento",
+  "on_short": "Acceso",
+  "operating_power_factor": "Controllo del fattore di potenza costante",
+  "over_f": "Relè di sovrafrequenza CA",
+  "over_v": "Relè di sovratensione CA",
+  "passive_island_detect": "Rilevamento passivo del funzionamento in isola",
+  "power_recovery_delay": "Ritardo fisso dopo il ripristino dell'alimentazione",
+  "set_time": "Ora di impostazione",
+  "set_value": "Valore di impostazione",
+  "suppression_voltage_degree": "Funzione di soppressione dell'aumento di tensione",
+  "under_f": "Relè di sottofrequenza CA",
+  "under_v": "Relè di sottotensione CA",
+  "voltage_phase_jump_detect": "Metodo di rilevamento del salto di fase di tensione"
+}

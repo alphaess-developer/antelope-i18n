@@ -1,0 +1,7 @@
+{
+  "energy_details_data": "Detaljerad energidata",
+  "energy_summary_data": "Sammanfattad energidata",
+  "power_data": "Effektdata",
+  "time_interval_cannot_exceed_31_days": "Tidsintervallet får inte överstiga 31 dagar",
+  "time_interval_cannot_exceed_num_days": "Tidsintervallet får inte överstiga {num} dagar"
+}

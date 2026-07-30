@@ -1,0 +1,10 @@
+{
+  "device_status": "Status der Anlage",
+  "lease_status": "Mietzustand",
+  "normal_lease": "Mietstatus (normal)",
+  "normal_lease_tips": "Mieten (Normal): Der Wechselrichter arbeitet normal. Mieten (gestoppt) : Das EMS sendet dem Wechselrichter einen Befehl, sodass der Wechselrichter keinen Strom erzeugen und nicht umkehren kann. (Die Batterie kann nicht entladen oder geladen werden; PV kann keinen Strom erzeugen; Strom kann jedoch aus dem Bypass-Netz bezogen werden, um die Last zu versorgen.)",
+  "offline_days": "Offline-Timeout-Zeitraum",
+  "offline_days_tips": "Das System wird angehalten, wenn es für den eingestellten Zeitraum offline bleibt",
+  "stop_lease": "Mietstatus (gestoppt)",
+  "value_range_min_max": "Wertbereich:{min}-{max}"
+}

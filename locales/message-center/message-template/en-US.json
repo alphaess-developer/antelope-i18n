@@ -1,0 +1,22 @@
+{
+  "activate": "Activate",
+  "activated": "Activated",
+  "channel_type": "Channel type",
+  "content": "Content",
+  "deactivate": "Deactivate",
+  "deactivated": "Deactivated",
+  "disabled": "Disabled",
+  "empty_template_content_tip": "You need to fill in the template content in at least one language",
+  "enable_alt": "Enable",
+  "enabled": "Enabled",
+  "extra_params": "Extra Parameters",
+  "group_type": "Group type",
+  "mail": "E-mail Address",
+  "notice": "Notice",
+  "push": "Push",
+  "status": "Status",
+  "template_code": "Template code",
+  "template_content": "Template content",
+  "template_name": "Template Name",
+  "title": "Title"
+}

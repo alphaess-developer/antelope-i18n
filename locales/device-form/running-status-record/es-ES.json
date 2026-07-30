@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "Póngase en contacto con el instalador para desbloquear.",
+  "content": "Contenido",
+  "current_status": "Estado actual",
+  "latest_run_records": "Últimos registros de operaciones",
+  "restart": "Reiniciar",
+  "restart_to_resolve": "Reiniciar el sistema podría resolver el problema.",
+  "status3_restart_tips": "El reinicio tardará tres minutos aproximadamente. Actualice la página una vez transcurridos los tres minutos para comprobar el progreso. ¿Seguro que quiere continuar?",
+  "status4_unlock_tips": "El desbloqueo tardará tres minutos aproximadamente. Actualice la página una vez transcurridos los tres minutos para comprobar el progreso. ¿Seguro que quiere continuar?",
+  "unlock": "Desbloquear",
+  "upload_time": "Hora de la subida"
+}

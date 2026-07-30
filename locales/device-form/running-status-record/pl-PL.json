@@ -1,0 +1,12 @@
+{
+  "contact_installer_to_unlock": "W celu zdjęcia blokady skontaktuj się z instalatorem.",
+  "content": "treść",
+  "current_status": "Stan bieżący",
+  "latest_run_records": "Najnowsze zapisy pracy",
+  "restart": "Zrestartuj",
+  "restart_to_resolve": "Problem może zostać rozwiązany po ponownym uruchomieniu systemu.",
+  "status3_restart_tips": "Ponowne uruchomienie systemu zajmie około trzy minuty. Po upływie tego czasu odśwież stronę, aby sprawdzić postępy. Czy na pewno chcesz kontynuować?",
+  "status4_unlock_tips": "Odblokowanie zajmie około trzy minuty. Po upływie tego czasu odśwież stronę, aby sprawdzić postępy. Czy na pewno chcesz kontynuować?",
+  "unlock": "Odblokuj",
+  "upload_time": "Czas przesyłania"
+}

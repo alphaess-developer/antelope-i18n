@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "批量下发",
+  "breakpoint_end_time": "断点结束时间",
+  "breakpoint_start_time": "断点开始时间",
+  "command_is_issued": "下发指令",
+  "data_completion_status": "数据补全状态",
+  "data_validation": "数据校验",
+  "delivered": "已下发",
+  "interval_time_min": "间隔时间(分钟)",
+  "multiple_name_sep": "多个{name}以‘|’分割",
+  "not_issued": "未下发",
+  "not_uploaded": "未上传",
+  "one_click_generation": "一键生成",
+  "partial_uploads": "部分上传",
+  "please_select_records": "请选择要执行的数据",
+  "scan_1": "扫描",
+  "selection_time": "选择时间",
+  "the_command_is_issued": "指令下发状态",
+  "the_upload_is_complete": "上传完成",
+  "tips": "提示",
+  "type": "类型"
+}

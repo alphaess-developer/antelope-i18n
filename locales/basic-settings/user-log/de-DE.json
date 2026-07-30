@@ -1,0 +1,8 @@
+{
+  "event_happen_time": "Auftretenszeit",
+  "log_type": "Protokolltyp",
+  "origin": "Eingeloggt von",
+  "record_date": "Aufzeichnungsdatum",
+  "separate": "SN ( bei mehreren SNs durch | getrennt)",
+  "view_log_content": "Inhalt der Logdatei anzeigen"
+}

@@ -1,0 +1,13 @@
+{
+  "ap_module": "Modulo AP",
+  "arm_software_version": "Numero di versione del software ARM",
+  "emsboot_version": "Numero di versione di EMS Boot",
+  "hardware_version": "Versione hardware",
+  "inverter": "Inverter",
+  "model": "Modello",
+  "platform": "Piattaforma",
+  "slave_software_version": "Numero di versione del software slave",
+  "software_version": "Versione software",
+  "sta_module": "Modulo STA",
+  "wireless_meter": "Contatore wireless"
+}

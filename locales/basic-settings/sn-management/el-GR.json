@@ -1,0 +1,11 @@
+{
+  "check_code": "Κωδικός επαλήθευσης",
+  "data_center": "Κέντρο δεδομένων",
+  "del_sys_data": "Διαγραφή δεδομένων συστήματος",
+  "delete_sn_related_system_data": "Διαγραφή δεδομένων συστήματος που σχετίζονται με το {sn}",
+  "household_savings_platform": "Πλατφόρμα οικιακής αποταμίευσης",
+  "micro_storage_platform": "Πλατφόρμα μικρο αποθήκευσης",
+  "product_category": "Κατηγορία προϊόντος",
+  "socket_data_center": "Κέντρο δεδομένων υποδοχής",
+  "view_check_code": "Προβολή κωδικού ελέγχου"
+}

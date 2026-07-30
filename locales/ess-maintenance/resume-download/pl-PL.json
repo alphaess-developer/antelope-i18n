@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Dostawa wsadowa",
+  "breakpoint_end_time": "Czas zakończenia punktu przerwania",
+  "breakpoint_start_time": "Czas rozpoczęcia punktu przerwania",
+  "command_is_issued": "Polecenie zostało wydane",
+  "data_completion_status": "Stan uzupełniania danych",
+  "data_validation": "Walidacja danych",
+  "delivered": "Dostarczane",
+  "interval_time_min": "Czas interwału (min)",
+  "multiple_name_sep": "Wiele {name} jest podzielonych znakiem „|”",
+  "not_issued": "Nie wydano",
+  "not_uploaded": "Nie przesłano",
+  "one_click_generation": "Generowanie jednym kliknięciem",
+  "partial_uploads": "Częściowe przesyłanie",
+  "please_select_records": "Wybierz dane, które chcesz wykonać",
+  "scan_1": "Skanuj",
+  "selection_time": "Wybierz przedział czasowy",
+  "the_command_is_issued": "Polecenie jest wydawane",
+  "the_upload_is_complete": "Przesyłanie zostało zakończone",
+  "tips": "Podpowiedź",
+  "type": "Rodzaj"
+}

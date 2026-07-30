@@ -1,0 +1,14 @@
+{
+  "audit_log": "Journal d’audit",
+  "device": "Appareil",
+  "installer": "Installateur",
+  "no_field_changes": "Aucun changement de champ",
+  "num_changes": "{num} changements",
+  "open_api": "API ouverte",
+  "payload_codec_unsupported": "Le format des modifications de cet enregistrement n’est actuellement pas pris en charge pour l’affichage",
+  "schedule_task": "Tâche prévue",
+  "show_empty_changes": "Afficher les records sans changement",
+  "system": "Système",
+  "total_changes": "{num} changements dans le total",
+  "user": "utilisateur"
+}

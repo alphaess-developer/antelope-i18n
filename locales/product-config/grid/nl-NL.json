@@ -1,0 +1,22 @@
+{
+  "add_name": "Voeg toe - {name}",
+  "at_least_one_data": "Ten minste één gegeven",
+  "canonical_coding": "Canonieke codering",
+  "edit_name": "Bewerking - {name}",
+  "ems_code": "EMS-code",
+  "ems_firmware_version": "EMS firmware versie",
+  "grid_connection_specifications": "Netaansluitingsspecificaties",
+  "national_grid_connection_norms": "Nationale normen voor netaansluiting",
+  "phase": "Fase",
+  "publishing_agency": "Uitgeverij",
+  "regional_standards": "Regionale normen",
+  "single_phase": "Monofase",
+  "specification_name": "Specificatienaam",
+  "split_phase": "Fase split",
+  "support_sub_code": "Of regionale normen zijn opgenomen",
+  "support_version_control": "Of versiebeheer wordt ondersteund",
+  "three_phase": "Driefase",
+  "upgrade_version": "Versie",
+  "validity_period": "Geldigheidsperiode",
+  "version_description": "Versiebeschrijving"
+}

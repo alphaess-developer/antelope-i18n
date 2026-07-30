@@ -1,0 +1,7 @@
+{
+  "copy_success": "Kopiering lyckades",
+  "creating_shared_connection": "Skapa delningslänk",
+  "expired": "Giltighetstid (dagar)",
+  "limit_days": "Antalet dagar är mellan 1–30.",
+  "share_sys_data": "Dela systemdata"
+}

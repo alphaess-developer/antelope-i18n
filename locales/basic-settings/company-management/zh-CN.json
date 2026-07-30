@@ -1,0 +1,19 @@
+{
+  "associated_devices": "关联设备",
+  "category": "类别",
+  "comp_name": "公司名称",
+  "company_no_license": "当前公司尚未绑定license！",
+  "contact_person": "联系人",
+  "end_user": "终端用户",
+  "generate_license": "生成License",
+  "go_to_bind": "去绑定",
+  "installer": "安装商",
+  "investor": "投资商",
+  "license": "License",
+  "mail": "邮箱",
+  "primary_admin": "主账号",
+  "reseller": "分销商",
+  "status": "状态",
+  "total_company": "总公司数",
+  "wholesaler": "批发商"
+}

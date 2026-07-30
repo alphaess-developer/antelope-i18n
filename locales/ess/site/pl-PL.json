@@ -1,0 +1,20 @@
+{
+  "address": "Adres",
+  "basic_information": "Informacje podstawowe",
+  "electricity_tariff_info": "Dane taryfy energetycznej",
+  "installed_capacity": "Pojemność zainstalowana",
+  "installed_power": "Moc zainstalowana",
+  "number_of_ess": "Liczba systemów magazynowania energii",
+  "number_of_other_devices": "Liczba akcesoriów/innego sprzętu",
+  "overview": "Przegląd",
+  "price_set": "Ustawienia cen prądu",
+  "set": "Ustawienia",
+  "site_address": "Adres witryny",
+  "site_basic_info": "Podstawowe informacje o witrynie",
+  "site_devices": "Wyposażenie witryny",
+  "site_information": "Informacje o witrynie",
+  "site_mode": "Tryb witryny",
+  "site_name": "Nazwa miejsca",
+  "site_not_bound_user": "Strona nie jest przypisana do użytkownika",
+  "user_name": "Nazwa użytkownika"
+}

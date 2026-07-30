@@ -1,0 +1,17 @@
+{
+  "all": "全部",
+  "check_most_two": "最多勾选两个。",
+  "debug_data": "调试数据",
+  "debug_status": "调试状态",
+  "debugging": "调试中",
+  "enter_debug": "进入调试",
+  "equipment_commission": "设备调试",
+  "select_at_least_one_device": "请至少选择一个子设备",
+  "start_issuing_command": "启动下发命令",
+  "stop_debugging": "停止调试",
+  "stop_issuing_command": "停止下发命令",
+  "stopped": "已停止",
+  "sub_device": "子设备",
+  "time_seconds": "时间间隔必须大于10秒",
+  "transmission_interval": "数据发送间隔"
+}

@@ -1,0 +1,11 @@
+{
+  "area_list": "Lista obszarów",
+  "area_name": "Nazwa obszaru",
+  "charge_cut_off_soc": "Ładowanie zatrzymuje się przy SOC",
+  "click_for_details": "Kliknij, aby poznać szczegóły",
+  "load_shedding_msg_notification": "Powiadomienie o wiadomości dotyczącej redukcji obciążenia",
+  "load_shedding_tips1": "Funkcja ta w sposób inteligentny ładuje system magazynowania energii w oparciu o harmonogram wyłączeń prądu w Twojej okolicy i ustawienia odcięcia ładowania SOC, zapewniając w ten sposób Tobie i Twojej rodzinie wystarczającą ilość energii rezerwowej podczas przerw w dostawie prądu. Aktywacja tej funkcji może spowodować wzrost kosztów elektryczności.",
+  "load_shedding_tips2": "Po włączeniu tej funkcji, opierając się na sytuacjach lokalnych wyłączeń prądu, system wytworzy inteligentną energię rezerwową. Funkcja ta jest częścią wymuszonej operacji ładowania. Jeśli chcesz zatrzymać ładowanie, wykonaj operację „Ustawienia ładowania/rozładowania” - „Zatrzymaj ładowanie”.",
+  "load_shedding_tips3": "Po włączeniu tej funkcji, opierając się na sytuacjach lokalnych wyłączeń prądu, otrzymasz powiadomienie o informacji dotyczącej zasilania awaryjnego.",
+  "region": "Region"
+}

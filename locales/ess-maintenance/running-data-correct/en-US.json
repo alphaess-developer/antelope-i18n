@@ -1,0 +1,6 @@
+{
+  "batch_delete": "Batch Delete",
+  "batch_delete_confirm": "Are you sure you want to delete the selected {count} record(s)?",
+  "device_time_zone": "Device time zone",
+  "generate_report": "Generate reports with one click"
+}

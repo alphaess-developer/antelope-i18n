@@ -1,0 +1,20 @@
+{
+  "dual_power_enable": "Dual-Power-Supply-Funktion aktiviert",
+  "gen_power": "Generator",
+  "generator_enable_before_shutdown": "Dieselgenerator vor PCS-Abschaltung eingeschaltet",
+  "grid_consum_power_upper_limit": "Max. Leistung durch den Zähler: die Obergrenze der Netzverbrauchsleistung",
+  "grid_power": "Stromnetz",
+  "industry_info": "Gewerbe- und Industriespeicher - Info",
+  "io_expansion_module": "Gibt es ein IO-Erweiterungsmodul",
+  "max_grid_charge_tooltip": "Max. Ladeleistung aus dem Netz: die Obergrenze der AC-seitigen Ladeleistung der Zwangsladefunktionen (SOC-Richtungskalibrierung, automatische SOC-Kalibrierung, Unterspannungs-Zwangsladung und Ladezeiträume)",
+  "max_meter_passing_power": "Maximale Leistung durch den Zähler (kW)",
+  "maximum_grid_charging_power": "Max. Netzladeleistung",
+  "off_grid_cut_off_soc": "Off-Grid SOC für Lasttrennung",
+  "power_type": "AC-Stromversorgungsmodus",
+  "pure_battery_enable": "Reine Batteriefunktion aktiviert",
+  "resume_soc": "Off-Grid: SOC für Lastwiederzuschaltung",
+  "soc_calibrate": "Automatische SOC-Kalibrierung",
+  "soc_orientation_check": "SOC Richtungs-Kalibrierung",
+  "sts_enable": "STS vorhanden?",
+  "system_model": "Systemmodell"
+}

@@ -1,0 +1,8 @@
+{
+  "pv_inv_info": "Dane falownika PV",
+  "pv_inv_model": "Model falownika PV",
+  "pv_inv_pos": "Pozycja montażowa falownika w sieci",
+  "pv_inv_quantity": "Ilość falowników PV",
+  "sts_grid_side": "STS po stronie sieci",
+  "sts_load_side": "STS po stronie odbiornika"
+}

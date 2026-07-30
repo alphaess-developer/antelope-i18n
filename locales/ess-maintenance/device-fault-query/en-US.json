@@ -1,0 +1,8 @@
+{
+  "device_model": "Model",
+  "error_code": "Error code",
+  "license": "License",
+  "multiple_name_sep": "Multiple {name} starts with '|' partition",
+  "reseller": "Reseller",
+  "time": "Time"
+}

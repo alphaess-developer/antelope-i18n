@@ -1,0 +1,17 @@
+{
+  "battery_model": "Battery Model",
+  "compatible_battery_models_cannot_repeat": "Compatible battery models cannot be repeated.",
+  "coverage_area_country": "Coverage area/country",
+  "default_language": "Default Language",
+  "description": "Description",
+  "empty_fault_tip": "Please provide a description in at least one language",
+  "fault_tip_must_be_filled": "Descriptions corresponding to the default language cannot be empty",
+  "max_number_character": "Up to {number} characters",
+  "please_set_the_default_language": "Please set the default language",
+  "report_error": "Report Error",
+  "set_as_default": "Set as default",
+  "sn_coding_rules": "SN Coding Rules",
+  "sn_rules_not_allow_repeat": "SN Identification Rules cannot be duplicated",
+  "status": "Status",
+  "type": "Type"
+}

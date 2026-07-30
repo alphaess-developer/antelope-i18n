@@ -1,0 +1,11 @@
+{
+  "backup_box": "Backup Box",
+  "backup_box_software_version": "BackupBox软件版本号",
+  "backupbox_sn": "Backupbox SN",
+  "level_num_priority": "L{num}策略优先级",
+  "level_num_priority_triggering_soc_value": "L{num}策略执行的最小SOC值",
+  "policy_priorities_can_not_same": "策略优先级不能相同",
+  "priority_cannot_be_duplicated": "优先级不可重复，且优先级越高，对应的 SOC 设置值应越低",
+  "soc_error": "SOC设置错误，(10<=)SOC(<=100)，应根据优先级顺序从最低到最高填写",
+  "start_backup_box": "启用负载管理"
+}

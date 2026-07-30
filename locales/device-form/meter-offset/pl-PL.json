@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Uruchom obsługę ograniczonej mocy",
+  "end_time_num": "Czas zakończenia {num}",
+  "meter_offset": "Moc offsetowa licznika",
+  "power_rationing_support": "Wsparcie zasilania podczas redukcji obciążenia",
+  "start_time_num": "Czas rozpoczęcia {num}",
+  "time_period_num": "Przedział czasowy {num}"
+}

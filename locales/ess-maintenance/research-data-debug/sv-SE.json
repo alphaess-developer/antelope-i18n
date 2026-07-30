@@ -1,0 +1,17 @@
+{
+  "all": "Alla",
+  "check_most_two": "Markera högst två.",
+  "debug_data": "Felsökningsdata",
+  "debug_status": "Felsökningsstatus",
+  "debugging": "Felsöker",
+  "enter_debug": "Starta felsökning",
+  "equipment_commission": "Systemfelsökning",
+  "select_at_least_one_device": "Välj minst en underenhet",
+  "start_issuing_command": "Börja skicka kommando",
+  "stop_debugging": "Stoppa felsökning",
+  "stop_issuing_command": "Sluta skicka kommandon",
+  "stopped": "Stoppad",
+  "sub_device": "Underenhet",
+  "time_seconds": "Tidsintervallet måste vara längre än 10 sekunder",
+  "transmission_interval": "Intervall för datasändning"
+}

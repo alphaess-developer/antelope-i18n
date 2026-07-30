@@ -1,0 +1,12 @@
+{
+  "alert_time": "告警时间",
+  "cmd_name": "指令名称",
+  "command_code": "指令码",
+  "evaluate_detail_second": "解决时间",
+  "last_dispatch_time": "最近下发时间",
+  "occur_count": "发生次数",
+  "occur_server_time": "服务器告警时间",
+  "resolved": "已解决",
+  "status": "状态",
+  "un_solved": "未解决"
+}

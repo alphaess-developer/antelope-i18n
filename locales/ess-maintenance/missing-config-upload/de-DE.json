@@ -1,0 +1,12 @@
+{
+  "alert_time": "Zeit der Warnung",
+  "cmd_name": "Befehlsname",
+  "command_code": "Kommandocode",
+  "evaluate_detail_second": "Auflösungszeit",
+  "last_dispatch_time": "Letzte Einsatzzeit",
+  "occur_count": "Vorkommenszahl",
+  "occur_server_time": "Server-Alarmzeit",
+  "resolved": "Gelöst",
+  "status": "Status",
+  "un_solved": "Ungelöst"
+}

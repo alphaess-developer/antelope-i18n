@@ -1,0 +1,14 @@
+{
+  "audit_log": "Auditní záznam",
+  "device": "Zařízení",
+  "installer": "Instalační firma",
+  "no_field_changes": "Žádné změny hřiště",
+  "num_changes": "{num} změny",
+  "open_api": "Open API",
+  "payload_codec_unsupported": "Formát změn tohoto záznamu není v současnosti podporován pro zobrazení",
+  "schedule_task": "Plánovaný úkol",
+  "show_empty_changes": "Ukázat rekordy bez změny",
+  "system": "Systém",
+  "total_changes": "{num} celkové změny",
+  "user": "uživatel"
+}

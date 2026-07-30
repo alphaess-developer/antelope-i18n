@@ -1,0 +1,13 @@
+{
+  "all_read": "Όλα διαβασμένα",
+  "device_notification": "Ειδοποιήσεις συσκευής",
+  "has_read": "Έχει διαβαστεί",
+  "message_type": "Τύπος μηνύματος",
+  "msg_content": "Μήνυμα",
+  "msg_subject": "Τίτλος μηνύματος",
+  "not_read": "Αδιάβαστο",
+  "notifications": "Ειδοποιήσεις",
+  "other_notification": "Άλλες ειδοποιήσεις",
+  "receiving_time": "Χρόνος παραλαβής",
+  "status": "Κατάσταση"
+}

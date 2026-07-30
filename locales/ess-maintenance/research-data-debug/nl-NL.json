@@ -1,0 +1,17 @@
+{
+  "all": "Alles",
+  "check_most_two": "Selecteer er maximaal twee.",
+  "debug_data": "Foutopsporingsgegevens",
+  "debug_status": "Foutopsporingsstatus",
+  "debugging": "Foutopsporing",
+  "enter_debug": "Voer foutopsporing in",
+  "equipment_commission": "Systeemfoutopsporing",
+  "select_at_least_one_device": "Selecteer ten minste één subapparaat.",
+  "start_issuing_command": "Start met het verzenden van het commando",
+  "stop_debugging": "Stop met debuggen",
+  "stop_issuing_command": "Stop met het verzenden van het commando",
+  "stopped": "Gestopt",
+  "sub_device": "Subapparaat",
+  "time_seconds": "Het tijdsinterval moet groter zijn dan 10 seconden",
+  "transmission_interval": "Interval voor gegevensverzending"
+}

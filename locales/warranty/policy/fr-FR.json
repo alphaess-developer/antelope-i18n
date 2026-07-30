@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Garantie standard",
+  "battery": "Batterie",
+  "begin_time": "Temps de démarrage",
+  "device_name": "Nom de l’appareil",
+  "device_type": "Type d'équipement",
+  "end_time": "Date/Heure de fin",
+  "extended_warranty": "Garantie prolongée",
+  "high_standard_warranty": "Garantie de haut niveau",
+  "invalid": "Invalide",
+  "inverter": "Onduleur",
+  "model_device": "Modèle de dispositif",
+  "modify_warranty_period": "Modifier la période de garantie",
+  "order_time": "Heure de la commande",
+  "performance_warranty": "Garantie de performance",
+  "product_specifications": "Spécifications du produit",
+  "purchase_required": "Achat requis",
+  "status": "État",
+  "valid": "Valide",
+  "valid_time": "Temps valide",
+  "warranty_type": "Type de garantie",
+  "whether_you_need_to_buy_it": "Que vous ayez besoin de l’acheter"
+}

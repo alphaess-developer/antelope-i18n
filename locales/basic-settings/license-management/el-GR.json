@@ -1,0 +1,19 @@
+{
+  "certificate_code": "Κωδικός πιστοποιητικού",
+  "comp_name": "Επωνυμία εταιρείας",
+  "confirm_queren": "OK",
+  "contact_person": "Πρόσωπο επικοινωνίας",
+  "download_certificate": "Λήψη πιστοποιητικών",
+  "email_sending_license": "Άδεια αποστολής ηλεκτρονικού ταχυδρομείου",
+  "end_user": "Τελικός χρήστης",
+  "generate_license": "Δημιουργία άδειας χρήσης",
+  "installer": "Εγκαταστάτης",
+  "installer_name_anzhuanggong": "Όνομα του εγκαταστάτη",
+  "license": "Άδεια",
+  "mail": "Διεύθυνση email",
+  "send_email_message": "Άδεια χρήσης: {license} θα σταλεί στο email του εγκαταστάτη {emali}, παρακαλώ επιβεβαιώστε.",
+  "set_installer_info": "Ρύθμιση πληροφοριών εγκαταστάτη",
+  "set_installer_information": "Ρύθμιση πληροφοριών εγκαταστάτη",
+  "street_number_plus": "Αριθμός οδού (οδός + αριθμός σπιτιού)",
+  "telephone": "Τηλέφωνο επικοινωνίας"
+}

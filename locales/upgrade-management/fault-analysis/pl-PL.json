@@ -1,0 +1,9 @@
+{
+  "error_code": "Kod błędu",
+  "error_description": "Opis błędu",
+  "error_name": "Skrót błędu",
+  "failure_level": "Poziom błędu",
+  "fix_suggestion": "Propozycja naprawy",
+  "language": "Język",
+  "title_trouble_shooting": "Rozwiązywanie problemów"
+}

@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Skicka i grupp",
+  "breakpoint_end_time": "Sluttid för brytpunkt",
+  "breakpoint_start_time": "Starttid för brytpunkt",
+  "command_is_issued": "Kommando skickat",
+  "data_completion_status": "Status för datakomplettering",
+  "data_validation": "Datavalidering",
+  "delivered": "Skickad",
+  "interval_time_min": "Intervalltid (min)",
+  "multiple_name_sep": "Flera {name} avgränsas med '|'",
+  "not_issued": "Ej skickat",
+  "not_uploaded": "Ej uppladdat",
+  "one_click_generation": "Generera med ett klick",
+  "partial_uploads": "Delvis uppladdat",
+  "please_select_records": "Välj de data du vill köra",
+  "scan_1": "Skanna",
+  "selection_time": "Välj tid",
+  "the_command_is_issued": "Status för kommandoutskick",
+  "the_upload_is_complete": "Uppladdningen är klar",
+  "tips": "Meddelande",
+  "type": "Typ"
+}

@@ -1,0 +1,8 @@
+{
+  "abnormal_charge_discharge": "Onormal laddning/urladdning",
+  "device_model": "Modell",
+  "exceptionally_offline": "Onormalt offline",
+  "multiple_name_sep": "Flera {name} avgränsas med '|'",
+  "reseller": "Återförsäljare",
+  "time": "Tid"
+}

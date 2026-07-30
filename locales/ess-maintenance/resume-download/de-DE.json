@@ -1,0 +1,22 @@
+{
+  "batch_delivery": "Batch-Lieferung",
+  "breakpoint_end_time": "Endzeit des Haltepunkts",
+  "breakpoint_start_time": "Startzeit des Haltepunkts",
+  "command_is_issued": "Der Befehl wird ausgegeben",
+  "data_completion_status": "Status der Datenvervollständigung",
+  "data_validation": "Datenüberprüfung",
+  "delivered": "Abgegeben",
+  "interval_time_min": "Intervall Zeit (min)",
+  "multiple_name_sep": "Mehrere {name} beginnen mit '|' Trennwand",
+  "not_issued": "Nicht ausgestellt",
+  "not_uploaded": "Nicht hochgeladen",
+  "one_click_generation": "Ein-Klick-Generierung",
+  "partial_uploads": "Teilweise Uploads",
+  "please_select_records": "Wählen Sie die Daten aus, die Sie ausführen möchten",
+  "scan_1": "Scannen",
+  "selection_time": "Auswahlzeitraum",
+  "the_command_is_issued": "Der Befehl wird ausgegeben",
+  "the_upload_is_complete": "Der Upload ist abgeschlossen",
+  "tips": "Hinweis",
+  "type": "Typ"
+}

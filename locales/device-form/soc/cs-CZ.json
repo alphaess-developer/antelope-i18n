@@ -1,0 +1,11 @@
+{
+  "calibrate_now": "Kalibrovat nyní",
+  "calibration_cycle": "Kalibrační cyklus",
+  "calibration_estimated_time": "Probíhá kalibrace, odhadovaná doba: {num} min",
+  "days": "Den",
+  "next_calibration_date": "Datum příští kalibrace",
+  "next_calibration_time": "Čas příští kalibrace",
+  "periodic_calibration": "Pravidelná kalibrace",
+  "soc_calibration": "Kalibrace SOC",
+  "stop_calibration": "Zastavit kalibraci"
+}

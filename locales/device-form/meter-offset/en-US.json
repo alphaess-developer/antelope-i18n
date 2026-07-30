@@ -1,0 +1,8 @@
+{
+  "enable_limited_power_support": "Enable Limited Power Support",
+  "end_time_num": "End Time {num}",
+  "meter_offset": "Meter Offset Power",
+  "power_rationing_support": "Power Rationing Support",
+  "start_time_num": "Start Time {num}",
+  "time_period_num": "Time Period {num}"
+}

@@ -1,0 +1,22 @@
+{
+  "area": "区域",
+  "control_power_output": "控制功率输出",
+  "detect_time": "检测时间",
+  "manual_reset": "手动复位",
+  "manual_reset_enable": "手动复电使能",
+  "manual_reset_setting": "手动复电开关",
+  "no_power_control": "进相无功功率控制",
+  "off_short": "关",
+  "on_short": "开",
+  "operating_power_factor": "恒定功率因数控制",
+  "over_f": "交流过频(OFR)",
+  "over_v": "交流过压(OVR)",
+  "passive_island_detect": "被动孤岛检测",
+  "power_recovery_delay": "复电延迟功能",
+  "set_time": "设置时间",
+  "set_value": "设置值",
+  "suppression_voltage_degree": "抑制电压上升功能",
+  "under_f": "交流欠频(UFR)",
+  "under_v": "交流欠压(UVR)",
+  "voltage_phase_jump_detect": "电压相位跳跃检测"
+}

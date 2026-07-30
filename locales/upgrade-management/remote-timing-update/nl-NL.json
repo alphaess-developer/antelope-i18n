@@ -1,0 +1,13 @@
+{
+  "batch_deletion": "Wissen in batch",
+  "cycle_count": "Cyclustelling",
+  "cycle_duration_min": "Cyclusduur (min)",
+  "cycle_task": "Cyclustaak",
+  "end_time_ems_time": "Eindtijd (EMS tijd)",
+  "min_pv": "Min vermogen (W)",
+  "no_match_data": "De gegevens bestaan niet of zijn verwijderd",
+  "running_state": "Systeemstatus",
+  "select_date_time": "Selecteer datum en tijd",
+  "single_task": "Enkele taak",
+  "start_time_ems": "Start tijd (EMS tijd)"
+}

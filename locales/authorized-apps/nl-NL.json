@@ -1,0 +1,11 @@
+{
+  "authorized": "gemachtigd",
+  "authorized_app": "Geautoriseerde app",
+  "authorized_app_description": "Apps van derden krijgen toegang tot je apparaatgegevens via AlphaESS OpenAPI.",
+  "control_exclusive": "Controle (exclusief)",
+  "device_apps_count": "{count} apps",
+  "location": "Locatie",
+  "no_authorized_desc_1": "Er zijn op dit moment geen geautoriseerde apps beschikbaar",
+  "no_authorized_desc_2": "Apps van derden die voor jouw apparaat zijn geautoriseerd, worden hier weergegeven.",
+  "telemetry": "Telemetrie"
+}

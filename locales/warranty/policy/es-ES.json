@@ -1,0 +1,23 @@
+{
+  "basic_warranty": "Garantía estándar",
+  "battery": "Batería",
+  "begin_time": "Hora de inicio",
+  "device_name": "Nombre del dispositivo",
+  "device_type": "Tipo de equipo",
+  "end_time": "Hora de finalización",
+  "extended_warranty": "Garantía Ampliada",
+  "high_standard_warranty": "Garantía de alto nivel",
+  "invalid": "Deshabilitado",
+  "inverter": "Inversor",
+  "model_device": "Modelo del dispositivo",
+  "modify_warranty_period": "Modificar el periodo de garantía",
+  "order_time": "Hora de orden",
+  "performance_warranty": "Garantía de rendimiento",
+  "product_specifications": "Especificaciones del producto",
+  "purchase_required": "Se requiere compra",
+  "status": "Estado",
+  "valid": "Válido",
+  "valid_time": "Período de validez",
+  "warranty_type": "Tipo de garantía",
+  "whether_you_need_to_buy_it": "Ya sea que necesites comprarlo"
+}
