@@ -116,6 +116,22 @@ node tools/fill-missing.mjs --write --ns=dictionaries/error-code   # 只补某�
 
 也有 npm scripts（`validate` / `sort` / `fill` / `baseline`），但**脚本刻意零依赖**（只用 `node:` 内置模块），装了 Node 20+ 就能直接跑 `node tools/*.mjs`，不需要 `npm install`。
 
+### viewer（GitHub Pages 只读查看页）
+
+```bash
+node tools/build-viewer-data.mjs   # 从 locales/ 生成 viewer/public/data/（零依赖）
+npm --prefix viewer install        # 首次
+npm --prefix viewer run dev        # → http://localhost:5173/antelope-i18n/
+npm --prefix viewer run build      # tsc --noEmit + vite build → viewer/dist/
+```
+
+⚠️ **npm 依赖只存在于 `viewer/` 内。** 根目录 `package.json` 必须保持零依赖 —— `validate.yml` 靠这个
+免掉 `npm install`。别把前端依赖装到根目录，也别在 `validate.yml` 里加 `npm ci`。
+
+dev 地址**必须带 `/antelope-i18n/` 子路径**（`base` 在 dev 下同样生效）。
+
+详见 [docs/viewer-spec.md](docs/viewer-spec.md)。
+
 ## 目录结构
 
 ```
@@ -132,6 +148,7 @@ _meta/<ns>.json               未翻译标记（{ key: { lang: 'draft' } }），
 glossary/terms.json           术语库（约束译法，不进运行时产物）
 .ci/baseline.json             存量欠账豁免清单（见硬规则 6）
 tools/                        零依赖校验与规范化脚本
+viewer/                       GitHub Pages 只读查看页（Vite + React + shadcn/ui）
 inbox/                        PM 上传 Excel 的落点（往返流程待建）
 ```
 
@@ -152,6 +169,9 @@ inbox/                        PM 上传 Excel 的落点（往返流程待建）
 | `languages.json` 的 `base` | 改基准语言会让全部 key 对齐检查重算 |
 | `tools/lib/core.mjs` 的 `canonicalKeyOrder` | 改了会让 error-code 的校验永久失败，见硬规则 4 |
 | `.ci/baseline.json` 加条目 | 见硬规则 6 |
+| 根目录 `package.json` 加依赖 | `validate.yml` 靠零依赖免掉 `npm install`。前端依赖装 `viewer/` 里 |
+| `viewer` 的 `base.json` 改成对象 | 整数键会被 JS 引擎按数值重排，error-code 顺序会跑掉。同硬规则 4 的坑 |
+| `viewer/vite.config.ts` 的 `base` | 去掉会让 Pages 子路径下所有资源 404 |
 
 ## 相关文档
 

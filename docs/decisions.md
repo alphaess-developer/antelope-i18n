@@ -85,7 +85,47 @@ viewer 用公开 Pages。理由：译文最终会出现在公开前端 bundle �
 
 `tools/*.mjs` 只用 `node:` 内置模块。好处：CI 不需要 `npm install`，校验几秒跑完；贡献者装了 Node 20+ 就能本地跑。
 
-若将来 Excel 生成引入依赖，让 viewer workflow 单独 `npm ci`，**保持 `validate.yml` 零安装**。
+viewer 的前端依赖**只装在 `viewer/` 内**（自带 `package.json` 与 lockfile），viewer workflow 单独
+`working-directory: viewer` 跑 `npm ci`，**`validate.yml` 保持零安装**。
+`tools/build-viewer-data.mjs` 本身仍是零依赖的。
+
+### D13 · viewer 用 shadcn/ui，因此放弃「自包含单 HTML」，改按语种懒加载
+
+`viewer-spec.md` 原先建议方案 A：把 CSS/JS/全部译文内联成一个 HTML（960 KB gzip），换来「零资源路径问题」。
+
+**选了 shadcn/ui 之后这个前提消失了** —— shadcn = React + Tailwind + Radix，必须走打包器，
+产物必然是 `index.html + assets/*.js|css` 多文件。自包含带来的好处一个都留不下。
+
+既然已经有外链资源，按语种拆分懒加载就不再有额外代价，于是同时改掉加载策略：
+
+```
+首屏  manifest + base.json + 默认对照语种   ≈ 160 KB gzip（数据）+ 123 KB（JS/CSS）
+其余 9 个语种   选中时才 fetch
+SheetJS         点导出才 fetch（独立 chunk，gzip 161 KB）
+```
+
+代价是必须正确处理子路径：`vite.config.ts` 的 `base` 与 `fetch` 用的 `import.meta.env.BASE_URL`
+两处都不能漏。见 `viewer-spec.md` §6。
+
+**这条同时结掉了原「待决 #2」**（viewer 加载策略）。
+
+### D14 · 导出纯前端生成，不预生成 xlsx
+
+原方案是构建期生成 `dist/translations.xlsx` 供下载。改成浏览器内用 SheetJS 生成，因为：
+
+1. 构建期产物只能是**全量快照**，而 PM 真正要的是「德语里缺的那些」这种**当前筛选结果**
+2. CI 不必为生成 Excel 装依赖 —— D12 的顾虑自然消失
+
+SheetJS 装的是**官方 CDN 的 0.20.3 tarball**，不是 npm 上停更于 2022 年的 `xlsx@0.18.5`。
+后者带 parse 路径的安全告警，会让 `npm audit` 长期发红 —— 而长期红的检查会让团队学会忽略检查
+（同 D7 的逻辑）。代价是 CI 的 `npm ci` 需要能访问 cdn.sheetjs.com。
+
+### D15 · viewer 暂不做 draft 状态列
+
+`viewer-spec.md` 原先要求主表格有一列读 `_meta/<ns>.json` 的 `draft` 标记。
+
+**暂不做**：`_meta/` 目前只有 `.gitkeep`，一条标记都还没写入 —— 现在做出来整列是空的，反而像 bug。
+等 `fill-missing` 真正往 `_meta` 写标记之后再加；数据契约里已经留好位置。
 
 ---
 
@@ -193,11 +233,28 @@ business-home:coverage_country_model
 
 ---
 
+### 3.5 聚合行数「5,883」与 viewer 显示的「5,882」差 1
+
+不是 bug，是两种口径：
+
+| 口径 | 数 |
+|---|---|
+| 各语种 key 的**并集** | 5,883（`CLAUDE.md`、`README.md` 用的是这个） |
+| 以 **en-US 为准**（viewer 的 `base.json`） | 5,882 |
+
+差的那一条是 `dictionaries/product_config::auxdry_contact_control_status` —— 它**只存在于 sv-SE 与
+zh-CN，en-US 里没有**（`.ci/baseline.json` 的 `extraKeys` 两条就是它）。
+
+viewer 的主表格以基准语言为骨架，所以看不到这条；它出现在**存量欠账 Tab 的「多余 key」**里。
+修掉那条欠账后两个数字会一致。
+
 ## 4. 待决 / 待办
 
 | # | 事项 | 影响 |
 |---|---|---|
 | 1 | `.github/CODEOWNERS` 的用户名目前全指向一人 | 错误码那条本意是「后端 + 前端双 review」，后端同事就位后需补上 |
-| 2 | viewer 的加载策略（全量内联 + 虚拟滚动 / 按需加载） | 见 `docs/viewer-spec.md` §2，实现前必须先选 |
+| 2 | ~~viewer 的加载策略~~ | ✅ 已定，见 D13：按语种懒加载 |
 | 3 | 123 条存量欠账何时修 | 建议在**迁移日之前回翻译平台修** —— 迁移日会重新导出覆盖，现在在 git 里修会被冲掉 |
 | 4 | Excel 往返、glossary-prompt、自动 bump PR | 见 `README.md` 的「后续待建」 |
+| 5 | **首次启用 Pages 需人工操作一次** | Settings → Pages → Source 设为 GitHub Actions，不做 workflow 会失败。见 `viewer-spec.md` §5 |
+| 6 | `_meta` 的 draft 标记落地后补上 viewer 的状态列 | 见 D15 |
