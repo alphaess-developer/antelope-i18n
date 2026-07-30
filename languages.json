@@ -1,0 +1,4 @@
+{
+  "base": "en-US",
+  "targets": ["zh-CN", "de-DE", "fr-FR", "es-ES", "it-IT", "nl-NL", "sv-SE", "el-GR", "pl-PL", "cs-CZ"]
+}

@@ -141,3 +141,7 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# ── 本仓库自有 ──
+# viewer 构建产物（dist 已被上方通用规则覆盖，此处显式说明）
+# 注意：locales/ 是本仓库的核心内容，绝不能被 ignore

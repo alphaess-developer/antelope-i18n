@@ -1,0 +1,26 @@
+# 谁改什么，谁来 review —— 贡献者不需要知道该找谁，GitHub 会自动 request。
+#
+# ⚠️ 下面的 @占位 需要替换成真实的 GitHub 用户名或团队（@alphaess-developer/xxx）。
+# 未替换前 CODEOWNERS 不会生效（GitHub 会忽略无效的 owner）。
+
+# ── 默认 ──────────────────────────────────────────────
+*                                   @mengciwai
+
+# ── 错误码：后端主写，双方 review ─────────────────────
+# 后端同事主要改这里，配合 docs/backend-guide.md
+/locales/dictionaries/error-code/   @mengciwai
+
+# ── 菜单字典：改动会影响侧栏/面包屑，需前端确认 ────────
+/locales/dictionaries/antelope-admin-menu/       @mengciwai
+/locales/dictionaries/antelope-business-menu/    @mengciwai
+/locales/dictionaries/antelope-customer-menu/    @mengciwai
+
+# ── 业务文案：PM 主写 ─────────────────────────────────
+/locales/                           @mengciwai
+
+# ── 机制部分：只有前端能改 ────────────────────────────
+/tools/                             @mengciwai
+/.github/                           @mengciwai
+/languages.json                     @mengciwai
+/.ci/                               @mengciwai
+/.gitattributes                     @mengciwai

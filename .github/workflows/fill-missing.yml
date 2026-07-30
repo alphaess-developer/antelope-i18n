@@ -1,0 +1,50 @@
+name: Fill missing languages
+
+# 让「只加基准语言」成为合法工作流：
+# 后端同事在 en-US.json 加一条错误码 → 本 workflow 自动用英文占位补齐其余 10 个语种
+# → CI 转绿 → 可以合并。后续由 PM/AI 把占位英文优化成真译文（_meta 里有待办清单）。
+#
+# 为什么必需：CI 的 key 对齐是阻塞级，只加英文会直接变红。
+# 没有这一步，后端同事第一次提 PR 就撞红，然后就再也不想碰这个仓库了。
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'locales/**'
+
+permissions:
+  contents: write
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    # fork 来的 PR 无法 push 回分支，跳过（内部仓库正常不用 fork）
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Fill missing keys with base language
+        run: |
+          node tools/fill-missing.mjs --write
+          node tools/sort-keys.mjs --write
+
+      - name: Commit if changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "无需补齐"
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore(i18n): 用基准语言占位补齐缺失语种" \
+                     -m "由 fill-missing workflow 自动生成。占位内容已在 _meta/ 标记为 draft，待优化为真译文。"
+          git push

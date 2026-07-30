@@ -1,0 +1,36 @@
+[
+  {
+    "id": "inverter",
+    "domain": "device",
+    "definition": "光伏/储能逆变器设备",
+    "terms": {
+      "en-US": [
+        { "text": "Inverter", "status": "preferred" },
+        { "text": "Converter", "status": "deprecated" }
+      ],
+      "zh-CN": [{ "text": "逆变器", "status": "preferred" }]
+    }
+  },
+  {
+    "id": "pv",
+    "domain": "device",
+    "definition": "光伏（太阳能发电）",
+    "terms": {
+      "en-US": [
+        { "text": "PV", "status": "preferred" },
+        { "text": "Solar", "status": "deprecated" },
+        { "text": "Photovoltaic", "status": "deprecated" }
+      ],
+      "zh-CN": [{ "text": "光伏", "status": "preferred" }]
+    }
+  },
+  {
+    "id": "alphaess-brand",
+    "domain": "brand",
+    "definition": "公司/产品品牌名，任何语种均不翻译",
+    "dnt": true,
+    "terms": {
+      "en-US": [{ "text": "AlphaESS", "status": "preferred" }]
+    }
+  }
+]

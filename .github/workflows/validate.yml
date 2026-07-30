@@ -1,0 +1,24 @@
+name: Validate translations
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # 校验脚本刻意零依赖（只用 node: 内置模块），所以不需要 install
+      - name: Validate
+        run: node tools/validate.mjs
+
+      - name: Check key order
+        run: node tools/sort-keys.mjs

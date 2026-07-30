@@ -1,0 +1,10 @@
+# 强制 LF —— 本仓库会被多方编辑（本地 Windows / github.dev 浏览器 / CI 脚本），
+# 若放任换行符自动转换，会出现「整文件 diff」这种纯噪音改动，
+# 也会让迁移日「重新导出覆盖」的 diff 无法阅读。
+* text=auto eol=lf
+
+*.json  text eol=lf
+*.md    text eol=lf
+*.mjs   text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
