@@ -158,11 +158,15 @@ inbox/                        PM 上传 Excel 的落点（往返流程待建）
 | 文档 | 内容 |
 |---|---|
 | [README.md](README.md) | 面向 PM 与一般协作者的入口 |
+| **[docs/decisions.md](docs/decisions.md)** | **决策记录 + 已否决方案** —— 提新方案前先看，大概率已讨论过 |
+| [docs/translating.md](docs/translating.md) | 翻译产出流程：AI 生成规则、`_meta` 状态标记、占位符铁律 |
+| [docs/glossary-guide.md](docs/glossary-guide.md) | 术语库模型（概念导向）、匹配规则、维护方式 |
 | [docs/backend-guide.md](docs/backend-guide.md) | **给后端同事**：新增/修正错误码的三步操作，可直接转发 |
 | [docs/viewer-spec.md](docs/viewer-spec.md) | GitHub Pages 只读查看页的实现规格 |
+| [docs/import-from-tms.md](docs/import-from-tms.md) | 迁移日「重新导出覆盖」的操作步骤 |
 | [locales/dictionaries/error-code/README.md](locales/dictionaries/error-code/README.md) | 错误码的特殊约定与目录位置决策 |
+| `translation-platform/docs/refactor/plan-b.md` | 整套方案的设计推导（本仓库不需要它也能运作） |
 | `antelope-web/docs/development/i18n-git-migration-plan.md` | 宿主项目侧的接入与切换计划 |
-| `translation-platform/docs/refactor/plan-b.md` | 整套方案的设计依据 |
 
 ## 约定
 

@@ -115,6 +115,18 @@ node tools/sort-keys.mjs --write   # 自动修复 key 顺序
 
 > `dictionaries/*` 下的 key 天生含点号（如 `status.online`），那仍是**一层扁平 JSON**，只是 key 字符串里有点号，不是嵌套对象。
 
+## 文档索引
+
+| 文档 | 给谁看 |
+|---|---|
+| [CLAUDE.md](CLAUDE.md) | **AI 助手与新协作者** —— 7 条硬规则，动手前必读 |
+| [docs/decisions.md](docs/decisions.md) | 想改方案的人 —— 决策记录与**已否决清单** |
+| [docs/translating.md](docs/translating.md) | 产出译文的人 —— AI 生成规则、状态标记、占位符铁律 |
+| [docs/glossary-guide.md](docs/glossary-guide.md) | 维护术语库的人（产品/业务专家） |
+| [docs/backend-guide.md](docs/backend-guide.md) | **后端同事** —— 新增错误码三步走，可直接转发 |
+| [docs/viewer-spec.md](docs/viewer-spec.md) | 实现查看页的人 |
+| [docs/import-from-tms.md](docs/import-from-tms.md) | 迁移日执行覆盖的人 |
+
 ## 后续待建
 
 - [ ] Excel 导出/导入往返（批量编辑）
