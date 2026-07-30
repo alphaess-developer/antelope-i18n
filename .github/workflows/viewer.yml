@@ -1,0 +1,69 @@
+name: Build & Deploy Viewer
+
+on:
+  push:
+    branches: [main]
+    # 只有内容或 viewer 本身变了才重新部署 —— 改 README 不该触发一次部署
+    paths:
+      - 'locales/**'
+      - 'glossary/**'
+      - '_meta/**'
+      - '.ci/**'
+      - 'languages.json'
+      - 'tools/**'
+      - 'viewer/**'
+      - '.github/workflows/viewer.yml'
+  workflow_dispatch: # 允许手动触发
+
+# 三项都必需：缺 pages 或 id-token 会让 deploy 步骤直接失败
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 连续提交时避免多个部署互相打架
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: viewer/package-lock.json
+
+      # 依赖只装在 viewer/ 内 —— validate.yml 保持零安装
+      - name: Install viewer deps
+        working-directory: viewer
+        run: npm ci
+
+      # 从 locales/ 生成数据文件（零依赖脚本，写到 viewer/public/data/）
+      - name: Build data
+        run: node tools/build-viewer-data.mjs
+
+      - name: Build viewer
+        working-directory: viewer
+        run: npm run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: viewer/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    # deploy-pages 要求声明 environment，漏了会直接报错
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
