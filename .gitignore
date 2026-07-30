@@ -144,4 +144,6 @@ vite.config.ts.timestamp-*
 
 # ── 本仓库自有 ──
 # viewer 构建产物（dist 已被上方通用规则覆盖，此处显式说明）
+# viewer 的数据文件由 tools/build-viewer-data.mjs 从 locales/ 生成，是派生产物不入库
+viewer/public/data/
 # 注意：locales/ 是本仓库的核心内容，绝不能被 ignore

@@ -10,7 +10,10 @@
     "sort:check": "node tools/sort-keys.mjs",
     "baseline": "node tools/validate.mjs --baseline",
     "fill": "node tools/fill-missing.mjs --write",
-    "fill:check": "node tools/fill-missing.mjs"
+    "fill:check": "node tools/fill-missing.mjs",
+    "viewer:data": "node tools/build-viewer-data.mjs",
+    "viewer:dev": "npm --prefix viewer run dev",
+    "viewer:build": "npm --prefix viewer run build"
   },
   "engines": {
     "node": ">=20"

@@ -1,7 +1,10 @@
 # GitHub Pages 只读查看页 · 实现规格
 
-> 状态：待实现 · 最后更新：2026-07-30
+> 状态：**已实现**（`viewer/` + `.github/workflows/viewer.yml`）· 最后更新：2026-07-30
 > **本文档自包含** —— 实现时不需要去查其他仓库。设计溯源见 `translation-platform/docs/refactor/plan-b.md` §13。
+>
+> ⚠️ 本文档在实现后做过一轮修订：**加载策略改为按语种懒加载**（§2）、**导出改为纯前端生成**（§4.5）、
+> **技术栈改为 Vite + React + shadcn/ui**（§3）。原先的「自包含单 HTML」方案已作废，理由见 `decisions.md` D13。
 
 ## 1. 目标与职责边界
 
@@ -20,55 +23,91 @@ GitHub Pages 是**纯静态托管，没有服务端**。静态页要写仓库，
 
 若将来确实要可写查看页，三条路（成本递减）：OAuth broker（部署一个约 20 行的无状态函数做 token 交换）／ OAuth Device Flow（不需要 client secret，但浏览器直连 token 端点的 CORS 需实测）／ 让用户粘贴细粒度 PAT。动手前先评估 inlang 的 **Fink** —— 它就是专门做「在 git 里编辑 i18n 文件」的现成 web 编辑器。
 
-## 2. 🔴 先定：数据规模与加载策略
+## 2. ✅ 已定：按语种懒加载
 
-实测（2026-07-30，140 ns × 11 语种）：
+引入 shadcn/ui 就必须上打包器，产物必然是「index.html + assets/」多文件 ——「自包含单 HTML」这个前提
+本身消失了（见 `decisions.md` D13）。既然已经有外链资源，按语种拆分懒加载就不再有额外代价，于是选它。
+
+实测产物（2026-07-30，140 ns × 11 语种，`node tools/build-viewer-data.mjs`）：
+
+| 文件 | 原始 | gzip | 何时加载 |
+|---|---|---|---|
+| `manifest.json` | 7 KB | 2 KB | 首屏 |
+| `base.json`（en-US 全量 5,882 行） | 343 KB | 91 KB | 首屏 |
+| `glossary.json` + `baseline.json` | 21 KB | ~4 KB | 首屏 |
+| `lang/<lang>.json` × 10 | 2,525 KB | 673 KB | **仅选中该对照语种时** |
 
 ```
-聚合行数（ns × key）      5,883
-全 11 语种内联            2.93 MB 原始  /  960 KB gzip
-仅 en-US + 1 个对照语种    0.63 MB 原始  /  162 KB gzip
+首屏（含默认对照语种 zh-CN）   ≈ 160 KB gzip
+全 11 语种（点「全部语种」导出时才拉齐）  ≈ 770 KB gzip
 ```
 
-三个方案，**实现前必须先选一个**：
+加上 JS/CSS（gzip 115 KB + 8 KB），首屏总计约 285 KB gzip。SheetJS 是独立 chunk（gzip 161 KB），
+**只有点了导出才下载**。
 
-| 方案 | 首屏 | 取舍 |
+### 🔴 base.json 必须是数组
+
+`dictionaries/error-code` 的 key 是错误码数字，**JS 引擎会把规范整数键强制按数值升序排到对象最前**。
+若把行存成以 `"ns::key"` 为键的对象，前端 `JSON.parse` 后拿到的顺序就不是文件顺序，排序会凭空跑掉。
+
+所以数据契约是：`base.json` 用**数组**保序，`lang/<lang>.json` 是与之**按下标对齐的值数组**（缺 key 为 `null`）。
+见 `decisions.md` §3.1。
+
+## 3. 技术栈与产物形态
+
+```
+tools/build-viewer-data.mjs        零依赖数据生成脚本（复用 tools/lib/core.mjs）
+        ↓ 产出
+viewer/public/data/                ← 被 .gitignore，派生产物不入库
+        ↓ vite build
+viewer/dist/                       ← 上传给 Pages 的目录
+├── index.html
+├── assets/index-*.js|css          应用代码
+├── assets/xlsx-*.js               SheetJS，动态 import 的独立 chunk
+├── assets/geist-*.woff2           自托管字体（无任何外部 CDN 请求）
+└── data/                          原样拷贝的数据文件
+```
+
+| 层 | 选型 | 说明 |
 |---|---|---|
-| **A. 全量内联 + 虚拟滚动**（建议） | 960 KB gzip | 保持**单文件自包含**，完全没有子路径问题（§6）；5,883 行必须虚拟滚动 |
-| B. 默认 base + 1 个对照语种，其余按需 fetch | 162 KB gzip | 快，但破了自包含，需要处理子路径下的相对 fetch |
-| C. 按语种拆 11 个 JSON + 主 HTML 懒加载 | 最快 | 同 B 的子路径问题，且文件多 |
+| 数据生成 | Node ESM，**零依赖** | 沿用现有工具风格：`node:` 内置模块、中文注释、JSDoc |
+| 构建 | Vite + React + TS | `base: '/antelope-i18n/'`，见 §6 |
+| UI | **Tailwind 4 + shadcn/ui**（radix base） | 组件源码在 `viewer/src/components/ui/` |
+| 虚拟滚动 | `@tanstack/react-virtual` | 5,882 行必须虚拟滚动 |
+| Excel | **SheetJS 0.20.3**，动态 `import()` | 见下方说明 |
 
-**建议 A**：960 KB 对内部工具可接受，换来的是「一个 HTML 文件、零资源路径问题」。GitHub Pages 会 gzip 传输。
+> **依赖只装在 `viewer/` 内**：根目录 `package.json` 保持零依赖，`validate.yml` 因此仍然不需要
+> `npm install`，几秒跑完（`decisions.md` D12）。viewer workflow 单独在 `viewer/` 里 `npm ci`。
 
-> §6 会解释为什么「自包含」在 Pages 上价值这么高。
-
-## 3. 产物形态
-
-```
-dist/
-├── index.html          自包含：CSS + JS + 翻译数据全部内联
-└── translations.xlsx   导出文件（为后续 Excel 往返流程铺路）
-```
-
-由 `tools/build-viewer.mjs` 生成。**沿用现有工具风格**：Node ESM、零依赖（`node:` 内置模块）、中文注释、JSDoc 类型标注。
-
-> Excel 生成需要依赖（如 `exceljs`）。若为此引入 devDependency，**注意别破坏 `validate.yml` 的零安装优势** —— 让 viewer workflow 单独 `npm ci`，validate workflow 保持不装。
+> **为什么 SheetJS 装的是官方 CDN 的 tarball 而不是 npm 上的 `xlsx`**：npm 上那个停在 2022 年的
+> `0.18.5` 带 parse 路径的安全告警，会让 `npm audit` 长期发红 —— 而一个长期红的检查会让团队学会
+> 忽略检查。装 `https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz` 是 SheetJS 官方现在的分发方式，
+> `package-lock.json` 会记下 integrity 哈希。**代价**：CI 的 `npm ci` 需要能访问 cdn.sheetjs.com。
+>
+> 另注：冻结首行（`!freeze`）是 SheetJS Pro 的功能，社区版写不出来，别加 —— 那是个无声的空操作。
 
 ## 4. 页面需求
 
 ### 4.1 主表格
 
-| 列 | 说明 |
-|---|---|
-| namespace | 可点击折叠/展开同 ns 的行 |
-| key | 等宽字体 |
-| `en-US`（基准） | 始终显示 |
-| 对照语种 | 可切换要看哪几个语种 |
-| 状态 | 读 `_meta/<ns>.json`，`draft` 标红（= 英文占位，待优化） |
+| 列 | 说明 | 状态 |
+|---|---|---|
+| namespace | 作为**分组表头行**出现，点击折叠/展开该 ns | ✅ |
+| key | 等宽字体，超长截断 + `title` 悬浮显示全文 | ✅ |
+| `en-US`（基准） | 始终显示，占位符高亮 | ✅ |
+| 对照语种 | 下拉勾选，选中时才 fetch 该语种数据 | ✅ |
+| ~~状态~~ | ~~读 `_meta/<ns>.json` 的 `draft` 标记~~ | ⏸ 暂不做 |
 
-- **虚拟滚动**（方案 A 下必须），5,883 行
-- 顶部一个搜索框：命中 ns / key / 任意语种的值
-- 筛选：按 ns 前缀、按状态（draft / 已确认）、按语种是否缺失
+- **虚拟滚动**，5,882 行；行高固定 37px（单元格截断而非换行，避免动态测高）
+- 搜索框：命中 ns / key / en-US / **任意已选语种的值**
+- 「仅看缺失」开关：只留已选语种里缺译文的行
+- 占位符高亮：单花括号 `{name}` 蓝色，双花括号 `{{name}}` **标红**（本项目配置下插值失效）
+
+> **⏸ 为什么暂不做 draft 状态列**：`_meta/` 目前只有 `.gitkeep`，一条标记都还没有 —— 现在做出来
+> 整列是空的，反而像 bug。等 `fill-missing` 真正写入 `_meta` 之后再加，数据契约里已留好位置。
+
+> **按 ns 前缀筛选**没有单独做控件 —— 搜索框本身就命中 ns 名，再加一个输入框只会让人困惑。
+> 140 个 ns 的下拉列表也不比直接搜好用。
 
 ### 4.2 错误码独立 Tab
 
@@ -94,9 +133,23 @@ dist/
 
 **这是给 PM 的待办清单** —— 比让他们去读 JSON 强得多。每修一条从 baseline 删一条，这个 Tab 会自然清空。
 
-### 4.5 导出按钮
+### 4.5 导出 —— 纯前端生成
 
-链接到 `./translations.xlsx`（**相对路径**，见 §6）。列建议：`ns | key | en-US | 各语种… | state`。
+**不再预生成 `dist/translations.xlsx`。** 构建期产物只能是全量快照，而 PM 真正要的是
+「德语里缺的那些」这种**当前筛选结果**。四个入口：
+
+| 入口 | 内容 |
+|---|---|
+| Excel（当前筛选） | 当前搜索/筛选后的行 × 当前已选语种 |
+| JSON（当前筛选） | 同上，`[{ ns, key, en-US, ... }]` |
+| Excel（全部语种） | 当前筛选的行 × 全部 11 语种（点击时自动拉齐未加载的语种） |
+| JSON（全部语种） | 同上 |
+
+列：`namespace | key | en-US | 各已选语种…`。文件名带日期与 commit：`antelope-i18n-2026-07-30-ee196fc.xlsx`。
+
+存量欠账 Tab 另有一个「导出 JSON」，导出当前筛选的欠账条目。
+
+**顺带收益**：CI 不需要为生成 Excel 装依赖，`decisions.md` D12 的顾虑自然消失。
 
 ## 5. 首次启用 Pages（一次性设置，最易漏）
 
@@ -108,7 +161,7 @@ dist/
 
 > Pages 有两种模式：**分支模式**（从 `gh-pages` 或 `/docs` 托管，会跑 Jekyll）和 **GitHub Actions 模式**（workflow 上传产物，**不经过 Jekyll**）。我们用后者，所以**不需要** `.nojekyll` 文件 —— 那是分支模式为了让下划线开头的目录不被忽略才要的。
 
-## 6. URL 与子路径（自包含方案的价值所在）
+## 6. URL 与子路径
 
 部署后地址：
 
@@ -119,9 +172,16 @@ https://alphaess-developer.github.io/antelope-i18n/
 
 这叫**项目站点**。任何写成 `/assets/app.js` 的**绝对路径都会 404**。
 
-方案 A 的自包含单文件从根上规避了这个问题：CSS/JS/数据全部内联，唯一的外部引用是 `./translations.xlsx`（相对路径）。
+两处处理，缺一个页面就白屏：
 
-若将来 viewer 复杂到需要打包器，记得设 `base: '/antelope-i18n/'`。
+| 位置 | 写法 |
+|---|---|
+| `viewer/vite.config.ts` | `base: '/antelope-i18n/'` —— 打包器据此重写 index.html 里的资源引用 |
+| `viewer/src/lib/data.ts` | `fetch(\`${import.meta.env.BASE_URL}data/...\`)` —— **不能**写成 `/data/...` |
+
+验证方法：`viewer/dist/index.html` 里的 script/link 必须带 `/antelope-i18n/` 前缀。
+
+字体是自托管的 woff2（`@fontsource-variable/geist`），**没有任何外部 CDN 请求** —— 内网环境也能正常显示。
 
 ## 7. 可见性
 
@@ -145,68 +205,40 @@ https://alphaess-developer.github.io/antelope-i18n/
 
 ## 8. Workflow
 
-`.github/workflows/viewer.yml`：
+实际文件见 [`.github/workflows/viewer.yml`](../.github/workflows/viewer.yml)。三步：
 
-```yaml
-name: Build & Deploy Viewer
-
-on:
-  push:
-    branches: [main]
-    paths:                       # 只有内容或工具变了才重新部署
-      - 'locales/**'
-      - '_meta/**'
-      - 'glossary/**'
-      - '.ci/**'
-      - 'languages.json'
-      - 'tools/**'
-  workflow_dispatch:             # 允许手动触发
-
-permissions:                     # 三项都必需
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:                     # 避免连续提交时多个部署互相打架
-  group: pages
-  cancel-in-progress: true
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      # 若 Excel 生成引入了依赖，在这里 npm ci（validate.yml 保持零安装）
-      - run: node tools/build-viewer.mjs      # 产出 dist/
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:                             # deploy-pages 要求声明
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+```
+npm ci（在 viewer/ 内）
+  → node tools/build-viewer-data.mjs   生成 viewer/public/data/
+  → npm run build（在 viewer/ 内）      产出 viewer/dist/
+  → upload-pages-artifact path: viewer/dist → deploy-pages
 ```
 
-四个容易漏的点：
+五个容易漏的点：
 
 | 项 | 漏了会怎样 |
 |---|---|
 | `permissions` 三项 | 缺 `pages: write` 或 `id-token: write` → deploy 步骤失败 |
 | `environment: github-pages` | `deploy-pages` 报错 |
 | `concurrency: group: pages` | 连续提交时多个部署冲突 |
-| `paths` 过滤 | 改个 README 也触发一次部署 |
+| `paths` 过滤要含 `viewer/**` | 改 viewer 代码不会触发部署 |
+| `npm ci` 的 `working-directory: viewer` | 在根目录跑会失败（根目录没有 lockfile 也没有依赖） |
 
 > Action 大版本号会更新，落地时核对官方 README 的当前版本。
+
+## 8.1 本地开发
+
+```bash
+npm --prefix viewer install     # 首次
+npm --prefix viewer run dev     # predev 会自动先生成 data/
+```
+
+打开 **http://localhost:5173/antelope-i18n/** —— 注意带上子路径，`base` 在 dev 下同样生效。
+
+```bash
+node tools/build-viewer-data.mjs   # 只重新生成数据（改了 locales/ 之后）
+npm --prefix viewer run build      # tsc --noEmit + vite build
+```
 
 ## 9. 常见问题排查
 
@@ -215,21 +247,27 @@ jobs:
 | deploy 报找不到 Pages 站点 | **Settings → Pages → Source 没设成 GitHub Actions**（§5） |
 | deploy 报权限不足 | `permissions` 缺 `pages: write` 或 `id-token: write` |
 | deploy 报缺少 environment | 没写 `environment: name: github-pages` |
-| 页面空白 + 控制台一堆 404 | 子路径导致的资源路径问题 —— 用自包含单文件（§2 方案 A），或设 `base` |
+| 页面空白 + 控制台一堆 404 | 子路径导致的资源路径问题 —— 检查 `base` 与 `BASE_URL`（§6） |
+| 页面出来了但表格是「数据加载失败」 | `data/` 没生成或没被拷进 `dist/`；本地先跑 `node tools/build-viewer-data.mjs` |
 | 部署成功但看到旧内容 | 浏览器 / CDN 缓存，强刷 `Ctrl+Shift+R`；等一两分钟 |
 | 私有仓库无法启用 Pages | 计划限制（§7） |
 | 多次提交后部署状态混乱 | 没配 `concurrency`（§8） |
-| 表格卡顿 | 5,883 行没做虚拟滚动（§4.1） |
+| 表格卡顿 | 5,882 行没做虚拟滚动（§4.1） |
+| `npm ci` 报拉不到 xlsx | 构建机访问不了 cdn.sheetjs.com（§3） |
+| 错误码顺序错乱 | 把 `base.json` 改成了对象 —— 整数键会被 JS 重排（§2） |
 
 ## 10. 验收检查项
 
-- [ ] Settings → Pages → Source 已设为 **GitHub Actions**（§5，最易漏）
-- [ ] workflow 的 `permissions` 三项齐全 + `environment` + `concurrency` + `paths`（§8）
-- [ ] 产物是**自包含单 HTML**（无外链资源），子路径下打开正常（§2 / §6）
-- [ ] 主表格：搜索命中 ns/key/任意语种值；虚拟滚动流畅
-- [ ] `_meta` 的 `draft` 标记可见可筛
-- [ ] **错误码独立 Tab**：数值排序、三个特殊 key 标出、占位符高亮、直达编辑链接（§4.2）
-- [ ] 术语库 Tab、存量欠账 Tab
-- [ ] 导出 Excel 用相对路径且可下载
-- [ ] `validate.yml` 仍保持零安装（未被 viewer 的依赖污染）
+- [ ] **Settings → Pages → Source 已设为 GitHub Actions**（§5，最易漏，且只能人工做）
+- [x] workflow 的 `permissions` 三项齐全 + `environment` + `concurrency` + `paths`（§8）
+- [x] `dist/index.html` 的资源引用带 `/antelope-i18n/` 前缀（§6）
+- [x] 无任何外部 CDN 请求（字体自托管）
+- [x] 主表格：搜索命中 ns/key/任意已选语种值；虚拟滚动流畅
+- [x] 对照语种按需加载（未选中的语种不产生请求）
+- [x] **错误码独立 Tab**：数值排序、三个特殊 key 标出、占位符高亮、直达编辑链接（§4.2）
+- [x] 术语库 Tab、存量欠账 Tab（欠账数 123 = 105 + 2 + 2 + 14）
+- [x] 导出：Excel / JSON × 当前筛选 / 全部语种，纯前端生成
+- [x] `validate.yml` 仍保持零安装（依赖只在 `viewer/` 内）
+- [ ] 首次部署后打开线上地址，确认表格能渲染、导出能下载
+- ⏸ `_meta` 的 `draft` 标记 —— 暂不做，见 §4.1
 - [ ] 「禁存非 UI 文案」已写进使用规范（§7）
