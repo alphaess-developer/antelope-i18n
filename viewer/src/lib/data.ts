@@ -10,6 +10,9 @@
  */
 import { useCallback, useEffect, useRef, useState } from 'react';
 
+/** 字典 ns 的公共前缀 —— 由宿主项目的 dictToNs() 从字典 code 推导 */
+export const DICT_PREFIX = 'dictionaries/';
+
 export const ERROR_CODE_NS = 'dictionaries/error-code';
 
 /** 错误码里三个需要显眼标出的特殊 key（docs/viewer-spec.md §4.2） */

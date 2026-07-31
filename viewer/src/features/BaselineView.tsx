@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Highlight } from '@/components/PlaceholderText';
 import { download } from '@/lib/export';
 import { editUrl, type BaselineRow } from '@/lib/data';
 
@@ -103,12 +104,14 @@ export function BaselineView({ baseline, repo }: { baseline: BaselineRow[]; repo
                   </Badge>
                 </TableCell>
                 <TableCell className="truncate font-mono text-xs" title={r.ns}>
-                  {r.ns}
+                  <Highlight text={r.ns} query={q} />
                 </TableCell>
                 <TableCell className="truncate font-mono text-xs" title={r.key}>
-                  {r.key}
+                  <Highlight text={r.key} query={q} />
                 </TableCell>
-                <TableCell className="font-mono text-xs">{r.lang ?? '—'}</TableCell>
+                <TableCell className="font-mono text-xs">
+                  {r.lang ? <Highlight text={r.lang} query={q} /> : '—'}
+                </TableCell>
                 <TableCell>
                   <a
                     href={editUrl(repo, r.ns, r.lang ?? 'en-US')}

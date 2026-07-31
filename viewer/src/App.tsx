@@ -5,9 +5,10 @@ import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { TranslationsView } from '@/features/TranslationsView';
+import { DictionariesView } from '@/features/DictionariesView';
 import { GlossaryView } from '@/features/GlossaryView';
 import { BaselineView } from '@/features/BaselineView';
-import { ERROR_CODE_NS, editUrl, useLangValues, useViewerData } from '@/lib/data';
+import { DICT_PREFIX, ERROR_CODE_NS, editUrl, useLangValues, useViewerData } from '@/lib/data';
 
 /** 默认对照语种 —— 首屏只额外加载这一个语种的数据 */
 const DEFAULT_LANGS = ['zh-CN'];
@@ -40,6 +41,13 @@ export default function App() {
     () => ({ rows: data?.rows ?? [], indices: (data?.rows ?? []).map((_, i) => i) }),
     [data],
   );
+  const dictStats = useMemo(() => {
+    const list = (data?.manifest.nsList ?? []).filter(
+      (n) => n.ns.startsWith(DICT_PREFIX) && n.ns !== ERROR_CODE_NS,
+    );
+    return { count: list.length, keys: list.reduce((s, n) => s + n.keyCount, 0) };
+  }, [data]);
+
   const errorRows = useMemo(() => {
     const rows: typeof allRows.rows = [];
     const indices: number[] = [];
@@ -111,6 +119,10 @@ export default function App() {
               主表格
               <Badge variant="secondary">{data.manifest.rowCount.toLocaleString()}</Badge>
             </TabsTrigger>
+            <TabsTrigger value="dictionaries" title={`${dictStats.count} 个字典 · ${dictStats.keys} 条`}>
+              字典
+              <Badge variant="secondary">{dictStats.count}</Badge>
+            </TabsTrigger>
             <TabsTrigger value="error-code">
               错误码
               <Badge variant="secondary">{errorRows.rows.length}</Badge>
@@ -131,6 +143,18 @@ export default function App() {
             <TranslationsView
               rows={allRows.rows}
               indices={allRows.indices}
+              manifest={data.manifest}
+              selectedLangs={selectedLangs}
+              onSelectedLangsChange={setSelectedLangs}
+              values={values}
+              loadingLangs={loading}
+              ensure={ensure}
+            />
+          </TabsContent>
+
+          <TabsContent value="dictionaries" className="mt-4">
+            <DictionariesView
+              rows={allRows.rows}
               manifest={data.manifest}
               selectedLangs={selectedLangs}
               onSelectedLangsChange={setSelectedLangs}
