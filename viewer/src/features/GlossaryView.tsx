@@ -7,6 +7,7 @@ import { Search } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
+import { Highlight } from '@/components/PlaceholderText';
 import type { GlossaryEntry } from '@/lib/data';
 
 export function GlossaryView({ glossary }: { glossary: GlossaryEntry[] }) {
@@ -55,7 +56,9 @@ export function GlossaryView({ glossary }: { glossary: GlossaryEntry[] }) {
               <TableRow key={entry.id}>
                 <TableCell className="align-top">
                   <div className="flex flex-wrap items-center gap-1.5">
-                    <span className="font-mono text-xs">{entry.id}</span>
+                    <span className="font-mono text-xs">
+                      <Highlight text={entry.id} query={q} />
+                    </span>
                     {entry.dnt && (
                       <Badge variant="destructive" title="任何语种均不翻译">
                         DNT
@@ -67,7 +70,7 @@ export function GlossaryView({ glossary }: { glossary: GlossaryEntry[] }) {
                   )}
                 </TableCell>
                 <TableCell className="text-muted-foreground align-top text-xs">
-                  {entry.definition}
+                  <Highlight text={entry.definition ?? ''} query={q} />
                 </TableCell>
                 <TableCell className="align-top">
                   <div className="space-y-1">
@@ -83,7 +86,7 @@ export function GlossaryView({ glossary }: { glossary: GlossaryEntry[] }) {
                             className={t.status === 'deprecated' ? 'text-muted-foreground line-through' : ''}
                             title={t.status}
                           >
-                            {t.text}
+                            <Highlight text={t.text} query={q} />
                           </Badge>
                         ))}
                       </div>

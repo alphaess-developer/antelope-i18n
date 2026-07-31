@@ -1,21 +1,62 @@
 /*
- * 占位符高亮 —— 占位符写错是本仓库最容易出的问题（CLAUDE.md 硬规则 1、2）
+ * 文本渲染 —— 占位符高亮 + 搜索命中高亮
  *
- * 单花括号 {name} 是正确写法，高亮成蓝色；
+ * 占位符写错是本仓库最容易出的问题（CLAUDE.md 硬规则 1、2）：
+ * 单花括号 {name} 是正确写法，标蓝；
  * 双花括号 {{name}} 在本项目配置下插值会**失效**，标红。
  */
+import type { ReactNode } from 'react';
+
 const TOKEN = /(\{\{[^{}]*\}\}|\{[^{}]*\})/g;
 
-export function PlaceholderText({ value }: { value: string | null | undefined }) {
+/** 把搜索词的命中片段包成 <mark>。query 为空时原样返回 */
+export function Highlight({ text, query }: { text: string; query: string }) {
+  if (!query) return <>{text}</>;
+
+  const lower = text.toLowerCase();
+  const needle = query.toLowerCase();
+  const out: ReactNode[] = [];
+  let cursor = 0;
+  let n = 0;
+
+  for (;;) {
+    const at = lower.indexOf(needle, cursor);
+    if (at === -1) {
+      out.push(text.slice(cursor));
+      break;
+    }
+    if (at > cursor) out.push(text.slice(cursor, at));
+    out.push(
+      <mark
+        key={(n += 1)}
+        className="rounded-sm bg-yellow-200 px-px text-yellow-950 dark:bg-yellow-400/30 dark:text-yellow-50"
+      >
+        {text.slice(at, at + query.length)}
+      </mark>,
+    );
+    cursor = at + query.length;
+  }
+
+  return <>{out}</>;
+}
+
+interface Props {
+  value: string | null | undefined;
+  /** 搜索词，非占位符片段里的命中会被高亮 */
+  query?: string;
+}
+
+export function PlaceholderText({ value, query = '' }: Props) {
   if (value === null || value === undefined) {
     return <span className="text-muted-foreground/60">—</span>;
   }
-  const parts = value.split(TOKEN);
+
   return (
     <>
-      {parts.map((part, i) =>
+      {value.split(TOKEN).map((part, i) =>
         !part.startsWith('{') ? (
-          part
+          // 占位符之外的普通文本才做搜索高亮 —— 占位符本身不该被割开
+          <Highlight key={i} text={part} query={query} />
         ) : part.startsWith('{{') ? (
           <span
             key={i}

@@ -127,4 +127,12 @@
   html {
     @apply font-sans;
     }
+  /* 告诉浏览器当前是深色还是浅色，原生滚动条/表单控件才会跟着变。
+     只切 .dark 类不改 color-scheme 的话，暗色模式下滚动条仍是浅色的。 */
+  :root {
+    color-scheme: light;
+    }
+  :root.dark {
+    color-scheme: dark;
+    }
 }
