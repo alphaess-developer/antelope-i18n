@@ -90,6 +90,7 @@
   "static_attributes": "静态属性",
   "status": "状态",
   "sts_enable": "是否有STS",
+  "sunspec_enable": "Sunspec使能",
   "system_model": "系统型号",
   "turn_on_14a_enwg_power_limit": "开启§14a EnWG功率限制",
   "turn_on_rrcr_control": "开启RRCR控制",

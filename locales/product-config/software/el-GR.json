@@ -90,6 +90,7 @@
   "static_attributes": "Στατικά χαρακτηριστικά",
   "status": "Κατάσταση",
   "sts_enable": "Διαθεσιμότητα του STS",
+  "sunspec_enable": "Ενεργοποίηση Sunspec",
   "system_model": "Μοντέλο συστήματος",
   "turn_on_14a_enwg_power_limit": "Ενεργοποιήστε το όριο ισχύος §14a EnWG",
   "turn_on_rrcr_control": "Ενεργοποιήστε το στοιχείο ελέγχου RRCR",

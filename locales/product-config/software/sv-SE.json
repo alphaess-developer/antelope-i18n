@@ -90,6 +90,7 @@
   "static_attributes": "Statiska egenskaper",
   "status": "Status",
   "sts_enable": "STS",
+  "sunspec_enable": "Aktivera Sunspec",
   "system_model": "Systemmodell",
   "turn_on_14a_enwg_power_limit": "Aktivera §14a EnWG-effektgräns",
   "turn_on_rrcr_control": "Aktivera RRCR-styrning",
