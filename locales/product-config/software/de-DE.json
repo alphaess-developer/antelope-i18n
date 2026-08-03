@@ -90,6 +90,7 @@
   "static_attributes": "Statische Attribute",
   "status": "Status",
   "sts_enable": "STS vorhanden?",
+  "sunspec_enable": "Sunspec aktivieren",
   "system_model": "Systemmodell",
   "turn_on_14a_enwg_power_limit": "Aktivieren Sie §14a EnWG-Leistungsbegrenzung",
   "turn_on_rrcr_control": "RRCR-Steuerung aktivieren",

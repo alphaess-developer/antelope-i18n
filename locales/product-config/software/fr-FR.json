@@ -90,6 +90,7 @@
   "static_attributes": "Attributs statiques",
   "status": "État",
   "sts_enable": "STS",
+  "sunspec_enable": "Activation du soleil",
   "system_model": "Modèle du système",
   "turn_on_14a_enwg_power_limit": "Activez la limite de puissance de l’EnWG §14a",
   "turn_on_rrcr_control": "Activez le contrôle RRCR",
