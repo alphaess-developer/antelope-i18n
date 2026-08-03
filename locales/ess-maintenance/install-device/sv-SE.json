@@ -21,7 +21,7 @@
   "installation_record_created": "Installationspost skapad",
   "inverter_installed_capacity_tip": "Total installerad solcellseffekt ansluten till solcellsväxelriktaren",
   "inverter_model": "Växelriktarmodell",
-  "jemena_out_of_band_der_registration_tip": "Jemena använder out-of-band DER-registrering. Efter inskickning genererar systemet en LFDI. Kopiera LFDI:n och slutför DER-registreringen på Jemenas portal.",
+  "jemena_out_of_band_der_registration_tip": "Jemena uses out-of-band DER registration. After submitting, the system will generate an LFDI. Copy the LFDI and complete DER registration on the Jemena portal.",
   "jump_over": "Hoppa över",
   "last_step": "Föregående steg",
   "license": "Licens",
@@ -41,5 +41,5 @@
   "username_or_email": "Användarnamn/e-post",
   "view_installation_records": "Visa installationsposter",
   "view_nmi_registration": "Visa NMI-register",
-  "work_mode": "Arbetsläge"
+  "work_mode": "Driftläge"
 }

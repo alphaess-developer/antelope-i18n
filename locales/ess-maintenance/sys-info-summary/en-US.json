@@ -23,7 +23,7 @@
   "grid_meter_model": "Meter model on the grid side",
   "install_company": "Installer Company",
   "install_date": "Installation Date",
-  "install_mode": "Installation mode",
+  "install_mode": "Installation Mode",
   "installation_time": "Installation Time",
   "installer": "Installer",
   "inverter_firmware_version": "Inverter Firmware Version",

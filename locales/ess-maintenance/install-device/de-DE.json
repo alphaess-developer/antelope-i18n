@@ -21,7 +21,7 @@
   "installation_record_created": "Erstellung von Installationsaufzeichnungen",
   "inverter_installed_capacity_tip": "Die Gesamtnennleistung aller PV-Module, die über einen oder mehrere Fremdwechselrichter mit dem Alpha ESS Speichersystem installiert sind.",
   "inverter_model": "Wechselrichtermodell",
-  "jemena_out_of_band_der_registration_tip": "Jemena verwendet die Out-of-Band-DER-Registrierung. Nach der Einreichung generiert das System eine LFDI. Kopieren Sie die LFDI und schließen Sie die DER-Registrierung im Jemena-Portal ab.",
+  "jemena_out_of_band_der_registration_tip": "Jemena uses out-of-band DER registration. After submitting, the system will generate an LFDI. Copy the LFDI and complete DER registration on the Jemena portal.",
   "jump_over": "Überspringen",
   "last_step": "Letzter Schritt",
   "license": "Lizenz",

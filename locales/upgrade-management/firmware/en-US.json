@@ -1,6 +1,7 @@
 {
   "ate_version": "Automated beta",
   "charging_pile_type": "EV Charger Model",
+  "continue_upgrade_create_task_tip": "Continuing to upgrade requires creating new tasks to reduce ineffective attempts",
   "dev_version": "Terminal Version Number",
   "ev_number_list": "EV Charger ID",
   "execute": "Execute",

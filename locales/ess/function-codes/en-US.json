@@ -1,0 +1,6 @@
+{
+  "all": "All",
+  "function_code_not_reported": "This device has not reported function codes / does not support function code upload",
+  "supported_function_codes": "Supported Function Codes",
+  "supported_only": "Supported Only"
+}

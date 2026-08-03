@@ -63,7 +63,7 @@
   "initial_state": "Estado inicial",
   "installation_address": "Dirección de instalación",
   "installation_time": "Hora de instalación",
-  "installed_capacity": "Capacidad instalada",
+  "installed_capacity": "Capacidad de la batería",
   "installed_power": "Potencia instalada",
   "invalid": "Deshabilitado",
   "inverter": "Inversor",

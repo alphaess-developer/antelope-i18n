@@ -21,7 +21,7 @@
   "installation_record_created": "Installatierecord aangemaakt",
   "inverter_installed_capacity_tip": "Het totale geïnstalleerde vermogen van PV aangesloten op de PV-omvormer.",
   "inverter_model": "Omvormermodel",
-  "jemena_out_of_band_der_registration_tip": "Jemena gebruikt out-of-band DER-registratie. Na indiening genereert het systeem een LFDI. Kopieer de LFDI en voltooi de DER-registratie op het Jemena-portaal.",
+  "jemena_out_of_band_der_registration_tip": "Jemena uses out-of-band DER registration. After submitting, the system will generate an LFDI. Copy the LFDI and complete DER registration on the Jemena portal.",
   "jump_over": "Overslaan",
   "last_step": "Laatste stap",
   "license": "Licentie",

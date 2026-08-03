@@ -1,6 +1,7 @@
 {
   "ate_version": "自动测试版",
   "charging_pile_type": "充电桩型号",
+  "continue_upgrade_create_task_tip": "继续升级需新建对应任务，减少无效尝试",
   "dev_version": "终端版本号/硬件版本号",
   "ev_number_list": "充电桩桩号",
   "execute": "执行",

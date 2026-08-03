@@ -1,6 +1,7 @@
 {
   "ate_version": "Geautomatiseerde bèta",
   "charging_pile_type": "Wallbox model",
+  "continue_upgrade_create_task_tip": "Doorgaan met upgraden vereist het creëren van nieuwe taken om ineffectieve pogingen te verminderen",
   "dev_version": "Terminalversienummer",
   "ev_number_list": "Wallbox-ID",
   "execute": "Uitvoeren",

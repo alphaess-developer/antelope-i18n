@@ -2,7 +2,7 @@
   "address": "地址",
   "basic_information": "基本信息",
   "electricity_tariff_info": "电价信息",
-  "installed_capacity": "装机容量",
+  "installed_capacity": "电池容量",
   "installed_power": "装机功率",
   "number_of_ess": "储能系统数量",
   "number_of_other_devices": "配件/其他设备数",

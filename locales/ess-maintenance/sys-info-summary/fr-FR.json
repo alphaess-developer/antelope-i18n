@@ -23,7 +23,7 @@
   "grid_meter_model": "Modèle du compteur côté réseau",
   "install_company": "Entreprise d’installation",
   "install_date": "Date d’installation",
-  "install_mode": "Mode d’installation",
+  "install_mode": "Mode d'installation",
   "installation_time": "Date d’installation",
   "installer": "Installateur",
   "inverter_firmware_version": "Version du firmware de l’onduleur",

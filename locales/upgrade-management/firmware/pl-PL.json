@@ -1,6 +1,7 @@
 {
   "ate_version": "Zautomatyzowana wersja beta",
   "charging_pile_type": "Model Wallbox",
+  "continue_upgrade_create_task_tip": "Ciągłe ulepszanie wymaga tworzenia nowych zadań, aby ograniczyć nieskuteczne próby",
   "dev_version": "Numer wersji terminala",
   "ev_number_list": "ID Wallbox",
   "execute": "Wykonaj",

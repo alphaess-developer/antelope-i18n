@@ -63,7 +63,7 @@
   "initial_state": "Anfangsstatus",
   "installation_address": "Installationsadresse",
   "installation_time": "Installationszeit",
-  "installed_capacity": "Installierte Kapazität",
+  "installed_capacity": "Batteriekapazität",
   "installed_power": "Installierte Leistung",
   "invalid": "An Wirksamkeit Verlieren",
   "inverter": "Wechselrichter",

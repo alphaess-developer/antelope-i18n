@@ -67,7 +67,7 @@
   "grid_side_meter": "电网侧电表",
   "grid_side_meters_can_be_accessed_to_models": "电网侧电表可接入型号",
   "hardware_all_conditions_empty_tip": "硬件配置\"{hardwareName}\"的规则{ruleIndex}：所有条件字段都为空",
-  "hardware_duplicate_data_tip": "硬件配置\"{hardwareName}\"的规则：存在重复数据",
+  "hardware_duplicate_data_tip": "硬件配置\"{hardwareName}\"的规则 {ruleIndex}：存在重复数据",
   "hardware_function_configuration": "硬件功能配置",
   "hardware_function_points": "硬件功能点",
   "hardware_must_configure_tip": "硬件配置\"{hardwareName}\"：必须配置默认版本或至少一个有效规则",

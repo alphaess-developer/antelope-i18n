@@ -63,7 +63,7 @@
   "initial_state": "初始状态",
   "installation_address": "安装地址",
   "installation_time": "安装时间",
-  "installed_capacity": "装机容量",
+  "installed_capacity": "电池容量",
   "installed_power": "装机功率",
   "invalid": "失效",
   "inverter": "逆变器",

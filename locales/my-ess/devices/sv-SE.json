@@ -63,7 +63,7 @@
   "initial_state": "Initialtillstånd",
   "installation_address": "Installationsadress",
   "installation_time": "Installationstid",
-  "installed_capacity": "Installerad kapacitet",
+  "installed_capacity": "Batterikapacitet",
   "installed_power": "Installerad effekt",
   "invalid": "Ogiltig",
   "inverter": "Växelriktare",

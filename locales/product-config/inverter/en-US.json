@@ -39,7 +39,7 @@
   "grid_meter_reversed": "Grid Meter Reversed",
   "grid_side_parameters": "Grid-side Parameters",
   "hybrid_inverters": "Hybrid inverters",
-  "install_mode": "Installation mode",
+  "install_mode": "Installation Mode",
   "install_mode_tip": "AC: refers to the photovoltaic transformation system, there is a photovoltaic inverter on site and on the power grid, and the photovoltaic module is connected to the photovoltaic inverter, not directly connected to the energy storage inverter; DC: For the site where the hybrid inverter is installed, it refers to the new photovoltaic system, and the photovoltaic modules are directly connected to the inverter; For the site where the battery inverter is installed, there is no photovoltaic inverter on site, the battery inverter is only integrated into the power grid, and only the power grid can charge the battery.Hybrid: This refers to a situation where there is a photovoltaic inverter connected to the grid on site, and photovoltaic modules are also directly connected to the hybrid inverter.",
   "installed_output_power": "Rated Output Power",
   "inv_pv_max_install_cap": "PV Inverter Max. PV Installed Capacity",

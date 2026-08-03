@@ -2,7 +2,7 @@
   "address": "Address",
   "basic_information": "Basic Information",
   "electricity_tariff_info": "Electricity Tariff",
-  "installed_capacity": "Installed Capacity",
+  "installed_capacity": "Battery Capacity",
   "installed_power": "Installed Power",
   "number_of_ess": "Number of ESS",
   "number_of_other_devices": "Number of accessories",

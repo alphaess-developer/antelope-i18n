@@ -63,7 +63,7 @@
   "initial_state": "État initial",
   "installation_address": "Adresse d’installation",
   "installation_time": "Date d’installation",
-  "installed_capacity": "Capacité installée",
+  "installed_capacity": "Capacité de la batterie",
   "installed_power": "Puissance installée",
   "invalid": "Invalide",
   "inverter": "Onduleur",

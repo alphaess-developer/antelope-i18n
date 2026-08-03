@@ -2,7 +2,7 @@
   "address": "Adres",
   "basic_information": "Basis Informatie",
   "electricity_tariff_info": "Electriciteitstarief",
-  "installed_capacity": "Geïnstalleerde capaciteit",
+  "installed_capacity": "Batterijcapaciteit",
   "installed_power": "Geïnstalleerd vermogen",
   "number_of_ess": "Aantal energieopslagsystemen",
   "number_of_other_devices": "Aantal accessoires/andere apparatuur",

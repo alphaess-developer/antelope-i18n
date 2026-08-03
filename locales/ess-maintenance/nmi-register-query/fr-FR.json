@@ -13,7 +13,7 @@
   "feed_power_limit_set_in_system_settings": "Pour définir la limite de puissance d’alimentation, veuillez aller dans Paramètres système.",
   "hybrid_tip": "Hybride : Le système entier comprend un onduleur PV connecté au réseau et un onduleur de stockage d’énergie hybride connecté directement aux panneaux PV.",
   "install_date": "Date d’installation",
-  "install_mode": "Mode d’installation",
+  "install_mode": "Mode d'installation",
   "inverter_installed_capacity_tip": "Capacité PV installée totale connectée à l'onduleur PV",
   "keyword_ci": "mot-clé",
   "lfdi_tip": "Le LFDI est automatiquement généré par le système après la soumission des informations NMI pour l’identification des dispositifs IEEE 2030.5 (CSIP-AUS) pour DNSP",

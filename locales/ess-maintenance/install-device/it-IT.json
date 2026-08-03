@@ -21,7 +21,7 @@
   "installation_record_created": "Registrazione di installazione creata",
   "inverter_installed_capacity_tip": "Capacità fotovoltaica totale installata collegata all'inverter fotovoltaico",
   "inverter_model": "Modello inverter",
-  "jemena_out_of_band_der_registration_tip": "Jemena utilizza la registrazione DER fuori banda. Dopo la presentazione, il sistema genera un LFDI. Copia il LFDI e completa la registrazione DER sul portale Jemena.",
+  "jemena_out_of_band_der_registration_tip": "Jemena uses out-of-band DER registration. After submitting, the system will generate an LFDI. Copy the LFDI and complete DER registration on the Jemena portal.",
   "jump_over": "Salta",
   "last_step": "Precedente",
   "license": "Licenza",
@@ -41,5 +41,5 @@
   "username_or_email": "Nome utente/Email",
   "view_installation_records": "Visualizza i registri di installazione",
   "view_nmi_registration": "Visualizza il registro NMI",
-  "work_mode": "Modalità di lavoro"
+  "work_mode": "Modalità operativa"
 }

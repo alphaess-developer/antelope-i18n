@@ -2,7 +2,7 @@
   "address": "Διεύθυνση",
   "basic_information": "Βασικές πληροφορίες",
   "electricity_tariff_info": "Πληροφορίες τιμολογίου ηλεκτρικού ρεύματος",
-  "installed_capacity": "Εγκατεστημένη ισχύς",
+  "installed_capacity": "Χωρητικότητα μπαταρίας",
   "installed_power": "Εγκατεστημένη ισχύς",
   "number_of_ess": "Αριθμός συστημάτων αποθήκευσης ενέργειας",
   "number_of_other_devices": "Αριθμός εξαρτημάτων/λοιπού εξοπλισμού",

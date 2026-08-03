@@ -2,7 +2,7 @@
   "address": "Adresse",
   "basic_information": "Informations de base",
   "electricity_tariff_info": "Informations sur les tarifs d'électricité",
-  "installed_capacity": "Capacité installée",
+  "installed_capacity": "Capacité de la batterie",
   "installed_power": "Puissance installée",
   "number_of_ess": "Nombre de systèmes de stockage d’énergie",
   "number_of_other_devices": "Nombre d’accessoires/autres équipements",

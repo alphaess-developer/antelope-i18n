@@ -27,7 +27,7 @@
   "grid_consumed_home": "Consumed",
   "grid_consumption": "Grid Purchase",
   "host": "Host",
-  "installed_capacity": "Installed Capacity",
+  "installed_capacity": "Battery Capacity",
   "installed_data": "Installed Data",
   "installed_power": "Installed Power",
   "inv_power": "Inverter power",

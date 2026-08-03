@@ -1,6 +1,7 @@
 {
   "ate_version": "Beta automatizzata",
   "charging_pile_type": "Modello di Wallbox",
+  "continue_upgrade_create_task_tip": "Continuare ad aggiornare richiede la creazione di nuovi compiti per ridurre i tentativi inefficaci",
   "dev_version": "Numero versione del terminale",
   "ev_number_list": "ID Wallbox",
   "execute": "Eseguire",

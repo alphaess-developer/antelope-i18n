@@ -21,7 +21,7 @@
   "installation_record_created": "Záznam o instalaci vytvořen",
   "inverter_installed_capacity_tip": "Celková kapacita FV systému připojeného k FV měniči",
   "inverter_model": "Model měniče",
-  "jemena_out_of_band_der_registration_tip": "Jemena používá registraci DER mimo pásmo. Po odeslání systém vygeneruje LFDI. Zkopírovat LFDI a vyplnit registraci DER na portálu Jemena.",
+  "jemena_out_of_band_der_registration_tip": "Jemena uses out-of-band DER registration. After submitting, the system will generate an LFDI. Copy the LFDI and complete DER registration on the Jemena portal.",
   "jump_over": "Přeskočit",
   "last_step": "Předchozí krok",
   "license": "Licence",
@@ -41,5 +41,5 @@
   "username_or_email": "Uživatelské jméno/Email",
   "view_installation_records": "Zobrazit záznamy o instalaci",
   "view_nmi_registration": "Zobrazit registr NMI",
-  "work_mode": "Pracovní režim"
+  "work_mode": "Provozní režim"
 }
