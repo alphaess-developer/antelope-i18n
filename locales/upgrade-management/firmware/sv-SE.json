@@ -1,6 +1,7 @@
 {
   "ate_version": "Automatiserad beta",
   "charging_pile_type": "Wallbox-modell",
+  "continue_upgrade_create_task_tip": "Att fortsätta uppgradera kräver att man skapar nya uppgifter för att minska ineffektiva försök",
   "dev_version": "Terminalversionsnummer",
   "ev_number_list": "Wallbox-ID",
   "execute": "Utför",

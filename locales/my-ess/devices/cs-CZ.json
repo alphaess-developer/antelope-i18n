@@ -63,7 +63,7 @@
   "initial_state": "Počáteční stav",
   "installation_address": "Adresa instalace",
   "installation_time": "Čas instalace",
-  "installed_capacity": "Instalovaná kapacita",
+  "installed_capacity": "Kapacita baterie",
   "installed_power": "Instalovaný výkon",
   "invalid": "Neplatné",
   "inverter": "Měnič",

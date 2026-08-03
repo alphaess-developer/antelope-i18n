@@ -15,7 +15,7 @@
   "hybrid_tip": "Hybrid: The whole system includes PV inverter connected to the grid and hybrid energy storage inverter connected to PV panels directly.",
   "install_date": "Installation Date",
   "install_finish": "Installed",
-  "install_mode": "Installation mode",
+  "install_mode": "Installation Mode",
   "install_user": "Installer",
   "installation_notification_sent_to": "Installation notification sent to {name}",
   "installation_record_created": "Installation Record Created",

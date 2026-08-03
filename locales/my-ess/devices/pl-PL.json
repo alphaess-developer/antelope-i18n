@@ -63,7 +63,7 @@
   "initial_state": "Stan początkowy",
   "installation_address": "Adres instalacji",
   "installation_time": "Czas instalacji",
-  "installed_capacity": "Pojemność zainstalowana",
+  "installed_capacity": "Pojemność akumulatora",
   "installed_power": "Moc zainstalowana",
   "invalid": "Nieprawidłowy",
   "inverter": "Falownik",

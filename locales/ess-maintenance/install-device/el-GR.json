@@ -15,13 +15,13 @@
   "hybrid_tip": "Υβριδικό: Όλο το σύστημα εμπεριέχει φωτοβολταϊκους μετατροπείς στο χώρο που είναι συνδεδεμένοι με το δίκτυο, καθώς και φωτοβολταϊκές μονάδες απευθείας συνδεμένοι σε υβριδικούς μετατροπείς.",
   "install_date": "Ημερομηνία εγκατάστασης",
   "install_finish": "Ολοκλήρωση της εγκατάστασης",
-  "install_mode": "Λειτουργία εγκατάστασης",
+  "install_mode": "Τρόπος εγκατάστασης",
   "install_user": "Εγκαταστάτης",
   "installation_notification_sent_to": "Η ειδοποίηση εγκατάστασης στάλθηκε στο {name}",
   "installation_record_created": "Δημιουργήθηκε εγγραφή εγκατάστασης",
   "inverter_installed_capacity_tip": "Συνολική εγκατεστημένη ισχύς των φωτοβολταϊκών που είναι συνδεδεμένα στον αντιστροφέα φωτοβολταϊκών.",
   "inverter_model": "Μοντέλο μετατροπέα",
-  "jemena_out_of_band_der_registration_tip": "Η Jemena χρησιμοποιεί εγγραφή DER εκτός ζώνης. Μετά την υποβολή, το σύστημα θα δημιουργήσει ένα LFDI. Αντιγράψτε το LFDI και ολοκληρώστε την εγγραφή DER στην πύλη Jemena.",
+  "jemena_out_of_band_der_registration_tip": "Jemena uses out-of-band DER registration. After submitting, the system will generate an LFDI. Copy the LFDI and complete DER registration on the Jemena portal.",
   "jump_over": "Παράλειψη",
   "last_step": "Προηγούμενο βήμα",
   "license": "Άδεια",
@@ -41,5 +41,5 @@
   "username_or_email": "Όνομα χρήστη/Email",
   "view_installation_records": "Προβολή εγγραφών εγκατάστασης",
   "view_nmi_registration": "Προβολή μητρώου NMI",
-  "work_mode": "Λειτουργία εργασίας"
+  "work_mode": "Τρόπος λειτουργίας"
 }

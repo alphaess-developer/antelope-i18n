@@ -27,7 +27,7 @@
   "grid_consumed_home": "Netzbezug",
   "grid_consumption": "Netzbezug",
   "host": "Host",
-  "installed_capacity": "Installierte Kapazität",
+  "installed_capacity": "Batteriekapazität",
   "installed_data": "Daten der Installation",
   "installed_power": "Installierte Leistung",
   "inv_power": "Wechselrichterleistung",

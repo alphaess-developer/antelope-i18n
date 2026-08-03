@@ -2,7 +2,7 @@
   "address": "Adress",
   "basic_information": "Grundläggande information",
   "electricity_tariff_info": "Eltariff",
-  "installed_capacity": "Installerad kapacitet",
+  "installed_capacity": "Batterikapacitet",
   "installed_power": "Installerad effekt",
   "number_of_ess": "Antal energilagringssystem",
   "number_of_other_devices": "Antal tillbehör",

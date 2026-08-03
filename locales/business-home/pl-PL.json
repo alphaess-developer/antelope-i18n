@@ -27,7 +27,7 @@
   "grid_consumed_home": "Zużyto",
   "grid_consumption": "Zużyto",
   "host": "Host",
-  "installed_capacity": "Pojemność zainstalowana",
+  "installed_capacity": "Pojemność akumulatora",
   "installed_data": "Zainstalowane dane",
   "installed_power": "Moc zainstalowana",
   "inv_power": "Moc falownika",

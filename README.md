@@ -32,7 +32,7 @@ tools/                              校验与规范化脚本（零依赖）
 | 基准语言（源） | **`en-US`** —— 新文案先写英文 |
 | 目标语种 | `zh-CN` `de-DE` `fr-FR` `es-ES` `it-IT` `nl-NL` `sv-SE` `el-GR` `pl-PL` `cs-CZ` |
 
-当前规模：**140 个 namespace × 11 个语种**，每语种约 5,900 条 key。
+当前规模：**141 个 namespace × 11 个语种**，每语种约 5,900 条 key。
 
 ## 在线查看 / 导出
 

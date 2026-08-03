@@ -1,7 +1,13 @@
 # 从翻译平台导入 / 覆盖
 
-> 最后更新：2026-07-30
-> 迁移日「重新导出一份覆盖」的操作步骤。首次导入已于 2026-07-30 完成（commit `9d46491`）。
+> 最后更新：2026-08-03
+> 迁移日「重新导出一份覆盖」的操作步骤。
+>
+> - 首次导入：2026-07-30（commit `9d46491`），用临时脚本
+> - **第二次（迁移日）导入：2026-08-03，已完成** —— 导入逻辑已固化为 `tools/import-export.mjs`
+>
+> ⚠️ 平台侧转只读之后，本文档只在「需要再次从平台批量导入」时才用得上。
+> 日常改文案走 git，见 `antelope-web/docs/development/i18n-git-migration-plan.md` §4。
 
 ## 1. 为什么会有第二次导入
 
@@ -84,23 +90,35 @@ node tools/validate.mjs --baseline
 
 ⚠️ 第 6 步会把当前**所有**问题一次性豁免。只在确认新增的问题都是「存量带来的、非本次引入的」时才跑。
 
-## 5. 导入脚本
+## 5. 导入脚本 `tools/import-export.mjs`
 
-首次导入用的是一段临时 Python，未入库。**迁移日之前应该把它固化成 `tools/import-export.mjs`**，理由：
+```bash
+node tools/import-export.mjs --from=<解压目录>           # 只报告，不落盘
+node tools/import-export.mjs --from=<解压目录> --write   # 实际覆盖
+node tools/import-export.mjs --from=... --write --prune  # 连同删除导出里没有的 ns
+```
 
-- 保证两次导入走完全相同的逻辑（否则 diff 不可信）
-- 顺带产出报告：ns 数、key 总数、缺失的 `<ns,lang>` 组合、英文覆盖率
+规范化直接复用 `lib/core.mjs` 的 `stringify()` —— **与 `sort-keys.mjs` 是同一个函数**，
+所以两次导入的格式逐字节一致，diff 里不会有格式噪音。2026-08-03 实测：覆盖后
+`sort-keys.mjs` 扫 1551 个文件报告「0 个需要规范化」，验证了这一点。
+
+⚠️ 默认**不删除**导出物里缺失的 ns，只报告。静默删掉整个 ns 的译文太危险，
+确认那确实是平台侧的下线动作后再加 `--prune`。
 
 ### 脚本应输出的报告
 
+2026-08-03 那次的实际输出：
+
 ```
-ns 数               140
-文件数              1540
-key 总数（各语种）   64599
-聚合行数（ns × key） 5883
-基准语言覆盖率      xx%       ← 缺 en-US 的 key 迁移后没有源文
-缺失 <ns,lang> 组合  105 处
-manifest 与目录差集  0         ← 应为 0，非 0 说明导出不完整
+exportTime          2026-08-03T01:50:21.360Z
+ns   导出 141 · 仓库 140
+  ＋ 新增 1: ess/function-codes
+文件数              1551
+key 总数（各语种）  65083
+聚合行数（基准语言）5926
+各语种覆盖率        99.5% ~ 100%（cs-CZ 最低）
+缺失 <ns,lang> 组合  0        ← 指整个文件缺失；单个 key 缺失见 baseline
+manifest 与目录差集  0        ← 双向零差集，导出完整
 ```
 
 ## 6. 迁移日检查清单
@@ -114,7 +132,8 @@ manifest 与目录差集  0         ← 应为 0，非 0 说明导出不完整
 
 ## 7. 已知的存量欠账
 
-首次导入带来 **123 条**，记在 [`.ci/baseline.json`](../.ci/baseline.json)：
+第二次导入后 **122 条**（首次 123 条，平台侧修好 1 条 `placeholderMismatch`），
+记在 [`.ci/baseline.json`](../.ci/baseline.json)：
 
 | 类别 | 数量 | 说明 |
 |---|---|---|

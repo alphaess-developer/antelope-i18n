@@ -39,7 +39,7 @@
   "grid_meter_reversed": "Compteur réseau inversé",
   "grid_side_parameters": "Paramètres côté réseau",
   "hybrid_inverters": "Onduleurs hybrides",
-  "install_mode": "Mode d’installation",
+  "install_mode": "Mode d'installation",
   "install_mode_tip": "AC : désigne le système de transformation photovoltaïque, il y a un onduleur photovoltaïque sur place et sur le réseau électrique, et le module photovoltaïque est connecté à l’onduleur photovoltaïque, pas directement connecté à l’onduleur de stockage d’énergie ; DC : Pour le site où l’onduleur hybride est installé, cela fait référence au nouveau système photovoltaïque, et les modules photovoltaïques sont directement connectés à l’onduleur ; Pour le site où l’onduleur de batterie est installé, il n’y a pas d’onduleur photovoltaïque sur place, l’onduleur de batterie est uniquement intégré au réseau électrique, et seul le réseau électrique peut charger la batterie.Hybrid:Cela fait référence à une situation où un onduleur photovoltaïque est connecté au réseau sur site, et où des modules photovoltaïques sont également connectés directement à l'onduleur hybride.",
   "installed_output_power": "Puissance de sortie nominale",
   "inv_pv_max_install_cap": "Capacité PV installée max. de l’onduleur PV",

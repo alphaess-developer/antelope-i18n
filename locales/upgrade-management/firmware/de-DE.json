@@ -1,6 +1,7 @@
 {
   "ate_version": "Automatisierte Beta-Version",
   "charging_pile_type": "Wallbox-Modell",
+  "continue_upgrade_create_task_tip": "Das fortlaufende Aufrüsten erfordert das Erstellen neuer Aufgaben, um ineffektive Versuche zu reduzieren",
   "dev_version": "Hardwareversion",
   "ev_number_list": "Wallbox-ID",
   "execute": "Ausführen",

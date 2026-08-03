@@ -21,7 +21,7 @@
   "installation_record_created": "Utworzony rekord instalacji",
   "inverter_installed_capacity_tip": "Całkowita zainstalowana moc PV, podłączona do falownika PV",
   "inverter_model": "Model falownika",
-  "jemena_out_of_band_der_registration_tip": "Jemena używa rejestracji DER poza pasmem. Po złożeniu wniosku system generuje LFDI. Skopiuj LFDI i dokończ rejestrację DER na portalu Jemena.",
+  "jemena_out_of_band_der_registration_tip": "Jemena uses out-of-band DER registration. After submitting, the system will generate an LFDI. Copy the LFDI and complete DER registration on the Jemena portal.",
   "jump_over": "Przeskocz",
   "last_step": "Ostatni krok",
   "license": "Licencja",

@@ -1,6 +1,7 @@
 {
   "ate_version": "Αυτοματοποιημένη έκδοση beta",
   "charging_pile_type": "Μοντέλο Wallbox",
+  "continue_upgrade_create_task_tip": "Η συνέχιση της αναβάθμισης απαιτεί τη δημιουργία νέων εργασιών για τη μείωση των αναποτελεσματικών προσπαθειών",
   "dev_version": "Αριθμός έκδοσης τερματικού",
   "ev_number_list": "Αριθμός Wallbox",
   "execute": "Εκτελέστε",

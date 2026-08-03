@@ -2,7 +2,7 @@
   "address": "Adresa",
   "basic_information": "Základní informace",
   "electricity_tariff_info": "Informace o tarifech elektřiny",
-  "installed_capacity": "Instalovaná kapacita",
+  "installed_capacity": "Kapacita baterie",
   "installed_power": "Instalovaný výkon",
   "number_of_ess": "Počet systémů pro ukládání energie",
   "number_of_other_devices": "Počet příslušenství/jiného vybavení",

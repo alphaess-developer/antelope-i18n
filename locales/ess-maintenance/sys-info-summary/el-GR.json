@@ -23,7 +23,7 @@
   "grid_meter_model": "Μοντέλο μετρητή πλευράς πλέγματος",
   "install_company": "Εταιρεία εγκαταστάτη",
   "install_date": "Ημερομηνία εγκατάστασης",
-  "install_mode": "Λειτουργία εγκατάστασης",
+  "install_mode": "Τρόπος εγκατάστασης",
   "installation_time": "Χρόνος εγκατάστασης",
   "installer": "Εγκαταστάτης",
   "inverter_firmware_version": "Αριθμός έκδοσης λογισμικού μετατροπέα",
@@ -41,5 +41,5 @@
   "supercablebox_sn": "Supercablebox [SN]",
   "usage_time": "Χρόνος χρήσης",
   "vpp_scheduling_account": "Λογαριασμός προγραμματισμού VPP",
-  "work_mode": "Λειτουργία εργασίας"
+  "work_mode": "Τρόπος λειτουργίας"
 }

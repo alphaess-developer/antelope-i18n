@@ -27,7 +27,7 @@
   "grid_consumed_home": "Énergie achetée",
   "grid_consumption": "Achat au réseau",
   "host": "Host",
-  "installed_capacity": "Capacité installée",
+  "installed_capacity": "Capacité de la batterie",
   "installed_data": "Données installées",
   "installed_power": "Puissance installée",
   "inv_power": "Puissance de l’onduleur",

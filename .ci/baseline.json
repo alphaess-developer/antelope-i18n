@@ -133,7 +133,6 @@
     "business-home::coverage_country_model::sv-SE",
     "dictionaries/error-code::6074::cs-CZ",
     "dictionaries/error-code::6074::fr-FR",
-    "dictionaries/error-code::6074::pl-PL",
-    "product-config/product::hardware_duplicate_data_tip::zh-CN"
+    "dictionaries/error-code::6074::pl-PL"
   ]
 }

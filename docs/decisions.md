@@ -244,14 +244,14 @@ business-home:coverage_country_model
 
 ---
 
-### 3.5 聚合行数「5,883」与 viewer 显示的「5,882」差 1
+### 3.5 聚合行数「5,927」与 viewer 显示的「5,926」差 1
 
 不是 bug，是两种口径：
 
 | 口径 | 数 |
 |---|---|
-| 各语种 key 的**并集** | 5,883（`CLAUDE.md`、`README.md` 用的是这个） |
-| 以 **en-US 为准**（viewer 的 `base.json`） | 5,882 |
+| 各语种 key 的**并集** | 5,927（`CLAUDE.md`、`README.md` 用的是这个） |
+| 以 **en-US 为准**（viewer 的 `base.json`） | 5,926 |
 
 差的那一条是 `dictionaries/product_config::auxdry_contact_control_status` —— 它**只存在于 sv-SE 与
 zh-CN，en-US 里没有**（`.ci/baseline.json` 的 `extraKeys` 两条就是它）。

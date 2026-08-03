@@ -27,7 +27,7 @@
   "grid_consumed_home": "电网买电",
   "grid_consumption": "电网买电",
   "host": "主机",
-  "installed_capacity": "装机容量",
+  "installed_capacity": "电池容量",
   "installed_data": "装机数据",
   "installed_power": "装机功率",
   "inv_power": "逆变器功率",

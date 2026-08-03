@@ -1,6 +1,7 @@
 {
   "ate_version": "Automatizovaná beta verze",
   "charging_pile_type": "Model nabíječky EV",
+  "continue_upgrade_create_task_tip": "Pokračování v upgradu vyžaduje vytváření nových úkolů, které snižují neefektivní pokusy",
   "dev_version": "Číslo verze svorkovnice",
   "ev_number_list": "ID nabíječky EV",
   "execute": "Provést",
