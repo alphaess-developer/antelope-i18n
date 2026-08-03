@@ -158,6 +158,7 @@
   "6144": "No admite la instalación mixta de pilas de carga de primera y segunda generación",
   "6145": "No hay ningún sistema correspondiente a SN",
   "6146": "El rol tiene usuarios asociados y no se puede eliminar",
+  "6147": "Electricity tariff range 0~1000000, up to 4 decimal places",
   "6148": "El rango de SOC de corte de descarga es {0}-{1}",
   "6149": "El empleado se ha incorporado a la empresa.",
   "6150": "la empresa no existe",

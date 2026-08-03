@@ -1,1 +1,9 @@
-{}
+{
+  "BACKUP_LOAD": "Backup Load",
+  "BB_PLUS": "BB Plus (BackupBox Plus)",
+  "EV_CHARGER": "EV Charger",
+  "GENERATOR": "Generator",
+  "PEAK_SHAVING": "Peak Shaving",
+  "SG_READY": "SG Ready",
+  "VPP": "VPP Dispatch"
+}
