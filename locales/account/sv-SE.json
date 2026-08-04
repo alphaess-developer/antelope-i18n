@@ -25,6 +25,7 @@
   "personal_info": "Personlig information",
   "resend": "Skicka igen",
   "resend_tooltip": "Skicka igen om {countdown} s",
+  "set_password": "Ange lösenord",
   "unable_retrieve": "Följande information tas bort och kan inte återställas efter att kontot avslutats.",
   "vercode_tip": "Ange verifieringskoden",
   "verification_code": "Verifieringskod",

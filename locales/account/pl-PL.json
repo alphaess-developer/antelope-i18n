@@ -25,6 +25,7 @@
   "personal_info": "Dane osobowe",
   "resend": "Wyślij ponownie",
   "resend_tooltip": "Ponowne wysłanie możliwe w {countdown}",
+  "set_password": "Ustaw hasło",
   "unable_retrieve": "Następujące informacje zostaną usunięte i nie będzie można ich odzyskać po usunięciu konta.",
   "vercode_tip": "Wpisz kod weryfikacyjny",
   "verification_code": "Kod weryfikacyjny",

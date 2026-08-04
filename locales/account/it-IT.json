@@ -25,6 +25,7 @@
   "personal_info": "Informazioni personali",
   "resend": "Rinvia",
   "resend_tooltip": "Reinvio disponibile tra {countdown}s",
+  "set_password": "Imposta password",
   "unable_retrieve": "Quando un conto viene cancellato, leseguenti informazioni saranno cancellate e non potranno essere recuperate.",
   "vercode_tip": "Inserisci il codice di verifica",
   "verification_code": "Codice di verifica",

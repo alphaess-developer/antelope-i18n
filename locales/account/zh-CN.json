@@ -25,6 +25,7 @@
   "personal_info": "个人信息",
   "resend": "重新发送",
   "resend_tooltip": "请等待 {countdown} 秒后重新发送",
+  "set_password": "设置密码",
   "unable_retrieve": "账号被注销后，如下信息将被清空，无法找回。",
   "vercode_tip": "请输入验证码",
   "verification_code": "验证码",
