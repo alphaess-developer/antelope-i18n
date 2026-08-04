@@ -145,6 +145,7 @@
   "home_work_mode_tip": "Egenförbrukningsläget är systemets standarddriftläge och körs automatiskt när inga andra lägen är aktiverade.",
   "how_works": "Så fungerar det",
   "how_works_desc": "Hanterar automatiskt ditt batteri för att sänka elkostnaderna.",
+  "how_works_online_tip": "Enheten måste vara online när tidsfönstret börjar.",
   "hybrid": "Hybrid",
   "hysteresis_value": "Hysteresvärde",
   "idle": "Viloläge",

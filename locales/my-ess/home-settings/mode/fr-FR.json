@@ -145,6 +145,7 @@
   "home_work_mode_tip": "Le mode Autoconsommation est le mode de fonctionnement par défaut du système, et celui-ci s'exécute automatiquement lorsque les autres modes ne sont pas activés.",
   "how_works": "Comment ça marche",
   "how_works_desc": "Gére automatiquement votre batterie pour réduire les coûts d’électricité.",
+  "how_works_online_tip": "L’appareil doit être en ligne au début de la plage horaire.",
   "hybrid": "Hybrid",
   "hysteresis_value": "Valeur d’hystérésis",
   "idle": "Inactif",

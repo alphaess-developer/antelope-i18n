@@ -145,6 +145,7 @@
   "home_work_mode_tip": "Režim vlastní spotřeby je výchozím režimem provozu systému a systém běží automaticky, když nejsou povoleny jiné režimy.",
   "how_works": "Jak to funguje",
   "how_works_desc": "Automaticky spravuje vaši baterii, aby snížil náklady na elektřinu.",
+  "how_works_online_tip": "Zařízení musí být online při zahájení časového okna.",
   "hybrid": "Hybrid",
   "hysteresis_value": "Hodnota hystereze",
   "idle": "Nečinný",

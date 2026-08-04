@@ -145,6 +145,7 @@
   "home_work_mode_tip": "Tryb autokonsumpcji jest domyślnym trybem działania systemu, który uruchamia się automatycznie, gdy inne tryby nie są włączone.",
   "how_works": "Jak to działa",
   "how_works_desc": "Automatycznie zarządza baterią, aby obniżyć koszty prądu.",
+  "how_works_online_tip": "Urządzenie musi być online w momencie rozpoczęcia okna czasowego.",
   "hybrid": "Hybrid",
   "hysteresis_value": "Wartość histerezy",
   "idle": "Bezczynny",

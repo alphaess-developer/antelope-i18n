@@ -145,6 +145,7 @@
   "home_work_mode_tip": "自发自用模式是系统的默认运行方式，在其他运行模式未启用时系统将自动运行。",
   "how_works": "工作原理",
   "how_works_desc": "自动管理电池以降低电费。",
+  "how_works_online_tip": "窗口开始时，设备需处于在线状态。",
   "hybrid": "Hybrid",
   "hysteresis_value": "回差值",
   "idle": "待机（保持）",
