@@ -166,6 +166,7 @@
   "receiver": "Ontvanger",
   "receiver_organization": "Ontvangerorganisatie",
   "recipient_email": "Ontvanger-e-mail",
+  "reject_reason": "Reden van afwijzing",
   "reject_registration": "Afwijzen",
   "reject_registration_confirm": "Bevestig de afwijzing van deze organisatie. Na afwijzing moet de gebruiker een nieuwe organisatie registreren om opnieuw een aanvraag te doen.",
   "rejected": "Afgewezen",

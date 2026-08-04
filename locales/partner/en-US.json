@@ -166,6 +166,7 @@
   "receiver": "Receiver",
   "receiver_organization": "Recipient Organization",
   "recipient_email": "Recipient Email",
+  "reject_reason": "Reason for Rejection",
   "reject_registration": "Reject",
   "reject_registration_confirm": "Confirm rejecting this organisation. Once rejected, the user must register a new organisation to apply again.",
   "rejected": "Declined",
