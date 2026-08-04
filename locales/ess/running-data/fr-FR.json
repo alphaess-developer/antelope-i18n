@@ -107,6 +107,7 @@
   "external_current_channels": "Le nombre de canaux de courant externes détectés par l’appareil",
   "factory_mode_012": "Mode usine : 0-formel 1-usine 2-reprise des données de point de rupture",
   "fault_params": "Paramètre de défaillance",
+  "fault_waveform_data": "Données de forme d'onde de défaut",
   "five_min_data": "Données sur 5 min",
   "follower_pv_power_sum": "La somme de la puissance PV des Follower",
   "frequency": "Fréquence",

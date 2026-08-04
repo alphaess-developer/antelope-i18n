@@ -107,6 +107,7 @@
   "external_current_channels": "Antal externa strömkanaler som enheten upptäcker",
   "factory_mode_012": "Fabriksläge: 0-officiell 1-fabrik 2-återupptagning av data efter avbrott",
   "fault_params": "Felparameter",
+  "fault_waveform_data": "Feltvågformsdata",
   "five_min_data": "5-minutersdata",
   "follower_pv_power_sum": "Summan av PV-effekten för Follower",
   "frequency": "Frekvens",

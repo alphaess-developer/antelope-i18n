@@ -107,6 +107,7 @@
   "external_current_channels": "Die Anzahl der vom Gerät erkannten externen Stromkanäle",
   "factory_mode_012": "Werkseinstellung: 0-formal 1-Werksmodus 2-Datenwiderherstellung Speicherpunkt",
   "fault_params": "Fehlerparameter",
+  "fault_waveform_data": "Fehlerwellenformdaten",
   "five_min_data": "5 Minuten",
   "follower_pv_power_sum": "Summe der PV-Leistung des Followers",
   "frequency": "Frequenz",
