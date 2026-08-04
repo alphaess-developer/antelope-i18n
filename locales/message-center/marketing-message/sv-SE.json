@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "Dubbletter i filen",
+  "account_verify_matched": "Matchade",
+  "account_verify_mismatched": "Identitet stämmer inte",
+  "account_verify_not_found": "Hittades inte",
+  "account_verify_result": "Resultat av kontoverifiering",
   "action": "Åtgärd",
   "action_app_inner_link": "Hopp i appen",
   "action_h5_inner_link": "Internt H5-hopp",

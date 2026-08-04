@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "Duplicitní v souboru",
+  "account_verify_matched": "Shodné",
+  "account_verify_mismatched": "Neshoda identity",
+  "account_verify_not_found": "Nenalezeno",
+  "account_verify_result": "Výsledek ověření účtů",
   "action": "Akce",
   "action_app_inner_link": "Skoky přímo v aplikaci",
   "action_h5_inner_link": "Vnitřní skok H5",

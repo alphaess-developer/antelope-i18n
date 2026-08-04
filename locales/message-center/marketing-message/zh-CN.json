@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "文件内重复",
+  "account_verify_matched": "命中",
+  "account_verify_mismatched": "身份不匹配",
+  "account_verify_not_found": "不存在",
+  "account_verify_result": "账号校验结果",
   "action": "动作",
   "action_app_inner_link": "应用内跳转",
   "action_h5_inner_link": "H5内部跳转",

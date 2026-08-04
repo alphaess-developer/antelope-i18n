@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "Zduplikowane w pliku",
+  "account_verify_matched": "Dopasowane",
+  "account_verify_mismatched": "Niezgodność tożsamości",
+  "account_verify_not_found": "Nie znaleziono",
+  "account_verify_result": "Wynik weryfikacji kont",
   "action": "Akcja",
   "action_app_inner_link": "Skoki w aplikacji",
   "action_h5_inner_link": "Wewnętrzny skok H5",
