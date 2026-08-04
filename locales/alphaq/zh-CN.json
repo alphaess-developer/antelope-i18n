@@ -31,5 +31,14 @@
   "thinking": "思考中",
   "thinking_indicator": "{name} 正在思考",
   "thumbs_down": "没帮助",
-  "thumbs_up": "有帮助"
+  "thumbs_up": "有帮助",
+  "voice_empty_result": "未检测到语音，请重试。",
+  "voice_failed": "语音输入失败，请重试或改为输入文字。",
+  "voice_listening": "正在聆听…",
+  "voice_permission_denied": "麦克风权限被拒绝。请在浏览器设置中允许访问，或改为输入文字。",
+  "voice_start": "语音输入",
+  "voice_stop": "停止录音",
+  "voice_too_long": "录音过长，请录制更短的片段。",
+  "voice_transcribing": "正在转写…",
+  "voice_unsupported": "不支持此音频格式。"
 }

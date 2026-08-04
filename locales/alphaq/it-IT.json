@@ -31,5 +31,14 @@
   "thinking": "Elaborazione",
   "thinking_indicator": "{name} sta pensando",
   "thumbs_down": "Non è utile",
-  "thumbs_up": "Utile"
+  "thumbs_up": "Utile",
+  "voice_empty_result": "Nessuna voce rilevata. Riprovare.",
+  "voice_failed": "Input vocale non riuscito. Riprovare o digitare il messaggio.",
+  "voice_listening": "In ascolto…",
+  "voice_permission_denied": "Accesso al microfono negato. Consentirlo nelle impostazioni del browser, oppure digitare il messaggio.",
+  "voice_start": "Input vocale",
+  "voice_stop": "Interrompi registrazione",
+  "voice_too_long": "La registrazione è troppo lunga. Registrare un clip più breve.",
+  "voice_transcribing": "Trascrizione in corso…",
+  "voice_unsupported": "Questo formato audio non è supportato."
 }

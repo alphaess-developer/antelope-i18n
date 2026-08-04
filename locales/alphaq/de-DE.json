@@ -31,5 +31,14 @@
   "thinking": "Denkt nach",
   "thinking_indicator": "{name} denkt",
   "thumbs_down": "Nicht hilfreich",
-  "thumbs_up": "Hilfreich"
+  "thumbs_up": "Hilfreich",
+  "voice_empty_result": "Keine Sprache erkannt. Bitte versuchen Sie es erneut.",
+  "voice_failed": "Spracheingabe fehlgeschlagen. Bitte versuchen Sie es erneut oder geben Sie Ihre Nachricht ein.",
+  "voice_listening": "Hört zu…",
+  "voice_permission_denied": "Mikrofonzugriff wurde verweigert. Bitte erlauben Sie ihn in den Browsereinstellungen oder geben Sie Ihre Nachricht ein.",
+  "voice_start": "Spracheingabe",
+  "voice_stop": "Aufnahme beenden",
+  "voice_too_long": "Die Aufnahme ist zu lang. Bitte nehmen Sie einen kürzeren Clip auf.",
+  "voice_transcribing": "Wird transkribiert…",
+  "voice_unsupported": "Dieses Audioformat wird nicht unterstützt."
 }

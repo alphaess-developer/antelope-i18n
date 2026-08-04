@@ -31,5 +31,14 @@
   "thinking": "Réflexion",
   "thinking_indicator": "{name} réfléchit",
   "thumbs_down": "Pas très utile",
-  "thumbs_up": "Utile"
+  "thumbs_up": "Utile",
+  "voice_empty_result": "Aucune parole détectée. Veuillez réessayer.",
+  "voice_failed": "Échec de la saisie vocale. Veuillez réessayer ou saisir votre message.",
+  "voice_listening": "Écoute…",
+  "voice_permission_denied": "L'accès au microphone a été refusé. Veuillez l'autoriser dans les paramètres du navigateur, ou saisir votre message.",
+  "voice_start": "Saisie vocale",
+  "voice_stop": "Arrêter l'enregistrement",
+  "voice_too_long": "L'enregistrement est trop long. Veuillez enregistrer un clip plus court.",
+  "voice_transcribing": "Transcription…",
+  "voice_unsupported": "Ce format audio n'est pas pris en charge."
 }
