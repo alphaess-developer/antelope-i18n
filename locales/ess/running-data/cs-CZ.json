@@ -106,7 +106,9 @@
   "ev_power_total": "Celkový výkon nabíječky EV",
   "external_current_channels": "Počet externích proudových kanálů detekovaných zařízením",
   "factory_mode_012": "Tovární režim: 0-formální 1-tovární 2-obnovení dat v bodě přerušení",
+  "fault_code": "Kód poruchy",
   "fault_params": "Chybný parametr",
+  "fault_time": "Čas poruchy",
   "fault_waveform_data": "Data průběhu poruchy",
   "five_min_data": "5minutová data",
   "follower_pv_power_sum": "Součet výkonu následnického FV systému",
@@ -260,5 +262,6 @@
   "upload_time": "Doba nahrávání",
   "upv_scbm": "Jednotka 1V",
   "war_bat_v": "Celkový tlak detekuje abnormální počet shluků",
+  "warning_code": "Kód varování",
   "wifi_signal_strength": "Síla signálu Wi-Fi"
 }

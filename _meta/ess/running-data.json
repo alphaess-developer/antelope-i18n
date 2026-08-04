@@ -1,5 +1,41 @@
 {
+  "fault_code": {
+    "zh-CN": "draft",
+    "de-DE": "draft",
+    "fr-FR": "draft",
+    "es-ES": "draft",
+    "it-IT": "draft",
+    "nl-NL": "draft",
+    "sv-SE": "draft",
+    "el-GR": "draft",
+    "pl-PL": "draft",
+    "cs-CZ": "draft"
+  },
+  "fault_time": {
+    "zh-CN": "draft",
+    "de-DE": "draft",
+    "fr-FR": "draft",
+    "es-ES": "draft",
+    "it-IT": "draft",
+    "nl-NL": "draft",
+    "sv-SE": "draft",
+    "el-GR": "draft",
+    "pl-PL": "draft",
+    "cs-CZ": "draft"
+  },
   "fault_waveform_data": {
+    "zh-CN": "draft",
+    "de-DE": "draft",
+    "fr-FR": "draft",
+    "es-ES": "draft",
+    "it-IT": "draft",
+    "nl-NL": "draft",
+    "sv-SE": "draft",
+    "el-GR": "draft",
+    "pl-PL": "draft",
+    "cs-CZ": "draft"
+  },
+  "warning_code": {
     "zh-CN": "draft",
     "de-DE": "draft",
     "fr-FR": "draft",

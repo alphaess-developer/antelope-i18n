@@ -106,7 +106,9 @@
   "ev_power_total": "Total Power of EV Charger",
   "external_current_channels": "The number of external current channels detected by the device",
   "factory_mode_012": "Factory Mode: 0-formal 1-factory 2-breakpoint data resume",
+  "fault_code": "Fault Code",
   "fault_params": "Fault Parameter",
+  "fault_time": "Fault Time",
   "fault_waveform_data": "Fault Waveform Data",
   "five_min_data": "5-Min Data",
   "follower_pv_power_sum": "The Sum of Follower PV Power",
@@ -260,5 +262,6 @@
   "upload_time": "Upload Time",
   "upv_scbm": "Unit 1V",
   "war_bat_v": "The total pressure detects abnormal cluster numbers",
+  "warning_code": "Warning Code",
   "wifi_signal_strength": "Wi-Fi signal strength"
 }

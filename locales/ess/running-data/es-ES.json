@@ -106,7 +106,9 @@
   "ev_power_total": "Potencia total del Wallbox",
   "external_current_channels": "El número de canales externos de corriente detectados por el dispositivo",
   "factory_mode_012": "Modo de fábrica: 0-Oficial 1-Fábrica 2-Datos de reanudación de punto de interrupción",
+  "fault_code": "Código de fallo",
   "fault_params": "Parámetro de falla",
+  "fault_time": "Hora del fallo",
   "fault_waveform_data": "Datos de forma de onda de fallo",
   "five_min_data": "Datos de 5 min",
   "follower_pv_power_sum": "La suma de la potencia fotovoltaica del Follower",
@@ -260,5 +262,6 @@
   "upload_time": "Hora de la subida",
   "upv_scbm": "Unidad 1V",
   "war_bat_v": "La presión total detecta números anómalos de racimos",
+  "warning_code": "Código de advertencia",
   "wifi_signal_strength": "Intensidad de la señal Wi-Fi"
 }

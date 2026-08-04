@@ -106,7 +106,9 @@
   "ev_power_total": "Total effekt för Wallbox",
   "external_current_channels": "Antal externa strömkanaler som enheten upptäcker",
   "factory_mode_012": "Fabriksläge: 0-officiell 1-fabrik 2-återupptagning av data efter avbrott",
+  "fault_code": "Felkod",
   "fault_params": "Felparameter",
+  "fault_time": "Feltid",
   "fault_waveform_data": "Feltvågformsdata",
   "five_min_data": "5-minutersdata",
   "follower_pv_power_sum": "Summan av PV-effekten för Follower",
@@ -260,5 +262,6 @@
   "upload_time": "Uppladdningstid",
   "upv_scbm": "Enhet 1 V",
   "war_bat_v": "Klusternummer med onormal totalspänning",
+  "warning_code": "Varningskod",
   "wifi_signal_strength": "Wi-Fi-signalstyrka"
 }

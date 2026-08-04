@@ -106,7 +106,9 @@
   "ev_power_total": "Całkowita moc Wallbox",
   "external_current_channels": "Liczba zewnętrznych kanałów prądu wykrywanych przez urządzenie",
   "factory_mode_012": "Tryb fabryczny: 0–formalny 1–fabryczny 2–wznowienie danych punktu przerwania",
+  "fault_code": "Kod usterki",
   "fault_params": "Parametr błędów",
+  "fault_time": "Czas wystąpienia usterki",
   "fault_waveform_data": "Dane przebiegu zakłócenia",
   "five_min_data": "dane z 5 min",
   "follower_pv_power_sum": "Suma mocy PV modułu Follower",
@@ -260,5 +262,6 @@
   "upload_time": "Czas przesyłania",
   "upv_scbm": "Jednostka 1V",
   "war_bat_v": "Całkowite ciśnienie wykrywa nieprawidłowe numery klastrów",
+  "warning_code": "Kod ostrzeżenia",
   "wifi_signal_strength": "Siła sygnału Wi-Fi"
 }

@@ -106,7 +106,9 @@
   "ev_power_total": "充电桩总功率",
   "external_current_channels": "设备检测的外部电流通道数量",
   "factory_mode_012": "工厂模式：0-正式 1-工厂 2-断点续传数据",
+  "fault_code": "故障代码",
   "fault_params": "故障参数",
+  "fault_time": "故障时间",
   "fault_waveform_data": "故障录波数据",
   "five_min_data": "5分钟数据",
   "follower_pv_power_sum": "从机PV功率之和",
@@ -260,5 +262,6 @@
   "upload_time": "上传时间",
   "upv_scbm": "单位 1V",
   "war_bat_v": "总压检测异常簇号",
+  "warning_code": "警告代码",
   "wifi_signal_strength": "WiFi信号强度"
 }

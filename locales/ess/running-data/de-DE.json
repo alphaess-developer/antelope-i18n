@@ -106,7 +106,9 @@
   "ev_power_total": "Gesamtleistung der Wallbox",
   "external_current_channels": "Die Anzahl der vom Gerät erkannten externen Stromkanäle",
   "factory_mode_012": "Werkseinstellung: 0-formal 1-Werksmodus 2-Datenwiderherstellung Speicherpunkt",
+  "fault_code": "Fehlercode",
   "fault_params": "Fehlerparameter",
+  "fault_time": "Fehlerzeit",
   "fault_waveform_data": "Fehlerwellenformdaten",
   "five_min_data": "5 Minuten",
   "follower_pv_power_sum": "Summe der PV-Leistung des Followers",
@@ -260,5 +262,6 @@
   "upload_time": "Upload-Zeit",
   "upv_scbm": "Einheit 1V",
   "war_bat_v": "Der Gesamtdruck erkennt abnormale Clusterzahlen",
+  "warning_code": "Warncode",
   "wifi_signal_strength": "WLAN-Signalstärke"
 }
