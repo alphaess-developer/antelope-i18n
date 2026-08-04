@@ -166,6 +166,7 @@
   "receiver": "Ricevitore",
   "receiver_organization": "Organizzazione dei Ricevitori",
   "recipient_email": "Email del destinatario",
+  "reject_reason": "Motivo del rifiuto",
   "reject_registration": "Rifiuta",
   "reject_registration_confirm": "Confermi il rifiuto di questa organizzazione. Dopo il rifiuto, l'utente dovrà registrare una nuova organizzazione per presentare una nuova richiesta.",
   "rejected": "Rifiutato",

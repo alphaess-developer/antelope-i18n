@@ -166,6 +166,7 @@
   "receiver": "接收方",
   "receiver_organization": "接收组织",
   "recipient_email": "接收邮箱",
+  "reject_reason": "拒绝原因",
   "reject_registration": "审核拒绝",
   "reject_registration_confirm": "确认拒绝该组织；拒绝后如需再次申请，用户必须重新注册新组织。",
   "rejected": "已拒绝",

@@ -166,6 +166,7 @@
   "receiver": "Odbiorca",
   "receiver_organization": "Organizacja odbiorców",
   "recipient_email": "E-mail odbiorcy",
+  "reject_reason": "Powód odrzucenia",
   "reject_registration": "Odrzuć",
   "reject_registration_confirm": "Potwierdź odrzucenie tej organizacji. Po odrzuceniu użytkownik musi zarejestrować nową organizację, aby złożyć wniosek ponownie.",
   "rejected": "Odrzucona",
