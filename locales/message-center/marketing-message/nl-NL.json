@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "Dubbel in bestand",
+  "account_verify_matched": "Overeenkomend",
+  "account_verify_mismatched": "Identiteit komt niet overeen",
+  "account_verify_not_found": "Niet gevonden",
+  "account_verify_result": "Resultaat accountverificatie",
   "action": "Actie",
   "action_app_inner_link": "In-app sprongen",
   "action_h5_inner_link": "H5 interne sprong",

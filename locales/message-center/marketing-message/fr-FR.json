@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "Doublons dans le fichier",
+  "account_verify_matched": "Correspondants",
+  "account_verify_mismatched": "Identité non concordante",
+  "account_verify_not_found": "Introuvables",
+  "account_verify_result": "Résultat de la vérification des comptes",
   "action": "Action",
   "action_app_inner_link": "Sauts intégrés à l’application",
   "action_h5_inner_link": "Saut interne H5",

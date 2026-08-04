@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "Doppelt in der Datei",
+  "account_verify_matched": "Treffer",
+  "account_verify_mismatched": "Identität stimmt nicht überein",
+  "account_verify_not_found": "Nicht gefunden",
+  "account_verify_result": "Kontoprüfungsergebnis",
   "action": "Aktion",
   "action_app_inner_link": "In-App-Sprünge",
   "action_h5_inner_link": "H5-interner Sprung",

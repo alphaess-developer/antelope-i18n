@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "Duplicated in file",
+  "account_verify_matched": "Matched",
+  "account_verify_mismatched": "Identity mismatched",
+  "account_verify_not_found": "Not found",
+  "account_verify_result": "Account verification result",
   "action": "Action",
   "action_app_inner_link": "In-app jumps",
   "action_h5_inner_link": "H5 internal jump",

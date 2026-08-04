@@ -1,4 +1,9 @@
 {
+  "account_verify_duplicated": "Διπλότυπα στο αρχείο",
+  "account_verify_matched": "Αντιστοιχισμένα",
+  "account_verify_mismatched": "Ασυμφωνία ταυτότητας",
+  "account_verify_not_found": "Δεν βρέθηκαν",
+  "account_verify_result": "Αποτέλεσμα επαλήθευσης λογαριασμών",
   "action": "Ενέργεια",
   "action_app_inner_link": "Άλματα εντός εφαρμογής",
   "action_h5_inner_link": "Εσωτερικό άλμα H5",
