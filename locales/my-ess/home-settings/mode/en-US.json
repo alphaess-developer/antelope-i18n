@@ -145,6 +145,7 @@
   "home_work_mode_tip": "The Self-Consumption mode is the default mode of operation of the system, and the system will run automatically when other modes are not enabled.",
   "how_works": "How It Works",
   "how_works_desc": "Automatically manages your battery to reduce electricity costs.",
+  "how_works_online_tip": "Requires the device to be online when the window starts.",
   "hybrid": "Hybrid",
   "hysteresis_value": "Hysteresis Value",
   "idle": "Idle",

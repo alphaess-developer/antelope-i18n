@@ -145,6 +145,7 @@
   "home_work_mode_tip": "Der Eigenverbrauchsmodus ist der Standardbetrieb des Systems, und das System läuft automatisch, wenn andere Modi nicht aktiviert sind.",
   "how_works": "So funktioniert's",
   "how_works_desc": "Verwaltet Ihre Batterie automatisch, um die Stromkosten zu senken.",
+  "how_works_online_tip": "Das Gerät muss zu Beginn des Zeitfensters online sein.",
   "hybrid": "Hybrid",
   "hysteresis_value": "Hysteresewert",
   "idle": "Leerlauf",

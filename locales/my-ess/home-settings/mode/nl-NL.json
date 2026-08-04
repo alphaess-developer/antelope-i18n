@@ -145,6 +145,7 @@
   "home_work_mode_tip": "De Zelfverbruik-modus is de standaardmodus van het systeem, en het systeem draait automatisch wanneer andere modi niet zijn ingeschakeld.",
   "how_works": "Zo werkt het",
   "how_works_desc": "Beheert automatisch je batterij om de elektriciteitskosten te verlagen.",
+  "how_works_online_tip": "Het apparaat moet online zijn wanneer het tijdvenster begint.",
   "hybrid": "Hybride",
   "hysteresis_value": "Hysteresewaarde",
   "idle": "Inactief",
