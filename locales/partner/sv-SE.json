@@ -167,7 +167,7 @@
   "receiver_organization": "Mottagarorganisation",
   "recipient_email": "Mottagarens e-post",
   "reject_reason": "Orsak till avslag",
-  "reject_reason_customer_notice": "(Denna anledning kommer att delas med kunden)",
+  "reject_reason_customer_notice": "Denna anledning kommer att delas med kunden",
   "reject_registration": "Avvisa",
   "reject_registration_confirm": "Bekräfta att organisationen avvisas. Efter avvisning måste användaren registrera en ny organisation för att ansöka igen.",
   "rejected": "Avvisad",

@@ -167,7 +167,7 @@
   "receiver_organization": "Οργάνωση Παραλήπτη",
   "recipient_email": "Email παραλήπτη",
   "reject_reason": "Λόγος απόρριψης",
-  "reject_reason_customer_notice": "(Αυτός ο λόγος θα κοινοποιηθεί στον πελάτη)",
+  "reject_reason_customer_notice": "Αυτός ο λόγος θα κοινοποιηθεί στον πελάτη",
   "reject_registration": "Απόρριψη",
   "reject_registration_confirm": "Επιβεβαιώστε την απόρριψη αυτού του οργανισμού. Μετά την απόρριψη, ο χρήστης πρέπει να καταχωρίσει νέο οργανισμό για να υποβάλει νέα αίτηση.",
   "rejected": "Απορρίφθηκε",
