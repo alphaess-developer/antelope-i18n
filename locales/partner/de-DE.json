@@ -167,6 +167,7 @@
   "receiver_organization": "Empfängerorganisation",
   "recipient_email": "Empfänger-E-Mail",
   "reject_reason": "Ablehnungsgrund",
+  "reject_reason_customer_notice": "(Dieser Grund wird dem Kunden mitgeteilt)",
   "reject_registration": "Ablehnen",
   "reject_registration_confirm": "Bestätigen Sie die Ablehnung dieser Organisation. Nach der Ablehnung muss der Benutzer eine neue Organisation registrieren, um sich erneut zu bewerben.",
   "rejected": "Abgelehnt",

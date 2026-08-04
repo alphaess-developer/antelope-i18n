@@ -167,6 +167,7 @@
   "receiver_organization": "Organisation destinataire",
   "recipient_email": "Email du destinataire",
   "reject_reason": "Raison du refus",
+  "reject_reason_customer_notice": "(Ce motif sera communiqué au client)",
   "reject_registration": "Refuser",
   "reject_registration_confirm": "Confirmez le refus de cette organisation. Après le refus, l'utilisateur devra enregistrer une nouvelle organisation pour soumettre une nouvelle demande.",
   "rejected": "Refusé",

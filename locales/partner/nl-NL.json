@@ -167,6 +167,7 @@
   "receiver_organization": "Ontvangerorganisatie",
   "recipient_email": "Ontvanger-e-mail",
   "reject_reason": "Reden van afwijzing",
+  "reject_reason_customer_notice": "(Deze reden wordt aan de klant meegedeeld)",
   "reject_registration": "Afwijzen",
   "reject_registration_confirm": "Bevestig de afwijzing van deze organisatie. Na afwijzing moet de gebruiker een nieuwe organisatie registreren om opnieuw een aanvraag te doen.",
   "rejected": "Afgewezen",
