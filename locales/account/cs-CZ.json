@@ -25,6 +25,7 @@
   "personal_info": "Osobní informace",
   "resend": "Odeslat znovu",
   "resend_tooltip": "Odeslat znovu v {countdown}s",
+  "set_password": "Nastavit heslo",
   "unable_retrieve": "Následující informace budou po zrušení účtu odstraněny a nebude možné je obnovit.",
   "vercode_tip": "Zadejte ověřovací kód",
   "verification_code": "Ověřovací kód",

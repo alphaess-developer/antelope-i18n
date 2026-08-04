@@ -25,6 +25,7 @@
   "personal_info": "Personal information",
   "resend": "Resend",
   "resend_tooltip": "Resend available in {countdown}s",
+  "set_password": "Set Password",
   "unable_retrieve": "The following information will be removed and can not retrieve after account cancellation.",
   "vercode_tip": "Please enter the verification code",
   "verification_code": "Verification Code",

@@ -25,6 +25,7 @@
   "personal_info": "Informations personnelles",
   "resend": "Renvoyer",
   "resend_tooltip": "Réenvoyer disponible dans {countdown}s",
+  "set_password": "Définir le mot de passe",
   "unable_retrieve": "Les informations suivantes seront supprimées et ne pourront pas être récupérées après la suppression du compte.",
   "vercode_tip": "Saisissez le code de vérification",
   "verification_code": "Code de vérification",

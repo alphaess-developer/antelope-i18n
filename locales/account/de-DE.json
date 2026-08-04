@@ -25,6 +25,7 @@
   "personal_info": "Persönliche Informationen",
   "resend": "Wieder senden",
   "resend_tooltip": "Resend verfügbar in {countdown}s",
+  "set_password": "Passwort festlegen",
   "unable_retrieve": "Nachdem das Konto gelöscht wurde, werden die folgenden Informationen ebenso gelöscht und können nicht mehr abgerufen werden.",
   "vercode_tip": "Bitte geben Sie den Verifizierungscode ein",
   "verification_code": "Verifizierungscode",

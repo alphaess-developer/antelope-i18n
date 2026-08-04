@@ -25,6 +25,7 @@
   "personal_info": "Información personal",
   "resend": "Reenviar",
   "resend_tooltip": "Reenviar disponible en {countdown}s",
+  "set_password": "Establecer contraseña",
   "unable_retrieve": "La siguiente información se eliminará y no se podrá recuperar después de la cancelación de la cuenta.",
   "vercode_tip": "Por favor, introduzca el código de verificación.",
   "verification_code": "Código de verificación",

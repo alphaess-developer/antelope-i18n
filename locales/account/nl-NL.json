@@ -25,6 +25,7 @@
   "personal_info": "Persoonlijke informatie",
   "resend": "Verzenden",
   "resend_tooltip": "Herverzenden beschikbaar in {countdown}s",
+  "set_password": "Wachtwoord instellen",
   "unable_retrieve": "De volgende informatie wordt verwijderd en kan niet hersteld worden na het annuleren van de account.",
   "vercode_tip": "Voer de verificatiecode in",
   "verification_code": "Verificatiecode",
