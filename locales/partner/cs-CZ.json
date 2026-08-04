@@ -167,6 +167,7 @@
   "receiver_organization": "Organizace příjemců",
   "recipient_email": "E-mail příjemce",
   "reject_reason": "Důvod zamítnutí",
+  "reject_reason_customer_notice": "(Tento důvod bude sdělen zákazníkovi)",
   "reject_registration": "Zamítnout",
   "reject_registration_confirm": "Potvrďte zamítnutí této organizace. Po zamítnutí musí uživatel zaregistrovat novou organizaci, aby mohl požádat znovu.",
   "rejected": "Nepřijatý",

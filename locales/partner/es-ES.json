@@ -167,6 +167,7 @@
   "receiver_organization": "Organización de receptores",
   "recipient_email": "Correo electrónico del destinatario",
   "reject_reason": "Motivo del rechazo",
+  "reject_reason_customer_notice": "(Este motivo se comunicará al cliente)",
   "reject_registration": "Rechazar",
   "reject_registration_confirm": "Confirme el rechazo de esta organización. Una vez rechazada, el usuario deberá registrar una nueva organización para volver a solicitarlo.",
   "rejected": "Rechazado",
