@@ -107,6 +107,7 @@
   "external_current_channels": "Il numero di canali di corrente esterni rilevati dal dispositivo",
   "factory_mode_012": "Modalità fabbrica: 0-formale 1-fabbrica 2-ripristino dati da interruzione",
   "fault_params": "Parametro di errore",
+  "fault_waveform_data": "Dati della forma d'onda del guasto",
   "five_min_data": "Dati di 5 min",
   "follower_pv_power_sum": "Somma della potenza fotovoltaica Follower",
   "frequency": "Frequenza",

@@ -107,6 +107,7 @@
   "external_current_channels": "Počet externích proudových kanálů detekovaných zařízením",
   "factory_mode_012": "Tovární režim: 0-formální 1-tovární 2-obnovení dat v bodě přerušení",
   "fault_params": "Chybný parametr",
+  "fault_waveform_data": "Data průběhu poruchy",
   "five_min_data": "5minutová data",
   "follower_pv_power_sum": "Součet výkonu následnického FV systému",
   "frequency": "Frekvence",

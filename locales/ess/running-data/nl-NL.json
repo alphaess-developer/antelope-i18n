@@ -107,6 +107,7 @@
   "external_current_channels": "Het aantal externe stroomkanalen dat door het apparaat wordt gedetecteerd",
   "factory_mode_012": "Fabriek Modus: 0-formeel 1-fabriek 2-breakpoint data vervolg",
   "fault_params": "Fout parameter",
+  "fault_waveform_data": "Foutgolfvormgegevens",
   "five_min_data": "Gegevens elke 5 min",
   "follower_pv_power_sum": "De som van het PV-vermogen van de Follower",
   "frequency": "Frequentie",
