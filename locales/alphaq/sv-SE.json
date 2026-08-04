@@ -31,5 +31,14 @@
   "thinking": "Tänker",
   "thinking_indicator": "{name} tänker",
   "thumbs_down": "Inte hjälpsamt",
-  "thumbs_up": "Hjälpsamt"
+  "thumbs_up": "Hjälpsamt",
+  "voice_empty_result": "Ingen tal upptäcktes. Försök igen.",
+  "voice_failed": "Röstinmatning misslyckades. Försök igen eller skriv ditt meddelande.",
+  "voice_listening": "Lyssnar…",
+  "voice_permission_denied": "Mikrofonåtkomst nekades. Tillåt det i webbläsarinställningarna, eller skriv ditt meddelande.",
+  "voice_start": "Röstinmatning",
+  "voice_stop": "Stoppa inspelning",
+  "voice_too_long": "Inspelningen är för lång. Spela in ett kortare klipp.",
+  "voice_transcribing": "Transkriberar…",
+  "voice_unsupported": "Detta ljudformat stöds inte."
 }

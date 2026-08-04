@@ -31,5 +31,14 @@
   "thinking": "Pensando",
   "thinking_indicator": "{name} está pensando",
   "thumbs_down": "No es útil",
-  "thumbs_up": "Útil"
+  "thumbs_up": "Útil",
+  "voice_empty_result": "No se detectó voz. Inténtelo de nuevo.",
+  "voice_failed": "Error en la entrada de voz. Inténtelo de nuevo o escriba su mensaje.",
+  "voice_listening": "Escuchando…",
+  "voice_permission_denied": "Se denegó el acceso al micrófono. Permítalo en la configuración del navegador, o escriba su mensaje.",
+  "voice_start": "Entrada de voz",
+  "voice_stop": "Detener grabación",
+  "voice_too_long": "La grabación es demasiado larga. Grabe un clip más corto.",
+  "voice_transcribing": "Transcribiendo…",
+  "voice_unsupported": "Este formato de audio no es compatible."
 }

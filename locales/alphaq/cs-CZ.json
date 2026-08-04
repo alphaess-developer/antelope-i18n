@@ -31,5 +31,14 @@
   "thinking": "Přemýšlí",
   "thinking_indicator": "{name} přemýšlí",
   "thumbs_down": "Není to užitečné",
-  "thumbs_up": "Užitečné"
+  "thumbs_up": "Užitečné",
+  "voice_empty_result": "Nebyla rozpoznána žádná řeč. Zkuste to znovu.",
+  "voice_failed": "Hlasový vstup selhal. Zkuste to znovu nebo napište zprávu.",
+  "voice_listening": "Naslouchám…",
+  "voice_permission_denied": "Přístup k mikrofonu byl odepřen. Povolte jej v nastavení prohlížeče, nebo napište zprávu.",
+  "voice_start": "Hlasový vstup",
+  "voice_stop": "Zastavit nahrávání",
+  "voice_too_long": "Nahrávka je příliš dlouhá. Nahrajte kratší klip.",
+  "voice_transcribing": "Přepisuji…",
+  "voice_unsupported": "Tento formát zvuku není podporován."
 }

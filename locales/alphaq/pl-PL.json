@@ -31,5 +31,14 @@
   "thinking": "Myślenie",
   "thinking_indicator": "{name} myśli",
   "thumbs_down": "Nieprzydatne",
-  "thumbs_up": "Pomocne"
+  "thumbs_up": "Pomocne",
+  "voice_empty_result": "Nie wykryto mowy. Spróbuj ponownie.",
+  "voice_failed": "Wprowadzanie głosowe nie powiodło się. Spróbuj ponownie lub wpisz wiadomość.",
+  "voice_listening": "Słucham…",
+  "voice_permission_denied": "Odmówiono dostępu do mikrofonu. Zezwól na niego w ustawieniach przeglądarki lub wpisz wiadomość.",
+  "voice_start": "Wprowadzanie głosowe",
+  "voice_stop": "Zatrzymaj nagrywanie",
+  "voice_too_long": "Nagranie jest zbyt długie. Nagraj krótszy fragment.",
+  "voice_transcribing": "Trwa transkrypcja…",
+  "voice_unsupported": "Ten format audio nie jest obsługiwany."
 }

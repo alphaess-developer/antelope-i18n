@@ -31,5 +31,14 @@
   "thinking": "Thinking",
   "thinking_indicator": "{name} is thinking",
   "thumbs_down": "Not helpful",
-  "thumbs_up": "Helpful"
+  "thumbs_up": "Helpful",
+  "voice_empty_result": "No speech detected. Please try again.",
+  "voice_failed": "Voice input failed. Please try again or type your message.",
+  "voice_listening": "Listening…",
+  "voice_permission_denied": "Microphone access was denied. Please allow it in browser settings, or type your message.",
+  "voice_start": "Voice input",
+  "voice_stop": "Stop recording",
+  "voice_too_long": "Recording is too long. Please try a shorter clip.",
+  "voice_transcribing": "Transcribing…",
+  "voice_unsupported": "This audio format is not supported."
 }

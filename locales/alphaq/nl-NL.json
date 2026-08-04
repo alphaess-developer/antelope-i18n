@@ -31,5 +31,14 @@
   "thinking": "Aan het nadenken",
   "thinking_indicator": "{name} denkt",
   "thumbs_down": "Niet behulpzaam",
-  "thumbs_up": "Behulpzaam"
+  "thumbs_up": "Behulpzaam",
+  "voice_empty_result": "Geen spraak gedetecteerd. Probeer het opnieuw.",
+  "voice_failed": "Spraakinvoer mislukt. Probeer het opnieuw of typ uw bericht.",
+  "voice_listening": "Luisteren…",
+  "voice_permission_denied": "Microfoontoegang is geweigerd. Sta dit toe in de browserinstellingen, of typ uw bericht.",
+  "voice_start": "Spraakinvoer",
+  "voice_stop": "Opname stoppen",
+  "voice_too_long": "De opname is te lang. Neem een korter fragment op.",
+  "voice_transcribing": "Bezig met transcriberen…",
+  "voice_unsupported": "Dit audioformaat wordt niet ondersteund."
 }
