@@ -176,6 +176,7 @@
   "refund": "Terugbetaling",
   "refund_after_description": "Na de terugbetaling wordt de garantie/verlengde garantie van het product onmiddellijk beëindigd en wordt het bedrag van de terugbetaling terugbetaald naar je betalingsrekening.",
   "refund_amount": "Bedrag van de terugbetaling",
+  "refund_days_and_deadline_description": "Terugbetalingen kunnen binnen <strong>{num}</strong> dagen na betaling worden aangevraagd<br/>Uiterste datum: {date}",
   "refund_days_description": "Terugbetalingen kunnen binnen <strong>{num}</strong> dagen na betaling worden aangevraagd",
   "refund_instructions": "Instructies voor terugbetaling",
   "refund_instructions_tips": "Bij terugbetaling wordt de garantie/verlengde garantie van dit product onmiddellijk beëindigd. <br/>Het bedrag van de terugbetaling wordt terugbetaald naar je betalingsrekening.",

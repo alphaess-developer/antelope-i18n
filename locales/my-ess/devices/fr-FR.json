@@ -176,6 +176,7 @@
   "refund": "Remboursement",
   "refund_after_description": "Après le remboursement, la garantie/service de garantie prolongée du produit sera immédiatement résiliée, et le montant du remboursement sera retourné sur votre compte de paiement.",
   "refund_amount": "Montant du remboursement",
+  "refund_days_and_deadline_description": "Les remboursements peuvent être demandés dans les <strong>{num}</strong> jours suivant le paiement<br/>Date limite : {date}",
   "refund_days_description": "Les remboursements peuvent être demandés dans les <strong>{num}</strong> jours suivant le paiement",
   "refund_instructions": "Instructions de remboursement",
   "refund_instructions_tips": "En cas de remboursement, la garantie/service de garantie prolongée de ce produit sera immédiatement résiliée. <br/>Le montant du remboursement sera retourné sur votre compte de paiement.",

@@ -176,6 +176,7 @@
   "refund": "Rückerstattung",
   "refund_after_description": "Nach der Rückerstattung wird der Garantie- bzw. erweiterte Garantieservice des Produkts sofort beendet und der Rückerstattungsbetrag wird auf Ihr Zahlungskonto zurückerstattet.",
   "refund_amount": "Rückerstattungsbetrag",
+  "refund_days_and_deadline_description": "Rückerstattungen können innerhalb <strong>von {num}</strong> Tagen nach der Zahlung beantragt werden<br/>Frist: {date}",
   "refund_days_description": "Rückerstattungen können innerhalb <strong>von {num}</strong> Tagen nach der Zahlung beantragt werden",
   "refund_instructions": "Rückerstattungsanweisungen",
   "refund_instructions_tips": "Nach der Rückerstattung wird der Garantie- bzw. erweiterte Garantieservice dieses Produkts sofort beendet. <br/>Der Rückerstattungsbetrag wird auf Ihr Zahlungskonto zurückerstattet.",

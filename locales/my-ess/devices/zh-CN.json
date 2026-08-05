@@ -176,6 +176,7 @@
   "refund": "退款",
   "refund_after_description": "退款后，该产品的质保/延保服务将立即终止，退款金额将原路返回到您的支付账户。",
   "refund_amount": "退款金额",
+  "refund_days_and_deadline_description": "支付后<strong>{num}</strong>天内可申请退款<br/>截止时间：{date}",
   "refund_days_description": "支付后<strong>{num}</strong>天内可申请退款",
   "refund_instructions": "退款说明",
   "refund_instructions_tips": "退款后，该产品的质保/延保服务将立即终止。<br/>退款金额将原路返回到您的支付账户。",
