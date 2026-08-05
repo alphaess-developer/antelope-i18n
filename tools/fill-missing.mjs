@@ -1,5 +1,5 @@
 /*
- * @Description: 用基准语言的值填充缺失的 key，并在 _meta 标记为未翻译。
+ * @Description: 用基准语言的值填充缺失的 key。
  * @Author: Claude
  *
  * 为什么需要它：
@@ -11,7 +11,9 @@
  *   宿主项目配置 `fallbackLng: false`，缺 key 会**直接显示 key 本身**给用户。
  *   显示英文远好于显示 `some_key_name`。
  *
- * 占位内容记录在 _meta/<ns>.json，是 PM/AI 后续优化的待办清单。
+ * ⚠️ 本脚本不记录「这条是英文占位、那条是确认过的译文」——
+ *   原先往 _meta/ 写 draft 标记的机制已移除，待办与理由见 docs/decisions.md D15。
+ *   所以填充后没有机器可读的待办清单，需要靠 PR diff 与人工沟通。
  *
  * 用法：
  *   node tools/fill-missing.mjs                只报告
@@ -20,52 +22,13 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import {
-  LOCALES_DIR,
-  listNamespaces,
-  nsFile,
-  readLanguages,
-  readNsFile,
-  stringify,
-} from './lib/core.mjs';
+import { listNamespaces, nsFile, readLanguages, readNsFile, stringify } from './lib/core.mjs';
 
 const WRITE = process.argv.includes('--write');
 const nsArg = process.argv.find((a) => a.startsWith('--ns='))?.slice(5);
 
-const ROOT = path.resolve(LOCALES_DIR, '..');
-const META_DIR = path.join(ROOT, '_meta');
-
 const { base, targets } = readLanguages();
 const namespaces = nsArg ? [nsArg] : listNamespaces();
-
-/** @description: _meta 文件路径，镜像 ns 路径（ns 名可含斜杠） */
-function metaFile(ns) {
-  return path.join(META_DIR, ...`${ns}.json`.split('/'));
-}
-
-/** @description: 读 _meta，不存在则返回空对象 */
-function readMeta(ns) {
-  const f = metaFile(ns);
-  if (!fs.existsSync(f)) return {};
-  try {
-    return JSON.parse(fs.readFileSync(f, 'utf8'));
-  } catch {
-    console.error(`⚠️  _meta 解析失败，将重建：${ns}`);
-    return {};
-  }
-}
-
-/** @description: 写 _meta；内容为空则删除文件，避免留一堆空壳 */
-function writeMeta(ns, meta) {
-  const f = metaFile(ns);
-  const hasContent = Object.keys(meta).length > 0;
-  if (!hasContent) {
-    if (fs.existsSync(f)) fs.unlinkSync(f);
-    return;
-  }
-  fs.mkdirSync(path.dirname(f), { recursive: true });
-  fs.writeFileSync(f, stringify(meta), 'utf8');
-}
 
 let totalFilled = 0;
 const perNs = [];
@@ -77,7 +40,6 @@ for (const ns of namespaces) {
     continue;
   }
 
-  const meta = readMeta(ns);
   let nsFilled = 0;
   const detail = [];
 
@@ -93,7 +55,6 @@ for (const ns of namespaces) {
 
     for (const k of missing) {
       data[k] = b.data[k]; // 用基准语言值占位
-      meta[k] = { ...(meta[k] ?? {}), [lang]: 'draft' };
     }
     nsFilled += missing.length;
     detail.push(`${lang} +${missing.length}`);
@@ -108,7 +69,6 @@ for (const ns of namespaces) {
   if (nsFilled) {
     totalFilled += nsFilled;
     perNs.push({ ns, count: nsFilled, detail });
-    if (WRITE) writeMeta(ns, meta);
   }
 }
 
@@ -124,7 +84,8 @@ for (const { ns, count, detail } of perNs.slice(0, 30)) {
 if (perNs.length > 30) console.log(`  …还有 ${perNs.length - 30} 个 namespace`);
 
 if (WRITE) {
-  console.log(`\n占位内容已在 _meta/ 标记为 draft —— 这是 PM/AI 后续优化的待办清单。`);
+  console.log(`\n⚠️  填的是英文占位，不是真译文 —— 需要 PM/AI 后续替换。`);
+  console.log(`   本脚本不产出机器可读的待办清单（见 docs/decisions.md D15），请从 PR diff 里认。`);
   console.log(`别忘了从 .ci/baseline.json 的 missingKeys 里删掉已填充的条目。`);
 } else {
   console.log('\n跑 `node tools/fill-missing.mjs --write` 实际填充');

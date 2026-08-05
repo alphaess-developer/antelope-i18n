@@ -153,4 +153,6 @@ node tools/sort-keys.mjs --write   # 自动修复 key 顺序
 - [x] GitHub Pages 只读查看页（搜索、筛选、导出；错误码独立 Tab）
 - [ ] 向 `antelope-web` 自动开 submodule bump PR
 - [ ] AI 生成缺失语种的脚本（带术语约束）
+- [ ] **翻译状态标记**（区分「英文占位」与「确认过的译文」）—— 原 `_meta` draft 方案已移除，
+      需先谈定前端/后端/产品的维护责任再重做，见 [docs/decisions.md](docs/decisions.md) D15
 - [ ] 术语库内容填充（`glossary/terms.json` 目前只有骨架）

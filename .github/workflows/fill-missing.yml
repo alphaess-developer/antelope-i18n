@@ -2,7 +2,10 @@ name: Fill missing languages
 
 # 让「只加基准语言」成为合法工作流：
 # 后端同事在 en-US.json 加一条错误码 → 本 workflow 自动用英文占位补齐其余 10 个语种
-# → CI 转绿 → 可以合并。后续由 PM/AI 把占位英文优化成真译文（_meta 里有待办清单）。
+# → CI 转绿 → 可以合并。后续由 PM/AI 把占位英文优化成真译文。
+#
+# ⚠️ 占位不带状态标记 —— 原先写 _meta/ draft 的机制已移除，理由与待办见 docs/decisions.md D15。
+# 所以「哪些还是英文占位」只能从本 workflow 的提交 diff 里看，没有汇总清单。
 #
 # 为什么必需：CI 的 key 对齐是阻塞级，只加英文会直接变红。
 # 没有这一步，后端同事第一次提 PR 就撞红，然后就再也不想碰这个仓库了。
@@ -46,5 +49,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git commit -m "chore(i18n): 用基准语言占位补齐缺失语种" \
-                     -m "由 fill-missing workflow 自动生成。占位内容已在 _meta/ 标记为 draft，待优化为真译文。"
+                     -m "由 fill-missing workflow 自动生成。填的是英文占位，待优化为真译文。"
           git push
