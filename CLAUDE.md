@@ -161,6 +161,7 @@ languages.json                基准语言 + 目标语种声明
 glossary/terms.json           术语库（约束译法，不进运行时产物）
 .ci/baseline.json             存量欠账豁免清单（见硬规则 6）
 tools/                        零依赖校验与规范化脚本
+prompts/                      可粘贴给 AI 的任务提示词（补译文 / 走查 / 错误码）
 viewer/                       GitHub Pages 只读查看页（Vite + React + shadcn/ui）
 inbox/                        PM 上传 Excel 的落点（往返流程待建）
 ```
@@ -192,6 +193,8 @@ inbox/                        PM 上传 Excel 的落点（往返流程待建）
 |---|---|
 | [README.md](README.md) | 面向 PM 与一般协作者的入口 |
 | **[docs/decisions.md](docs/decisions.md)** | **决策记录 + 已否决方案** —— 提新方案前先看，大概率已讨论过 |
+| **[docs/ai-workflow.md](docs/ai-workflow.md)** | **AI 协作工作流** —— 边界（AI 改文件、人提交）、角色入口、交付格式 |
+| [prompts/](prompts/) | 可整份粘贴给 AI 的任务提示词，自包含 |
 | [docs/translating.md](docs/translating.md) | 翻译产出流程：AI 生成规则、占位符铁律 |
 | [docs/glossary-guide.md](docs/glossary-guide.md) | 术语库模型（概念导向）、匹配规则、维护方式 |
 | [docs/backend-guide.md](docs/backend-guide.md) | **给后端同事**：新增/修正错误码的三步操作，可直接转发 |

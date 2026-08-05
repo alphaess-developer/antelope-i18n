@@ -21,6 +21,7 @@ languages.json                      基准语言 + 目标语种声明
 glossary/terms.json                 术语库（约束译法，不进运行时产物）
 .ci/baseline.json                   存量已知问题的豁免清单
 tools/                              校验与规范化脚本（零依赖）
+prompts/                            可粘贴给 AI 的任务提示词
 ```
 
 **规则：文件路径严格等于 namespace 名。** `locales/dictionaries/region/en-US.json` 对应 ns `dictionaries/region`。这条规则是构建时注入、编辑器插件、CI 校验三者的共同基石，不要为任何理由破坏它。
@@ -140,6 +141,8 @@ node tools/sort-keys.mjs --write   # 自动修复 key 顺序
 | 文档 | 给谁看 |
 |---|---|
 | [CLAUDE.md](CLAUDE.md) | **AI 助手与新协作者** —— 7 条硬规则，动手前必读 |
+| **[docs/ai-workflow.md](docs/ai-workflow.md)** | **想让 AI 干活的人** —— 协作边界、后端/产品入口、交付与 review 清单 |
+| **[prompts/](prompts/)** | 同上 —— 三份可整份粘贴给 AI 的任务提示词，自包含 |
 | [docs/decisions.md](docs/decisions.md) | 想改方案的人 —— 决策记录与**已否决清单** |
 | [docs/translating.md](docs/translating.md) | 产出译文的人 —— AI 生成规则、状态标记、占位符铁律 |
 | [docs/glossary-guide.md](docs/glossary-guide.md) | 维护术语库的人（产品/业务专家） |
@@ -152,7 +155,9 @@ node tools/sort-keys.mjs --write   # 自动修复 key 顺序
 - [ ] Excel **导入**（批量编辑回写；导出已可用）
 - [x] GitHub Pages 只读查看页（搜索、筛选、导出；错误码独立 Tab）
 - [ ] 向 `antelope-web` 自动开 submodule bump PR
-- [ ] AI 生成缺失语种的脚本（带术语约束）
+- [x] AI 协作流程与任务提示词（[docs/ai-workflow.md](docs/ai-workflow.md) + [prompts/](prompts/)）
+- [ ] `tools/glossary-prompt.mjs` —— 把术语库转成提示词文本，免去手工摘录
+      （术语库只有 3 条，实现它的收益要等术语填充之后才明显）
 - [ ] **翻译状态标记**（区分「英文占位」与「确认过的译文」）—— 原 `_meta` draft 方案已移除，
       需先谈定前端/后端/产品的维护责任再重做，见 [docs/decisions.md](docs/decisions.md) D15
 - [ ] 术语库内容填充（`glossary/terms.json` 目前只有骨架）
