@@ -27,7 +27,7 @@ const ROW_H = 37;
 const GROUP_H = 33;
 
 type Item =
-  | { kind: 'group'; ns: string; count: number }
+  | { kind: 'group'; ns: string; count: number; rows: Row[]; indices: number[] }
   | { kind: 'row'; row: Row; idx: number };
 
 /**
@@ -135,14 +135,18 @@ export function TranslationsView({
     }
     const out: Item[] = [];
     let curNs: string | null = null;
-    let group: { kind: 'group'; ns: string; count: number } | null = null;
+    let group: Extract<Item, { kind: 'group' }> | null = null;
     filtered.rows.forEach((row, i) => {
       if (row.ns !== curNs) {
         curNs = row.ns;
-        group = { kind: 'group', ns: row.ns, count: 0 };
+        group = { kind: 'group', ns: row.ns, count: 0, rows: [], indices: [] };
         out.push(group);
       }
-      if (group) group.count += 1;
+      if (group) {
+        group.count += 1;
+        group.rows.push(row);
+        group.indices.push(filtered.indices[i]);
+      }
       if (!collapsed.has(row.ns)) out.push({ kind: 'row', row, idx: filtered.indices[i] });
     });
     return out;
@@ -328,6 +332,20 @@ export function TranslationsView({
                           <Highlight text={item.ns} query={q} />
                         </span>
                         <span className="text-muted-foreground text-xs">{item.count} key</span>
+                        {/* 单独一层拦掉冒泡 —— DropdownMenuContent 走 portal，但 React 合成事件仍按组件树冒泡，
+                            不拦会连带触发这一行外层的折叠/展开 */}
+                        <span onClick={(e) => e.stopPropagation()}>
+                          <ExportMenu
+                            rows={item.rows}
+                            indices={item.indices}
+                            manifest={manifest}
+                            selectedLangs={selectedLangs}
+                            values={values}
+                            ensure={ensure}
+                            scope={item.ns.replace(/\//g, '-')}
+                            compact
+                          />
+                        </span>
                       </span>
                     </TableCell>
                   </TableRow>

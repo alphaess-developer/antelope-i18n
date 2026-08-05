@@ -7,7 +7,6 @@ on:
     paths:
       - 'locales/**'
       - 'glossary/**'
-      - '_meta/**'
       - '.ci/**'
       - 'languages.json'
       - 'tools/**'

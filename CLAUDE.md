@@ -49,17 +49,31 @@
 
 错误码里的 `{0}` `{1}` 是后端传的位置参数，同理不能改序号。
 
-### 3. 基准语言是 `en-US`，新增内容**只写基准语言**
+### 3. 新增内容**必须**写基准语言 `en-US`；其余 10 个语种可选
+
+`en-US` 是源 —— 缺了它这条 key 就没有源文，CI 会按 `extraKeys` 报错（`.ci/baseline.json` 里那 2 条就是这种）。
+**其余 10 个语种，你填或让自动化填都合法：**
 
 ```
-✅ 在 locales/<ns>/en-US.json 加 key，提 PR
+✅ 只写 en-US，提 PR
    → fill-missing workflow 自动用英文占位补齐其余 10 个语种
-   → _meta/ 里标记为 draft，供后续优化
+   → 后续由 PM/AI 把占位英文替换成真译文
 
-❌ 手工往 11 个文件里各塞一份自己编的译文
+✅ 手上已有真译文（供应商 / AI 产出）→ 11 个语种一起填，比英文占位好
+   先 node tools/fill-missing.mjs --write 打好格式正确的占位，再逐个替换值
+
+❌ 自己编不熟的语种 —— 占位符错位、术语跑偏，比留英文占位更难查出来
 ```
 
-若确实要一次补齐真译文，用 `node tools/fill-missing.mjs --write` 打好占位后再逐个替换，**不要手工新建文件**。
+> **不要手工新建语种文件。** 只有全新 ns 才需要建文件；现有 140 个 ns 的 11 个语种文件**都已齐全**，
+> 给它们加 key 就是改 11 个已存在的文件。用 `fill-missing --write` 打占位能保证路径、格式、key 顺序都对。
+
+一次填全时照样要过三道阻塞级检查：占位符集合与 `en-US` 完全一致（硬规则 1、2）、一层扁平（硬规则 7）、
+key 顺序规范（硬规则 4，跑 `node tools/sort-keys.mjs --write`）。
+
+> 占位**不带状态标记**。原先在 `_meta/` 记 draft 的机制已移除（维护责任无法在前端/后端/产品之间落实），
+> 所以没有「哪些还是英文占位」的机器可读清单 —— 只能看 fill-missing 的提交 diff。
+> 理由与恢复条件见 [docs/decisions.md](docs/decisions.md) D15。
 
 ### 4. key 顺序由 `canonicalKeyOrder` 决定，**不是字典序**
 
@@ -144,10 +158,10 @@ locales/<ns>/<lang>.json      翻译内容，ns 名可含斜杠
     └── region/ product_config/ …
 
 languages.json                基准语言 + 目标语种声明
-_meta/<ns>.json               未翻译标记（{ key: { lang: 'draft' } }），缺省即已确认
 glossary/terms.json           术语库（约束译法，不进运行时产物）
 .ci/baseline.json             存量欠账豁免清单（见硬规则 6）
 tools/                        零依赖校验与规范化脚本
+prompts/                      可粘贴给 AI 的任务提示词（补译文 / 走查 / 错误码）
 viewer/                       GitHub Pages 只读查看页（Vite + React + shadcn/ui）
 inbox/                        PM 上传 Excel 的落点（往返流程待建）
 ```
@@ -179,7 +193,9 @@ inbox/                        PM 上传 Excel 的落点（往返流程待建）
 |---|---|
 | [README.md](README.md) | 面向 PM 与一般协作者的入口 |
 | **[docs/decisions.md](docs/decisions.md)** | **决策记录 + 已否决方案** —— 提新方案前先看，大概率已讨论过 |
-| [docs/translating.md](docs/translating.md) | 翻译产出流程：AI 生成规则、`_meta` 状态标记、占位符铁律 |
+| **[docs/ai-workflow.md](docs/ai-workflow.md)** | **AI 协作工作流** —— 边界（AI 改文件、人提交）、角色入口、交付格式 |
+| [prompts/](prompts/) | 可整份粘贴给 AI 的任务提示词，自包含 |
+| [docs/translating.md](docs/translating.md) | 翻译产出流程：AI 生成规则、占位符铁律 |
 | [docs/glossary-guide.md](docs/glossary-guide.md) | 术语库模型（概念导向）、匹配规则、维护方式 |
 | [docs/backend-guide.md](docs/backend-guide.md) | **给后端同事**：新增/修正错误码的三步操作，可直接转发 |
 | [docs/viewer-spec.md](docs/viewer-spec.md) | GitHub Pages 只读查看页的实现规格 |

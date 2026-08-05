@@ -23,9 +23,20 @@ interface Props {
   ensure: (langs: string[]) => Promise<void>;
   /** 文件名后缀，用于区分主表格与错误码 */
   scope?: string;
+  /** 紧凑模式：图标按钮，用于分组标题行这类空间受限的地方（单 ns 导出） */
+  compact?: boolean;
 }
 
-export function ExportMenu({ rows, indices, manifest, selectedLangs, values, ensure, scope }: Props) {
+export function ExportMenu({
+  rows,
+  indices,
+  manifest,
+  selectedLangs,
+  values,
+  ensure,
+  scope,
+  compact = false,
+}: Props) {
   const [busy, setBusy] = useState(false);
 
   const fileName = [stamp(manifest.commit), scope].filter(Boolean).join('-');
@@ -46,10 +57,22 @@ export function ExportMenu({ rows, indices, manifest, selectedLangs, values, ens
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="sm" disabled={busy || rows.length === 0}>
-          {busy ? <Loader2 className="animate-spin" /> : <Download />}
-          导出
-        </Button>
+        {compact ? (
+          <Button
+            variant="ghost"
+            size="icon-xs"
+            disabled={busy || rows.length === 0}
+            title={`导出 ${scope ?? ''}`.trim()}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {busy ? <Loader2 className="animate-spin" /> : <Download />}
+          </Button>
+        ) : (
+          <Button variant="outline" size="sm" disabled={busy || rows.length === 0}>
+            {busy ? <Loader2 className="animate-spin" /> : <Download />}
+            导出
+          </Button>
+        )}
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-64">
         <DropdownMenuLabel className="text-muted-foreground text-xs font-normal">
