@@ -161,3 +161,8 @@ export function useLangValues() {
 export function editUrl(repo: string, ns: string, lang = 'en-US') {
   return `https://github.com/${repo}/blob/main/locales/${ns}/${lang}.json`;
 }
+
+/** 仓库内任意文档在 GitHub 上的直达链接（帮助 Tab 用来指向 README / docs/*.md） */
+export function docUrl(repo: string, path: string) {
+  return `https://github.com/${repo}/blob/main/${path}`;
+}

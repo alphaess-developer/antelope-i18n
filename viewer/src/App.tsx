@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { ExternalLink, Moon, Sun } from 'lucide-react';
+import { CircleHelp, ExternalLink, Moon, Sun } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
@@ -8,6 +8,7 @@ import { TranslationsView } from '@/features/TranslationsView';
 import { DictionariesView } from '@/features/DictionariesView';
 import { GlossaryView } from '@/features/GlossaryView';
 import { BaselineView } from '@/features/BaselineView';
+import { HelpView } from '@/features/HelpView';
 import { DICT_PREFIX, ERROR_CODE_NS, editUrl, useLangValues, useViewerData } from '@/lib/data';
 
 /** 默认对照语种 —— 首屏只额外加载这一个语种的数据 */
@@ -137,6 +138,10 @@ export default function App() {
                 {data.manifest.baselineCount}
               </Badge>
             </TabsTrigger>
+            <TabsTrigger value="help">
+              <CircleHelp />
+              帮助
+            </TabsTrigger>
           </TabsList>
 
           <TabsContent value="all" className="mt-4">
@@ -200,6 +205,10 @@ export default function App() {
 
           <TabsContent value="baseline" className="mt-4">
             <BaselineView baseline={data.baseline} repo={data.manifest.repo} />
+          </TabsContent>
+
+          <TabsContent value="help" className="mt-4">
+            <HelpView repo={data.manifest.repo} />
           </TabsContent>
         </Tabs>
       )}
