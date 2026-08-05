@@ -176,6 +176,7 @@
   "refund": "Zwrot pieniędzy",
   "refund_after_description": "Po zwrotie gwarancji/przedłużonej gwarancji produktu zostanie natychmiast zakończona, a kwota zwrotu zostanie zwrócona na Twoje konto płatnicze.",
   "refund_amount": "Kwota zwrotu",
+  "refund_days_and_deadline_description": "Zwroty można ubiegać się w ciągu <strong>{num}</strong> dni od zapłaty<br/>Termin: {date}",
   "refund_days_description": "Zwroty można ubiegać się w ciągu <strong>{num}</strong> dni od zapłaty",
   "refund_instructions": "Instrukcje dotyczące zwrotu pieniędzy",
   "refund_instructions_tips": "Po zwrocie pieniędzy gwarancja/przedłużona gwarancja tego produktu zostanie natychmiast zakończona. <br/>Kwota zwrotu zostanie zwrócona na Twoje konto płatnicze.",

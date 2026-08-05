@@ -176,6 +176,7 @@
   "refund": "Reembolso",
   "refund_after_description": "Tras el reembolso, el servicio de garantía/garantía extendida del producto se cancelará inmediatamente y la cantidad del reembolso se devolverá a tu cuenta de pago.",
   "refund_amount": "Cantidad del reembolso",
+  "refund_days_and_deadline_description": "Se pueden solicitar reembolsos en un plazo <strong>de {num}</strong> días desde el pago<br/>Fecha límite: {date}",
   "refund_days_description": "Se pueden solicitar reembolsos en un plazo <strong>de {num}</strong> días desde el pago",
   "refund_instructions": "Instrucciones para el reembolso",
   "refund_instructions_tips": "Tras el reembolso, el servicio de garantía/garantía extendida de este producto se terminará inmediatamente. <br/>La cantidad del reembolso se devolverá a tu cuenta de pago.",

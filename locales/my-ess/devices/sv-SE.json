@@ -176,6 +176,7 @@
   "refund": "Återbetalning",
   "refund_after_description": "Efter återbetalningen avslutas produktens garanti/förlängda garanti omedelbart, och återbetalningsbeloppet återförs till ditt betalkonto via samma väg.",
   "refund_amount": "Återbetalningsbelopp",
+  "refund_days_and_deadline_description": "Återbetalning kan begäras inom <strong>{num}</strong> dagar efter betalning<br/>Sista datum: {date}",
   "refund_days_description": "Återbetalning kan begäras inom <strong>{num}</strong> dagar efter betalning",
   "refund_instructions": "Återbetalningsinformation",
   "refund_instructions_tips": "Vid återbetalning avslutas produktens garanti/förlängda garanti omedelbart. <br/>Återbetalningsbeloppet återförs till ditt betalkonto via samma väg.",

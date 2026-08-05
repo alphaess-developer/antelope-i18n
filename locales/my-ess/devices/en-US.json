@@ -176,6 +176,7 @@
   "refund": "Refund",
   "refund_after_description": "After the refund, the warranty/extended warranty service of the product will be terminated immediately, and the refund amount will be returned to your payment account.",
   "refund_amount": "Refund Amount",
+  "refund_days_and_deadline_description": "Refunds can be requested within <strong>{num}</strong> days of payment<br/>Deadline: {date}",
   "refund_days_description": "Refunds can be requested within <strong>{num}</strong> days of payment",
   "refund_instructions": "Refund Instructions",
   "refund_instructions_tips": "Upon refund, the warranty/extended warranty service of this product will be terminated immediately. <br/>The refund amount will be returned to your payment account.",

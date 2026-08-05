@@ -176,6 +176,7 @@
   "refund": "Rimborso",
   "refund_after_description": "Dopo il rimborso, il servizio di garanzia/garanzia estesa del prodotto verrà immediatamente terminato e l'importo del rimborso verrà restituito al tuo conto di pagamento.",
   "refund_amount": "Importo del rimborso",
+  "refund_days_and_deadline_description": "I rimborsi possono essere richiesti entro <strong>{num}</strong> giorni dal pagamento<br/>Scadenza: {date}",
   "refund_days_description": "I rimborsi possono essere richiesti entro <strong>{num}</strong> giorni dal pagamento",
   "refund_instructions": "Istruzioni per il rimborso",
   "refund_instructions_tips": "Al rimborso, il servizio di garanzia/garanzia estesa di questo prodotto sarà immediatamente terminato. <br/>L'importo del rimborso verrà restituito al tuo conto di pagamento.",

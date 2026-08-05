@@ -176,6 +176,7 @@
   "refund": "Vrácení peněz",
   "refund_after_description": "Po vrácení peněz bude záruka/prodloužená záruka produktu okamžitě ukončena a částka vrácena na váš platební účet.",
   "refund_amount": "Výše vrácení peněz",
+  "refund_days_and_deadline_description": "O vrácení peněz lze požádat do <strong>{num}</strong> dnů od platby<br/>Termín: {date}",
   "refund_days_description": "O vrácení peněz lze požádat do <strong>{num}</strong> dnů od platby",
   "refund_instructions": "Pokyny k vrácení peněz",
   "refund_instructions_tips": "Po vrácení peněz bude záruka/prodloužená záruka tohoto produktu okamžitě ukončena. <br/>Částka vrácení peněz bude vrácena na váš platební účet.",
