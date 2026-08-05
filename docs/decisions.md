@@ -133,10 +133,20 @@ SheetJS 装的是**官方 CDN 的 0.20.3 tarball**，不是 npm 上停更于 202
 | 位置 | 处置 |
 |---|---|
 | `tools/fill-missing.mjs` 的 `readMeta` / `writeMeta` / `metaFile` | 删除；占位填充功能保留 |
-| `_meta/` 目录（只有 `.gitkeep`，从未写入过一条） | 删除 |
+| `_meta/` 目录 | 删除 |
 | `.github/workflows/viewer.yml` 的 `_meta/**` 路径触发 | 删除 |
 | `viewer` 的 draft 状态列 | 本来就没实现，改为**取消**（原记为「暂不做」） |
 | `fill-missing.yml` 提交信息、`translating.md` §2、`CLAUDE.md` 等文案 | 改为说明「无状态标记」 |
+
+> ⚠️ **移除时 `_meta/` 已不是空的**：本决策最初是在 `_meta/` 只有 `.gitkeep`（从未写入过一条）时写的。
+> 提 PR 前 rebase 到最新 main 才发现，迁移日覆盖之后 `fill-missing` workflow 又跑过几次，
+> 真实积累了 **40 条 draft 记录**（`dictionaries/error-code` 26 条、`dictionaries/function_point` 7 条、
+> `ess/running-data` 4 条、`account` / `partner` / `support` 各 1 条）——这正是机制设计出来要产生的
+> 「英文占位待办清单」，且已经在被使用。
+>
+> **确认后仍按原计划整体删除**（而不是先导出这份清单再删）：上面的论证——协作约定落实不下来、
+> 半个机制比没有机制更糟——不因为"现在有数据了"而改变，数据本身不能替团队把维护责任谈定。
+> 这 40 条待办**没有留存**，恢复前只能重新靠 fill-missing 的提交 diff 找。
 
 **为什么移除，而不是继续挂着「暂不做」**：
 
