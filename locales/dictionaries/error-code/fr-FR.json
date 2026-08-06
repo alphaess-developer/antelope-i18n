@@ -496,6 +496,7 @@
   "100059": "L’organisation est en cours d’examen ; vous pourrez vous connecter une fois l’approbation obtenue",
   "100060": "L’état actuel de l’organisation ne permet pas cette opération",
   "100061": "L’organisation a échoué à l’examen d’enregistrement",
+  "100062": "This account has been authorized for the tenant",
   "101010": "Pas d’autorisations opérationnelles",
   "101020": "Il n’y a pas de données exportables",
   "101021": "Si vous avez exporté trop de données, filtrez les données et réexportez-les",

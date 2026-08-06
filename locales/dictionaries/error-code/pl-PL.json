@@ -496,6 +496,7 @@
   "100059": "Organizacja jest w trakcie weryfikacji; będzie można się zalogować po jej zatwierdzeniu",
   "100060": "Obecny stan organizacji nie pozwala na taką działalność",
   "100061": "Organizacja nie przeszła przeglądu rejestracji",
+  "100062": "This account has been authorized for the tenant",
   "101010": "Brak zezwoleń operacyjnych",
   "101020": "Nie ma danych, które można by wyeksportować",
   "101021": "Jeśli wyeksportowałeś za dużo danych, przefiltruj je i ponownie wyeksportuj",

@@ -496,6 +496,7 @@
   "100059": "Die Organisation wird derzeit geprüft; nach erfolgter Genehmigung können Sie sich anmelden",
   "100060": "Der aktuelle Zustand der Organisation erlaubt diese Operation nicht",
   "100061": "Die Organisation ist bei der Registrierungsprüfung nicht bestanden",
+  "100062": "This account has been authorized for the tenant",
   "101010": "Keine Betriebsgenehmigungen",
   "101020": "Es gibt keine Daten, die exportiert werden können",
   "101021": "Wenn du zu viele Daten exportiert hast, filtere die Daten und exportiere sie erneut",
