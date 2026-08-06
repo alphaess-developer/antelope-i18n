@@ -79,7 +79,7 @@
   "for_inverter": "Pour onduleur",
   "full_system_upgrade": "Mise à niveau système complet",
   "full_system_upgrade_hint": "Mettez à niveau toutes les garanties du système complet en une seule commande.",
-  "germany_legal_consent": "J'ai lu et j'accepte les conditions suivantes : '<anschlussgarantie />', '<datenschutz />', '<agb />' et '<widerruf />'.",
+  "germany_legal_consent": "J'ai lu et j'accepte les conditions suivantes : \"<anschlussgarantie />\", \"<datenschutz />\", \"<agb />\" et \"<widerruf />\".",
   "germany_legal_consent_required": "Veuillez accepter les conditions juridiques pour continuer",
   "go_to_pay": "Payer",
   "grid": "Réseau",

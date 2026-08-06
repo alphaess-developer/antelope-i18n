@@ -79,7 +79,7 @@
   "for_inverter": "Per inverter",
   "full_system_upgrade": "Upgrade sistema completo",
   "full_system_upgrade_hint": "Aggiorna tutte le garanzie del sistema completo in un unico ordine.",
-  "germany_legal_consent": "Ho letto e accetto '<anschlussgarantie />', '<datenschutz />', '<agb />' e '<widerruf />'.",
+  "germany_legal_consent": "Ho letto e accetto \"<anschlussgarantie />\", \"<datenschutz />\", \"<agb />\" e \"<widerruf />\".",
   "germany_legal_consent_required": "Accettare i termini legali per continuare",
   "go_to_pay": "Paga ora",
   "grid": "Rete",
