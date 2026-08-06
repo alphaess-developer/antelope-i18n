@@ -79,7 +79,7 @@
   "for_inverter": "Para inversor",
   "full_system_upgrade": "Mejora del sistema completo",
   "full_system_upgrade_hint": "Mejore todas las garantías del sistema completo en un solo pedido.",
-  "germany_legal_consent": "He leído y acepto '<anschlussgarantie />', '<datenschutz />', '<agb />' y '<widerruf />'.",
+  "germany_legal_consent": "He leído y acepto \"<anschlussgarantie />\", \"<datenschutz />\", \"<agb />\" y \"<widerruf />\".",
   "germany_legal_consent_required": "Acepte los términos legales para continuar",
   "go_to_pay": "Pagar ahora",
   "grid": "Red",
