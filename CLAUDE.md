@@ -49,17 +49,17 @@
 
 错误码里的 `{0}` `{1}` 是后端传的位置参数，同理不能改序号。
 
-### 3. 基准语言是 `en-US`，新增内容**只写基准语言**
+### 3. 基准语言是 `en-US`，新增内容提交**全量 11 语种真译文**
 
 ```
-✅ 在 locales/<ns>/en-US.json 加 key，提 PR
-   → fill-missing workflow 自动用英文占位补齐其余 10 个语种
-   → _meta/ 里标记为 draft，供后续优化
+✅ 在 locales/<ns>/ 下 11 个语种文件各加同一 key 的真译文，再提 PR
+   （可用 AI / 宿主项目的 generate-i18n-translation skill 一次写齐）
 
-❌ 手工往 11 个文件里各塞一份自己编的译文
+❌ 只改 en-US、指望英文占位 + draft 后续再优化
 ```
 
-若确实要一次补齐真译文，用 `node tools/fill-missing.mjs --write` 打好占位后再逐个替换，**不要手工新建文件**。
+> ⚠️ 「只写基准语言 → fill-missing 用英文占位 + `_meta` draft → 产品后续优化」**暂时停用**。
+> `tools/fill-missing.mjs` 仍可本地用来检查缺 key / 给新 ns 建骨架，但**提交前须换成真译文**。
 
 ### 4. key 顺序由 `canonicalKeyOrder` 决定，**不是字典序**
 
@@ -179,7 +179,7 @@ inbox/                        PM 上传 Excel 的落点（往返流程待建）
 |---|---|
 | [README.md](README.md) | 面向 PM 与一般协作者的入口 |
 | **[docs/decisions.md](docs/decisions.md)** | **决策记录 + 已否决方案** —— 提新方案前先看，大概率已讨论过 |
-| [docs/translating.md](docs/translating.md) | 翻译产出流程：AI 生成规则、`_meta` 状态标记、占位符铁律 |
+| [docs/translating.md](docs/translating.md) | 翻译产出流程：AI 生成规则、全量提交约定、占位符铁律 |
 | [docs/glossary-guide.md](docs/glossary-guide.md) | 术语库模型（概念导向）、匹配规则、维护方式 |
 | [docs/backend-guide.md](docs/backend-guide.md) | **给后端同事**：新增/修正错误码的三步操作，可直接转发 |
 | [docs/viewer-spec.md](docs/viewer-spec.md) | GitHub Pages 只读查看页的实现规格 |

@@ -5,7 +5,9 @@
 
 ## 一句话
 
-错误码文案不再在翻译平台后台维护，改在这个 git 仓库里。你**只需要写英文**，其余 10 个语种会自动补齐。
+错误码文案在这个 git 仓库里维护。新增时请保证 **11 个语种文件都有同一 key**（真译文，不要只交英文占位）。
+
+> ⚠️ 原先「只写英文 → 机器人用英文占位补齐其余语种 → 产品后续优化」的流程**暂时停用**。
 
 ## 直达链接
 
@@ -13,13 +15,13 @@
 https://github.com/alphaess-developer/antelope-i18n/blob/main/locales/dictionaries/error-code/en-US.json
 ```
 
-建议加到浏览器书签。**在这个页面按一下 `.` 键**，浏览器里就会打开完整的 VS Code —— 不用装任何东西。
+建议加到浏览器书签。**在这个页面按一下 `.` 键**，浏览器里就会打开完整的 VS Code —— 不用装任何东西。同目录下还有 `zh-CN.json`、`de-DE.json` 等其余 10 个语种文件。
 
 ## 三步操作
 
 ### 1. 打开文件并编辑
 
-按 `.` 键进入编辑器（或点页面上的 ✏️ 图标）。文件长这样：
+按 `.` 键进入编辑器（或点页面上的 ✏️ 图标）。`en-US.json` 长这样：
 
 ```json
 {
@@ -31,7 +33,7 @@ https://github.com/alphaess-developer/antelope-i18n/blob/main/locales/dictionari
 
 **key 就是接口返回的 `code` 字段**（字符串形式的数字）。
 
-### 2. 加一条
+### 2. 在 11 个语种文件里加同一条
 
 在合适的位置插入你的错误码。顺序不用纠结 —— 提交后 CI 会自动按数值排好。
 
@@ -39,13 +41,14 @@ https://github.com/alphaess-developer/antelope-i18n/blob/main/locales/dictionari
   "6199": "Device {sn} is offline"
 ```
 
+其余语种（`zh-CN` / `de-DE` / …）写入对应真译文。若你只方便写英文：
+
+- 在 PR 里 @ 前端或产品，请他们用 AI 补齐其余语种；或
+- 本地有 Node 时可先 `node tools/fill-missing.mjs --write --ns=dictionaries/error-code` 建骨架，**再把占位英文换成真译文后提交**
+
 ### 3. 提交 → 等 CI 绿 → 合并
 
-从编辑器左侧「源代码管理」提交，会自动创建 PR。然后：
-
-- 一个机器人会自动把其余 10 个语种用**英文占位**补齐（几十秒）
-- CI 全绿后即可合并
-- 后续产品同事会把占位英文优化成真译文，你不用管
+从编辑器左侧「源代码管理」提交，会自动创建 PR。CI 全绿后即可合并。
 
 ---
 

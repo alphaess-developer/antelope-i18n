@@ -29,7 +29,7 @@ tools/                              校验与规范化脚本（零依赖）
 
 | 项 | 值 |
 |---|---|
-| 基准语言（源） | **`en-US`** —— 新文案先写英文 |
+| 基准语言（源） | **`en-US`** —— 新文案以英文为源，**PR 须带齐 11 语种真译文** |
 | 目标语种 | `zh-CN` `de-DE` `fr-FR` `es-ES` `it-IT` `nl-NL` `sv-SE` `el-GR` `pl-PL` `cs-CZ` |
 
 当前规模：**141 个 namespace × 11 个语种**，每语种约 5,900 条 key。
@@ -139,7 +139,7 @@ node tools/sort-keys.mjs --write   # 自动修复 key 顺序
 |---|---|
 | [CLAUDE.md](CLAUDE.md) | **AI 助手与新协作者** —— 7 条硬规则，动手前必读 |
 | [docs/decisions.md](docs/decisions.md) | 想改方案的人 —— 决策记录与**已否决清单** |
-| [docs/translating.md](docs/translating.md) | 产出译文的人 —— AI 生成规则、状态标记、占位符铁律 |
+| [docs/translating.md](docs/translating.md) | 产出译文的人 —— AI 生成规则、全量提交约定、占位符铁律 |
 | [docs/glossary-guide.md](docs/glossary-guide.md) | 维护术语库的人（产品/业务专家） |
 | [docs/backend-guide.md](docs/backend-guide.md) | **后端同事** —— 新增错误码三步走，可直接转发 |
 | [docs/viewer-spec.md](docs/viewer-spec.md) | 实现查看页的人 |

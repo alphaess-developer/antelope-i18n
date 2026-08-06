@@ -1,50 +1,44 @@
 # 翻译产出流程
 
-> 最后更新：2026-07-30
-> 讲清「译文从哪来、状态怎么标、AI 怎么用」。硬规则见 [CLAUDE.md](../CLAUDE.md)。
+> 最后更新：2026-08-06
+> 讲清「译文从哪来、AI 怎么用」。硬规则见 [CLAUDE.md](../CLAUDE.md)。
 
-## 1. 三条产出路径
+## 1. 两条产出路径
 
 ```
 ① 新增文案（开发/PM）
-   写 en-US → 提 PR → fill-missing 用英文占位补齐 10 个语种 → 后续优化
-                                    ↑ 自动
+   写齐 11 个语种的真译文 → 提 PR → CI 绿 → 合并
+                                    ↑ 推荐用 AI skill 一次写齐
 
-② 优化占位（PM/AI）
-   把 _meta 里标 draft 的条目替换成真译文 → 清除 draft 标记
-                                              ↑ 自动（人改过就是确认过）
-
-③ 修正已有译文（PM）
+② 修正已有译文（PM）
    直接改对应语种文件
 ```
 
-**关键：新增内容只写基准语言 `en-US`。** 不要手工往 11 个文件里各塞一份自己编的译文。
+**关键：新增内容以 `en-US` 为基准源，但 PR 必须带全量 11 语种真译文。**
 
-## 2. `_meta` 状态标记
+> ⚠️ 原先「只写 `en-US` → fill-missing 英文占位 + `_meta` draft → 后续优化」的流程**暂时停用**。
+> 不要只交英文占位进 main。
 
+## 2. `_meta` / draft（暂时停用）
+
+`_meta/<ns>.json` 与 `draft` 标记是为「英文占位待优化」设计的待办清单。
+
+**当前不依赖这条链路**：新增文案直接提交真译文；viewer 的 draft 状态列也未启用（见 [decisions.md](decisions.md) D15）。
+
+`tools/fill-missing.mjs` 仍可本地使用：
+
+```bash
+node tools/fill-missing.mjs              # 报告哪些语种缺 key
+node tools/fill-missing.mjs --write      # 用 en-US 值补缺失 key（仅作骨架/自查）
 ```
-_meta/<ns>.json          镜像 ns 路径，如 _meta/dictionaries/error-code.json
-```
 
-```json
-{
-  "6199": { "de-DE": "draft", "fr-FR": "draft" }
-}
-```
-
-| 规则 | 说明 |
-|---|---|
-| **只记 draft，缺省即已确认** | 让常见情况零字节，减少文件变动 |
-| 谁写入 | `fill-missing` 补占位时自动写 |
-| 谁清除 | 有人改动该 key 的该语种时清除（人改过就是确认过） |
-| 基准语言不记状态 | 它是源不是译文 |
-| 内容为空时 | 文件会被删除，不留空壳 |
-
-**用途**：这是 PM/AI 的待办清单 —— 「哪些语种还是英文占位」。viewer 会把 draft 标红。
+若用 `--write` 建了骨架，**提交前必须把占位英文替换成真译文**。
 
 ## 3. 用 AI 生成译文
 
 这是本方案要解决的核心痛点之一 —— **AI 可以直接编辑 JSON 文件**，不需要任何接口或凭证。
+
+宿主项目侧推荐直接说「生成翻译：…」，由 `generate-i18n-translation` skill 写入 11 个语种文件。
 
 ### 3.1 给 AI 的提示词必须交代四件事
 
@@ -78,10 +72,10 @@ AI 生成时若拿不到术语库，会自己造译法 —— 事后靠 CI 警�
 
 > ⏳ `tools/glossary-prompt.mjs`（把术语库转成提示词文本）尚未实现，见 [README](../README.md) 的「后续待建」。在它就绪前，手工从 `glossary/terms.json` 摘取相关条目即可。
 
-### 3.3 只针对缺失的 key 生成，不要重写整个文件
+### 3.3 只改需要的 key，不要重写整个文件
 
 ```
-✅ 读 _meta 找出标 draft 的条目 → 只替换这些
+✅ 只给新增 / 待改的 key 生成译文并写入
 ❌ 让 AI 重新翻译整个 ns
 ```
 
@@ -119,7 +113,7 @@ AI 生成时若拿不到术语库，会自己造译法 —— 事后靠 CI 警�
 
 ```bash
 node tools/validate.mjs            # 全量校验，CI 跑的就是这个
-node tools/fill-missing.mjs        # 看哪些语种缺 key
+node tools/fill-missing.mjs        # 看哪些语种缺 key（应为空再提 PR）
 node tools/sort-keys.mjs --write   # 修复 key 顺序
 ```
 
