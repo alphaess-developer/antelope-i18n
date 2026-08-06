@@ -496,6 +496,7 @@
   "100059": "Organisationen granskas för närvarande; du kan logga in när den har godkänts",
   "100060": "Organisationens nuvarande tillstånd tillåter inte denna operation",
   "100061": "Organisationen misslyckades med registreringsgranskningen",
+  "100062": "This account has been authorized for the tenant",
   "101010": "Inga operativa tillstånd",
   "101020": "Det finns ingen data att exportera",
   "101021": "Om det finns för mycket exporterad data, filtrera och exportera den igen",

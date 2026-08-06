@@ -496,6 +496,7 @@
   "100059": "La organización está en revisión; podrá iniciar sesión una vez aprobada",
   "100060": "El estado actual de la organización no permite esta operación",
   "100061": "La organización no superó la revisión de registro",
+  "100062": "This account has been authorized for the tenant",
   "101010": "Sin permisos operativos",
   "101020": "No hay datos que se puedan exportar",
   "101021": "Si has exportado demasiados datos, filtra los datos y vuelve a exportarlos",

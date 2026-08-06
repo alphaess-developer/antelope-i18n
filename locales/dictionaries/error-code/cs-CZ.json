@@ -496,6 +496,7 @@
   "100059": "Organizace se právě posuzuje; přihlásit se budete moci po jejím schválení",
   "100060": "Současný stav organizace tuto činnost neumožňuje",
   "100061": "Organizace neprošla registrační kontrolou",
+  "100062": "This account has been authorized for the tenant",
   "101010": "Žádná provozní povolení",
   "101020": "Neexistují žádná data, která by bylo možné exportovat",
   "101021": "Pokud jste exportovali příliš mnoho dat, filtrujte data a znovu je exportujte",
