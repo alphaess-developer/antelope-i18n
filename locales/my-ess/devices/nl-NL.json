@@ -79,6 +79,8 @@
   "for_inverter": "Voor omvormer",
   "full_system_upgrade": "Volledig systeem upgraden",
   "full_system_upgrade_hint": "Upgrade alle garanties voor het volledige systeem in één bestelling.",
+  "germany_legal_consent": "Ik heb de volgende voorwaarden gelezen en ga akkoord: '<anschlussgarantie />', '<datenschutz />', '<agb />' en '<widerruf />'.",
+  "germany_legal_consent_required": "Ga akkoord met de juridische voorwaarden om door te gaan",
   "go_to_pay": "Nu betalen",
   "grid": "Net",
   "hardware_chip_platform": "Hardware chip platform",

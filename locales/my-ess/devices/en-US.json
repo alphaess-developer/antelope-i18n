@@ -79,6 +79,8 @@
   "for_inverter": "For Inverter",
   "full_system_upgrade": "Full System Upgrade",
   "full_system_upgrade_hint": "Upgrade all warranties for the full system, saving time by purchasing everything in one order.",
+  "germany_legal_consent": "I have read and agree to '<anschlussgarantie />', '<datenschutz />', '<agb />' and '<widerruf />'.",
+  "germany_legal_consent_required": "Please agree to the legal terms to continue",
   "go_to_pay": "Pay now",
   "grid": "Grid",
   "hardware_chip_platform": "Hardware Chip Platform",

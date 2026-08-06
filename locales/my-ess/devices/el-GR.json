@@ -79,6 +79,8 @@
   "for_inverter": "Για inverter",
   "full_system_upgrade": "Αναβάθμιση πλήρους συστήματος",
   "full_system_upgrade_hint": "Αναβαθμίστε όλες τις εγγυήσεις του πλήρους συστήματος με μία παραγγελία.",
+  "germany_legal_consent": "Έχω διαβάσει και συμφωνώ με τα '<anschlussgarantie />', '<datenschutz />', '<agb />' και '<widerruf />'.",
+  "germany_legal_consent_required": "Παρακαλούμε συμφωνήστε με τους νομικούς όρους για να συνεχίσετε",
   "go_to_pay": "Πληρωμή",
   "grid": "Δίκτυο",
   "hardware_chip_platform": "Πλατφόρμα τσιπ εξοπλισμού",
