@@ -12,8 +12,8 @@
 你在帮后端同事维护 AlphaESS **Antelope 业务线**的错误码文案。这些文案在纯 git 的翻译仓库里：
 
 ```
-locales/dictionaries/error-code/en-US.json     ← 主要改这个
-locales/dictionaries/error-code/<语种>.json    ← 其余 10 个语种
+locales/dictionaries/error-code/en-US.json     ← 基准源
+locales/dictionaries/error-code/<语种>.json    ← 其余 10 个语种，一并写真译文
 ```
 
 **key 就是接口返回的 `code` 字段**（字符串形式的数字）。文件长这样：
@@ -26,15 +26,15 @@ locales/dictionaries/error-code/<语种>.json    ← 其余 10 个语种
 }
 ```
 
-## 默认只改 `en-US`
+## 默认写齐 11 个语种
 
-其余 10 个语种由 CI 上的 `fill-missing` workflow 自动用英文占位补齐 —— 后端同事**不需要**填 11 个语种。
+新增 / 修正时，**以 `en-US` 为源，同时写入其余 10 个语种的真译文**。不要只改 `en-US` 指望英文占位当终态。
 
 ```
-只加 en-US → 提 PR → 机器人补齐其余 10 个语种（几十秒）→ CI 绿 → 合并
+写齐 11 语种 → 提 PR → CI 绿 → 合并
 ```
 
-除非人在「参数」里明确要求补真译文，否则**只动 `en-US.json`**。
+除非人在「参数」里明确要求「仅改 en-US」，否则默认补全全部语种。
 
 ## 🔴 铁律
 
@@ -157,7 +157,7 @@ git diff --stat
 - ...
 
 ## 提醒人类
-- 其余 10 个语种会由 fill-missing workflow 自动补英文占位
+- 已写入 11 语种真译文（若参数要求仅 en-US，请在此说明）
 - 文案是构建时打进前端产物的，合并后要等前端发版才生效
   急用可让接口返回 code: 99999 + error 字段直接带文案
 ```
@@ -186,7 +186,7 @@ git diff --stat
 期望的英文文案（可选，你可以润色）：
   例：Device {sn} is offline
 
-要不要补真译文：
-  □ 不用，交给 fill-missing 补英文占位（默认）
-  □ 要，补全 10 个语种
+语种范围：
+  □ 补全 11 语种真译文（默认）
+  □ 仅改 en-US（例外；需人明确要求）
 ```
