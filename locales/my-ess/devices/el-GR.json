@@ -33,6 +33,7 @@
   "buy_before": "Αγορά πριν από",
   "buy_before_label": "Αγορά πριν από: <strong>{date}</strong>",
   "buy_now": "Αγορά τώρα",
+  "buy_order_requirement_name": "{part} {name}",
   "cancel_order": "Ακύρωση παραγγελίας",
   "cancel_time": "Ημερομηνία ακύρωσης",
   "charging": "Φόρτιση",

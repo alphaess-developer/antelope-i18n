@@ -33,6 +33,7 @@
   "buy_before": "Kup przed",
   "buy_before_label": "Kup przed: <strong>{date}</strong>",
   "buy_now": "Kup teraz",
+  "buy_order_requirement_name": "{part} {name}",
   "cancel_order": "Anuluj zamówienie",
   "cancel_time": "Data anulowania",
   "charging": "Ładowanie w toku",
