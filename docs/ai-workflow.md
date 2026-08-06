@@ -1,8 +1,9 @@
 # AI 协作工作流
 
-> 最后更新：2026-08-05
+> 最后更新：2026-08-06
 > **本文讲「怎么和 AI 协作」，不重复铁律。** 铁律以 [CLAUDE.md](../CLAUDE.md) 为准 —— 冲突时它优先。
 > 可直接粘贴给 AI 的任务提示词在 [`prompts/`](../prompts/)。
+> 新增文案期望 **PR 直接带齐 11 语种真译文**（不再默认只写 en-US + 英文占位）。
 
 ## 1. 边界：AI 改文件，人提交
 
@@ -49,10 +50,10 @@ CI        阻塞级检查 → 绿了才能合并
 
 | 项 | 值 |
 |---|---|
-| 范围 | `locales/dictionaries/error-code/en-US.json` —— **一个文件** |
-| 任务 | 新增 / 修正错误码英文文案 |
-| 提示词 | [`prompts/error-code.md`](../prompts/error-code.md) |
-| 其余 10 个语种 | 不用管，`fill-missing` workflow 自动补英文占位 |
+| 范围 | `locales/dictionaries/error-code/*.json` —— **11 个语种文件** |
+| 任务 | 新增 / 修正错误码文案（含全量真译文） |
+| 提示词 | [`prompts/error-code.md`](../prompts/error-code.md)（默认补齐 11 语种） |
+| 其余 10 个语种 | **要写真译文**；用 AI 提示词一次生成，不要只交英文占位 |
 
 不想用 AI、想手工三步走 → [docs/backend-guide.md](backend-guide.md)（可直接转发给后端团队）。
 
@@ -62,8 +63,8 @@ CI        阻塞级检查 → 绿了才能合并
 |---|---|
 | 范围 | `locales/<业务 ns>/*.json`，以及 `locales/dictionaries/` 下**除 error-code 外**的 16 个字典 |
 | 任务 A | 某模块开发完成，走查它的译文 → [`prompts/review.md`](../prompts/review.md) |
-| 任务 B | 把英文占位替换成真译文 → [`prompts/translate.md`](../prompts/translate.md) |
-| 任务 C | 新增文案 → 自己写 `en-US`，其余语种走任务 B |
+| 任务 B | 消化存量英文占位 → [`prompts/translate.md`](../prompts/translate.md) |
+| 任务 C | 新增文案 → 11 语种一次写齐（可用 translate 提示词，或宿主 generate-i18n-translation skill） |
 
 字典类 ns（`dictionaries/*`）的 key 由宿主项目 `dictToKey()` 从数据字典推导，
 **改 key 等于改数据字典**，只改值不要动 key。
@@ -202,7 +203,7 @@ AI 跑过 `validate` 之后，机械错误基本清了。人要看的是它**验
 | 文档 | 内容 |
 |---|---|
 | [CLAUDE.md](../CLAUDE.md) | **铁律权威表述**，与本文冲突时它优先 |
-| [translating.md](translating.md) | 译文产出的三条路径、AI 生成的原则 |
+| [translating.md](translating.md) | 译文产出路径、全量提交约定、AI 生成原则 |
 | [glossary-guide.md](glossary-guide.md) | 术语库模型与维护 |
 | [backend-guide.md](backend-guide.md) | 后端手工三步走（不用 AI 的路径） |
 | [decisions.md](decisions.md) | 决策记录与已否决方案 |

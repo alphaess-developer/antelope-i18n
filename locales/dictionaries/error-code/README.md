@@ -45,19 +45,18 @@ key 是后端返回的 `code` 字段（字符串形式的数字）。前端在 `
 
 ### 新增一条
 
-**只需要改 `en-US.json`。** 其余 10 个语种会被 CI 自动补齐。
+**在 11 个语种文件里各加同一 key 的真译文。** 不要只改 `en-US` 指望自动占位当终态。
 
 ```
-1. 打开 en-US.json，按 . 键进入浏览器版 VS Code
-2. 加一条：  "6199": "Device {sn} is offline"
+1. 打开 locales/dictionaries/error-code/，按 . 键进入浏览器版 VS Code
+2. 在 en-US.json 加一条：  "6199": "Device {sn} is offline"
    顺序不用纠结 —— CI 会自动按数值排序
-3. 提交 → 自动开 PR
-4. fill-missing workflow 用英文占位补齐其余语种（几十秒）
-5. CI 全绿 → 合并
-6. 后续 PM/AI 把占位英文优化成真译文（认哪些是占位：看第 4 步那次自动提交的 diff）
+3. 在其余 10 个语种文件写入对应真译文
+   （可用 prompts/error-code.md 让 AI 一次写齐）
+4. 提交 → 自动开 PR → CI 全绿 → 合并
 ```
 
-为什么用英文占位而不是留空：宿主项目配置了 `fallbackLng: false`，缺 key 会**直接把 key 名显示给用户**。显示英文远好于显示 `some_key_name`。
+后端极简版说明见 **[docs/backend-guide.md](../../../docs/backend-guide.md)**。
 
 ### 修正一条已有的
 

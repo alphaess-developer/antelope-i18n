@@ -1,19 +1,18 @@
 /*
- * @Description: 用基准语言的值填充缺失的 key。
+ * @Description: 用基准语言的值填充缺失的 key（不覆盖已有译文）。
  * @Author: Claude
  *
- * 为什么需要它：
- *   后端同事新增错误码时只会写英文，不可能填 11 个语种。而 CI 的 key 对齐检查是
- *   阻塞级 —— 只加 en-US 会直接变红，第一次撞红后就再也不想碰这个仓库了。
- *   本脚本让「只加基准语言」成为合法工作流：其余语种自动用英文占位。
+ * 行为：只补「基准有、目标语种没有」的 key，用 en-US 值占位。
+ *
+ * ⚠️ 2026-08-06：文档约定 PR 应直接带 11 语种真译文。本脚本用于：
+ *   - 本地检查哪些语种缺 key
+ *   - 给新 ns / 新 key 建骨架（提交前须换成真译文）
+ *   - CI workflow 兜底，避免只加 en-US 时被 key 对齐检查挡住
+ *   不要把英文占位当作可合并的终态。见 docs/decisions.md D8。
  *
  * 为什么用英文占位而不是留空：
  *   宿主项目配置 `fallbackLng: false`，缺 key 会**直接显示 key 本身**给用户。
  *   显示英文远好于显示 `some_key_name`。
- *
- * ⚠️ 本脚本不记录「这条是英文占位、那条是确认过的译文」——
- *   原先往 _meta/ 写 draft 标记的机制已移除，待办与理由见 docs/decisions.md D15。
- *   所以填充后没有机器可读的待办清单，需要靠 PR diff 与人工沟通。
  *
  * 用法：
  *   node tools/fill-missing.mjs                只报告
@@ -84,8 +83,7 @@ for (const { ns, count, detail } of perNs.slice(0, 30)) {
 if (perNs.length > 30) console.log(`  …还有 ${perNs.length - 30} 个 namespace`);
 
 if (WRITE) {
-  console.log(`\n⚠️  填的是英文占位，不是真译文 —— 需要 PM/AI 后续替换。`);
-  console.log(`   本脚本不产出机器可读的待办清单（见 docs/decisions.md D15），请从 PR diff 里认。`);
+  console.log(`\n⚠️  填的是英文占位，不是真译文 —— 提交前请换成真译文（见 docs/decisions.md D8）。`);
   console.log(`别忘了从 .ci/baseline.json 的 missingKeys 里删掉已填充的条目。`);
 } else {
   console.log('\n跑 `node tools/fill-missing.mjs --write` 实际填充');

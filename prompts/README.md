@@ -10,7 +10,7 @@
 |---|---|
 | [translate.md](translate.md) | 某些 key 缺译文，或还是英文占位，要补成真译文 |
 | [review.md](review.md) | 某个模块开发完成，要走查它的译文质量 |
-| [error-code.md](error-code.md) | 新增或修正错误码文案（后端） |
+| [error-code.md](error-code.md) | 新增或修正错误码文案（后端；默认写齐 11 语种） |
 
 ## 两种使用环境
 
