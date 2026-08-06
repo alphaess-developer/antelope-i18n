@@ -79,6 +79,8 @@
   "for_inverter": "Für Wechselrichter",
   "full_system_upgrade": "Vollsystem-Upgrade",
   "full_system_upgrade_hint": "Upgraden Sie alle Garantien für das gesamte System und sparen Sie Zeit durch eine Bestellung.",
+  "germany_legal_consent": "Ich habe die folgenden Bedingungen gelesen und stimme zu: '<anschlussgarantie />', '<datenschutz />', '<agb />' und '<widerruf />'.",
+  "germany_legal_consent_required": "Bitte stimmen Sie den rechtlichen Bedingungen zu, um fortzufahren",
   "go_to_pay": "Zur Zahlung",
   "grid": "Netz",
   "hardware_chip_platform": "Hardware-Chip-Plattform",

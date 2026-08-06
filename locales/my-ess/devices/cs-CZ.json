@@ -79,6 +79,8 @@
   "for_inverter": "Pro střídač",
   "full_system_upgrade": "Upgrade celého systému",
   "full_system_upgrade_hint": "Upgradujte všechny záruky celého systému v jedné objednávce.",
+  "germany_legal_consent": "Přečetl/a jsem si a souhlasím s '<anschlussgarantie />', '<datenschutz />', '<agb />' a '<widerruf />'.",
+  "germany_legal_consent_required": "Pro pokračování odsouhlaste právní podmínky",
   "go_to_pay": "Zaplatit",
   "grid": "Síť",
   "hardware_chip_platform": "Čipová platforma hardwaru",

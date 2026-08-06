@@ -79,6 +79,8 @@
   "for_inverter": "För växelriktare",
   "full_system_upgrade": "Uppgradera hela systemet",
   "full_system_upgrade_hint": "Uppgradera alla garantier för hela systemet i en beställning.",
+  "germany_legal_consent": "Jag har läst och godkänner '<anschlussgarantie />', '<datenschutz />', '<agb />' och '<widerruf />'.",
+  "germany_legal_consent_required": "Godkänn de juridiska villkoren för att fortsätta",
   "go_to_pay": "Betala nu",
   "grid": "Elnät",
   "hardware_chip_platform": "Hårdvaruchipplattform",

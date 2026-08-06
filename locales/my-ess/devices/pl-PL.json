@@ -79,6 +79,8 @@
   "for_inverter": "Dla falownika",
   "full_system_upgrade": "Ulepszenie całego systemu",
   "full_system_upgrade_hint": "Ulepsz wszystkie gwarancje całego systemu w jednym zamówieniu.",
+  "germany_legal_consent": "Przeczytałem/am i akceptuję '<anschlussgarantie />', '<datenschutz />', '<agb />' oraz '<widerruf />'.",
+  "germany_legal_consent_required": "Zaakceptuj warunki prawne, aby kontynuować",
   "go_to_pay": "Zapłać teraz",
   "grid": "Sieć",
   "hardware_chip_platform": "Platforma chipu sprzętowego",

@@ -79,6 +79,8 @@
   "for_inverter": "逆变器",
   "full_system_upgrade": "全系统升级",
   "full_system_upgrade_hint": "一次性升级全系统所有质保，节省多次下单时间。",
+  "germany_legal_consent": "我已阅读并同意「<anschlussgarantie />」、「<datenschutz />」、「<agb />」和「<widerruf />」。",
+  "germany_legal_consent_required": "请勾选同意法律条款后继续",
   "go_to_pay": "去支付",
   "grid": "电网",
   "hardware_chip_platform": "硬件芯片平台",
