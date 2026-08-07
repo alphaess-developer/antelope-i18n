@@ -31,6 +31,7 @@
   "dispatch": "Dispatch",
   "dispatch_actions": "Planen von Aktionen",
   "dispatch_mode": "Dispatch-Modus",
+  "dispatch_power_limit": "Dispatch-Leistungsgrenze (kW)",
   "dispatch_source": "Auslösequelle",
   "dispatcher": "Disponent",
   "dispatching": "Wird disponiert",

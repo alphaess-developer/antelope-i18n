@@ -31,6 +31,7 @@
   "dispatch": "Dispatch",
   "dispatch_actions": "Dispatch actions",
   "dispatch_mode": "Dispatch Mode",
+  "dispatch_power_limit": "Dispatch Power Limit (kW)",
   "dispatch_source": "Dispatch source",
   "dispatcher": "Dispatcher",
   "dispatching": "Dispatching",

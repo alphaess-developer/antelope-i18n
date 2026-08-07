@@ -31,6 +31,7 @@
   "dispatch": "Αποστολή",
   "dispatch_actions": "Προγραμματισμός ενεργειών",
   "dispatch_mode": "Λειτουργία προγραμματισμού",
+  "dispatch_power_limit": "Όριο ισχύος αποστολής (kW)",
   "dispatch_source": "Πηγή εντολής",
   "dispatcher": "Διεκπεραιωτής",
   "dispatching": "Σε αποστολή",

@@ -31,6 +31,7 @@
   "dispatch": "Despacho",
   "dispatch_actions": "Acciones de despacho",
   "dispatch_mode": "Modo de programación",
+  "dispatch_power_limit": "Límite de potencia de despacho (kW)",
   "dispatch_source": "Origen de despacho",
   "dispatcher": "Despachador",
   "dispatching": "Despacho",

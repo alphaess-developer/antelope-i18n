@@ -31,6 +31,7 @@
   "dispatch": "Sturing",
   "dispatch_actions": "Aansturingsacties",
   "dispatch_mode": "Dispatch mode",
+  "dispatch_power_limit": "Vermogenslimiet sturing (kW)",
   "dispatch_source": "Aansturingsbron",
   "dispatcher": "Centralist",
   "dispatching": "Wordt aangestuurd",

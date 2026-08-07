@@ -31,6 +31,7 @@
   "dispatch": "调度",
   "dispatch_actions": "调度动作",
   "dispatch_mode": "调度模式",
+  "dispatch_power_limit": "调度功率限制 (kW)",
   "dispatch_source": "调度来源",
   "dispatcher": "调度方",
   "dispatching": "调度中",

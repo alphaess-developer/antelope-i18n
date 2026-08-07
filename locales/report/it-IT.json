@@ -31,6 +31,7 @@
   "dispatch": "Dispacciamento",
   "dispatch_actions": "Azioni di dispacciamento",
   "dispatch_mode": "Modalità di dispacciamento",
+  "dispatch_power_limit": "Limite di potenza di dispacciamento (kW)",
   "dispatch_source": "Origine dispacciamento",
   "dispatcher": "Dispacciatore",
   "dispatching": "In dispacciamento",
