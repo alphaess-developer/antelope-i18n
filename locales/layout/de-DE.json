@@ -23,6 +23,8 @@
   "device_notification": "Gerätebenachrichtigungen",
   "end_user": "Anlagenbetreiber",
   "event_happen_time": "Auftretenszeit",
+  "failed_to_resolve_data_center_endpoint": "Der Endpunkt des Rechenzentrums konnte nicht aufgelöst werden. Bitte versuchen Sie es später erneut.",
+  "failed_to_switch_data_center": "Wechsel des Rechenzentrums fehlgeschlagen. Bitte versuchen Sie es erneut.",
   "fault_details": "Fehlerdetails",
   "feedback_notification": "Beschwerde",
   "go_to_settings": "Geh zu den Einstellungen",

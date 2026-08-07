@@ -23,6 +23,8 @@
   "device_notification": "Oznámení zařízení",
   "end_user": "Koncový uživatel",
   "event_happen_time": "Čas výskytu",
+  "failed_to_resolve_data_center_endpoint": "Nepodařilo se zjistit koncový bod datového centra. Zkuste to prosím později.",
+  "failed_to_switch_data_center": "Přepnutí datového centra se nezdařilo. Zkuste to znovu.",
   "fault_details": "Podrobnosti o chybě",
   "feedback_notification": "Stížnost",
   "go_to_settings": "Jít do nastavení",

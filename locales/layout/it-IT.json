@@ -23,6 +23,8 @@
   "device_notification": "Notifiche del dispositivo",
   "end_user": "Utente finale",
   "event_happen_time": "Il tempo si è verificato",
+  "failed_to_resolve_data_center_endpoint": "Impossibile risolvere l'endpoint del data center. Riprovare più tardi.",
+  "failed_to_switch_data_center": "Cambio del data center non riuscito. Riprovare.",
   "fault_details": "Dettagli sui guasti",
   "feedback_notification": "Reclamo",
   "go_to_settings": "Vai a Impostazioni",
