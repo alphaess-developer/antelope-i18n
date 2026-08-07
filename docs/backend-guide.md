@@ -5,7 +5,50 @@
 
 ## 一句话
 
-错误码文案不再在翻译平台后台维护，改在这个 git 仓库里。你**只需要写英文**，其余 10 个语种会自动补齐。
+错误码文案不再在翻译平台后台维护，改在这个 git 仓库里。你**只需要写英文**，其余 10 个语种有人（或 AI）替你补。
+
+## 先对号入座：你要做哪种事
+
+| 你的场景 | 走哪条路 | 花多久 |
+|---|---|---|
+| **改一条已有文案**（错别字、措辞不准），只涉及一两个语种 | **路径 A：自己改** ↓ | 2 分钟 |
+| **新增错误码**，或一条文案要 11 个语种全改 | **路径 B：交给 AI** ↓ | 发一段话，等 PR |
+
+分界线很简单：**要动的文件超过一两个，就走 B。** 手工往 11 个 JSON 里各塞一份译文既慢又容易错。
+
+---
+
+# 路径 B：交给 AI 助手提 PR（推荐用于新增 code）
+
+你不用克隆仓库、不用装 Node、不用懂 i18n。把下面这段话发给你的 AI 助手（Claude Code / Cursor / 任何能访问 GitHub 的 AI 编码工具）：
+
+```text
+请按 https://github.com/alphaess-developer/antelope-i18n/blob/main/docs/ai-agent-brief.md
+的「任务 A」规则，往 antelope-i18n 仓库提一个 PR。
+
+新增/修改的错误码（英文基准）：
+  6199 = Device {sn} is offline
+  6200 = {0} has been locked, please try again in {1} minutes
+
+需求背景：设备锁定接口新增两个错误返回
+Jira：ANTELOPE-5940
+```
+
+就这些。那份 [ai-agent-brief.md](ai-agent-brief.md) 里写全了 AI 需要知道的一切 —— 11 个语种怎么补、占位符铁律、排序脚本、校验命令、提交规范、以及它**不许**做的事（比如往 baseline 里塞豁免）。
+
+**你要做的只有三件事：**
+
+1. 把上面那段话（换成你的 code 和英文原文）发给 AI
+2. AI 提完 PR 后，在 GitHub 上扫一眼 —— 重点看**英文原文对不对**、**占位符名字和接口 `data` 字段对得上**
+3. CI 绿了就找前端负责人合并
+
+> 译文质量不用你负责 —— 后续由产品同事复核优化，那是他们的活。
+
+> 只想先占位、不要机器翻译？在发给 AI 的话里加一句「其余语种用英文占位，标 draft」即可。
+
+---
+
+# 路径 A：自己改一两条
 
 ## 直达链接
 
@@ -49,7 +92,9 @@ https://github.com/alphaess-developer/antelope-i18n/blob/main/locales/dictionari
 
 ---
 
-## ⚠️ 唯一需要小心的：占位符
+# 两条路都适用的部分
+
+## ⚠️ 唯一需要你把关的：占位符
 
 ```json
 { "6032": "{0} already exists" }
@@ -100,4 +145,6 @@ https://github.com/alphaess-developer/antelope-i18n/blob/main/locales/dictionari
 ## 遇到问题
 
 - CI 红了看不懂 → 在 PR 里 @ 前端负责人，报错信息里写了具体哪条不合规
+- AI 提的 PR 被 CI 挡住 → 把报错贴回给 AI，让它按 [ai-agent-brief.md](ai-agent-brief.md) 自己修；
+  **如果 AI 想往 `.ci/baseline.json` 加东西来变绿，拒绝它** —— 那是绕过检查，不是修复
 - 要改的不是错误码而是其他文案 → 那是产品同事的范围，见仓库根的 [README](../README.md)

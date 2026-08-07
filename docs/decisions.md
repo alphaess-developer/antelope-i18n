@@ -127,6 +127,11 @@ SheetJS 装的是**官方 CDN 的 0.20.3 tarball**，不是 npm 上停更于 202
 **暂不做**：`_meta/` 目前只有 `.gitkeep`，一条标记都还没写入 —— 现在做出来整列是空的，反而像 bug。
 等 `fill-missing` 真正往 `_meta` 写标记之后再加；数据契约里已经留好位置。
 
+> **状态更新（2026-08）**：`fill-missing` 已在写标记，`_meta/` 下 6 个文件有 `draft`
+> （`dictionaries/error-code.json` 等）。**前提已满足，这一列可以做了** —— 见 §待办 6。
+> 在它落地前，对外文档不要把「产品同事按 draft 标记复核」说成一条现成流程：标记在文件里，
+> 但 PM 没有任何界面能看到它。
+
 ### D16 · 字典有独立 Tab，且与错误码 Tab 分开
 
 `dictionaries/*` 的 ns 名由 `dictToNs()` 从字典 code 推导、key 由 `dictToKey()` 产生 ——

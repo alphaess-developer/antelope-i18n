@@ -181,7 +181,8 @@ inbox/                        PM 上传 Excel 的落点（往返流程待建）
 | **[docs/decisions.md](docs/decisions.md)** | **决策记录 + 已否决方案** —— 提新方案前先看，大概率已讨论过 |
 | [docs/translating.md](docs/translating.md) | 翻译产出流程：AI 生成规则、`_meta` 状态标记、占位符铁律 |
 | [docs/glossary-guide.md](docs/glossary-guide.md) | 术语库模型（概念导向）、匹配规则、维护方式 |
-| [docs/backend-guide.md](docs/backend-guide.md) | **给后端同事**：新增/修正错误码的三步操作，可直接转发 |
+| [docs/backend-guide.md](docs/backend-guide.md) | **给后端同事**：按场景分流（改一条自己动手 / 新增 code 交给 AI），可直接转发 |
+| [docs/ai-agent-brief.md](docs/ai-agent-brief.md) | **委托单**：后端/产品甩给 AI 助手的自包含说明（任务 A 新增错误码 / 任务 B 批量回写）。改仓库规则时记得同步这份 |
 | [docs/viewer-spec.md](docs/viewer-spec.md) | GitHub Pages 只读查看页的实现规格 |
 | [docs/import-from-tms.md](docs/import-from-tms.md) | 迁移日「重新导出覆盖」的操作步骤 |
 | [locales/dictionaries/error-code/README.md](locales/dictionaries/error-code/README.md) | 错误码的特殊约定与目录位置决策 |

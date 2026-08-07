@@ -64,9 +64,24 @@ tools/                              校验与规范化脚本（零依赖）
 
 打开文件 → 点 ✏️ → 改 → Commit。适合改一两个错别字。
 
-### 方式三：Excel 往返（批量）
+### 方式三：导出 Excel → 改表 → 交给 AI 回写（批量）
 
-> ⏳ 待实现，见「后续待建」。
+批量校订（按新术语统一译法、集中补某个语种）走这条：
+
+1. 在查看页筛出范围，用「导出」下载 Excel / JSON（当前筛选或全量都行）
+2. 在 Excel 里改译文 —— **只改语种列，`namespace` / `key` 两列是主键别动**，没改的行留原样
+3. 把改好的文件发给 AI 助手，附上 [docs/ai-agent-brief.md](docs/ai-agent-brief.md) 的「任务 B」话术，
+   它会算差异、回写、提 PR
+
+查看页的**帮助 Tab** 里有可一键复制的话术。表格不能用来增删 key —— 那是另一件事。
+
+> Excel **直接导入**回本仓库的功能还没做（见「后续待建」）。在那之前 AI 回写就是批量路径。
+
+### 方式四：交给 AI 提 PR（新增错误码 / 全语种改动）
+
+一条 key 要落在 11 个语种文件里，手工做既慢又容易错。把 [docs/ai-agent-brief.md](docs/ai-agent-brief.md)
+发给 AI 助手，只给英文基准，它补齐其余 10 个语种并提 PR。后端同事见
+[docs/backend-guide.md](docs/backend-guide.md)。
 
 ---
 
@@ -141,7 +156,8 @@ node tools/sort-keys.mjs --write   # 自动修复 key 顺序
 | [docs/decisions.md](docs/decisions.md) | 想改方案的人 —— 决策记录与**已否决清单** |
 | [docs/translating.md](docs/translating.md) | 产出译文的人 —— AI 生成规则、状态标记、占位符铁律 |
 | [docs/glossary-guide.md](docs/glossary-guide.md) | 维护术语库的人（产品/业务专家） |
-| [docs/backend-guide.md](docs/backend-guide.md) | **后端同事** —— 新增错误码三步走，可直接转发 |
+| [docs/backend-guide.md](docs/backend-guide.md) | **后端同事** —— 按场景分流：改一条自己动手 / 新增 code 交给 AI，可直接转发 |
+| [docs/ai-agent-brief.md](docs/ai-agent-brief.md) | **发给 AI 助手的委托单** —— 任务 A 新增错误码（后端）/ 任务 B 批量回写译文（产品） |
 | [docs/viewer-spec.md](docs/viewer-spec.md) | 实现查看页的人 |
 | [docs/import-from-tms.md](docs/import-from-tms.md) | 迁移日执行覆盖的人 |
 

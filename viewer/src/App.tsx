@@ -8,6 +8,7 @@ import { TranslationsView } from '@/features/TranslationsView';
 import { DictionariesView } from '@/features/DictionariesView';
 import { GlossaryView } from '@/features/GlossaryView';
 import { BaselineView } from '@/features/BaselineView';
+import { HelpView } from '@/features/HelpView';
 import { DICT_PREFIX, ERROR_CODE_NS, editUrl, useLangValues, useViewerData } from '@/lib/data';
 
 /** 默认对照语种 —— 首屏只额外加载这一个语种的数据 */
@@ -104,7 +105,7 @@ export default function App() {
 
       <p className="text-muted-foreground text-xs">
         只读页面。要改文案请在仓库页面按 <kbd className="font-mono">.</kbd> 键进入 github.dev 编辑，
-        合并后本页会自动重新构建。
+        合并后本页会自动重新构建。新增错误码或要全语种改动，见「帮助」Tab。
       </p>
 
       {!data ? (
@@ -137,6 +138,7 @@ export default function App() {
                 {data.manifest.baselineCount}
               </Badge>
             </TabsTrigger>
+            <TabsTrigger value="help">帮助</TabsTrigger>
           </TabsList>
 
           <TabsContent value="all" className="mt-4">
@@ -200,6 +202,10 @@ export default function App() {
 
           <TabsContent value="baseline" className="mt-4">
             <BaselineView baseline={data.baseline} repo={data.manifest.repo} />
+          </TabsContent>
+
+          <TabsContent value="help" className="mt-4">
+            <HelpView repo={data.manifest.repo} />
           </TabsContent>
         </Tabs>
       )}
