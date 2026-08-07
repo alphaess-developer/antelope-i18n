@@ -498,7 +498,7 @@
   "100056": "The site address cannot be located, please update the address",
   "100057": "The installer contact details are not available",
   "100058": "Account information is abnormal, making it impossible to determine the unique account",
-  "100059": "The organization is under review; you can log in once it is approved",
+  "100059": "The organization is currently under review, and once approved, you can log in",
   "100060": "The current state of the organization does not allow this operation",
   "100061": "The organization failed the registration review",
   "100062": "This account has been authorized for the tenant",
