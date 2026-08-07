@@ -23,6 +23,8 @@
   "device_notification": "Apparaatmeldingen",
   "end_user": "Eindgebruiker",
   "event_happen_time": "Tijdstip",
+  "failed_to_resolve_data_center_endpoint": "Kan het eindpunt van het datacenter niet oplossen. Probeer het later opnieuw.",
+  "failed_to_switch_data_center": "Wisselen van datacenter mislukt. Probeer het opnieuw.",
   "fault_details": "Foutdetails",
   "feedback_notification": "Klacht",
   "go_to_settings": "Ga naar Instellingen",

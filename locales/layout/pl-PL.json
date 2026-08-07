@@ -23,6 +23,8 @@
   "device_notification": "Powiadomienia urządzenia",
   "end_user": "Użytkownik końcowy",
   "event_happen_time": "Czas wystąpienia",
+  "failed_to_resolve_data_center_endpoint": "Nie udało się rozwiązać punktu końcowego centrum danych. Spróbuj ponownie później.",
+  "failed_to_switch_data_center": "Nie udało się przełączyć centrum danych. Spróbuj ponownie.",
   "fault_details": "Szczegóły błędu",
   "feedback_notification": "Reklamacja",
   "go_to_settings": "Przejdź do Ustawień",
