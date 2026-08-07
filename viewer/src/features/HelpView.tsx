@@ -1,19 +1,25 @@
 /*
  * 帮助 Tab —— 按「要做什么」组织的操作说明
  *
- * 刻意**不按身份分节**（原先是「产品 / 后端走查修改指南」）：同一个人可能既走查业务文案、
- * 又顺手加一条错误码，按身份切会把共同部分（怎么写回仓库、要守哪些约束）在每节里各写一遍 ——
- * 然后改一处就漏一处。所以结构是「三类任务 → 共同的写回流程 → 共同的约束」。
+ * 结构是「三类任务 → 共同的写回流程 → 共同的约束」，**共同部分只有一份**：
+ * 同一个人可能既走查业务文案、又顺手加一条错误码，若按身份把共同部分（怎么写回仓库、
+ * 要守哪些约束）在每节里各写一遍，改一处就会漏一处。
+ *
+ * 「三类任务」那一节**另有一个身份筛选**（全部 / 产品 / 后端）—— 它只隐藏不相关的任务卡，
+ * 不复制任何内容，所以与上面那条不冲突。上面反对的是共同部分被复制，不是反对帮人
+ * 快速找到自己那一类。见 viewer-spec.md §4.7。
  *
  * 配色沿用 PlaceholderText 的视觉词汇：中性底 = 正确写法，destructive = 在本项目会失效的写法。
  * 用户在主表格里看到的占位符高亮和这里的示例是同一套语言，不用二次学习。
  */
-import type { ComponentType, ReactNode } from 'react';
+import { useState, type ComponentType, type ReactNode } from 'react';
 import {
   BookOpen,
+  Bot,
   Check,
   ChevronRight,
   Download,
+  Copy,
   ExternalLink,
   FilePlus2,
   FileSearch,
@@ -131,6 +137,7 @@ function TaskCard({
   lead,
   steps,
   extra,
+  prompt,
   note,
 }: {
   icon: Icon;
@@ -139,6 +146,8 @@ function TaskCard({
   steps: ReactNode[];
   /** 步骤之后的补充块。用于「二选一」这种不该编号的分支 —— 编号会读成先后顺序 */
   extra?: ReactNode;
+  /** 可复制的委托话术。放在步骤之后 —— 先让人知道这事是什么，再给「直接粘这个」的捷径 */
+  prompt?: string;
   note?: ReactNode;
 }) {
   return (
@@ -148,8 +157,48 @@ function TaskCard({
         <p className="text-muted-foreground text-xs leading-relaxed">{lead}</p>
         <Steps items={steps} />
         {extra}
+        {prompt && (
+          <div className="space-y-1.5">
+            <p className="flex items-center gap-1.5 text-xs font-medium">
+              <Bot className="size-3.5" />
+              不想自己动手？复制这段粘给 AI
+            </p>
+            <CopyPrompt text={prompt} />
+          </div>
+        )}
         {note && <div className="mt-auto border-t pt-2.5 text-xs leading-relaxed">{note}</div>}
       </div>
+    </div>
+  );
+}
+
+/**
+ * 可一键复制的委托话术 —— 任务卡的落点。
+ *
+ * 光写步骤，人看完仍不知道下一步该敲什么；这里给的是**能直接粘进 AI 对话框的成品**，
+ * 方括号占位由人替换。话术只负责「指向哪份提示词 + 填哪些参数」，
+ * 规则本身不复制到这里 —— 那在 prompts/*.md 里，改一处就够。
+ */
+function CopyPrompt({ text }: { text: string }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <div className="relative">
+      <pre className="bg-muted/60 max-h-44 overflow-auto rounded-md border p-2 pr-9 font-mono text-[11px] leading-relaxed whitespace-pre-wrap">
+        {text}
+      </pre>
+      <button
+        type="button"
+        onClick={() => {
+          void navigator.clipboard.writeText(text);
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000);
+        }}
+        title="复制这段话，粘给 AI 助手"
+        aria-label="复制这段话"
+        className="bg-background hover:bg-muted absolute top-1.5 right-1.5 rounded border p-1"
+      >
+        {copied ? <Check className="size-3" /> : <Copy className="size-3" />}
+      </button>
     </div>
   );
 }
@@ -213,6 +262,60 @@ const RULES: { title: string; body?: ReactNode; good?: string; bad?: string }[] 
   },
 ];
 
+/**
+ * 身份筛选 —— 只作用于「三类任务」这一节。
+ *
+ * ⚠️ 共同部分（写回仓库、必须遵守、相关文档）**不跟着切换**，永远是共享的一份。
+ * 这是 viewer-spec.md §4.7 那条「按功能不按身份」的实际约束所在：它反对的是把共同部分
+ * 在每个身份下各复制一遍（改一处漏一处），不是反对帮人快速找到自己那一类。
+ * 筛选只隐藏不相关的任务卡，一份内容仍然只有一份。
+ */
+/**
+ * 三段委托话术，与 prompts/<name>.md 末尾的「参数」一节逐项对应 ——
+ * 改了那边的参数项，这里要跟着改。
+ *
+ * 方括号里是待替换的示例值。刻意保留一个具体例子而不是留空，
+ * 因为「namespace：」后面跟空白时，人往往不知道该填 `battery` 还是 `device-form/battery`。
+ */
+const PROMPTS: Record<'review' | 'translate' | 'errorCode', (url: (p: string) => string) => string> =
+  {
+    review: (url) => `请按 ${url('prompts/review.md')}
+的规则，帮我走查这个 namespace 的译文，输出问题清单（先不要改文件）。
+
+namespace：[device-form/battery]
+要检查的语种：[全部 10 个]
+这个模块是做什么的：[电池设备的配置表单，管理员添加/编辑电池时用]
+已知问题：[无]
+要不要顺便修：[只报告，我看过清单再决定]`,
+
+    translate: (url) => `请按 ${url('prompts/translate.md')}
+的规则帮我补译文，跑完校验后自己建分支提 PR（🔴 不要合并，我来审）。
+
+namespace：[device-form/battery]
+要处理的 key：[key_a, key_b, key_c]
+目标语种：[全部 10 个]
+这些文案出现在哪：[电池配置表单的字段标签与校验提示]
+特殊要求：[无]`,
+
+    errorCode: (url) => `请按 ${url('prompts/error-code.md')}
+的规则帮我改错误码，跑完校验后自己建分支提 PR（🔴 不要合并，我来审）。
+
+任务类型：[新增]
+错误码：[6199]
+什么时候返回：[设备离线时，用户尝试下发远程指令]
+data 里有哪些字段：[{ sn: "AL1234567" } → 文案用 {sn}]
+期望的英文文案：[Device {sn} is offline]
+语种范围：[补全 11 语种真译文]`,
+  };
+
+type Role = 'all' | 'pm' | 'backend';
+
+const ROLES: { key: Role; label: string }[] = [
+  { key: 'all', label: '全部' },
+  { key: 'pm', label: '产品同事' },
+  { key: 'backend', label: '后端同事' },
+];
+
 const DOCS: { path: string; name: string; desc: string }[] = [
   { path: 'README.md', name: 'README', desc: '仓库入口与目录结构' },
   { path: 'CLAUDE.md', name: 'CLAUDE.md', desc: '完整硬规则清单，拿不准就查这个' },
@@ -222,6 +325,12 @@ const DOCS: { path: string; name: string; desc: string }[] = [
 ];
 
 export function HelpView({ repo }: { repo: string }) {
+  const [role, setRole] = useState<Role>('all');
+  /** 该任务卡在当前筛选下要不要显示 */
+  const show = (owner: Role) => role === 'all' || role === owner;
+  /** 委托话术里引用提示词的绝对链接 —— 粘给读不到仓库的 AI 时也能点开 */
+  const mk = (p: string) => docUrl(repo, p);
+
   return (
     <div className="max-w-5xl space-y-7">
       <div className="space-y-1.5">
@@ -233,8 +342,33 @@ export function HelpView({ repo }: { repo: string }) {
         </p>
       </div>
 
-      <Section icon={FileSearch} title="三类任务" hint="按你要做什么选一类">
+      <Section
+        icon={FileSearch}
+        title="三类任务"
+        hint={
+          <span className="flex flex-wrap items-center gap-1.5">
+            <span>按你要做什么选一类</span>
+            <span className="text-muted-foreground/50">·</span>
+            {ROLES.map((r) => (
+              <button
+                key={r.key}
+                type="button"
+                onClick={() => setRole(r.key)}
+                aria-pressed={role === r.key}
+                className={`rounded border px-1.5 py-0.5 text-xs transition-colors ${
+                  role === r.key
+                    ? 'bg-foreground text-background border-transparent'
+                    : 'hover:bg-muted'
+                }`}
+              >
+                {r.label}
+              </button>
+            ))}
+          </span>
+        }
+      >
         <div className="grid gap-3 lg:grid-cols-3">
+          {show('pm') && (
           <TaskCard
             icon={FileSearch}
             title="走查并修正已有译文"
@@ -257,6 +391,7 @@ export function HelpView({ repo }: { repo: string }) {
                 照着 Excel 改 <Code>{'locales/<ns>/<lang>.json'}</Code>，见下方「写回仓库」。
               </>,
             ]}
+            prompt={PROMPTS.review(mk)}
             note={
               <p className="text-muted-foreground">
                 ⚠️ Excel <strong className="text-foreground font-medium">还不能自动导回</strong>，
@@ -264,7 +399,9 @@ export function HelpView({ repo }: { repo: string }) {
               </p>
             }
           />
+          )}
 
+          {show('pm') && (
           <TaskCard
             icon={FilePlus2}
             title="新增文案"
@@ -295,6 +432,7 @@ export function HelpView({ repo }: { repo: string }) {
                 </Option>
               </div>
             }
+            prompt={PROMPTS.translate(mk)}
             note={
               <div className="space-y-1.5">
                 <GoodBad bad="自己编不熟的语种 —— 占位符错位、术语跑偏比英文占位更难查" />
@@ -305,7 +443,9 @@ export function HelpView({ repo }: { repo: string }) {
               </div>
             }
           />
+          )}
 
+          {show('backend') && (
           <TaskCard
             icon={Hash}
             title="新增 / 修正错误码"
@@ -325,6 +465,7 @@ export function HelpView({ repo }: { repo: string }) {
               </>,
               <>修正已有的：直接改对应语种文件即可。</>,
             ]}
+            prompt={PROMPTS.errorCode(mk)}
             note={
               <p className="text-muted-foreground">
                 完整三步走见{' '}
@@ -335,12 +476,13 @@ export function HelpView({ repo }: { repo: string }) {
               </p>
             }
           />
+          )}
         </div>
       </Section>
 
       <Section icon={GitPullRequest} title="写回仓库" hint="三类任务都走这一步">
         <div className="space-y-3">
-          <div className="grid gap-3 md:grid-cols-2">
+          <div className="grid gap-3 md:grid-cols-3">
             <div className="overflow-hidden rounded-lg border">
               <CardHead icon={SquarePen} title="改几条 —— 网页直接编辑" />
               <div className="text-muted-foreground p-3 text-xs leading-relaxed">
@@ -353,6 +495,21 @@ export function HelpView({ repo }: { repo: string }) {
                 在仓库页面按 <kbd className="bg-muted rounded px-1 py-0.5 font-mono">.</kbd> 键，
                 浏览器里直接打开完整的 VS Code，零安装。可多语种文件并排对照、全局搜索。
                 改完从左侧「源代码管理」提交，会自动开 PR。
+              </div>
+            </div>
+            <div className="overflow-hidden rounded-lg border">
+              <CardHead icon={Bot} title="不想碰 git —— 让 AI 提 PR" />
+              <div className="text-muted-foreground space-y-1.5 p-3 text-xs leading-relaxed">
+                <p>
+                  把 <DocLink repo={repo} path="prompts/README.md">prompts/</DocLink>{' '}
+                  里对应任务的提示词整份粘给 AI 助手，填最后的「参数」一节。它改完会自跑校验，
+                  <strong className="text-foreground font-medium">自己建分支、提 PR</strong>。
+                </p>
+                <p>
+                  你只需在 GitHub 上审 PR。
+                  <strong className="text-foreground font-medium">合并这一步永远是人点</strong>
+                  —— AI 不执行合并。
+                </p>
               </div>
             </div>
           </div>
