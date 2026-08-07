@@ -23,6 +23,8 @@
   "device_notification": "Enhetsaviseringar",
   "end_user": "Slutanvändare",
   "event_happen_time": "Tidpunkt för händelse",
+  "failed_to_resolve_data_center_endpoint": "Det gick inte att fastställa datacentrets slutpunkt. Försök igen senare.",
+  "failed_to_switch_data_center": "Det gick inte att byta datacenter. Försök igen.",
   "fault_details": "Felinformation",
   "feedback_notification": "Klagomål",
   "go_to_settings": "Gå till inställningar",

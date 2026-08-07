@@ -23,6 +23,8 @@
   "device_notification": "Notifications de l’appareil",
   "end_user": "Utilisateur final",
   "event_happen_time": "Date/heure du problème",
+  "failed_to_resolve_data_center_endpoint": "Impossible de résoudre le point de terminaison du centre de données. Veuillez réessayer plus tard.",
+  "failed_to_switch_data_center": "Échec du changement de centre de données. Veuillez réessayer.",
   "fault_details": "Détails du défaut",
   "feedback_notification": "Réclamation",
   "go_to_settings": "Aller dans Paramètres",

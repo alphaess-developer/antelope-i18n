@@ -23,6 +23,8 @@
   "device_notification": "Notificaciones del dispositivo",
   "end_user": "Usuario final",
   "event_happen_time": "Hora Ocurrida",
+  "failed_to_resolve_data_center_endpoint": "No se pudo resolver el endpoint del centro de datos. Inténtelo de nuevo más tarde.",
+  "failed_to_switch_data_center": "Error al cambiar de centro de datos. Inténtelo de nuevo.",
   "fault_details": "Detalles del fallo",
   "feedback_notification": "Queja",
   "go_to_settings": "Ve a Configuración",
