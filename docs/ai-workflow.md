@@ -5,28 +5,49 @@
 > 可直接粘贴给 AI 的任务提示词在 [`prompts/`](../prompts/)。
 > 新增文案期望 **PR 直接带齐 11 语种真译文**（不再默认只写 en-US + 英文占位）。
 
-## 1. 边界：AI 改文件，人提交
+## 1. 边界：AI 一路做到 PR，人审 PR
 
 ```
 人        选定任务与范围（哪个 ns、哪些 key、哪些语种）
  ↓
-AI        读上下文 → 改 locales/*.json → 跑校验脚本自查 → 报告改了什么
+AI        读上下文 → 改 locales/*.json → 跑校验脚本自查
+          → 建分支 → commit → push → 开 PR → 报告改了什么
  ↓
-人        看 diff → commit → push → 开 PR
+人        在 GitHub 上审 PR（看 diff、看 AI 的报告）
  ↓
 CI        阻塞级检查 → 绿了才能合并
+ ↓
+人        点合并 —— 这一步永远是人
 ```
 
-**AI 不碰 git 的写操作**（`commit` / `push` / `gh pr create` 都不给它）。只读的 `git diff` / `git status`
-可以用，那是它自查范围的手段。
+**AI 可以做到开 PR 为止，但合并永远是人。**（2026-08-07 放开，此前禁止 git 写操作，见
+[decisions.md](decisions.md) D17。）
 
-三条理由：
+| 允许 | 禁止 |
+|---|---|
+| 建分支、`commit`、`push`、`gh pr create` | **合并 PR**（`gh pr merge`）—— 任何情况下都不行 |
+| 只读的 `git diff` / `git status` / `gh pr checks` | 直推 `main`、`push --force`、改分支保护 |
+| CI 红了自己修，追加 commit 到同一个 PR | 关掉/绕过 CI，往 `.ci/baseline.json` 加豁免（§4.5） |
+
+为什么可以放开到 PR：
 
 | 理由 | 说明 |
 |---|---|
-| PR 是人的责任 | `main` 有分支保护，CODEOWNERS 会 request review。谁提的 PR 谁答辩 —— 这个环节不该由 AI 代劳 |
-| 但自证合规该交给 AI | `tools/*.mjs` 零依赖、几秒跑完。AI 改完自己跑一遍 `validate`，能把「格式/顺序/占位符」这类机械错误在人看到之前清掉 |
-| git 历史是审计线索 | 半年后查「这条德语谁改的、为什么」，作者写着人名才有人能答 |
+| PR 本身就是审核关口 | `main` 有分支保护，CI 阻塞级检查 + 人工点合并。**开 PR 不是落地，是提交待审** —— 让 AI 走到这一步不降低任何安全边界 |
+| 门槛卡在错的地方 | 后端同事为了加一条错误码去学 git branch/commit/push，是这条链路上最大的摩擦。AI 已经把 11 个语种都改好了，卡在最机械的一步没有道理 |
+| 自证合规本来就归 AI | `tools/*.mjs` 零依赖、几秒跑完。AI 改完自跑 `validate`，机械错误在人看到之前就清掉了 |
+
+审计线索怎么办：**PR 描述里必须写明是 AI 生成、由谁委托**，commit 用
+`Co-Authored-By:` 标注模型。半年后查「这条德语谁改的」，答案是「X 委托 AI 在 PR #N 改的」——
+责任人仍然明确。
+
+> ⚠️ **CODEOWNERS 与 PR 作者同账号时不会请求 review。** 若 AI 用的 GitHub 账号恰好就是
+> `.github/CODEOWNERS` 里的 owner，GitHub 不会向 PR 作者本人请求 review ——
+> 此时「有人审」靠的是委托人自觉，不是机制。多人协作后应给 AI 单独的账号或 bot token。
+
+> **没有仓库怎么办**（PM 用 ChatGPT 网页版、手上只有一份 Excel）：`prompts/` 里的提示词都自包含，
+> AI 能照着产出译文，但**跑不了校验、也提不了 PR**。这种情况下人贴进 github.dev 后要靠 CI 兜底 ——
+> 比 AI 在克隆里自查多一轮往返，但不会出错，CI 是同一套检查。
 
 > **没有仓库怎么办**（PM 用 ChatGPT 网页版、手上只有一份 Excel）：`prompts/` 里的提示词都自包含，
 > AI 能照着产出译文，但**跑不了校验**。这种情况下人贴进 github.dev 后要靠 CI 兜底 ——
@@ -161,9 +182,48 @@ git diff --stat    # 确认改动规模与任务描述一致
 **`validate.mjs` 必须是「✅ 校验通过」才算交付。** 它输出的警告（重复源文、同源文异译）不阻塞，
 但 AI 应该在报告里说明自己有没有新增警告。
 
+### 5.1 然后开 PR
+
+校验通过后 AI 自己走完这三步（§1）：
+
+```bash
+git checkout -b <type>/<简短描述>     # 绝不在 main 上改
+git commit                            # conventional commits，中文正文
+git push -u origin <分支名>
+gh pr create --base main
+```
+
+commit 结尾标注模型：
+
+```
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
+```
+
+**PR 描述必须包含**（这是审计线索的落点，见 §1）：
+
+- 这是 AI 生成的，**由谁委托**
+- §6 那五项报告内容
+- 用了哪份 `prompts/`
+
+开完 PR 要**等 CI 跑完**（`gh pr checks`）。红了自己修、追加 commit 到同一个 PR，
+不要用 §4.5 里那些捷径。
+
+🔴 **合并永远是人点。** AI 不执行 `gh pr merge`。
+
+### 5.2 动手前先 `git fetch`
+
+`main` 更新很快 —— 基于过时的本地快照干活，轻则冲突，重则**把已经废弃的机制写回来**
+（真实发生过：`_meta` draft 机制移除后，有人照着旧文档又把它写进新文档）。
+
+```bash
+git fetch origin main && git log --oneline HEAD..origin/main
+```
+
+有落后就先 `git pull --ff-only` 再开分支。**看文档前先确认文档本身是最新的。**
+
 ## 6. AI 的交付格式
 
-要求 AI 报告这五项 —— 人 review 时靠它决定看哪里：
+要求 AI 报告这五项 —— 既写进 PR 描述，也在对话里回给委托人：
 
 ```
 1. 改了哪些文件、哪些 key、哪些语种（数量 + 清单）
@@ -176,17 +236,20 @@ git diff --stat    # 确认改动规模与任务描述一致
 第 3 项是关键。让 AI **显式暴露不确定性**，而不是把猜测混在 200 行 diff 里 ——
 比如「`{sn}` 在捷克语上下文里不确定该不该加冠词，按不加处理」。
 
-## 7. 人接手时 review 什么
+## 7. 人 review PR 时看什么
 
 AI 跑过 `validate` 之后，机械错误基本清了。人要看的是它**验证不了**的东西：
 
-- [ ] **改动范围**和任务描述一致？有没有顺手改了别的（§4.1）
+- [ ] **改动范围**和任务描述一致？有没有顺手改了别的（§4.1）—— AI 一路做到 PR 之后，
+      这条更重要了：没有「人看 diff 再提交」这一关，范围失控只能在 PR 里发现
 - [ ] 占位符肉眼扫一遍 —— CI 能查「集合是否一致」，查不出「位置放得对不对」
 - [ ] 语气、长度是否和同 ns 其它条目一致（长文案会撑破 UI）
 - [ ] AI 报告里「拿不准的条目」逐条确认
 - [ ] 母语者抽查 —— 尤其捷克语/希腊语/波兰语这些**术语库完全没覆盖**的语种
+- [ ] `.ci/baseline.json` 有没有被动过（**任何改动都要问清楚为什么**，见 §4.5）
+- [ ] `git diff --stat` 的规模与 PR 描述里报的条数对得上
 
-然后 commit（conventional commits）、push、开 PR。
+确认无误后**由人点合并**。发现问题就在 PR 里评论让 AI 改，它追加 commit 到同一个分支。
 
 ## 8. 已知缺口
 

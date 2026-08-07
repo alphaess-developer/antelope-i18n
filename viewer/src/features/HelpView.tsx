@@ -15,6 +15,7 @@ import {
   ChevronRight,
   Download,
   ExternalLink,
+  Bot,
   FilePlus2,
   FileSearch,
   GitPullRequest,
@@ -340,7 +341,7 @@ export function HelpView({ repo }: { repo: string }) {
 
       <Section icon={GitPullRequest} title="写回仓库" hint="三类任务都走这一步">
         <div className="space-y-3">
-          <div className="grid gap-3 md:grid-cols-2">
+          <div className="grid gap-3 md:grid-cols-3">
             <div className="overflow-hidden rounded-lg border">
               <CardHead icon={SquarePen} title="改几条 —— 网页直接编辑" />
               <div className="text-muted-foreground p-3 text-xs leading-relaxed">
@@ -353,6 +354,21 @@ export function HelpView({ repo }: { repo: string }) {
                 在仓库页面按 <kbd className="bg-muted rounded px-1 py-0.5 font-mono">.</kbd> 键，
                 浏览器里直接打开完整的 VS Code，零安装。可多语种文件并排对照、全局搜索。
                 改完从左侧「源代码管理」提交，会自动开 PR。
+              </div>
+            </div>
+            <div className="overflow-hidden rounded-lg border">
+              <CardHead icon={Bot} title="不想碰 git —— 让 AI 提 PR" />
+              <div className="text-muted-foreground space-y-1.5 p-3 text-xs leading-relaxed">
+                <p>
+                  把 <DocLink repo={repo} path="prompts/README.md">prompts/</DocLink>{' '}
+                  里对应任务的提示词整份粘给 AI 助手，填最后的「参数」一节。它改完会自跑校验，
+                  <strong className="text-foreground font-medium">自己建分支、提 PR</strong>。
+                </p>
+                <p>
+                  你只需在 GitHub 上审 PR。
+                  <strong className="text-foreground font-medium">合并这一步永远是人点</strong>
+                  —— AI 不执行合并。
+                </p>
               </div>
             </div>
           </div>

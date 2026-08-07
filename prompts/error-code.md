@@ -135,10 +135,30 @@ git diff --stat
 
 `validate.mjs` 必须输出 **`✅ 校验通过`**。
 
+## 校验通过后：自己开 PR
+
+若你能读写这个仓库的克隆，**一路做到开 PR 为止**（合并永远是人点）：
+
+```bash
+git fetch origin main && git log --oneline HEAD..origin/main   # 先确认不是基于过时快照
+git checkout -b feat/error-code-<简短描述>                      # 绝不在 main 上改
+git commit                                                     # conventional commits，中文正文
+git push -u origin <分支名>
+gh pr create --base main
+```
+
+commit 结尾加一行 `Co-Authored-By: <模型名> <noreply@anthropic.com>`。
+
+**PR 描述必须写明**：这是 AI 生成的、由谁委托、下面「交付格式」的全部内容。
+
+开完等 CI（`gh pr checks`）。红了自己修、追加 commit 到同一个 PR。
+
 ## 🚫 你不做的事
 
-**不要执行任何 git 写操作** —— 不 `commit`、不 `push`、不 `gh pr create`、不切分支。
-只读的 `git diff` / `git status` 可以用。提交与开 PR 由人来做。
+- 🔴 **不合并 PR**（`gh pr merge`）—— 任何情况下都不行，那是人的一步
+- 不直推 `main`、不 `push --force`
+- 不往 `.ci/baseline.json` 加条目来让 CI 变绿 —— 过不了就改内容
+- 不碰用户没点名的错误码
 
 ## 交付格式
 
