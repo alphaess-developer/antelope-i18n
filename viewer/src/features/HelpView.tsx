@@ -1,21 +1,25 @@
 /*
  * 帮助 Tab —— 按「要做什么」组织的操作说明
  *
- * 刻意**不按身份分节**（原先是「产品 / 后端走查修改指南」）：同一个人可能既走查业务文案、
- * 又顺手加一条错误码，按身份切会把共同部分（怎么写回仓库、要守哪些约束）在每节里各写一遍 ——
- * 然后改一处就漏一处。所以结构是「三类任务 → 共同的写回流程 → 共同的约束」。
+ * 结构是「三类任务 → 共同的写回流程 → 共同的约束」，**共同部分只有一份**：
+ * 同一个人可能既走查业务文案、又顺手加一条错误码，若按身份把共同部分（怎么写回仓库、
+ * 要守哪些约束）在每节里各写一遍，改一处就会漏一处。
+ *
+ * 「三类任务」那一节**另有一个身份筛选**（全部 / 产品 / 后端）—— 它只隐藏不相关的任务卡，
+ * 不复制任何内容，所以与上面那条不冲突。上面反对的是共同部分被复制，不是反对帮人
+ * 快速找到自己那一类。见 viewer-spec.md §4.7。
  *
  * 配色沿用 PlaceholderText 的视觉词汇：中性底 = 正确写法，destructive = 在本项目会失效的写法。
  * 用户在主表格里看到的占位符高亮和这里的示例是同一套语言，不用二次学习。
  */
-import type { ComponentType, ReactNode } from 'react';
+import { useState, type ComponentType, type ReactNode } from 'react';
 import {
   BookOpen,
+  Bot,
   Check,
   ChevronRight,
   Download,
   ExternalLink,
-  Bot,
   FilePlus2,
   FileSearch,
   GitPullRequest,
@@ -214,6 +218,22 @@ const RULES: { title: string; body?: ReactNode; good?: string; bad?: string }[] 
   },
 ];
 
+/**
+ * 身份筛选 —— 只作用于「三类任务」这一节。
+ *
+ * ⚠️ 共同部分（写回仓库、必须遵守、相关文档）**不跟着切换**，永远是共享的一份。
+ * 这是 viewer-spec.md §4.7 那条「按功能不按身份」的实际约束所在：它反对的是把共同部分
+ * 在每个身份下各复制一遍（改一处漏一处），不是反对帮人快速找到自己那一类。
+ * 筛选只隐藏不相关的任务卡，一份内容仍然只有一份。
+ */
+type Role = 'all' | 'pm' | 'backend';
+
+const ROLES: { key: Role; label: string }[] = [
+  { key: 'all', label: '全部' },
+  { key: 'pm', label: '产品同事' },
+  { key: 'backend', label: '后端同事' },
+];
+
 const DOCS: { path: string; name: string; desc: string }[] = [
   { path: 'README.md', name: 'README', desc: '仓库入口与目录结构' },
   { path: 'CLAUDE.md', name: 'CLAUDE.md', desc: '完整硬规则清单，拿不准就查这个' },
@@ -223,6 +243,10 @@ const DOCS: { path: string; name: string; desc: string }[] = [
 ];
 
 export function HelpView({ repo }: { repo: string }) {
+  const [role, setRole] = useState<Role>('all');
+  /** 该任务卡在当前筛选下要不要显示 */
+  const show = (owner: Role) => role === 'all' || role === owner;
+
   return (
     <div className="max-w-5xl space-y-7">
       <div className="space-y-1.5">
@@ -234,8 +258,33 @@ export function HelpView({ repo }: { repo: string }) {
         </p>
       </div>
 
-      <Section icon={FileSearch} title="三类任务" hint="按你要做什么选一类">
+      <Section
+        icon={FileSearch}
+        title="三类任务"
+        hint={
+          <span className="flex flex-wrap items-center gap-1.5">
+            <span>按你要做什么选一类</span>
+            <span className="text-muted-foreground/50">·</span>
+            {ROLES.map((r) => (
+              <button
+                key={r.key}
+                type="button"
+                onClick={() => setRole(r.key)}
+                aria-pressed={role === r.key}
+                className={`rounded border px-1.5 py-0.5 text-xs transition-colors ${
+                  role === r.key
+                    ? 'bg-foreground text-background border-transparent'
+                    : 'hover:bg-muted'
+                }`}
+              >
+                {r.label}
+              </button>
+            ))}
+          </span>
+        }
+      >
         <div className="grid gap-3 lg:grid-cols-3">
+          {show('pm') && (
           <TaskCard
             icon={FileSearch}
             title="走查并修正已有译文"
@@ -265,7 +314,9 @@ export function HelpView({ repo }: { repo: string }) {
               </p>
             }
           />
+          )}
 
+          {show('pm') && (
           <TaskCard
             icon={FilePlus2}
             title="新增文案"
@@ -306,7 +357,9 @@ export function HelpView({ repo }: { repo: string }) {
               </div>
             }
           />
+          )}
 
+          {show('backend') && (
           <TaskCard
             icon={Hash}
             title="新增 / 修正错误码"
@@ -336,6 +389,7 @@ export function HelpView({ repo }: { repo: string }) {
               </p>
             }
           />
+          )}
         </div>
       </Section>
 
