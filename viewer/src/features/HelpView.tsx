@@ -19,6 +19,7 @@ import {
   Check,
   ChevronRight,
   Download,
+  Copy,
   ExternalLink,
   FilePlus2,
   FileSearch,
@@ -136,6 +137,7 @@ function TaskCard({
   lead,
   steps,
   extra,
+  prompt,
   note,
 }: {
   icon: Icon;
@@ -144,6 +146,8 @@ function TaskCard({
   steps: ReactNode[];
   /** 步骤之后的补充块。用于「二选一」这种不该编号的分支 —— 编号会读成先后顺序 */
   extra?: ReactNode;
+  /** 可复制的委托话术。放在步骤之后 —— 先让人知道这事是什么，再给「直接粘这个」的捷径 */
+  prompt?: string;
   note?: ReactNode;
 }) {
   return (
@@ -153,8 +157,48 @@ function TaskCard({
         <p className="text-muted-foreground text-xs leading-relaxed">{lead}</p>
         <Steps items={steps} />
         {extra}
+        {prompt && (
+          <div className="space-y-1.5">
+            <p className="flex items-center gap-1.5 text-xs font-medium">
+              <Bot className="size-3.5" />
+              不想自己动手？复制这段粘给 AI
+            </p>
+            <CopyPrompt text={prompt} />
+          </div>
+        )}
         {note && <div className="mt-auto border-t pt-2.5 text-xs leading-relaxed">{note}</div>}
       </div>
+    </div>
+  );
+}
+
+/**
+ * 可一键复制的委托话术 —— 任务卡的落点。
+ *
+ * 光写步骤，人看完仍不知道下一步该敲什么；这里给的是**能直接粘进 AI 对话框的成品**，
+ * 方括号占位由人替换。话术只负责「指向哪份提示词 + 填哪些参数」，
+ * 规则本身不复制到这里 —— 那在 prompts/*.md 里，改一处就够。
+ */
+function CopyPrompt({ text }: { text: string }) {
+  const [copied, setCopied] = useState(false);
+  return (
+    <div className="relative">
+      <pre className="bg-muted/60 max-h-44 overflow-auto rounded-md border p-2 pr-9 font-mono text-[11px] leading-relaxed whitespace-pre-wrap">
+        {text}
+      </pre>
+      <button
+        type="button"
+        onClick={() => {
+          void navigator.clipboard.writeText(text);
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000);
+        }}
+        title="复制这段话，粘给 AI 助手"
+        aria-label="复制这段话"
+        className="bg-background hover:bg-muted absolute top-1.5 right-1.5 rounded border p-1"
+      >
+        {copied ? <Check className="size-3" /> : <Copy className="size-3" />}
+      </button>
     </div>
   );
 }
@@ -226,6 +270,44 @@ const RULES: { title: string; body?: ReactNode; good?: string; bad?: string }[] 
  * 在每个身份下各复制一遍（改一处漏一处），不是反对帮人快速找到自己那一类。
  * 筛选只隐藏不相关的任务卡，一份内容仍然只有一份。
  */
+/**
+ * 三段委托话术，与 prompts/<name>.md 末尾的「参数」一节逐项对应 ——
+ * 改了那边的参数项，这里要跟着改。
+ *
+ * 方括号里是待替换的示例值。刻意保留一个具体例子而不是留空，
+ * 因为「namespace：」后面跟空白时，人往往不知道该填 `battery` 还是 `device-form/battery`。
+ */
+const PROMPTS: Record<'review' | 'translate' | 'errorCode', (url: (p: string) => string) => string> =
+  {
+    review: (url) => `请按 ${url('prompts/review.md')}
+的规则，帮我走查这个 namespace 的译文，输出问题清单（先不要改文件）。
+
+namespace：[device-form/battery]
+要检查的语种：[全部 10 个]
+这个模块是做什么的：[电池设备的配置表单，管理员添加/编辑电池时用]
+已知问题：[无]
+要不要顺便修：[只报告，我看过清单再决定]`,
+
+    translate: (url) => `请按 ${url('prompts/translate.md')}
+的规则帮我补译文，跑完校验后自己建分支提 PR（🔴 不要合并，我来审）。
+
+namespace：[device-form/battery]
+要处理的 key：[key_a, key_b, key_c]
+目标语种：[全部 10 个]
+这些文案出现在哪：[电池配置表单的字段标签与校验提示]
+特殊要求：[无]`,
+
+    errorCode: (url) => `请按 ${url('prompts/error-code.md')}
+的规则帮我改错误码，跑完校验后自己建分支提 PR（🔴 不要合并，我来审）。
+
+任务类型：[新增]
+错误码：[6199]
+什么时候返回：[设备离线时，用户尝试下发远程指令]
+data 里有哪些字段：[{ sn: "AL1234567" } → 文案用 {sn}]
+期望的英文文案：[Device {sn} is offline]
+语种范围：[补全 11 语种真译文]`,
+  };
+
 type Role = 'all' | 'pm' | 'backend';
 
 const ROLES: { key: Role; label: string }[] = [
@@ -246,6 +328,8 @@ export function HelpView({ repo }: { repo: string }) {
   const [role, setRole] = useState<Role>('all');
   /** 该任务卡在当前筛选下要不要显示 */
   const show = (owner: Role) => role === 'all' || role === owner;
+  /** 委托话术里引用提示词的绝对链接 —— 粘给读不到仓库的 AI 时也能点开 */
+  const mk = (p: string) => docUrl(repo, p);
 
   return (
     <div className="max-w-5xl space-y-7">
@@ -307,6 +391,7 @@ export function HelpView({ repo }: { repo: string }) {
                 照着 Excel 改 <Code>{'locales/<ns>/<lang>.json'}</Code>，见下方「写回仓库」。
               </>,
             ]}
+            prompt={PROMPTS.review(mk)}
             note={
               <p className="text-muted-foreground">
                 ⚠️ Excel <strong className="text-foreground font-medium">还不能自动导回</strong>，
@@ -347,6 +432,7 @@ export function HelpView({ repo }: { repo: string }) {
                 </Option>
               </div>
             }
+            prompt={PROMPTS.translate(mk)}
             note={
               <div className="space-y-1.5">
                 <GoodBad bad="自己编不熟的语种 —— 占位符错位、术语跑偏比英文占位更难查" />
@@ -379,6 +465,7 @@ export function HelpView({ repo }: { repo: string }) {
               </>,
               <>修正已有的：直接改对应语种文件即可。</>,
             ]}
+            prompt={PROMPTS.errorCode(mk)}
             note={
               <p className="text-muted-foreground">
                 完整三步走见{' '}
