@@ -31,6 +31,7 @@
   "dispatch": "Styrning",
   "dispatch_actions": "Styråtgärder",
   "dispatch_mode": "Styrläge",
+  "dispatch_power_limit": "Effektgräns för styrning (kW)",
   "dispatch_source": "Styrningskälla",
   "dispatcher": "Schemaläggare",
   "dispatching": "Schemalägger",

@@ -31,6 +31,7 @@
   "dispatch": "Envoi",
   "dispatch_actions": "Actions de pilotage",
   "dispatch_mode": "Mode d’envoi",
+  "dispatch_power_limit": "Limite de puissance d'envoi (kW)",
   "dispatch_source": "Source de pilotage",
   "dispatcher": "Répartiteur",
   "dispatching": "Répartition",

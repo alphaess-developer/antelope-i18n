@@ -31,6 +31,7 @@
   "dispatch": "Dysponuj",
   "dispatch_actions": "Akcje sterowania",
   "dispatch_mode": "Tryb dysponowania",
+  "dispatch_power_limit": "Limit mocy dysponowania (kW)",
   "dispatch_source": "Źródło sterowania",
   "dispatcher": "Dyspozytor",
   "dispatching": "Dyspozycja",

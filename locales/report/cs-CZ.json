@@ -31,6 +31,7 @@
   "dispatch": "Řízení",
   "dispatch_actions": "Plánování akcí",
   "dispatch_mode": "Režim dispečinku",
+  "dispatch_power_limit": "Limit výkonu řízení (kW)",
   "dispatch_source": "Zdroj řízení",
   "dispatcher": "Dispečer",
   "dispatching": "Probíhá dispečink",
