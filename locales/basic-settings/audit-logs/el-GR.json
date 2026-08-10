@@ -1,14 +1,18 @@
 {
   "audit_log": "Αρχείο καταγραφής ελέγχου",
+  "collapse_all": "Σύμπτυξη όλων",
   "device": "Συσκευή",
+  "expand_all": "Ανάπτυξη όλων",
   "installer": "Εγκαταστάτης",
+  "load_more": "Φόρτωση περισσότερων",
   "no_field_changes": "Καμία αλλαγή πεδίου",
   "num_changes": "{αριθμός} αλλαγές",
+  "num_items_unchanged": "{num} στοιχεία αμετάβλητα",
   "open_api": "Ανοίξτε το API",
   "payload_codec_unsupported": "Η μορφή των αλλαγών σε αυτήν την εγγραφή δεν υποστηρίζεται προς το παρόν για εμφάνιση",
   "schedule_task": "Προγραμματισμένη εργασία",
   "show_empty_changes": "Εμφάνιση εγγραφών χωρίς αλλαγή",
   "system": "Σύστημα",
-  "total_changes": "{num} αλλαγές στο σύνολο",
+  "total_operations": "<strong>{num}</strong> ενέργειες συνολικά",
   "user": "χρήστης"
 }

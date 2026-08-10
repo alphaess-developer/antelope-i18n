@@ -1,14 +1,18 @@
 {
   "audit_log": "Auditlogboek",
+  "collapse_all": "Alles invouwen",
   "device": "Apparaat",
+  "expand_all": "Alles uitvouwen",
   "installer": "Installateur",
+  "load_more": "Meer laden",
   "no_field_changes": "Geen veldwijzigingen",
   "num_changes": "{num} veranderingen",
+  "num_items_unchanged": "{num} items ongewijzigd",
   "open_api": "Open API",
   "payload_codec_unsupported": "Het formaat van wijzigingen aan dit record wordt momenteel niet ondersteund voor weergave",
   "schedule_task": "Geplande taak",
   "show_empty_changes": "Toon records zonder wijziging",
   "system": "Systeem",
-  "total_changes": "{num} veranderingen in totaal",
+  "total_operations": "<strong>{num}</strong> bewerkingen in totaal",
   "user": "gebruiker"
 }
