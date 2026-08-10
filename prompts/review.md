@@ -113,8 +113,10 @@ locales/<namespace>/<语种>.json     一层扁平 JSON，值必须是字符串
 
 ## 🚫 你不做的事
 
-- **默认不改任何文件**（除非人明确要求）
-- **不要执行 git 写操作** —— 不 `commit`、不 `push`、不 `gh pr create`。只读的 `git diff` / `git status` 可以用
+- **默认不改任何文件**（除非人明确要求）—— 走查的产出是清单，不是 diff
+- 因此**默认也不开 PR**。人看过清单、明确说「按这个改」之后，才走
+  [`prompts/translate.md`](translate.md) 的修改 + 开 PR 流程
+- 🔴 **任何情况下不合并 PR**（`gh pr merge`），不直推 `main`
 - 不要往 `.ci/baseline.json` 加条目
 - 不要改 `glossary/terms.json` —— 术语库由产品 + 业务专家维护，你只能**建议**
 

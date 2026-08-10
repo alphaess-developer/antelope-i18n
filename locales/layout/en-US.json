@@ -23,6 +23,8 @@
   "device_notification": "Device Notifications",
   "end_user": "End-user",
   "event_happen_time": "Time of Occurrence",
+  "failed_to_resolve_data_center_endpoint": "Failed to resolve data center endpoint. Please try again later.",
+  "failed_to_switch_data_center": "Failed to switch data center. Please try again.",
   "fault_details": "Fault Details",
   "feedback_notification": "Complaint",
   "go_to_settings": "Go to Settings",

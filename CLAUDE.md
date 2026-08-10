@@ -189,7 +189,7 @@ inbox/                        PM 上传 Excel 的落点（往返流程待建）
 |---|---|
 | [README.md](README.md) | 面向 PM 与一般协作者的入口 |
 | **[docs/decisions.md](docs/decisions.md)** | **决策记录 + 已否决方案** —— 提新方案前先看，大概率已讨论过 |
-| **[docs/ai-workflow.md](docs/ai-workflow.md)** | **AI 协作工作流** —— 边界（AI 改文件、人提交）、角色入口、交付格式 |
+| **[docs/ai-workflow.md](docs/ai-workflow.md)** | **AI 协作工作流** —— 边界（AI 一路做到 PR，**合并永远是人**）、角色入口、交付格式 |
 | [prompts/](prompts/) | 可整份粘贴给 AI 的任务提示词，自包含 |
 | [docs/translating.md](docs/translating.md) | 翻译产出流程：AI 生成规则、全量提交约定、占位符铁律 |
 | [docs/glossary-guide.md](docs/glossary-guide.md) | 术语库模型（概念导向）、匹配规则、维护方式 |
@@ -205,3 +205,5 @@ inbox/                        PM 上传 Excel 的落点（往返流程待建）
 - 注释、提交信息、文档用**中文**（与 antelope-web 一致）
 - 提交信息遵循 conventional commits
 - `main` 有分支保护：禁止直推，必须走 PR 且 CI 通过
+- **AI 可以建分支、commit、push、开 PR，但 🔴 绝不合并 PR** —— 合并永远是人点。
+  动手前先 `git fetch origin main` 确认不是基于过时快照。见 [docs/ai-workflow.md](docs/ai-workflow.md) §1

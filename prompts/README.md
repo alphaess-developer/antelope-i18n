@@ -23,7 +23,10 @@ node tools/sort-keys.mjs --write
 node tools/validate.mjs
 ```
 
-改完由**你**看 diff、commit、push、开 PR —— 提示词里已写明 AI 不碰 git 写操作。
+改完 AI 会**自己建分支、commit、push、开 PR**，你在 GitHub 上审、点合并。
+**合并这一步永远是人**，提示词里写死了 AI 不执行 `gh pr merge`（见 [decisions.md](../docs/decisions.md) D17）。
+
+> 走查任务（`review.md`）例外：它的产出是问题清单不是 diff，默认不改文件也不开 PR。
 
 ### B. AI 读不到仓库（ChatGPT 网页版等）
 

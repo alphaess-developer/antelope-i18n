@@ -23,6 +23,8 @@
   "device_notification": "设备通知",
   "end_user": "终端用户",
   "event_happen_time": "发生时间",
+  "failed_to_resolve_data_center_endpoint": "无法解析数据中心端点，请稍后重试。",
+  "failed_to_switch_data_center": "切换数据中心失败，请重试。",
   "fault_details": "故障详情",
   "feedback_notification": "客诉通知",
   "go_to_settings": "前往设置",

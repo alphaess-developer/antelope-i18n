@@ -23,6 +23,8 @@
   "device_notification": "Ειδοποιήσεις συσκευής",
   "end_user": "Τελικός χρήστης",
   "event_happen_time": "Χρονικό συμβάντος",
+  "failed_to_resolve_data_center_endpoint": "Αποτυχία επίλυσης του τελικού σημείου του κέντρου δεδομένων. Δοκιμάστε ξανά αργότερα.",
+  "failed_to_switch_data_center": "Αποτυχία εναλλαγής κέντρου δεδομένων. Δοκιμάστε ξανά.",
   "fault_details": "Λεπτομέρειες σφάλματος",
   "feedback_notification": "Παράπονο",
   "go_to_settings": "Μεταβείτε στις «Ρυθμίσεις»",
