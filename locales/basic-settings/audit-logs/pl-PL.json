@@ -1,14 +1,18 @@
 {
   "audit_log": "Dziennik audytu",
+  "collapse_all": "Zwiń wszystko",
   "device": "Urządzenie",
+  "expand_all": "Rozwiń wszystko",
   "installer": "Instalator",
+  "load_more": "Załaduj więcej",
   "no_field_changes": "Brak zmian na boisku",
   "num_changes": "{num} zmiany",
+  "num_items_unchanged": "{num} pozycji bez zmian",
   "open_api": "Open API",
   "payload_codec_unsupported": "Format zmian w tym rekordzie nie jest obecnie obsługiwany dla wyświetlania",
   "schedule_task": "Zadanie zaplanowane",
   "show_empty_changes": "Pokaż rekordy bez zmian",
   "system": "System",
-  "total_changes": "{num} zmiany całkowite",
+  "total_operations": "<strong>{num}</strong> operacji łącznie",
   "user": "użytkownik"
 }

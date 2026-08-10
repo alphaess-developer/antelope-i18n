@@ -1,14 +1,18 @@
 {
   "audit_log": "Audit Logs",
+  "collapse_all": "Collapse all",
   "device": "Device",
+  "expand_all": "Expand all",
   "installer": "Installer",
+  "load_more": "Load more",
   "no_field_changes": "No field changes",
   "num_changes": "{num} changes",
+  "num_items_unchanged": "{num} items unchanged",
   "open_api": "Open API",
   "payload_codec_unsupported": "The format of changes to this record is not currently supported for display",
   "schedule_task": "Scheduled task",
   "show_empty_changes": "Show no-change records",
   "system": "System",
-  "total_changes": "{num} changes in total",
+  "total_operations": "<strong>{num}</strong> operations in total",
   "user": "user"
 }
