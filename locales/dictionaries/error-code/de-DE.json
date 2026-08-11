@@ -502,6 +502,7 @@
   "100060": "Der aktuelle Zustand der Organisation erlaubt diese Operation nicht",
   "100061": "Die Organisation ist bei der Registrierungsprüfung nicht bestanden",
   "100062": "Dieses Konto wurde für den Mieter autorisiert",
+  "100063": "Das ausgewählte Land liegt außerhalb Ihres autorisierten Datenbereichs",
   "101010": "Keine Betriebsgenehmigungen",
   "101020": "Es gibt keine Daten, die exportiert werden können",
   "101021": "Wenn du zu viele Daten exportiert hast, filtere die Daten und exportiere sie erneut",

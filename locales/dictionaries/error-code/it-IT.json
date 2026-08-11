@@ -502,6 +502,7 @@
   "100060": "Lo stato attuale dell'organizzazione non consente questa operazione",
   "100061": "L'organizzazione non ha superato la revisione delle registrazioni",
   "100062": "Questo conto è stato autorizzato per l'inquilino",
+  "100063": "Il paese selezionato è al di fuori dell’ambito dati autorizzato",
   "101010": "Nessun permesso operativo",
   "101020": "Non ci sono dati esportabili",
   "101021": "Se hai esportato troppi dati, filtra i dati e riesportali",
