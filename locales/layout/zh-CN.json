@@ -21,6 +21,7 @@
   "customer": "客户端",
   "description": "描述",
   "device_notification": "设备通知",
+  "dont_remind_again": "不再提醒",
   "end_user": "终端用户",
   "event_happen_time": "发生时间",
   "failed_to_resolve_data_center_endpoint": "无法解析数据中心端点，请稍后重试。",

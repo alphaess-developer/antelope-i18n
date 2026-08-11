@@ -21,6 +21,7 @@
   "customer": "Kund",
   "description": "Beskrivning",
   "device_notification": "Enhetsaviseringar",
+  "dont_remind_again": "Påminn inte igen",
   "end_user": "Slutanvändare",
   "event_happen_time": "Tidpunkt för händelse",
   "failed_to_resolve_data_center_endpoint": "Det gick inte att fastställa datacentrets slutpunkt. Försök igen senare.",
