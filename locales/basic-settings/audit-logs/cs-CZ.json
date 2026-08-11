@@ -1,14 +1,18 @@
 {
   "audit_log": "Auditní záznam",
+  "collapse_all": "Sbalit vše",
   "device": "Zařízení",
+  "expand_all": "Rozbalit vše",
   "installer": "Instalační firma",
+  "load_more": "Načíst více",
   "no_field_changes": "Žádné změny hřiště",
   "num_changes": "{num} změny",
+  "num_items_unchanged": "{num} položek beze změny",
   "open_api": "Open API",
   "payload_codec_unsupported": "Formát změn tohoto záznamu není v současnosti podporován pro zobrazení",
   "schedule_task": "Plánovaný úkol",
   "show_empty_changes": "Ukázat rekordy bez změny",
   "system": "Systém",
-  "total_changes": "{num} celkové změny",
+  "total_operations": "<strong>{num}</strong> operací celkem",
   "user": "uživatel"
 }
