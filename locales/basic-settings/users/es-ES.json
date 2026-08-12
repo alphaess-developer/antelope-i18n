@@ -41,6 +41,7 @@
   "fail": "Fallo",
   "first_name": "Apellido",
   "header_path": "Ruta del avatar",
+  "home_dc": "Centro de datos de origen",
   "installer": "Instalador",
   "invite_user": "Invitar usuarios",
   "invited_user_tip": "Correo de invitación enviado a {email} !",

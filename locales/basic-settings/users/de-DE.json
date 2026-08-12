@@ -41,6 +41,7 @@
   "fail": "Fehlgeschlagen",
   "first_name": "Nachname",
   "header_path": "Avatar-Pfad",
+  "home_dc": "Heimat-Rechenzentrum",
   "installer": "Installateur",
   "invite_user": "Nutzer einladen",
   "invited_user_tip": "Einladung per E-Mail an {email} gesendet!",

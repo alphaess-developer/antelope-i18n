@@ -41,6 +41,7 @@
   "fail": "Selhání",
   "first_name": "Příjmení",
   "header_path": "Cesta avatara",
+  "home_dc": "Domovské datové centrum",
   "installer": "Instalační firma",
   "invite_user": "Pozvat uživatele",
   "invited_user_tip": "Pozvánka odeslána na {email}!",

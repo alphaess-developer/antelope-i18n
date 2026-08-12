@@ -41,6 +41,7 @@
   "fail": "Misslyckades",
   "first_name": "Efternamn",
   "header_path": "Sökväg till profilbild",
+  "home_dc": "Hemdatacenter",
   "installer": "Installatör",
   "invite_user": "Bjud in användare",
   "invited_user_tip": "Inbjudan har skickats till kontot {email}!",

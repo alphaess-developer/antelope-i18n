@@ -41,6 +41,7 @@
   "fail": "失败",
   "first_name": "姓",
   "header_path": "头像路径",
+  "home_dc": "家数据中心",
   "installer": "安装商",
   "invite_user": "邀请用户",
   "invited_user_tip": "已向 {email} 账户发送邀请！",
