@@ -53,7 +53,7 @@
   "fix_suggestion": "Repair Suggestion",
   "group_by_source": "By source",
   "hidden_records_tip": "{count} records are hidden",
-  "hidden_records_tip_n": "{{count}} records are hidden",
+  "hidden_records_tip_n": "{count} records are hidden",
   "hide_auto_repair": "Hide auto-repair events",
   "hide_system_commands": "Hide System Instructions",
   "identity": "Identity",

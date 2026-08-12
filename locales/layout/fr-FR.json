@@ -21,6 +21,7 @@
   "customer": "Client",
   "description": "Description",
   "device_notification": "Notifications de l’appareil",
+  "dont_remind_again": "Ne plus me rappeler",
   "end_user": "Utilisateur final",
   "event_happen_time": "Date/heure du problème",
   "failed_to_resolve_data_center_endpoint": "Impossible de résoudre le point de terminaison du centre de données. Veuillez réessayer plus tard.",

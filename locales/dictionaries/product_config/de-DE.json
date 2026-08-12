@@ -2,6 +2,7 @@
   "ac_power_supply_mode": "Wechselstromversorgungsmodus",
   "ac_power_supply_mode.diesel_generator": "Dieselmotorleistung",
   "ac_power_supply_mode.grid": "Netzstrom",
+  "auxdry_contact_control_status": "AUX-Trockenkontakt-Steuerungsstatus",
   "auxdry_contact_control_status.auto": "Automatik-Modus",
   "auxdry_contact_control_status.off": "Zeitmodus – getrennt",
   "auxdry_contact_control_status.on": "Zeitmodus – Geschlossen",

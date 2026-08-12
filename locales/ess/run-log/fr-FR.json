@@ -53,7 +53,7 @@
   "fix_suggestion": "Suggestion de réparation",
   "group_by_source": "Par source",
   "hidden_records_tip": "{count} enregistrements sont cachés",
-  "hidden_records_tip_n": "{{count}} enregistrements sont cachés",
+  "hidden_records_tip_n": "{count} enregistrements sont cachés",
   "hide_auto_repair": "Masquer les événements de réparation automatique",
   "hide_system_commands": "Masquer les commandes système",
   "identity": "Identité",

@@ -69,7 +69,7 @@
   "please_select": "Välj",
   "post_code": "Postnummer",
   "range": "Intervall: {min}~{max}",
-  "range_min_max": "Intervall: {{min}}~{{max}}",
+  "range_min_max": "Intervall: {min}~{max}",
   "remark": "Anmärkning",
   "reset_zhi": "Återställ",
   "run_logic_pattern": "Driftlogik/läge",

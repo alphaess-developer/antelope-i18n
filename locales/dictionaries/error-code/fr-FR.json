@@ -86,7 +86,7 @@
   "6071": "Connexion interdite",
   "6072": "Il existe déjà un enregistrement de l’installation SN",
   "6073": "Exception de téléchargement de fichier !",
-  "6074": "Les SN suivants existent dans d’autres stratégies durant la période de filtre : {0}",
+  "6074": "Les SN suivants existent dans d’autres stratégies durant la période de filtre :",
   "6075": "Ce SN n’est pas en mode normal",
   "6076": "Le temps doit se situer dans le futur",
   "6077": "Le SOC est inférieur à 10 % et la mise à niveau ne peut donc pas être effectuée",

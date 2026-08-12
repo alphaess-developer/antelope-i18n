@@ -69,7 +69,7 @@
   "please_select": "Si prega di selezionare",
   "post_code": "Cap",
   "range": "Intervallo: {min}~{max}",
-  "range_min_max": "Intervallo: {{min}}~{{max}}",
+  "range_min_max": "Intervallo: {min}~{max}",
   "remark": "Nota",
   "reset_zhi": "Ripristina",
   "run_logic_pattern": "Esegui logica/pattern",

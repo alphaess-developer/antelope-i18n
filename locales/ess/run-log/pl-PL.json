@@ -53,7 +53,7 @@
   "fix_suggestion": "Propozycja naprawy",
   "group_by_source": "Według źródła",
   "hidden_records_tip": "{count} rekordów jest ukrytych",
-  "hidden_records_tip_n": "Ukryto {{count}} rekordów.",
+  "hidden_records_tip_n": "Ukryto {count} rekordów.",
   "hide_auto_repair": "Ukryj zdarzenia auto-naprawy",
   "hide_system_commands": "Ukryj polecenia systemowe",
   "identity": "Tożsamość",

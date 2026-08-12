@@ -53,7 +53,7 @@
   "fix_suggestion": "Návrh opravy",
   "group_by_source": "Podle zdroje",
   "hidden_records_tip": "{count} záznamy jsou skryté",
-  "hidden_records_tip_n": "{{count}} záznamy jsou skryté",
+  "hidden_records_tip_n": "{count} záznamy jsou skryté",
   "hide_auto_repair": "Skrýt události automatické opravy",
   "hide_system_commands": "Systémové příkazy Skrýt",
   "identity": "Identita",

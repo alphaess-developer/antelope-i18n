@@ -69,7 +69,7 @@
   "please_select": "Sélectionnez",
   "post_code": "Code postal",
   "range": "Plage : {min}~{max}",
-  "range_min_max": "Plage : {{min}}~{{max}}",
+  "range_min_max": "Plage : {min}~{max}",
   "remark": "Remarque",
   "reset_zhi": "Réinitialiser",
   "run_logic_pattern": "Logique/modèle d’exécution",

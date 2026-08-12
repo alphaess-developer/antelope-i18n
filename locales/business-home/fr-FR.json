@@ -10,7 +10,7 @@
   "cloud_home_offline": "Hors ligne",
   "co2_reduction": "Réduction du CO2",
   "consumed": "Consommation",
-  "coverage_country_model": "{pays} pays · {model} models",
+  "coverage_country_model": "{country} pays · {model} models",
   "data_freshness": "Instantané hors ligne T+1",
   "diesel_engine": "Groupe électrogène",
   "discharged": "Décharge",

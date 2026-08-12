@@ -2,6 +2,7 @@
   "ac_power_supply_mode": "Λειτουργία τροφοδοσίας AC",
   "ac_power_supply_mode.diesel_generator": "Ισχύς κινητήρα ντίζελ",
   "ac_power_supply_mode.grid": "Ισχύς δικτύου",
+  "auxdry_contact_control_status": "Κατάσταση ελέγχου ξηρής επαφής AUX",
   "auxdry_contact_control_status.auto": "Αυτόματη λειτουργία",
   "auxdry_contact_control_status.off": "Λειτουργία ώρας - αποσυνδεδεμένη",
   "auxdry_contact_control_status.on": "Λειτουργία ώρας - Κλειστό",

@@ -69,7 +69,7 @@
   "please_select": "Wybierz",
   "post_code": "Kod Pocztowy",
   "range": "Zakres: {min}~{max}",
-  "range_min_max": "Zakres: {{min}}~{{max}}",
+  "range_min_max": "Zakres: {min}~{max}",
   "remark": "uwagi",
   "reset_zhi": "Zresetuj",
   "run_logic_pattern": "Uruchamianie logiki/wzorca",

@@ -10,7 +10,7 @@
   "cloud_home_offline": "Off-line",
   "co2_reduction": "Snižování emisí CO2",
   "consumed": "Spotřebováno",
-  "coverage_country_model": "{země} Země · {model} Modely",
+  "coverage_country_model": "{country} Země · {model} Modely",
   "data_freshness": "T+1 offline snapshot",
   "diesel_engine": "Generátor",
   "discharged": "Vybíjení",

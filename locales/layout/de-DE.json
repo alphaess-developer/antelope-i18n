@@ -21,6 +21,7 @@
   "customer": "Kunde",
   "description": "Beschreibung",
   "device_notification": "Gerätebenachrichtigungen",
+  "dont_remind_again": "Nicht mehr erinnern",
   "end_user": "Anlagenbetreiber",
   "event_happen_time": "Auftretenszeit",
   "failed_to_resolve_data_center_endpoint": "Der Endpunkt des Rechenzentrums konnte nicht aufgelöst werden. Bitte versuchen Sie es später erneut.",

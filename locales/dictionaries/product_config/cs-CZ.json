@@ -2,6 +2,7 @@
   "ac_power_supply_mode": "Režim střídavého napájení",
   "ac_power_supply_mode.diesel_generator": "Výkon dieselového motoru",
   "ac_power_supply_mode.grid": "Síťová energie",
+  "auxdry_contact_control_status": "Stav řízení bezpotenciálového kontaktu AUX",
   "auxdry_contact_control_status.auto": "Automatický režim",
   "auxdry_contact_control_status.off": "Časový režim - odpojeno",
   "auxdry_contact_control_status.on": "Časový režim - uzavřený",

@@ -2,6 +2,7 @@
   "ac_power_supply_mode": "Mode d’alimentation en courant alternatif",
   "ac_power_supply_mode.diesel_generator": "Puissance des moteurs diesel",
   "ac_power_supply_mode.grid": "Alimentation du réseau",
+  "auxdry_contact_control_status": "État de commande du contact sec AUX",
   "auxdry_contact_control_status.auto": "Mode automatique",
   "auxdry_contact_control_status.off": "Mode temps - déconnecté",
   "auxdry_contact_control_status.on": "Mode Temps - Fermé",
