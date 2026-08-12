@@ -159,6 +159,48 @@ viewer/dist/                       ← 上传给 Pages 的目录
   https://github.com/alphaess-developer/antelope-i18n/blob/main/locales/dictionaries/error-code/en-US.json
   ```
 
+### 4.3.1 产品配置 Tab —— admin 动态表单文案的入口
+
+`product-config/*` 下有 **10 个模块、885 条**。每个 ns 与 antelope-web admin「产品配置」下某个页面的
+`JsonSchemaEditor` 的 `previewFormProps.i18nNs` **一一对应** —— 产品同事在编辑器里给字段挑国际化 key 时，
+候选就是这里的 key，所以它同样需要一个单一入口，而不是散在主表格里。
+
+布局与字典 Tab 完全一致，**两者共用 `NamespaceBrowser`**（前缀 + 左侧 ns 列表 + 右侧主表格）。
+新增一组 ns（比如将来的 `device-form/*`）只需再写一个薄封装提供前缀与文案，不要复制布局。
+
+> ⚠️ 与 `dictionaries/product_config`（**下划线**）不是一回事：那是一张数据字典，在字典 Tab。
+> 判定顺序上 `dictionaries/` 前缀先于 `product-config/`，所以不会误判。
+
+Tab 里额外强调一件字典 Tab 没有的事：**合并后还要等宿主项目重新构建部署**，admin 的编辑器里才选得到
+新 key（译文是构建期注入的，见 §1）。编辑器侧对这种「已合并未发版」的 key 会标成「待发版」而不是报错。
+
+### 4.3.2 深链 —— 从 admin 直达某个 ns / key
+
+地址栏参数只有两个，**没有 `tab`**：
+
+| 参数 | 含义 |
+|---|---|
+| `ns` | 要定位的 namespace。落在哪个 Tab 由前缀推导（`lib/deep-link.ts` 的 `tabForNs`） |
+| `q` | 预填进搜索框的词，通常是 key。主表格没有 ns 列表，此时 `ns` 也会当搜索词用 |
+
+```
+https://alphaess-developer.github.io/antelope-i18n/?ns=product-config/battery&q=battery_model
+```
+
+**为什么不把 tab 放进 URL**：tab 完全可由 ns 推导。不放进去，这里增减 Tab 时存量链接不会失效，
+生成链接的一方（antelope-web admin）也不需要知道这里有哪些 Tab；参数没被识别的旧版本上会自然退化成首页。
+
+🔴 `ns` 与 `q` 是**对外接口**，antelope-web 的
+`apps/admin/src/components/json-schema-editor/utils.ts` 里的 `i18nViewerUrl()` 按这个格式拼链接。
+改名要两边一起改。
+
+地址栏由页面反过来维护（`history.replaceState`，不进历史记录 —— 否则「返回」会变成逐步倒放）：
+
+- 落地时原样保留深链
+- 点左侧 ns：写 `?ns=...`，同时丢掉 `q`（换了 ns，原来的搜索词就过期了）
+- 切到带 ns 列表的 Tab：由该 Tab 写回自己选中的 ns
+- 切到其它 Tab：清空参数，不留与所见不符的定位
+
 ### 4.4 术语库 Tab
 
 读 `glossary/terms.json`，展示概念 / 各语种 preferred / deprecated / DNT 标记。
