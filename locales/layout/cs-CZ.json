@@ -21,6 +21,7 @@
   "customer": "Zákazník",
   "description": "Popis",
   "device_notification": "Oznámení zařízení",
+  "dont_remind_again": "Znovu nepřipomínat",
   "end_user": "Koncový uživatel",
   "event_happen_time": "Čas výskytu",
   "failed_to_resolve_data_center_endpoint": "Nepodařilo se zjistit koncový bod datového centra. Zkuste to prosím později.",

@@ -21,6 +21,7 @@
   "customer": "Πελάτης",
   "description": "Περιγραφή",
   "device_notification": "Ειδοποιήσεις συσκευής",
+  "dont_remind_again": "Να μην υπενθυμιστεί ξανά",
   "end_user": "Τελικός χρήστης",
   "event_happen_time": "Χρονικό συμβάντος",
   "failed_to_resolve_data_center_endpoint": "Αποτυχία επίλυσης του τελικού σημείου του κέντρου δεδομένων. Δοκιμάστε ξανά αργότερα.",

@@ -21,6 +21,7 @@
   "customer": "Klient",
   "description": "Opis",
   "device_notification": "Powiadomienia urządzenia",
+  "dont_remind_again": "Nie przypominaj ponownie",
   "end_user": "Użytkownik końcowy",
   "event_happen_time": "Czas wystąpienia",
   "failed_to_resolve_data_center_endpoint": "Nie udało się rozwiązać punktu końcowego centrum danych. Spróbuj ponownie później.",
