@@ -41,6 +41,7 @@
   "fail": "fallire",
   "first_name": "Cognome",
   "header_path": "Percorso dell'avatar",
+  "home_dc": "Data center di origine",
   "installer": "Installatore",
   "invite_user": "Invita gli utenti",
   "invited_user_tip": "Email di invito inviata a {email} !",

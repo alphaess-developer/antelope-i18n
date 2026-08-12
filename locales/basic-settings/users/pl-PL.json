@@ -41,6 +41,7 @@
   "fail": "Niepowodzenie",
   "first_name": "Nazwisko",
   "header_path": "Ścieżka awatara",
+  "home_dc": "Domowe centrum danych",
   "installer": "Instalator",
   "invite_user": "Zaproś użytkowników",
   "invited_user_tip": "Zaproszenie wysłane na adres {email}!",

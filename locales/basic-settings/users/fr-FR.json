@@ -41,6 +41,7 @@
   "fail": "Échec",
   "first_name": "Nom",
   "header_path": "Chemin de l’avatar",
+  "home_dc": "Centre de données d'origine",
   "installer": "Installateur",
   "invite_user": "Inviter les utilisateurs",
   "invited_user_tip": "Email d’invitation envoyé à {email} !",

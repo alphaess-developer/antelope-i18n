@@ -41,6 +41,7 @@
   "fail": "Mislukt",
   "first_name": "Achternaam",
   "header_path": "Avatar-pad",
+  "home_dc": "Thuisdatacenter",
   "installer": "Installateur",
   "invite_user": "Gebruikers uitnodigen",
   "invited_user_tip": "Uitnodigingsmail gestuurd naar {email}!",

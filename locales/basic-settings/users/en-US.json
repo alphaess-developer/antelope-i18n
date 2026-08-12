@@ -41,6 +41,7 @@
   "fail": "Fail",
   "first_name": "Family name",
   "header_path": "Avatar path",
+  "home_dc": "Home Data Center",
   "installer": "Installer",
   "invite_user": "Invite Users",
   "invited_user_tip": "Invitation email sent to account {email} !",

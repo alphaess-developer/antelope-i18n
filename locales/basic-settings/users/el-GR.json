@@ -41,6 +41,7 @@
   "fail": "Αποτυχία",
   "first_name": "Επώνυμο",
   "header_path": "Διαδρομή Avatar",
+  "home_dc": "Οικείο κέντρο δεδομένων",
   "installer": "Εγκαταστάτης",
   "invite_user": "Πρόσκληση χρηστών",
   "invited_user_tip": "Το email πρόσκλησης στάλθηκε στο {email} !",
