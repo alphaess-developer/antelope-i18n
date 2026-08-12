@@ -12,6 +12,7 @@ import { BaselineView } from '@/features/BaselineView';
 import { HelpView } from '@/features/HelpView';
 import {
   DICT_PREFIX,
+  DYNAMIC_FORM_NS,
   ERROR_CODE_NS,
   PRODUCT_CONFIG_PREFIX,
   editUrl,
@@ -76,6 +77,21 @@ export default function App() {
     const list = (data?.manifest.nsList ?? []).filter((n) => n.ns.startsWith(PRODUCT_CONFIG_PREFIX));
     return { count: list.length, keys: list.reduce((s, n) => s + n.keyCount, 0) };
   }, [data]);
+
+  /** 单 ns 的行与它们在全量数组里的下标（语种值按该下标对齐） */
+  const rowsOfNs = (ns: string) => {
+    const out: typeof allRows.rows = [];
+    const indices: number[] = [];
+    (data?.rows ?? []).forEach((row, i) => {
+      if (row.ns === ns) {
+        out.push(row);
+        indices.push(i);
+      }
+    });
+    return { rows: out, indices };
+  };
+
+  const dynamicFormRows = useMemo(() => rowsOfNs(DYNAMIC_FORM_NS), [data]);
 
   const errorRows = useMemo(() => {
     const rows: typeof allRows.rows = [];
@@ -159,6 +175,13 @@ export default function App() {
               产品配置
               <Badge variant="secondary">{productConfigStats.count}</Badge>
             </TabsTrigger>
+            <TabsTrigger
+              value="dynamic-form"
+              title="动态表单字段文案 —— admin JsonSchemaEditor 的候选来源"
+            >
+              动态表单
+              <Badge variant="secondary">{dynamicFormRows.rows.length}</Badge>
+            </TabsTrigger>
             <TabsTrigger value="error-code">
               错误码
               <Badge variant="secondary">{errorRows.rows.length}</Badge>
@@ -221,6 +244,37 @@ export default function App() {
               defaultNs={deepLink.ns}
               defaultQuery={deepLink.q}
               onLocate={writeDeepLink}
+            />
+          </TabsContent>
+
+          <TabsContent value="dynamic-form" className="mt-4 space-y-3">
+            <div className="bg-muted/50 flex flex-wrap items-center justify-between gap-2 rounded-lg border p-3">
+              <p className="text-muted-foreground max-w-4xl text-xs leading-relaxed">
+                产品同事的主要工作面。admin「产品配置」里给动态表单字段配国际化时，
+                <strong className="text-foreground font-medium">能选到的 key 就是这里的 key</strong>。
+                单一 namespace、不按模块拆 —— 模块是页面边界、不是字段语义边界，拆开会让跨模块字段
+                在多处各存一份，也容易选到隔壁模块的 key。新增 key 见「帮助」Tab；合并后还需
+                antelope-web 重新构建部署，编辑器里才选得到。
+              </p>
+              <Button variant="outline" size="sm" asChild>
+                <a href={editUrl(data.manifest.repo, DYNAMIC_FORM_NS)} target="_blank" rel="noreferrer">
+                  <ExternalLink />
+                  编辑 en-US.json
+                </a>
+              </Button>
+            </div>
+            <TranslationsView
+              rows={dynamicFormRows.rows}
+              indices={dynamicFormRows.indices}
+              manifest={data.manifest}
+              selectedLangs={selectedLangs}
+              onSelectedLangsChange={setSelectedLangs}
+              values={values}
+              loadingLangs={loading}
+              ensure={ensure}
+              showGroups={false}
+              defaultQuery={deepLink.q}
+              scope="dynamic-form"
             />
           </TabsContent>
 

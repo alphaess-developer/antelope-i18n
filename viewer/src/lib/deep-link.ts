@@ -8,12 +8,13 @@
  * ⚠️ `ns` 与 `q` 是**对外接口**：antelope-web 的 admin 在 JSON Schema 编辑器里按这个格式
  * 拼链接（见其 `json-schema-editor/utils.ts` 的 `i18nViewerUrl`）。改名要两边一起改。
  */
-import { DICT_PREFIX, ERROR_CODE_NS, PRODUCT_CONFIG_PREFIX } from './data';
+import { DICT_PREFIX, DYNAMIC_FORM_NS, ERROR_CODE_NS, PRODUCT_CONFIG_PREFIX } from './data';
 
 export type TabValue =
   | 'all'
   | 'dictionaries'
   | 'error-code'
+  | 'dynamic-form'
   | 'product-config'
   | 'glossary'
   | 'baseline'
@@ -41,6 +42,7 @@ export function readDeepLink(): DeepLink {
  */
 export function tabForNs(ns: string): TabValue {
   if (ns === ERROR_CODE_NS) return 'error-code';
+  if (ns === DYNAMIC_FORM_NS) return 'dynamic-form';
   if (ns.startsWith(DICT_PREFIX)) return 'dictionaries';
   if (ns.startsWith(PRODUCT_CONFIG_PREFIX)) return 'product-config';
   return 'all';

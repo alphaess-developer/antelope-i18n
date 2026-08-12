@@ -25,10 +25,9 @@ export function ProductConfigView(props: Props) {
       unitLabel="模块"
       description={
         <>
-          admin「产品配置」各模块动态表单的文案。左侧每个 namespace 对应编辑器里的一个
-          <code className="font-mono"> i18nNs</code> —— 给字段配国际化时能选到的 key，就是这里的 key。
-          <strong className="text-foreground font-medium">要新增 key，见「帮助」Tab 的「新增文案」</strong>
-          ；合并后还需宿主项目重新构建部署，编辑器里才选得到。
+          admin「产品配置」各页面自身的静态文案（列表、弹窗、校验提示等）。
+          <strong className="text-foreground font-medium">动态表单的字段文案不在这里</strong>
+          —— 它们已统一到「动态表单」Tab 的单一 namespace，那才是编辑器里配 key 时的候选来源。
         </>
       }
       footnote={
