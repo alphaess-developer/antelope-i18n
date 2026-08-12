@@ -76,7 +76,7 @@
   "send_users_number": "发送用户数量",
   "sender_side": "发送端",
   "sender_side_customer": "C端（业主）",
-  "sender_side_hint_customer": "C 端：收件人为终端业主。受众按 SN / 用户 / 地区；通道含推送（APP）。",
+  "sender_side_hint_customer": "C 端：收件人为终端业主。受众按 SN / 账号 / 条件；通道含推送（APP）。",
   "sender_side_hint_partner": "B 端：收件人为 Partner 组织及成员。受众按 组织 / 组织类型 / 地区 / 成员；B 端无「设备通知」类型；推送仅 B 端 APP 生效。",
   "sender_side_partner": "B端（合作伙伴）",
   "service": "服务",

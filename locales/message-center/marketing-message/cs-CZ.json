@@ -76,7 +76,7 @@
   "send_users_number": "Počet odeslaných uživatelů",
   "sender_side": "Odesílatel",
   "sender_side_customer": "Zákazník (vlastník)",
-  "sender_side_hint_customer": "B2C: příjemci jsou koncoví uživatelé (vlastníci). Publikum podle SN / uživatele / regionu; kanály včetně Push (APP).",
+  "sender_side_hint_customer": "B2C: příjemci jsou koncoví uživatelé (vlastníci). Publikum podle SN / účtu / podmínky; kanály včetně Push (APP).",
   "sender_side_hint_partner": "B2B: příjemci jsou partnerské organizace a jejich členové. Publikum podle organizace / typu organizace / regionu / člena; B2B nemá typ „Oznámení zařízení“; Push platí pouze pro aplikaci B2B.",
   "sender_side_partner": "B2B (partner)",
   "service": "Služba",

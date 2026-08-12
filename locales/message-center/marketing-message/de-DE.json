@@ -76,7 +76,7 @@
   "send_users_number": "Anzahl der gesendeten Benutzer",
   "sender_side": "Absender",
   "sender_side_customer": "Kunde (Eigentümer)",
-  "sender_side_hint_customer": "B2C: Empfänger sind Endbenutzer (Eigentümer). Zielgruppe nach SN / Benutzer / Region; Kanäle einschließlich Push (APP).",
+  "sender_side_hint_customer": "B2C: Empfänger sind Endbenutzer (Eigentümer). Zielgruppe nach SN / Konto / Zustand; Kanäle einschließlich Push (APP).",
   "sender_side_hint_partner": "B2B: Empfänger sind Partnerorganisationen und deren Mitglieder. Zielgruppe nach Organisation / Organisationstyp / Region / Mitglied; kein Typ „Gerätebenachrichtigungen“ für B2B; Push gilt nur für die B2B-APP.",
   "sender_side_partner": "B2B (Partner)",
   "service": "Dienst",

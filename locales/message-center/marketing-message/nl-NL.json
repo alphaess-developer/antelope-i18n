@@ -76,7 +76,7 @@
   "send_users_number": "Aantal verzonden gebruikers",
   "sender_side": "Afzender",
   "sender_side_customer": "Klant (eigenaar)",
-  "sender_side_hint_customer": "B2C: ontvangers zijn eindgebruikers (eigenaren). Doelgroep op SN / gebruiker / regio; kanalen inclusief Push (APP).",
+  "sender_side_hint_customer": "B2C: ontvangers zijn eindgebruikers (eigenaren). Doelgroep op SN / rekening / voorwaarde; kanalen inclusief Push (APP).",
   "sender_side_hint_partner": "B2B: ontvangers zijn partnerorganisaties en hun leden. Doelgroep op organisatie / organisatietype / regio / lid; B2B heeft geen type ‘Apparaatmeldingen’; Push geldt alleen voor de B2B-APP.",
   "sender_side_partner": "B2B (Partner)",
   "service": "Dienst",

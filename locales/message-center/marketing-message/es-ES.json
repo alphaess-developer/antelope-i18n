@@ -76,7 +76,7 @@
   "send_users_number": "Número de usuarios enviados",
   "sender_side": "Remitente",
   "sender_side_customer": "Cliente (propietario)",
-  "sender_side_hint_customer": "B2C: los destinatarios son los usuarios finales (propietarios). Audiencia por SN / usuario / región; canales incluyen Push (APP).",
+  "sender_side_hint_customer": "B2C: los destinatarios son los usuarios finales (propietarios). Audiencia por SN / cuenta / condición; canales incluyen Push (APP).",
   "sender_side_hint_partner": "B2B: los destinatarios son las organizaciones asociadas y sus miembros. Audiencia por organización / tipo de organización / región / miembro; B2B no tiene el tipo «Notificaciones del dispositivo»; Push solo aplica en la APP B2B.",
   "sender_side_partner": "B2B (Pareja)",
   "service": "Servicio",
