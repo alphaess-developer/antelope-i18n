@@ -76,7 +76,7 @@
   "send_users_number": "Antal användare som meddelats",
   "sender_side": "Avsändare",
   "sender_side_customer": "Kund (ägare)",
-  "sender_side_hint_customer": "B2C: mottagare är slutanvändare (ägare). Målgrupp efter SN / användare / region; kanaler inklusive Push (APP).",
+  "sender_side_hint_customer": "B2C: mottagare är slutanvändare (ägare). Målgrupp efter SN / konto / villkor; kanaler inklusive Push (APP).",
   "sender_side_hint_partner": "B2B: mottagare är partnerorganisationer och deras medlemmar. Målgrupp efter organisation / organisationstyp / region / medlem; B2B saknar typen ”Enhetsaviseringar”; Push gäller endast B2B-appen.",
   "sender_side_partner": "B2B (Partner)",
   "service": "Tjänst",
