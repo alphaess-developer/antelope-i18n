@@ -53,7 +53,7 @@
   "fix_suggestion": "Sugerencia de reparación",
   "group_by_source": "Por fuente",
   "hidden_records_tip": "{count} registros están ocultos",
-  "hidden_records_tip_n": "{{count}} registros están ocultos",
+  "hidden_records_tip_n": "{count} registros están ocultos",
   "hide_auto_repair": "Ocultar eventos de reparación automática",
   "hide_system_commands": "Ocultar comandos del sistema",
   "identity": "Identidad",

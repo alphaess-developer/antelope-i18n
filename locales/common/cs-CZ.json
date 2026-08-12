@@ -69,7 +69,7 @@
   "please_select": "Vyberte",
   "post_code": "Poštovní směrovací číslo",
   "range": "Rozsah: {min}~{max}",
-  "range_min_max": "Rozsah: {{min}}~{{max}}",
+  "range_min_max": "Rozsah: {min}~{max}",
   "remark": "Poznámka",
   "reset_zhi": "Resetovat",
   "run_logic_pattern": "Spustit logiku/vzor",

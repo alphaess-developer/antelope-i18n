@@ -86,7 +86,7 @@
   "6071": "Niedozwolony login",
   "6072": "Rekord instalacji SN już istnieje",
   "6073": "Wyjątek przesyłanego pliku!",
-  "6074": "Następujące SNy występują w innych strategiach w nakładających się okresach: {0}",
+  "6074": "Następujące SNy występują w innych strategiach w nakładających się okresach:",
   "6075": "SN nie znajduje się w trybie normalnym",
   "6076": "Czas musi być czasem przyszłym",
   "6077": "Bieżący SOC jest teraz poniżej 10% i ulepszenia nie można wykonać",

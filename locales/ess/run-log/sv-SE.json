@@ -53,7 +53,7 @@
   "fix_suggestion": "Åtgärdsförslag",
   "group_by_source": "Efter källa",
   "hidden_records_tip": "{count} poster är dolda",
-  "hidden_records_tip_n": "{{count}} poster är dolda",
+  "hidden_records_tip_n": "{count} poster är dolda",
   "hide_auto_repair": "Dölj automatiska reparationshändelser",
   "hide_system_commands": "Dölj systeminstruktioner",
   "identity": "Identitet",

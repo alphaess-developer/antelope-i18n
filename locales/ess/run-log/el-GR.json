@@ -53,7 +53,7 @@
   "fix_suggestion": "Συστάσεις επιδιόρθωσης",
   "group_by_source": "Κατά πηγή",
   "hidden_records_tip": "Οι εγγραφές {count} είναι κρυμμένες",
-  "hidden_records_tip_n": "Οι εγγραφές {{count}} είναι κρυμμένες",
+  "hidden_records_tip_n": "Οι εγγραφές {count} είναι κρυμμένες",
   "hide_auto_repair": "Απόκρυψη συμβάντων αυτόματης επιδιόρθωσης",
   "hide_system_commands": "Απόκρυψη εντολών συστήματος",
   "identity": "Ταυτότητα",

@@ -2,6 +2,7 @@
   "ac_power_supply_mode": "AC power supply mode",
   "ac_power_supply_mode.diesel_generator": "Diesel engine power",
   "ac_power_supply_mode.grid": "Grid power",
+  "auxdry_contact_control_status": "AUX Dry Contact Control Status",
   "auxdry_contact_control_status.auto": "Automatic mode",
   "auxdry_contact_control_status.off": "Time mode - disconnected",
   "auxdry_contact_control_status.on": "Time Mode - Closed",

@@ -69,7 +69,7 @@
   "please_select": "Παρακαλώ επιλέξτε",
   "post_code": "Ταχυδρομικός κώδικας",
   "range": "Εύρος: {min}~{max}",
-  "range_min_max": "Εύρος: {{min}}~{{max}}",
+  "range_min_max": "Εύρος: {min}~{max}",
   "remark": "Σχόλιο",
   "reset_zhi": "Επαναφορά",
   "run_logic_pattern": "Λογική/μοτίβο εκτέλεσης",

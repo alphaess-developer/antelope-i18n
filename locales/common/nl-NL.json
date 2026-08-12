@@ -69,7 +69,7 @@
   "please_select": "Selecteer alstublieft",
   "post_code": "Postcode",
   "range": "Bereik: {min}~{max}",
-  "range_min_max": "Bereik: {{min}}~{{max}}",
+  "range_min_max": "Bereik: {min}~{max}",
   "remark": "Opmerking",
   "reset_zhi": "Resetten",
   "run_logic_pattern": "Logica/patroon uitvoeren",
