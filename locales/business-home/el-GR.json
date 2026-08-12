@@ -10,7 +10,7 @@
   "cloud_home_offline": "Αποσυνδεμένο",
   "co2_reduction": "Μείωση των εκπομπών CO2",
   "consumed": "Καταναλωθέν",
-  "coverage_country_model": "{χώρα} χώρες · {model} μοντέλα",
+  "coverage_country_model": "{country} χώρες · {model} μοντέλα",
   "data_freshness": "Στιγμιότυπο εκτός σύνδεσης T+1",
   "diesel_engine": "Γεννήτρια",
   "discharged": "Ηλεκτρική εκκένωση",

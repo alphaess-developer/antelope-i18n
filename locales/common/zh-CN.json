@@ -69,7 +69,7 @@
   "please_select": "请选择",
   "post_code": "邮编",
   "range": "范围：{min}~{max}",
-  "range_min_max": "范围：{{min}}~{{max}}",
+  "range_min_max": "范围：{min}~{max}",
   "remark": "备注",
   "reset_zhi": "重置",
   "run_logic_pattern": "运行逻辑/模式",

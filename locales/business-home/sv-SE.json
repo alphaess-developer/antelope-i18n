@@ -10,7 +10,7 @@
   "cloud_home_offline": "Offline",
   "co2_reduction": "CO₂-minskning",
   "consumed": "Förbrukat",
-  "coverage_country_model": "{land} länder · {model}-modeller",
+  "coverage_country_model": "{country} länder · {model}-modeller",
   "data_freshness": "T+1 offline-snapshot",
   "diesel_engine": "Dieselgenerator",
   "discharged": "Urladdad energi",

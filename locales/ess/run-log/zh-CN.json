@@ -53,7 +53,7 @@
   "fix_suggestion": "修复建议",
   "group_by_source": "按来源",
   "hidden_records_tip": "{count}条记录已隐藏",
-  "hidden_records_tip_n": "已隐藏 {{count}} 条记录",
+  "hidden_records_tip_n": "已隐藏 {count} 条记录",
   "hide_auto_repair": "隐藏自动修复事件",
   "hide_system_commands": "隐藏系统指令",
   "identity": "标识",

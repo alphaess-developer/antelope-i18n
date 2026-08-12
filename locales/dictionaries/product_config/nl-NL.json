@@ -2,6 +2,7 @@
   "ac_power_supply_mode": "Wisselstroomvoedingsmodus",
   "ac_power_supply_mode.diesel_generator": "Dieselmotorvermogen",
   "ac_power_supply_mode.grid": "Netstroom",
+  "auxdry_contact_control_status": "Regelstatus AUX-droogcontact",
   "auxdry_contact_control_status.auto": "Automatische modus",
   "auxdry_contact_control_status.off": "Tijdmodus - losgekoppeld",
   "auxdry_contact_control_status.on": "Tijdmodus - Gesloten",

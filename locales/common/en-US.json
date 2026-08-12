@@ -69,7 +69,7 @@
   "please_select": "Please Select",
   "post_code": "Post Code",
   "range": "Range: {min}~{max}",
-  "range_min_max": "Range: {{min}}~{{max}}",
+  "range_min_max": "Range: {min}~{max}",
   "remark": "Remark",
   "reset_zhi": "Reset",
   "run_logic_pattern": "Run logic/pattern",

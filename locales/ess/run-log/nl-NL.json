@@ -53,7 +53,7 @@
   "fix_suggestion": "Reparatie suggesties",
   "group_by_source": "Op bron",
   "hidden_records_tip": "{count} records zijn verborgen",
-  "hidden_records_tip_n": "{{count}} records zijn verborgen",
+  "hidden_records_tip_n": "{count} records zijn verborgen",
   "hide_auto_repair": "Verberg autoreparatie-evenementen",
   "hide_system_commands": "Verberg-systeemcommando's",
   "identity": "Identiteit",

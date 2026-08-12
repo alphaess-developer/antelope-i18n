@@ -10,7 +10,7 @@
   "cloud_home_offline": "Offline",
   "co2_reduction": "CO2-Reduktion",
   "consumed": "Verbrauch",
-  "coverage_country_model": "{Land} Länder · {model} Modelle",
+  "coverage_country_model": "{country} Länder · {model} Modelle",
   "data_freshness": "T+1 Offline-Snapshot",
   "diesel_engine": "Dieselmotor",
   "discharged": "Entladeenergie",

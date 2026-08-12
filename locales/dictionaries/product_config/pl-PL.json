@@ -2,6 +2,7 @@
   "ac_power_supply_mode": "Tryb zasilania AC",
   "ac_power_supply_mode.diesel_generator": "Moc silnika diesla",
   "ac_power_supply_mode.grid": "Zasilanie sieciowe",
+  "auxdry_contact_control_status": "Stan sterowania stykiem bezpotencjałowym AUX",
   "auxdry_contact_control_status.auto": "Tryb automatyczny",
   "auxdry_contact_control_status.off": "Tryb czasu – rozłączony",
   "auxdry_contact_control_status.on": "Tryb Czasu - Zamknięty",

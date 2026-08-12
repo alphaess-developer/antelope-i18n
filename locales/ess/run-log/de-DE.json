@@ -53,7 +53,7 @@
   "fix_suggestion": "Lösungsvorschlag",
   "group_by_source": "Nach Quelle",
   "hidden_records_tip": "{count} Datensätze sind versteckt",
-  "hidden_records_tip_n": "{{count}} Aufzeichnungen sind versteckt",
+  "hidden_records_tip_n": "{count} Aufzeichnungen sind versteckt",
   "hide_auto_repair": "Autoreparatur-Ereignisse ausblenden",
   "hide_system_commands": "Systembefehle ausblenden",
   "identity": "Identität",

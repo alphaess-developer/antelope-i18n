@@ -86,7 +86,7 @@
   "6071": "Nepovolené přihlášení",
   "6072": "Záznam o instalaci SN již existuje",
   "6073": "Výjimka při nahrávání souborů!",
-  "6074": "V ostatních strategiích se v době překryvů časů vyskytují následující SN: {0}",
+  "6074": "V ostatních strategiích se v době překryvů časů vyskytují následující SN:",
   "6075": "SN není v normálním režimu",
   "6076": "Čas musí být v budoucnosti",
   "6077": "Aktuální hodnota SOC je nižší než 10 % a aktualizaci nelze provést",
