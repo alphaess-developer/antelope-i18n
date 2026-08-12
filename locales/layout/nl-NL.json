@@ -21,6 +21,7 @@
   "customer": "Klant",
   "description": "Beschrijving",
   "device_notification": "Apparaatmeldingen",
+  "dont_remind_again": "Niet meer herinneren",
   "end_user": "Eindgebruiker",
   "event_happen_time": "Tijdstip",
   "failed_to_resolve_data_center_endpoint": "Kan het eindpunt van het datacenter niet oplossen. Probeer het later opnieuw.",

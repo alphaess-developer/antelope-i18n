@@ -21,6 +21,7 @@
   "customer": "Customer",
   "description": "Description",
   "device_notification": "Device Notifications",
+  "dont_remind_again": "Don't remind again",
   "end_user": "End-user",
   "event_happen_time": "Time of Occurrence",
   "failed_to_resolve_data_center_endpoint": "Failed to resolve data center endpoint. Please try again later.",

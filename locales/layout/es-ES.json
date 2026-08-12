@@ -21,6 +21,7 @@
   "customer": "Cliente",
   "description": "Descripción",
   "device_notification": "Notificaciones del dispositivo",
+  "dont_remind_again": "No volver a recordar",
   "end_user": "Usuario final",
   "event_happen_time": "Hora Ocurrida",
   "failed_to_resolve_data_center_endpoint": "No se pudo resolver el endpoint del centro de datos. Inténtelo de nuevo más tarde.",
