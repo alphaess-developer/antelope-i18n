@@ -210,6 +210,7 @@
   "select_warranty": "Select Service",
   "select_warranty_bundle_tip": "The {name} service covers the inverter and batteries together, and must be purchased as one.",
   "select_warranty_separate_tip": "Select a warranty plan for this device. You can still upgrade the full system below.",
+  "service_contract": "Service Contract",
   "soc_calibration": "SOC Calibration",
   "software_ver": "Software Version",
   "stand_alone": "Standalone",

@@ -210,6 +210,7 @@
   "select_warranty": "Välj tjänst",
   "select_warranty_bundle_tip": "Tjänsten {name} täcker växelriktare och batterier tillsammans och köps som en enhet.",
   "select_warranty_separate_tip": "Välj en garantiplan för den här enheten. Du kan fortfarande uppgradera hela systemet nedan.",
+  "service_contract": "Serviceavtal",
   "soc_calibration": "SOC-kalibrering",
   "software_ver": "Programvaruversion",
   "stand_alone": "Fristående",

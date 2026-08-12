@@ -210,6 +210,7 @@
   "select_warranty": "Wybierz usługę",
   "select_warranty_bundle_tip": "Usługa {name} obejmuje falownik i baterie łącznie i można ją kupić tylko w całości.",
   "select_warranty_separate_tip": "Wybierz plan gwarancji dla tego urządzenia. Nadal możesz ulepszyć cały system poniżej.",
+  "service_contract": "Umowa serwisowa",
   "soc_calibration": "Kalibracja SOC",
   "software_ver": "Wersja oprogramowania",
   "stand_alone": "Samodzielny",

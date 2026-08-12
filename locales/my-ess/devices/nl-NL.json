@@ -210,6 +210,7 @@
   "select_warranty": "Service selecteren",
   "select_warranty_bundle_tip": "De {name} service dekt omvormer en batterijen samen en kan alleen als geheel worden gekocht.",
   "select_warranty_separate_tip": "Selecteer een garantieplan voor dit apparaat. U kunt hieronder nog steeds het volledige systeem upgraden.",
+  "service_contract": "Servicecontract",
   "soc_calibration": "SOC-kalibratie",
   "software_ver": "Softwareversie",
   "stand_alone": "Standalone",

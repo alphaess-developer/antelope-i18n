@@ -210,6 +210,7 @@
   "select_warranty": "Vybrat službu",
   "select_warranty_bundle_tip": "Služba {name} pokrývá střídač i baterie společně a lze ji zakoupit pouze jako celek.",
   "select_warranty_separate_tip": "Vyberte pro toto zařízení záruční plán. Níže můžete stále rozšířit celý systém.",
+  "service_contract": "Servisní smlouva",
   "soc_calibration": "Kalibrace SOC",
   "software_ver": "Verze softwaru",
   "stand_alone": "Samostatný",
