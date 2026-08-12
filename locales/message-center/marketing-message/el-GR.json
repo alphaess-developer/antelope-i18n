@@ -21,6 +21,7 @@
   "by_region": "Ανά περιοχή",
   "by_sn": "Από SN",
   "carry_token": "Μεταφορά Token",
+  "channel_app_suffix": " (APP)",
   "channel_type": "Τύπος καναλιού",
   "channel_type_hint_customer": "Η εφαρμογή B2C υποστηρίζει Ειδοποίηση / Αναδυόμενο παράθυρο / Push.",
   "channel_type_hint_partner": "B2B: το Web υποστηρίζει μόνο ειδοποίηση· Αναδυόμενο παράθυρο / Push ισχύουν μόνο στην εφαρμογή B2B.",

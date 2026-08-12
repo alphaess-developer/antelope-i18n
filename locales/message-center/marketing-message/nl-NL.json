@@ -21,6 +21,7 @@
   "by_region": "Per regio",
   "by_sn": "Door SN",
   "carry_token": "Carry Token",
+  "channel_app_suffix": " (APP)",
   "channel_type": "Type kanaal",
   "channel_type_hint_customer": "De B2C-APP ondersteunt Kennisgeving / Pop-up / Push.",
   "channel_type_hint_partner": "B2B: web ondersteunt alleen Kennisgeving; Pop-up / Push gelden alleen voor de B2B-APP.",

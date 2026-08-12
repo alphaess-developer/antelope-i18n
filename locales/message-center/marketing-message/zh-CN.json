@@ -21,6 +21,7 @@
   "by_region": "按地区",
   "by_sn": "按SN",
   "carry_token": "携带Token",
+  "channel_app_suffix": "（APP）",
   "channel_type": "通道类型",
   "channel_type_hint_customer": "C 端 APP 支持 通知 / 弹窗 / 推送。",
   "channel_type_hint_partner": "B 端：WEB 仅站内通知；弹窗 / 推送仅 B 端 APP 生效。",

@@ -21,6 +21,7 @@
   "by_region": "Efter region",
   "by_sn": "Per SN",
   "carry_token": "Bär-token",
+  "channel_app_suffix": " (APP)",
   "channel_type": "Kanaltyp",
   "channel_type_hint_customer": "B2C-appen stöder Avisering / Popup / Push.",
   "channel_type_hint_partner": "B2B: webben stöder endast Avisering; Popup / Push gäller endast B2B-appen.",

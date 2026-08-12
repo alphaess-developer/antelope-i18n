@@ -21,6 +21,7 @@
   "by_region": "By Region",
   "by_sn": "By SN",
   "carry_token": "Carry Token",
+  "channel_app_suffix": " (APP)",
   "channel_type": "Channel type",
   "channel_type_hint_customer": "B2C APP supports Notice / Popup / Push.",
   "channel_type_hint_partner": "B2B: Web supports Notice only; Popup / Push take effect on the B2B APP only.",

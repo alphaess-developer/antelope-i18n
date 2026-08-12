@@ -21,6 +21,7 @@
   "by_region": "Podle regionů",
   "by_sn": "Podle SN",
   "carry_token": "Carry Token",
+  "channel_app_suffix": " (APP)",
   "channel_type": "Typ kanálu",
   "channel_type_hint_customer": "Aplikace B2C podporuje Oznámení / Popup / Push.",
   "channel_type_hint_partner": "B2B: Web podporuje pouze Oznámení; Popup / Push platí pouze pro aplikaci B2B.",

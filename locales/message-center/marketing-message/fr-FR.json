@@ -21,6 +21,7 @@
   "by_region": "Par région",
   "by_sn": "Par SN",
   "carry_token": "Inclure un jeton",
+  "channel_app_suffix": " (APP)",
   "channel_type": "Type de canal",
   "channel_type_hint_customer": "L’APP B2C prend en charge Avis / Pop-up / Notification push.",
   "channel_type_hint_partner": "B2B : le Web ne prend en charge que l’avis ; Pop-up / Notification push ne s’appliquent qu’à l’APP B2B.",

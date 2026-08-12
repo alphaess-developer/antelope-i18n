@@ -21,6 +21,7 @@
   "by_region": "Por región",
   "by_sn": "Por SN",
   "carry_token": "Carry Token",
+  "channel_app_suffix": " (APP)",
   "channel_type": "Tipo de canal",
   "channel_type_hint_customer": "La APP B2C admite Aviso / Popup / Push.",
   "channel_type_hint_partner": "B2B: la web solo admite Aviso; Popup / Push solo aplican en la APP B2B.",
