@@ -182,7 +182,7 @@
   "monitor_weather_alert": "Inactive — Monitoring weather forecasts for {city}",
   "monitoring": "Monitoring",
   "neg_electricity_price_dispatch_tip": "To comply with the provisions effective from March 2025 in Germany, <a>the Energy Industry Act (EnWG) Amendment 2025</a>, AlphaESS integrates historical solar data, weather forecasts, and other relevant information to intelligently predict power generation during periods of negative electricity tariffs. Before the anticipated negative tariff periods, the system will automatically adjust the battery charging and discharging strategy, releasing some stored energy in advance to reduce the risk of feeding energy into the grid. Please note that the forecast data is for reference only, and actual power generation may deviate due to weather, device status, and other factors, which could still result in grid feed-in during negative tariff periods. We recommend that users monitor system data in real time and decide whether to enable this feature based on their actual usage to achieve more efficient energy management. Please note that this regulation only applies to users from <highlight>March 2025</highlight> onwards. Before enabling this feature, please confirm that you are within the applicable scope. When enabled, this feature's energy scheduling strategy will take precedence over the custom scheduling strategy based on dynamic tariffs.",
-  "negative_electricity_price": "Negative Price",
+  "negative_electricity_price": "Low & negative prices",
   "negative_electricity_price_reserved": "Negative electricity price reservation",
   "negative_price": "Negative",
   "negative_price_basis_desc": "Based on your final buy and sell prices, including your coefficient and surcharges - not the raw market price.",

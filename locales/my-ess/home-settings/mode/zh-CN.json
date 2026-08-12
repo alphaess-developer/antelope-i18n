@@ -182,7 +182,7 @@
   "monitor_weather_alert": "未激活— 监控{city}天气预报",
   "monitoring": "监测中",
   "neg_electricity_price_dispatch_tip": "为了适配德国于2025年3月开始实施的适配<a>《能源产业法》（EnWG）修正案 2025</a>，AlphaESS通过整合历史光伏数据天气等信息，智能预测负电价时段的发电量，并在预期负电价来临前自动调整电池充放电策略，提前释放部分储能容量，以降低馈网风险。请注意，预测数据仅供参考，实际发电量可能因天气、设备状态等因素出现偏差，从而导致在负电价时段仍有可能馈网。建议用户实时关注系统数据，并根据自己的实际使用情况决定是否开启功能，以实现更高效的电能管理。请特别注意该法案仅对<highlight>2025年3月</highlight>及以后的用户生效，开启功能前，请确认您的适用范围。该功能打开时，对应的调度逻辑优先级会高于基于动态电价的自定义调度逻辑。",
-  "negative_electricity_price": "负电价",
+  "negative_electricity_price": "低价与负电价",
   "negative_electricity_price_reserved": "负电价预留",
   "negative_price": "负电价",
   "negative_price_basis_desc": "比价依据为计入系数与附加费后的终端买卖电价，而非市场原始市场电价。",
