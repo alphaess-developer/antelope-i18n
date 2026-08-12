@@ -1,11 +1,11 @@
 /*
  * 帮助 Tab —— 按「要做什么」组织的操作说明
  *
- * 结构是「三类任务 → 共同的写回流程 → 共同的约束」，**共同部分只有一份**：
+ * 结构是「四类任务 → 共同的写回流程 → 共同的约束」，**共同部分只有一份**：
  * 同一个人可能既走查业务文案、又顺手加一条错误码，若按身份把共同部分（怎么写回仓库、
  * 要守哪些约束）在每节里各写一遍，改一处就会漏一处。
  *
- * 「三类任务」那一节**另有一个身份筛选**（全部 / 产品 / 后端）—— 它只隐藏不相关的任务卡，
+ * 「四类任务」那一节**另有一个身份筛选**（全部 / 产品 / 后端）—— 它只隐藏不相关的任务卡，
  * 不复制任何内容，所以与上面那条不冲突。上面反对的是共同部分被复制，不是反对帮人
  * 快速找到自己那一类。见 viewer-spec.md §4.7。
  *
@@ -25,6 +25,7 @@ import {
   FileSearch,
   GitPullRequest,
   Hash,
+  LayoutList,
   ShieldCheck,
   SquarePen,
   TriangleAlert,
@@ -263,7 +264,7 @@ const RULES: { title: string; body?: ReactNode; good?: string; bad?: string }[] 
 ];
 
 /**
- * 身份筛选 —— 只作用于「三类任务」这一节。
+ * 身份筛选 —— 只作用于「四类任务」这一节。
  *
  * ⚠️ 共同部分（写回仓库、必须遵守、相关文档）**不跟着切换**，永远是共享的一份。
  * 这是 viewer-spec.md §4.7 那条「按功能不按身份」的实际约束所在：它反对的是把共同部分
@@ -277,7 +278,7 @@ const RULES: { title: string; body?: ReactNode; good?: string; bad?: string }[] 
  * 方括号里是待替换的示例值。刻意保留一个具体例子而不是留空，
  * 因为「namespace：」后面跟空白时，人往往不知道该填 `battery` 还是 `device-form/battery`。
  */
-const PROMPTS: Record<'review' | 'translate' | 'errorCode', (url: (p: string) => string) => string> =
+const PROMPTS: Record<'review' | 'dynamicForm' | 'translate' | 'errorCode', (url: (p: string) => string) => string> =
   {
     review: (url) => `请按 ${url('prompts/review.md')}
 的规则，帮我走查这个 namespace 的译文，输出问题清单（先不要改文件）。
@@ -287,6 +288,20 @@ namespace：[device-form/battery]
 这个模块是做什么的：[电池设备的配置表单，管理员添加/编辑电池时用]
 已知问题：[无]
 要不要顺便修：[只报告，我看过清单再决定]`,
+
+    dynamicForm: (url) => `请按 ${url('prompts/dynamic-form.md')}
+的规则帮我加动态表单的字段文案。namespace 固定是 dynamic-form。
+🔴 先查重：现有 key 里如果已有同义的，告诉我复用哪个，不要直接新增。
+写齐 11 语种真译文、跑完校验后自己建分支提 PR（🔴 不要合并，我来审）。
+
+任务类型：[新增字段文案]
+要新增的内容（英文原文 + 它是什么）：
+  [Bypass Switch]  [逆变器旁路开关的字段标签]
+  [Enable the bypass when grid is unstable.]  [上面那个开关的提示文本]
+建议的 key 名（可留空让你拟）：[bypass_enable, bypass_enable_tip]
+这些字段出现在哪：[admin 产品配置 → 硬件配置 → 逆变器旁路，最终渲染在 customer 端设备设置页]
+目标语种：[全部 10 个]
+特殊要求：[标签要短，德语别超过 24 字符]`,
 
     translate: (url) => `请按 ${url('prompts/translate.md')}
 的规则帮我补译文，跑完校验后自己建分支提 PR（🔴 不要合并，我来审）。
@@ -320,6 +335,7 @@ const DOCS: { path: string; name: string; desc: string }[] = [
   { path: 'README.md', name: 'README', desc: '仓库入口与目录结构' },
   { path: 'CLAUDE.md', name: 'CLAUDE.md', desc: '完整硬规则清单，拿不准就查这个' },
   { path: 'docs/translating.md', name: 'docs/translating.md', desc: '译文产出流程、用 AI 生成的规则' },
+  { path: 'prompts/dynamic-form.md', name: 'prompts/dynamic-form.md', desc: '动态表单字段文案的新增规范与命名约定' },
   { path: 'docs/backend-guide.md', name: 'docs/backend-guide.md', desc: '错误码三步走，可直接转发' },
   { path: 'docs/glossary-guide.md', name: 'docs/glossary-guide.md', desc: '术语库模型与维护方式' },
 ];
@@ -344,7 +360,7 @@ export function HelpView({ repo }: { repo: string }) {
 
       <Section
         icon={FileSearch}
-        title="三类任务"
+        title="四类任务"
         hint={
           <span className="flex flex-wrap items-center gap-1.5">
             <span>按你要做什么选一类</span>
@@ -376,7 +392,7 @@ export function HelpView({ repo }: { repo: string }) {
             steps={[
               <>
                 在「主表格」搜模块相关的 namespace / key；数据字典在「字典」Tab、
-                admin 产品配置的动态表单文案在「产品配置」Tab，左侧列表里直接找。
+                动态表单的字段文案在「动态表单」Tab。
               </>,
               <>
                 点该 namespace 分组标题行上的{' '}
@@ -404,6 +420,44 @@ export function HelpView({ repo }: { repo: string }) {
 
           {show('pm') && (
           <TaskCard
+            icon={LayoutList}
+            title="维护动态表单文案"
+            lead={
+              <>
+                在 admin「产品配置」里给动态表单字段配国际化时，没有合适的现成 key。
+                全部字段文案都在 <Code>dynamic-form</Code> 这一个 namespace 里。
+              </>
+            }
+            steps={[
+              <>
+                <strong className="text-foreground font-medium">先在「动态表单」Tab 搜一遍</strong>
+                ，按 key 或英文原文都行。<Code>begin_time</Code> <Code>remote_lock</Code>{' '}
+                这类通用字段大概率已经有了 —— 复用同一条，别按模块再造一个。
+              </>,
+              <>
+                确实没有，才新增。key 用英文 <Code>snake_case</Code>、
+                <strong className="text-foreground font-medium">绝不能用中文</strong>，
+                且要自带上下文（<Code>battery_charge_mode</Code> 而不是 <Code>mode</Code>）——
+                一个平面里 150+ 个 key，泛名一定会撞。
+              </>,
+              <>11 个语种一次写齐真译文，见下方「写回仓库」。</>,
+            ]}
+            prompt={PROMPTS.dynamicForm(mk)}
+            note={
+              <div className="space-y-1.5">
+                <GoodBad good="rrcr_control_area" bad="RRCR控制区域 —— 真实发生过，该字段在所有语种下都显示这串中文" />
+                <p className="text-muted-foreground">
+                  ⚠️ 合并后还要等 antelope-web 更新 submodule 指针并重新构建部署，编辑器里才选得到。
+                  在那之前可以在 admin 里<strong className="text-foreground font-medium">直接手输 key 名</strong>
+                  ，会标成「待发版」而不是报错，配置能正常保存。
+                </p>
+              </div>
+            }
+          />
+          )}
+
+          {show('pm') && (
+          <TaskCard
             icon={FilePlus2}
             title="新增文案"
             lead={
@@ -423,13 +477,16 @@ export function HelpView({ repo }: { repo: string }) {
             ]}
             extra={
               <div className="space-y-1.5">
-                <p className="text-xs font-medium">其余 10 个语种，二选一：</p>
-                <Option label="手上没有真译文">
-                  直接提 PR，<Code>fill-missing</Code> 自动用英文占位补齐（CI 才能转绿），之后再替换。
+                <p className="text-xs font-medium">其余 10 个语种：一次交齐真译文</p>
+                <Option label="推荐做法">
+                  11 个语种一起填。先跑 <Code>node tools/fill-missing.mjs --write</Code>{' '}
+                  打好格式正确的骨架，再<strong className="text-foreground font-medium">立刻</strong>
+                  把占位英文换成真译文，然后提 PR。
                 </Option>
-                <Option label="手上已有真译文（供应商 / AI 产出）">
-                  11 个语种一起填，比英文占位好。先跑{' '}
-                  <Code>node tools/fill-missing.mjs --write</Code> 打好格式正确的占位，再逐个替换值。
+                <Option label="fill-missing 的定位">
+                  它是<strong className="text-foreground font-medium">本地建骨架与 CI 兜底</strong>
+                  ，不是终态。只交 en-US、指望它用英文占位补齐后当终态合入，不符合仓库约定
+                  （CLAUDE.md 硬规则 3）。
                 </Option>
               </div>
             }
@@ -438,12 +495,9 @@ export function HelpView({ repo }: { repo: string }) {
               <div className="space-y-1.5">
                 <GoodBad bad="自己编不熟的语种 —— 占位符错位、术语跑偏比英文占位更难查" />
                 <p className="text-muted-foreground">
-                  用占位补齐的，目前<strong className="text-foreground font-medium">没有</strong>
-                  汇总清单可查「哪些还是占位」，只能看 fill-missing 那次自动提交的 diff。
-                </p>
-                <p className="text-muted-foreground">
-                  <Code>product-config/*</Code> 的 key 合并后还要等 antelope-web 重新构建部署，
-                  admin 的 JSON Schema 编辑器里才选得到 —— 在那之前可以先把 key 名手动填进去。
+                  动态表单的<strong className="text-foreground font-medium">字段</strong>文案不走这张卡 ——
+                  它们在单一的 <Code>dynamic-form</Code> namespace 里，有自己的命名规范与查重要求，
+                  见上一张「维护动态表单文案」。
                 </p>
               </div>
             }
@@ -485,7 +539,7 @@ export function HelpView({ repo }: { repo: string }) {
         </div>
       </Section>
 
-      <Section icon={GitPullRequest} title="写回仓库" hint="三类任务都走这一步">
+      <Section icon={GitPullRequest} title="写回仓库" hint="四类任务都走这一步">
         <div className="space-y-3">
           <div className="grid gap-3 md:grid-cols-3">
             <div className="overflow-hidden rounded-lg border">

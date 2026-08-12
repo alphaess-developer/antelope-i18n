@@ -6,26 +6,23 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { TranslationsView } from '@/features/TranslationsView';
 import { DictionariesView } from '@/features/DictionariesView';
-import { ProductConfigView } from '@/features/ProductConfigView';
 import { GlossaryView } from '@/features/GlossaryView';
 import { BaselineView } from '@/features/BaselineView';
 import { HelpView } from '@/features/HelpView';
-import {
-  DICT_PREFIX,
-  DYNAMIC_FORM_NS,
-  ERROR_CODE_NS,
-  PRODUCT_CONFIG_PREFIX,
-  editUrl,
-  useLangValues,
-  useViewerData,
-} from '@/lib/data';
+import { DICT_PREFIX, DYNAMIC_FORM_NS, ERROR_CODE_NS, editUrl, useLangValues, useViewerData } from '@/lib/data';
 import { readDeepLink, type TabValue, tabForNs, writeDeepLink } from '@/lib/deep-link';
 
 /** 默认对照语种 —— 首屏只额外加载这一个语种的数据 */
 const DEFAULT_LANGS = ['zh-CN'];
 
-/** 自带 ns 列表、能消费深链 ns 的 Tab */
-const NS_BROWSER_TABS: TabValue[] = ['dictionaries', 'product-config'];
+/** 自带 ns 列表、能消费深链 ns 的 Tab —— 由它们自己把选中项写回地址栏 */
+const NS_BROWSER_TABS: TabValue[] = ['dictionaries'];
+
+/** 固定对应单个 ns 的 Tab —— 切过去时把那个 ns 写回地址栏，地址栏才和所见一致、可复制分享 */
+const SINGLE_NS_TABS: Partial<Record<TabValue, string>> = {
+  'error-code': ERROR_CODE_NS,
+  'dynamic-form': DYNAMIC_FORM_NS,
+};
 
 function useDarkMode() {
   const [dark, setDark] = useState(
@@ -54,8 +51,10 @@ export default function App() {
     setTab(next);
     // 深链是一次性的落地指令，人一旦自己切了 Tab 就不该再回填
     setDeepLink({});
-    // 带 ns 列表的 Tab 会自己把选中项写回地址栏，其余 Tab 没有定位可言，直接清掉
-    if (!NS_BROWSER_TABS.includes(next)) writeDeepLink({});
+    const singleNs = SINGLE_NS_TABS[next];
+    if (singleNs) writeDeepLink({ ns: singleNs });
+    // 带 ns 列表的 Tab 会自己把选中项写回地址栏；其余 Tab 没有定位可言，直接清掉
+    else if (!NS_BROWSER_TABS.includes(next)) writeDeepLink({});
   };
 
   useEffect(() => {
@@ -71,10 +70,6 @@ export default function App() {
     const list = (data?.manifest.nsList ?? []).filter(
       (n) => n.ns.startsWith(DICT_PREFIX) && n.ns !== ERROR_CODE_NS,
     );
-    return { count: list.length, keys: list.reduce((s, n) => s + n.keyCount, 0) };
-  }, [data]);
-  const productConfigStats = useMemo(() => {
-    const list = (data?.manifest.nsList ?? []).filter((n) => n.ns.startsWith(PRODUCT_CONFIG_PREFIX));
     return { count: list.length, keys: list.reduce((s, n) => s + n.keyCount, 0) };
   }, [data]);
 
@@ -169,13 +164,6 @@ export default function App() {
               <Badge variant="secondary">{dictStats.count}</Badge>
             </TabsTrigger>
             <TabsTrigger
-              value="product-config"
-              title={`${productConfigStats.count} 个模块 · ${productConfigStats.keys} 条`}
-            >
-              产品配置
-              <Badge variant="secondary">{productConfigStats.count}</Badge>
-            </TabsTrigger>
-            <TabsTrigger
               value="dynamic-form"
               title="动态表单字段文案 —— admin JsonSchemaEditor 的候选来源"
             >
@@ -219,21 +207,6 @@ export default function App() {
 
           <TabsContent value="dictionaries" className="mt-4">
             <DictionariesView
-              rows={allRows.rows}
-              manifest={data.manifest}
-              selectedLangs={selectedLangs}
-              onSelectedLangsChange={setSelectedLangs}
-              values={values}
-              loadingLangs={loading}
-              ensure={ensure}
-              defaultNs={deepLink.ns}
-              defaultQuery={deepLink.q}
-              onLocate={writeDeepLink}
-            />
-          </TabsContent>
-
-          <TabsContent value="product-config" className="mt-4">
-            <ProductConfigView
               rows={allRows.rows}
               manifest={data.manifest}
               selectedLangs={selectedLangs}

@@ -172,19 +172,14 @@ viewer/dist/                       ← 上传给 Pages 的目录
 结构上是**单 ns Tab**，与错误码 Tab 同形（说明条 + 编辑链接 + `TranslationsView`，`showGroups={false}`），
 **不用 `NamespaceBrowser`** —— 只有一个 ns，左侧列表只会有一项。
 
+> **为什么没有「产品配置」Tab**：曾经有过（`product-config/` 前缀 + `NamespaceBrowser`）。
+> 字段文案迁到 `dynamic-form` 后，那个前缀下只剩两类东西 —— 迁移时**刻意保留的旧副本**
+> （173 条，为了能一键回滚，改了不生效）与 admin 各页面自身的静态文案（开发维护）。
+> 对产品同事而言两类都是干扰，所以移除。`?ns=product-config/xxx` 会落到主表格并把 ns 当搜索词，
+> 主表格本来就按 ns 分组，效果等同于筛出这个 ns。
+
 Tab 里额外强调一件事：**合并后还要等宿主项目重新构建部署**，admin 的编辑器里才选得到新 key
 （译文是构建期注入的，见 §1）。编辑器侧对这种「已合并未发版」的 key 会标成「待发版」而不是报错。
-
-### 4.3.1.1 产品配置 Tab —— admin 页面自身的静态文案
-
-`product-config/*` 下 10 个模块，装的是各页面**自身**的文案（列表、弹窗、校验提示）。
-动态表单的字段文案迁走后，这个 Tab 的定位就只剩这个，说明条里要写清楚，免得被误当成候选来源。
-
-布局与字典 Tab 完全一致，**两者共用 `NamespaceBrowser`**（前缀 + 左侧 ns 列表 + 右侧主表格）。
-新增一组同形的 ns（比如将来的 `device-form/*`）只需再写一个薄封装提供前缀与文案，不要复制布局。
-
-> ⚠️ 与 `dictionaries/product_config`（**下划线**）不是一回事：那是一张数据字典，在字典 Tab。
-> 判定顺序上 `dictionaries/` 前缀先于 `product-config/`，所以不会误判。
 
 ### 4.3.2 深链 —— 从 admin 直达某个 ns / key
 

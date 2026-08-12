@@ -16,16 +16,6 @@ export const DICT_PREFIX = 'dictionaries/';
 export const ERROR_CODE_NS = 'dictionaries/error-code';
 
 /**
- * 产品配置页面文案 ns 的公共前缀。
- *
- * ⚠️ 与字典的 `dictionaries/product_config`（下划线）不是一回事：那是一张数据字典。
- *
- * 动态表单的**字段**文案已于 ANTELOPE-6127 迁到 {@link DYNAMIC_FORM_NS}，
- * 这个前缀下剩的是 admin 产品配置各页面自身的静态文案。
- */
-export const PRODUCT_CONFIG_PREFIX = 'product-config/';
-
-/**
  * 动态表单字段文案 —— 单一 ns，不按模块拆。
  *
  * 模块（battery / hardware / inverter …）是 admin 的**页面**边界，不是**字段语义**边界：
