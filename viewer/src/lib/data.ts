@@ -16,12 +16,15 @@ export const DICT_PREFIX = 'dictionaries/';
 export const ERROR_CODE_NS = 'dictionaries/error-code';
 
 /**
- * 产品配置动态表单 ns 的公共前缀。
+ * 动态表单字段文案 —— 单一 ns，不按模块拆。
  *
- * ⚠️ 与字典的 `dictionaries/product_config`（下划线）不是一回事：那是一张数据字典，
- * 这里是 admin 的 JSON Schema 编辑器按模块划分的表单文案，每个 ns 对应编辑器的一个 `i18nNs`。
+ * 模块（battery / hardware / inverter …）是 admin 的**页面**边界，不是**字段语义**边界：
+ * `maximum_grid_charging_power` 这类跨模块字段在拆分方案下会在多个 ns 各存一份，
+ * 配置人员也频繁选到隔壁模块的 key。合并后这两类问题都不存在。
+ *
+ * antelope-web 的 `JsonSchemaEditor` / `JsonSchemaForm` 全部以此为 `i18nNs`。
  */
-export const PRODUCT_CONFIG_PREFIX = 'product-config/';
+export const DYNAMIC_FORM_NS = 'dynamic-form';
 
 /** 错误码里三个需要显眼标出的特殊 key（docs/viewer-spec.md §4.2） */
 export const SPECIAL_ERROR_KEYS: Record<string, string> = {

@@ -6,25 +6,23 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { TranslationsView } from '@/features/TranslationsView';
 import { DictionariesView } from '@/features/DictionariesView';
-import { ProductConfigView } from '@/features/ProductConfigView';
 import { GlossaryView } from '@/features/GlossaryView';
 import { BaselineView } from '@/features/BaselineView';
 import { HelpView } from '@/features/HelpView';
-import {
-  DICT_PREFIX,
-  ERROR_CODE_NS,
-  PRODUCT_CONFIG_PREFIX,
-  editUrl,
-  useLangValues,
-  useViewerData,
-} from '@/lib/data';
+import { DICT_PREFIX, DYNAMIC_FORM_NS, ERROR_CODE_NS, editUrl, useLangValues, useViewerData } from '@/lib/data';
 import { readDeepLink, type TabValue, tabForNs, writeDeepLink } from '@/lib/deep-link';
 
 /** 默认对照语种 —— 首屏只额外加载这一个语种的数据 */
 const DEFAULT_LANGS = ['zh-CN'];
 
-/** 自带 ns 列表、能消费深链 ns 的 Tab */
-const NS_BROWSER_TABS: TabValue[] = ['dictionaries', 'product-config'];
+/** 自带 ns 列表、能消费深链 ns 的 Tab —— 由它们自己把选中项写回地址栏 */
+const NS_BROWSER_TABS: TabValue[] = ['dictionaries'];
+
+/** 固定对应单个 ns 的 Tab —— 切过去时把那个 ns 写回地址栏，地址栏才和所见一致、可复制分享 */
+const SINGLE_NS_TABS: Partial<Record<TabValue, string>> = {
+  'error-code': ERROR_CODE_NS,
+  'dynamic-form': DYNAMIC_FORM_NS,
+};
 
 function useDarkMode() {
   const [dark, setDark] = useState(
@@ -53,8 +51,10 @@ export default function App() {
     setTab(next);
     // 深链是一次性的落地指令，人一旦自己切了 Tab 就不该再回填
     setDeepLink({});
-    // 带 ns 列表的 Tab 会自己把选中项写回地址栏，其余 Tab 没有定位可言，直接清掉
-    if (!NS_BROWSER_TABS.includes(next)) writeDeepLink({});
+    const singleNs = SINGLE_NS_TABS[next];
+    if (singleNs) writeDeepLink({ ns: singleNs });
+    // 带 ns 列表的 Tab 会自己把选中项写回地址栏；其余 Tab 没有定位可言，直接清掉
+    else if (!NS_BROWSER_TABS.includes(next)) writeDeepLink({});
   };
 
   useEffect(() => {
@@ -72,10 +72,21 @@ export default function App() {
     );
     return { count: list.length, keys: list.reduce((s, n) => s + n.keyCount, 0) };
   }, [data]);
-  const productConfigStats = useMemo(() => {
-    const list = (data?.manifest.nsList ?? []).filter((n) => n.ns.startsWith(PRODUCT_CONFIG_PREFIX));
-    return { count: list.length, keys: list.reduce((s, n) => s + n.keyCount, 0) };
-  }, [data]);
+
+  /** 单 ns 的行与它们在全量数组里的下标（语种值按该下标对齐） */
+  const rowsOfNs = (ns: string) => {
+    const out: typeof allRows.rows = [];
+    const indices: number[] = [];
+    (data?.rows ?? []).forEach((row, i) => {
+      if (row.ns === ns) {
+        out.push(row);
+        indices.push(i);
+      }
+    });
+    return { rows: out, indices };
+  };
+
+  const dynamicFormRows = useMemo(() => rowsOfNs(DYNAMIC_FORM_NS), [data]);
 
   const errorRows = useMemo(() => {
     const rows: typeof allRows.rows = [];
@@ -153,11 +164,11 @@ export default function App() {
               <Badge variant="secondary">{dictStats.count}</Badge>
             </TabsTrigger>
             <TabsTrigger
-              value="product-config"
-              title={`${productConfigStats.count} 个模块 · ${productConfigStats.keys} 条`}
+              value="dynamic-form"
+              title="动态表单字段文案 —— admin JsonSchemaEditor 的候选来源"
             >
-              产品配置
-              <Badge variant="secondary">{productConfigStats.count}</Badge>
+              动态表单
+              <Badge variant="secondary">{dynamicFormRows.rows.length}</Badge>
             </TabsTrigger>
             <TabsTrigger value="error-code">
               错误码
@@ -209,18 +220,34 @@ export default function App() {
             />
           </TabsContent>
 
-          <TabsContent value="product-config" className="mt-4">
-            <ProductConfigView
-              rows={allRows.rows}
+          <TabsContent value="dynamic-form" className="mt-4 space-y-3">
+            <div className="bg-muted/50 flex flex-wrap items-center justify-between gap-2 rounded-lg border p-3">
+              <p className="text-muted-foreground max-w-4xl text-xs leading-relaxed">
+                产品同事的主要工作面。admin「产品配置」里给动态表单字段配国际化时，
+                <strong className="text-foreground font-medium">能选到的 key 就是这里的 key</strong>。
+                单一 namespace、不按模块拆 —— 模块是页面边界、不是字段语义边界，拆开会让跨模块字段
+                在多处各存一份，也容易选到隔壁模块的 key。新增 key 见「帮助」Tab；合并后还需
+                antelope-web 重新构建部署，编辑器里才选得到。
+              </p>
+              <Button variant="outline" size="sm" asChild>
+                <a href={editUrl(data.manifest.repo, DYNAMIC_FORM_NS)} target="_blank" rel="noreferrer">
+                  <ExternalLink />
+                  编辑 en-US.json
+                </a>
+              </Button>
+            </div>
+            <TranslationsView
+              rows={dynamicFormRows.rows}
+              indices={dynamicFormRows.indices}
               manifest={data.manifest}
               selectedLangs={selectedLangs}
               onSelectedLangsChange={setSelectedLangs}
               values={values}
               loadingLangs={loading}
               ensure={ensure}
-              defaultNs={deepLink.ns}
+              showGroups={false}
               defaultQuery={deepLink.q}
-              onLocate={writeDeepLink}
+              scope="dynamic-form"
             />
           </TabsContent>
 

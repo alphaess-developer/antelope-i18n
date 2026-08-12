@@ -159,20 +159,27 @@ viewer/dist/                       ← 上传给 Pages 的目录
   https://github.com/alphaess-developer/antelope-i18n/blob/main/locales/dictionaries/error-code/en-US.json
   ```
 
-### 4.3.1 产品配置 Tab —— admin 动态表单文案的入口
+### 4.3.1 动态表单 Tab —— 产品同事的主要工作面
 
-`product-config/*` 下有 **10 个模块、885 条**。每个 ns 与 antelope-web admin「产品配置」下某个页面的
-`JsonSchemaEditor` 的 `previewFormProps.i18nNs` **一一对应** —— 产品同事在编辑器里给字段挑国际化 key 时，
-候选就是这里的 key，所以它同样需要一个单一入口，而不是散在主表格里。
+`dynamic-form` 是**单一 ns**（147 条），antelope-web 的 `JsonSchemaEditor` / `JsonSchemaForm`
+全部以它为 `i18nNs` —— 产品同事在编辑器里给字段挑国际化 key 时，候选就是这里的 key。
 
-布局与字典 Tab 完全一致，**两者共用 `NamespaceBrowser`**（前缀 + 左侧 ns 列表 + 右侧主表格）。
-新增一组 ns（比如将来的 `device-form/*`）只需再写一个薄封装提供前缀与文案，不要复制布局。
+单 ns 而不按模块拆，是 ANTELOPE-6127 对 167 条已存储 schema 对账后的结论：模块
+（battery / hardware / inverter …）是 admin 的**页面**边界、不是**字段语义**边界。
+按模块拆会让 `maximum_grid_charging_power` 这类跨模块字段在多个 ns 各存一份（实测 8 组），
+配置人员也频繁选到隔壁模块的 key（实测 5 处，后果是宿主用 label 兜底、非中文语言下静默显示中文）。
 
-> ⚠️ 与 `dictionaries/product_config`（**下划线**）不是一回事：那是一张数据字典，在字典 Tab。
-> 判定顺序上 `dictionaries/` 前缀先于 `product-config/`，所以不会误判。
+结构上是**单 ns Tab**，与错误码 Tab 同形（说明条 + 编辑链接 + `TranslationsView`，`showGroups={false}`），
+**不用 `NamespaceBrowser`** —— 只有一个 ns，左侧列表只会有一项。
 
-Tab 里额外强调一件字典 Tab 没有的事：**合并后还要等宿主项目重新构建部署**，admin 的编辑器里才选得到
-新 key（译文是构建期注入的，见 §1）。编辑器侧对这种「已合并未发版」的 key 会标成「待发版」而不是报错。
+> **为什么没有「产品配置」Tab**：曾经有过（`product-config/` 前缀 + `NamespaceBrowser`）。
+> 字段文案迁到 `dynamic-form` 后，那个前缀下只剩两类东西 —— 迁移时**刻意保留的旧副本**
+> （173 条，为了能一键回滚，改了不生效）与 admin 各页面自身的静态文案（开发维护）。
+> 对产品同事而言两类都是干扰，所以移除。`?ns=product-config/xxx` 会落到主表格并把 ns 当搜索词，
+> 主表格本来就按 ns 分组，效果等同于筛出这个 ns。
+
+Tab 里额外强调一件事：**合并后还要等宿主项目重新构建部署**，admin 的编辑器里才选得到新 key
+（译文是构建期注入的，见 §1）。编辑器侧对这种「已合并未发版」的 key 会标成「待发版」而不是报错。
 
 ### 4.3.2 深链 —— 从 admin 直达某个 ns / key
 
@@ -180,11 +187,11 @@ Tab 里额外强调一件字典 Tab 没有的事：**合并后还要等宿主项
 
 | 参数 | 含义 |
 |---|---|
-| `ns` | 要定位的 namespace。落在哪个 Tab 由前缀推导（`lib/deep-link.ts` 的 `tabForNs`） |
+| `ns` | 要定位的 namespace。落在哪个 Tab 由 `lib/deep-link.ts` 的 `tabForNs` 判定：先精确匹配 `dictionaries/error-code`、`dynamic-form`，再按 `dictionaries/`、`product-config/` 前缀，都不中则落主表格 |
 | `q` | 预填进搜索框的词，通常是 key。主表格没有 ns 列表，此时 `ns` 也会当搜索词用 |
 
 ```
-https://alphaess-developer.github.io/antelope-i18n/?ns=product-config/battery&q=battery_model
+https://alphaess-developer.github.io/antelope-i18n/?ns=dynamic-form&q=bypass_enable
 ```
 
 **为什么不把 tab 放进 URL**：tab 完全可由 ns 推导。不放进去，这里增减 Tab 时存量链接不会失效，

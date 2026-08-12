@@ -8,6 +8,7 @@
 
 | 文件 | 什么时候用 |
 |---|---|
+| [dynamic-form.md](dynamic-form.md) | 在 admin「产品配置」里配动态表单字段，发现没有合适的现成 key（产品；ns 固定为 `dynamic-form`） |
 | [translate.md](translate.md) | 某些 key 缺译文，或还是英文占位，要补成真译文 |
 | [review.md](review.md) | 某个模块开发完成，要走查它的译文质量 |
 | [error-code.md](error-code.md) | 新增或修正错误码文案（后端；默认写齐 11 语种） |
