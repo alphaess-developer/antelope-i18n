@@ -182,7 +182,7 @@
   "monitor_weather_alert": "Neaktivní — Sleduji předpovědi počasí pro {city}",
   "monitoring": "Monitorování",
   "neg_electricity_price_dispatch_tip": "Aby se přizpůsobila novele německého zákona o energetickém průmyslu (<a>EnWG) z roku 2025</a>, která začala být implementována v březnu 2025, AlphaESS inteligentně předpovídá výrobu elektřiny během období s negativními cenami elektřiny integrací historických fotovoltaických dat a informací o počasí a automaticky upravuje strategie nabíjení/vybíjení baterií ještě před očekávanými zápornými cenami, přičemž část kapacity skladování energie uvolňuje předem, aby snížila rizika napájení sítě. Upozorňujeme, že předpovědní data slouží pouze pro orientaci. Skutečná výroba elektřiny se může lišit v závislosti na počasí, stavu zařízení a dalších faktorech, což může vést k napájení ze sítě během období negativních cen elektřiny. Uživatelům se doporučuje sledovat systémová data v reálném čase a rozhodovat o povolení funkce na základě skutečného využití pro efektivnější správu energie. Upozorňujeme, že tento zákon platí pouze pro uživatele <highlight>od března 2025</highlight>. Před povolením funkce si prosím ověřte rozsah svého použití. Když je tato funkce povolena, má odpovídající plánovací logika přednost před vlastní plánovací logikou založenou na dynamickém cenění.",
-  "negative_electricity_price": "Záporná cena",
+  "negative_electricity_price": "Nízké a záporné ceny",
   "negative_electricity_price_reserved": "Rezervace záporné ceny elektřiny",
   "negative_price": "Negativní",
   "negative_price_basis_desc": "Na základě vašich konečných kupních a prodejních cen, včetně koeficientu a příplatek – ne surové tržní ceny.",
