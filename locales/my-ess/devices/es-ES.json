@@ -210,6 +210,7 @@
   "select_warranty": "Seleccionar servicio",
   "select_warranty_bundle_tip": "El servicio {name} cubre el inversor y las baterías conjuntamente y debe adquirirse en un solo pedido.",
   "select_warranty_separate_tip": "Seleccione un plan de garantía para este dispositivo. Aún puede ampliar todo el sistema a continuación.",
+  "service_contract": "Contrato de servicio",
   "soc_calibration": "Calibración de SOC",
   "software_ver": "Versión del software",
   "stand_alone": "Autónomo",

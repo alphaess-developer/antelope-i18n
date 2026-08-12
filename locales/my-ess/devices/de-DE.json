@@ -210,6 +210,7 @@
   "select_warranty": "Service wählen",
   "select_warranty_bundle_tip": "Der {name} Service deckt Wechselrichter und Batterien gemeinsam ab und kann nur zusammen erworben werden.",
   "select_warranty_separate_tip": "Wählen Sie einen Garantieplan für dieses Gerät. Sie können unten weiterhin das gesamte System erweitern.",
+  "service_contract": "Servicevertrag",
   "soc_calibration": "SOC-Kalibrierung",
   "software_ver": "Softwareversion",
   "stand_alone": "Eigenständig",

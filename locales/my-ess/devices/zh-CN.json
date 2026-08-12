@@ -210,6 +210,7 @@
   "select_warranty": "选择服务",
   "select_warranty_bundle_tip": "{name} 服务覆盖逆变器与电池，需一并购买。",
   "select_warranty_separate_tip": "为该设备选择质保方案。您仍可在下方升级整个系统。",
+  "service_contract": "服务合同",
   "soc_calibration": "SOC校准",
   "software_ver": "软件版本",
   "stand_alone": "单机",

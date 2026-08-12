@@ -210,6 +210,7 @@
   "select_warranty": "Sélectionner le service",
   "select_warranty_bundle_tip": "Le service {name} couvre l’onduleur et les batteries ensemble et doit être acheté en une seule fois.",
   "select_warranty_separate_tip": "Sélectionnez un plan de garantie pour cet appareil. Vous pouvez toujours mettre à niveau l'ensemble du système ci-dessous.",
+  "service_contract": "Contrat de service",
   "soc_calibration": "Calibrage SOC",
   "software_ver": "Version du logiciel",
   "stand_alone": "Mode standard",
