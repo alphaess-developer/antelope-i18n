@@ -375,7 +375,8 @@ export function HelpView({ repo }: { repo: string }) {
             lead="某个功能模块开发完成，要对它涉及的文案做一次检查。"
             steps={[
               <>
-                在「主表格」搜模块相关的 namespace / key，或在「字典」Tab 左侧列表里找对应字典。
+                在「主表格」搜模块相关的 namespace / key；数据字典在「字典」Tab、
+                admin 产品配置的动态表单文案在「产品配置」Tab，左侧列表里直接找。
               </>,
               <>
                 点该 namespace 分组标题行上的{' '}
@@ -439,6 +440,10 @@ export function HelpView({ repo }: { repo: string }) {
                 <p className="text-muted-foreground">
                   用占位补齐的，目前<strong className="text-foreground font-medium">没有</strong>
                   汇总清单可查「哪些还是占位」，只能看 fill-missing 那次自动提交的 diff。
+                </p>
+                <p className="text-muted-foreground">
+                  <Code>product-config/*</Code> 的 key 合并后还要等 antelope-web 重新构建部署，
+                  admin 的 JSON Schema 编辑器里才选得到 —— 在那之前可以先把 key 名手动填进去。
                 </p>
               </div>
             }

@@ -15,6 +15,14 @@ export const DICT_PREFIX = 'dictionaries/';
 
 export const ERROR_CODE_NS = 'dictionaries/error-code';
 
+/**
+ * 产品配置动态表单 ns 的公共前缀。
+ *
+ * ⚠️ 与字典的 `dictionaries/product_config`（下划线）不是一回事：那是一张数据字典，
+ * 这里是 admin 的 JSON Schema 编辑器按模块划分的表单文案，每个 ns 对应编辑器的一个 `i18nNs`。
+ */
+export const PRODUCT_CONFIG_PREFIX = 'product-config/';
+
 /** 错误码里三个需要显眼标出的特殊 key（docs/viewer-spec.md §4.2） */
 export const SPECIAL_ERROR_KEYS: Record<string, string> = {
   '0000': '通用兜底，用户会看到错误码本身',

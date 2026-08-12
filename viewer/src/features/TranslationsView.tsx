@@ -85,6 +85,12 @@ interface Props {
    */
   keyStyle?: 'plain' | 'dotted';
   scope?: string;
+  /**
+   * 搜索框的初始值 —— 深链 `?q=` 落地用。
+   * 只作用于首次挂载，之后由用户自己改；换 ns 时上层会重新挂载本组件（key={activeNs}），
+   * 所以上层要负责在切换后不再传旧值
+   */
+  defaultQuery?: string;
 }
 
 export function TranslationsView({
@@ -100,8 +106,9 @@ export function TranslationsView({
   markSpecialKeys = false,
   keyStyle = 'plain',
   scope,
+  defaultQuery,
 }: Props) {
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState(defaultQuery ?? '');
   const [onlyMissing, setOnlyMissing] = useState(false);
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set());
   const scrollRef = useRef<HTMLDivElement>(null);
