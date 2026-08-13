@@ -385,6 +385,8 @@
   "6664": "Zasady dotyczące nazw wyświetlanych nie mogą być powtarzane",
   "6665": "Model produktu już istnieje",
   "6672": "[{0}] Reguły wersji nie mogą być powtarzane",
+  "6673": "Ten model ładowarki nie obsługuje SN obecnego urządzenia magazynowania energii i nie może zostać zainstalowany",
+  "6674": "Ten model ładowarki jest zabroniony do sprzedaży w kraju, w którym znajduje się urządzenie, i nie może zostać zainstalowany",
   "6680": "Pod tym falownikiem istnieje już konfiguracja równoległa",
   "6681": "Konfiguracja równoległa nie istnieje",
   "6690": "Konfiguracja firmy VPP nie istnieje",

@@ -385,6 +385,8 @@
   "6664": "Display name rules cannot be repeated",
   "6665": "The product model already exists",
   "6672": "[{0}] Version rules cannot be repeated",
+  "6673": "This EV charger model does not support the SN of the current energy storage device and cannot be installed",
+  "6674": "This EV charger model is prohibited from sale in the country where the device is located and cannot be installed",
   "6680": "There is already a parallel configuration under this inverter",
   "6681": "The parallel configuration does not exist",
   "6690": "VPP company configuration does not exist",

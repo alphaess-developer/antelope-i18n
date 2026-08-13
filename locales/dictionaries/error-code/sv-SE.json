@@ -385,6 +385,8 @@
   "6664": "Reglerna för visningsnamn kan inte duplicerats",
   "6665": "Produktmodeller finns redan",
   "6672": "[{0}] Versionsreglerna får inte duplicerats",
+  "6673": "Denna laddstationsmodell stöder inte SN för den aktuella energilagringsenheten och kan inte installeras",
+  "6674": "Denna laddstationsmodell får inte säljas i det land där enheten finns och kan inte installeras",
   "6680": "Denna växelriktare har redan parallell konfiguration",
   "6681": "Den parallella konfigurationen existerar inte",
   "6690": "VPP-företagskonfiguration existerar inte",

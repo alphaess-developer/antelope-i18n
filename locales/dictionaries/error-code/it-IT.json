@@ -385,6 +385,8 @@
   "6664": "Le regole del nome visualizzato non possono essere ripetute",
   "6665": "Il modello di prodotto esiste già",
   "6672": "[{0}] Le regole delle versioni non possono essere ripetute",
+  "6673": "Questo modello di stazione di ricarica non supporta il SN dell'attuale dispositivo di accumulo di energia e non può essere installato",
+  "6674": "Questo modello di stazione di ricarica è vietato alla vendita nel paese in cui si trova il dispositivo e non può essere installato",
   "6680": "Sotto questo inverter esiste già una configurazione parallela",
   "6681": "La configurazione parallela non esiste",
   "6690": "La configurazione aziendale VPP non esiste",

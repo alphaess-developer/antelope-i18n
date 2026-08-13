@@ -385,6 +385,8 @@
   "6664": "Anzeigenamensregeln dürfen nicht wiederholt werden",
   "6665": "Das Produktmodell existiert bereits",
   "6672": "[{0}] Versionsregeln dürfen nicht wiederholt werden",
+  "6673": "Dieses Wallbox-Modell unterstützt die SN des aktuellen Energiespeichergeräts nicht und kann nicht installiert werden",
+  "6674": "Dieses Wallbox-Modell darf im Land des Geräts nicht verkauft werden und kann nicht installiert werden",
   "6680": "Unter diesem Wechselrichter gibt es bereits eine parallele Konfiguration",
   "6681": "Die parallele Konfiguration existiert nicht",
   "6690": "VPP-Unternehmenskonfiguration existiert nicht",

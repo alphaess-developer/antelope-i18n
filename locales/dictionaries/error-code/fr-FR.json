@@ -385,6 +385,8 @@
   "6664": "Les règles de nom d’affichage ne peuvent pas être répétées",
   "6665": "Le modèle produit existe déjà",
   "6672": "[{0}] Les règles de version ne peuvent pas être répétées",
+  "6673": "Ce modèle de borne de recharge ne prend pas en charge le SN de l'équipement de stockage d'énergie actuel et ne peut pas être installé",
+  "6674": "Ce modèle de borne de recharge est interdit à la vente dans le pays où se trouve l'équipement et ne peut pas être installé",
   "6680": "Il existe déjà une configuration parallèle sous cet onduleur",
   "6681": "La configuration parallèle n’existe pas",
   "6690": "La configuration des entreprises VPP n’existe pas",
