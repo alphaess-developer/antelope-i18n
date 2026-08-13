@@ -385,6 +385,8 @@
   "6664": "De regels voor weergavenaam kunnen niet worden herhaald",
   "6665": "Het productmodel bestaat al",
   "6672": "[{0}] Versieregels mogen niet worden herhaald",
+  "6673": "Dit laadstationmodel ondersteunt het SN van het huidige energieopslagapparaat niet en kan niet worden geïnstalleerd",
+  "6674": "Dit laadstationmodel mag niet worden verkocht in het land waar het apparaat zich bevindt en kan niet worden geïnstalleerd",
   "6680": "Er is al een parallelle configuratie onder deze omvormer",
   "6681": "De parallelle configuratie bestaat niet",
   "6690": "VPP-bedrijfsconfiguratie bestaat niet",

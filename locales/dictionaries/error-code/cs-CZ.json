@@ -385,6 +385,8 @@
   "6664": "Pravidla zobrazovaných jmen nelze opakovat",
   "6665": "Produktový model již existuje",
   "6672": "[{0}] Pravidla verzí nelze opakovat",
+  "6673": "Tento model nabíjecí stanice nepodporuje SN aktuálního zařízení pro akumulaci energie a nelze jej instalovat",
+  "6674": "Tento model nabíjecí stanice je v zemi, kde se zařízení nachází, zakázán k prodeji a nelze jej instalovat",
   "6680": "Pod tímto invertorem už existuje paralelní konfigurace",
   "6681": "Paralelní konfigurace neexistuje",
   "6690": "Konfigurace VPP společnosti neexistuje",

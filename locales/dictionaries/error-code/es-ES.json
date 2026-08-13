@@ -385,6 +385,8 @@
   "6664": "Las reglas de nombre de visualización no pueden repetirse",
   "6665": "El modelo de producto ya existe",
   "6672": "[{0}] Las reglas de la versión no pueden repetirse",
+  "6673": "Este modelo de cargador no admite el SN del equipo de almacenamiento de energía actual y no se puede instalar",
+  "6674": "Este modelo de cargador está prohibido para la venta en el país donde se encuentra el equipo y no se puede instalar",
   "6680": "Ya existe una configuración en paralelo bajo este inversor",
   "6681": "La configuración paralela no existe",
   "6690": "La configuración de la empresa VPP no existe",
