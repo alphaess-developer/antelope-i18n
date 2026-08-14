@@ -218,6 +218,7 @@
   "peak_value": "峰值",
   "planned_charging": "计划充电",
   "planned_discharging": "计划放电",
+  "please_select_days_of_week": "请选择星期",
   "power": "功率",
   "power_from_grid": "电池从电网侧取电功率",
   "price_based_control": "基于价格控制",

@@ -218,6 +218,7 @@
   "peak_value": "Toppvärde",
   "planned_charging": "Planerad laddning",
   "planned_discharging": "Planerad urladdning",
+  "please_select_days_of_week": "Välj veckodagar",
   "power": "Effekt",
   "power_from_grid": "Batteriets uttagseffekt från elnätet",
   "price_based_control": "Prisbaserad styrning",

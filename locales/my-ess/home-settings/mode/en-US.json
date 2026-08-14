@@ -218,6 +218,7 @@
   "peak_value": "Peak Value",
   "planned_charging": "Planned Charging",
   "planned_discharging": "Planned Discharging",
+  "please_select_days_of_week": "Please select days of the week",
   "power": "Power",
   "power_from_grid": "Battery power from the grid",
   "price_based_control": "Price-Based Control",
