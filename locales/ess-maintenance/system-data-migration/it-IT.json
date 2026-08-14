@@ -11,6 +11,7 @@
   "end_time": "Ora di fine",
   "error_message": "Messaggio di errore",
   "from": "A partire dal",
+  "from_install_org": "Organizzazione dell'installazione dell'apparecchiatura sorgente",
   "input_sn_to_get_device_info": "Inserisci per ottenere le informazioni sul dispositivo",
   "last_mod_time": "Ultimo aggiornamento",
   "migrate_danger_notice": "Si prega di notare che questa operazione è altamente rischiosa e che tutti i dati <strong>non potranno essere recuperati</strong> dopo la migrazione! Controllate attentamente il numero SN!",
@@ -39,6 +40,7 @@
   "target_device": "Dispositivo bersaglio",
   "terminal_account": "Account terminale",
   "time_taken": "Tempo impiegato",
+  "to_install_org": "Organizzazione dell'installazione del dispositivo bersaglio",
   "transfer_to": "Inoltra a",
   "waiting_for_device_to_go_online": "In attesa che il dispositivo sia online"
 }

@@ -11,6 +11,7 @@
   "end_time": "Sluttid",
   "error_message": "Felmeddelande",
   "from": "Från",
+  "from_install_org": "Installationsorganisation för källenheten",
   "input_sn_to_get_device_info": "Ange för att hämta enhetsinformation",
   "last_mod_time": "Senast uppdaterad",
   "migrate_danger_notice": "Observera att denna åtgärd är mycket riskfylld, och all data går <strong>inte att återställa</strong> efter migreringen! Kontrollera SN-numret noggrant!",
@@ -39,6 +40,7 @@
   "target_device": "Målenhet",
   "terminal_account": "Terminalkonto",
   "time_taken": "Tidsåtgång",
+  "to_install_org": "Installationsorganisation för målenheten",
   "transfer_to": "Vidarebefordra till",
   "waiting_for_device_to_go_online": "Väntar på att enheten ska anslutas"
 }

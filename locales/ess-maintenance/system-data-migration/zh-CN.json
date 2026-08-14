@@ -11,6 +11,7 @@
   "end_time": "结束时间",
   "error_message": "错误消息",
   "from": "从",
+  "from_install_org": "旧设备安装组织",
   "input_sn_to_get_device_info": "输入后获取设备信息",
   "last_mod_time": "最后更新时间",
   "migrate_danger_notice": "请注意此操作风险性高，所有数据迁移后都将<strong>无法恢复</strong>!请认真校验SN号!",
@@ -39,6 +40,7 @@
   "target_device": "目标设备",
   "terminal_account": "终端账号",
   "time_taken": "迁移耗时",
+  "to_install_org": "新设备安装组织",
   "transfer_to": "转交给",
   "waiting_for_device_to_go_online": "等待设备上线"
 }

@@ -11,6 +11,7 @@
   "end_time": "Endzeit",
   "error_message": "Fehlermeldung",
   "from": "Von",
+  "from_install_org": "Installationsorganisation des Quellgeräts",
   "input_sn_to_get_device_info": "Geben Sie ein, um Geräteinformationen zu erhalten",
   "last_mod_time": "Letzte Aktualisierungszeit",
   "migrate_danger_notice": "Bitte beachten Sie, dass diese Operation sehr riskant ist und nach der Migration nicht alle Daten <strong>wiederhergestellt werden</strong>! Bitte überprüfen Sie die Nummernnummer sorgfältig!",
@@ -39,6 +40,7 @@
   "target_device": "Zielgerät",
   "terminal_account": "Terminalkonto",
   "time_taken": "Dauer der Migration",
+  "to_install_org": "Installationsorganisation des Zielgeräts",
   "transfer_to": "Weiterleiten an",
   "waiting_for_device_to_go_online": "Warten auf Geräte-Online-Status"
 }
