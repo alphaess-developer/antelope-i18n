@@ -6,6 +6,7 @@
   "away_mode": "离家模式",
   "bat_soc": "电池SOC",
   "battery": "电池",
+  "battery_free_mode": "无电池模式",
   "battery_power": "电池功率",
   "battery_system_investment_cost": "电池系统投资成本",
   "channel_power": "通道功率",
