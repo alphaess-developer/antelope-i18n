@@ -11,6 +11,7 @@
   "end_time": "Hora de finalización",
   "error_message": "Mensaje de error",
   "from": "De",
+  "from_install_org": "Organización de la instalación del equipo fuente",
   "input_sn_to_get_device_info": "Introduce para obtener información del dispositivo",
   "last_mod_time": "Hora de la última actualización",
   "migrate_danger_notice": "¡Tenga en cuenta que esta operación es altamente arriesgada y <strong>no</strong> se recuperarán todos los datos tras la migración! ¡Por favor, revise cuidadosamente el número de serie (SN)!",
@@ -39,6 +40,7 @@
   "target_device": "Dispositivo objetivo",
   "terminal_account": "Cuenta terminal",
   "time_taken": "Tiempo tomado",
+  "to_install_org": "Organización de la instalación del dispositivo objetivo",
   "transfer_to": "Reenviar a",
   "waiting_for_device_to_go_online": "Esperando a que el dispositivo se conecte en línea"
 }

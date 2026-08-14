@@ -11,6 +11,7 @@
   "end_time": "End Time",
   "error_message": "Error Message",
   "from": "From",
+  "from_install_org": "Source Device Installation Organization",
   "input_sn_to_get_device_info": "Enter to get device info",
   "last_mod_time": "Last Updated Time",
   "migrate_danger_notice": "Please note that this operation is highly risky, and all data will <strong>not be recovered</strong> after migration! Please check the SN number carefully!",
@@ -39,6 +40,7 @@
   "target_device": "Target device",
   "terminal_account": "Terminal account",
   "time_taken": "Time taken",
+  "to_install_org": "Target Device Installation Organization",
   "transfer_to": "Forward to",
   "waiting_for_device_to_go_online": "Waiting for device to go online"
 }

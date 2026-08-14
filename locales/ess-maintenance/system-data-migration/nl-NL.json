@@ -11,6 +11,7 @@
   "end_time": "Eind tijd",
   "error_message": "Foutmelding",
   "from": "Van",
+  "from_install_org": "Installatieorganisatie van de bronapparatuur",
   "input_sn_to_get_device_info": "Voer in om apparaatinformatie te krijgen",
   "last_mod_time": "Laatste bijgewerkte tijd",
   "migrate_danger_notice": "Houd er rekening mee dat deze operatie zeer risicovol is en dat alle gegevens <strong>niet worden teruggevonden</strong> na migratie! Controleer het SN-nummer zorgvuldig!",
@@ -39,6 +40,7 @@
   "target_device": "Doelapparaat",
   "terminal_account": "Terminalaccount",
   "time_taken": "Tijdsduur",
+  "to_install_org": "Installatieorganisatie van het doelapparaat",
   "transfer_to": "Doorsturen naar",
   "waiting_for_device_to_go_online": "Wachten tot het apparaat online gaat"
 }

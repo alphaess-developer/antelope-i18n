@@ -11,6 +11,7 @@
   "end_time": "Čas ukončení",
   "error_message": "Chybové hlášení",
   "from": "Od",
+  "from_install_org": "Organizace instalace zdrojového zařízení",
   "input_sn_to_get_device_info": "Zadejte pro získání informací o zařízení",
   "last_mod_time": "Čas poslední aktualizace",
   "migrate_danger_notice": "Upozorňujeme, že tato operace je vysoce riziková a po migraci nebudou všechna data <strong>obnovena</strong>! Prosím, pečlivě zkontrolujte číslo sociálního čísla!",
@@ -39,6 +40,7 @@
   "target_device": "Cílové zařízení",
   "terminal_account": "Terminálový účet",
   "time_taken": "Časová náročnost",
+  "to_install_org": "Organizace instalace cílového zařízení",
   "transfer_to": "Přeposlat na",
   "waiting_for_device_to_go_online": "Čekání na přechod zařízení do režimu online"
 }
