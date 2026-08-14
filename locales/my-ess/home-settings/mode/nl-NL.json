@@ -218,6 +218,7 @@
   "peak_value": "Piekwaarde",
   "planned_charging": "Gepland laden",
   "planned_discharging": "Gepland ontladen",
+  "please_select_days_of_week": "Selecteer de dagen van de week",
   "power": "Vermogen",
   "power_from_grid": "De batterij haalt stroom uit de netzijde",
   "price_based_control": "Prijsgebaseerde besturing",

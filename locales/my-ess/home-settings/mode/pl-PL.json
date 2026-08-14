@@ -218,6 +218,7 @@
   "peak_value": "Wartość szczytowa",
   "planned_charging": "Planowane ładowanie",
   "planned_discharging": "Planowane rozładowanie",
+  "please_select_days_of_week": "Proszę wybrać dni tygodnia",
   "power": "Moc",
   "power_from_grid": "Akumulator pobiera energię ze strony sieci",
   "price_based_control": "Sterowanie oparte na cenie",

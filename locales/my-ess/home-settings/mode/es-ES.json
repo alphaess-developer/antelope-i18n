@@ -218,6 +218,7 @@
   "peak_value": "Valor pico",
   "planned_charging": "Carga planificada",
   "planned_discharging": "Descarga planificada",
+  "please_select_days_of_week": "Seleccione los días de la semana",
   "power": "Potencia",
   "power_from_grid": "La batería extrae energía del lado de la red",
   "price_based_control": "Control basado en precios",

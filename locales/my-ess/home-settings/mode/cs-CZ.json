@@ -218,6 +218,7 @@
   "peak_value": "Špičková hodnota",
   "planned_charging": "Plánované nabíjení",
   "planned_discharging": "Plánované vybíjení",
+  "please_select_days_of_week": "Prosím vyberte dny v týdnu",
   "power": "NAPÁJENÍ",
   "power_from_grid": "Výkon baterie odebíraný ze sítě",
   "price_based_control": "Řízení založené na cenách",
