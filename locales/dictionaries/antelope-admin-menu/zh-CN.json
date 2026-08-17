@@ -80,6 +80,7 @@
   "product_config.other": "其他功能",
   "product_config.parallel": "并机参数管理",
   "product_config.product_model": "储能机型号管理",
+  "product_config.safety_param": "安规参数管理",
   "product_config.software": "软件功能管理",
   "product_config.software_version": "软件版本管理",
   "product_config.wifi": "Wi-Fi模块管理",
