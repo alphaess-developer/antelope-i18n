@@ -80,6 +80,7 @@
   "product_config.other": "Other Functions",
   "product_config.parallel": "Parallel Parameters",
   "product_config.product_model": "Product Models",
+  "product_config.safety_param": "Safety Parameters",
   "product_config.software": "Software Functions",
   "product_config.software_version": "Software Version",
   "product_config.wifi": "Wi-Fi Modules",
