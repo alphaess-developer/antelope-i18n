@@ -37,6 +37,7 @@
   "bound_at": "Bound At",
   "category": "Category",
   "check_code": "Check code",
+  "city": "City",
   "comp_name": "Company Name",
   "company": "Company",
   "confirm_to_leave_company": "Confirm moving {name} out of the company?",

@@ -37,6 +37,7 @@
   "bound_at": "Lié le",
   "category": "Catégorie",
   "check_code": "Code de vérification",
+  "city": "Ville",
   "comp_name": "Nom de l’entreprise",
   "company": "Entreprise",
   "confirm_to_leave_company": "Confirmer le départ de {name} hors de l’entreprise ?",

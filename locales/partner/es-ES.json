@@ -37,6 +37,7 @@
   "bound_at": "Vinculado en",
   "category": "Categoría",
   "check_code": "Código de verificación",
+  "city": "Ciudad",
   "comp_name": "Nombre de la empresa",
   "company": "Compañía",
   "confirm_to_leave_company": "¿Confirmar que se traslada a {name} fuera de la empresa?",

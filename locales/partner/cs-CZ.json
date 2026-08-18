@@ -37,6 +37,7 @@
   "bound_at": "Vázáno v",
   "category": "Kategorie",
   "check_code": "Ověřovací kód",
+  "city": "Město",
   "comp_name": "Název společnosti",
   "company": "Společnost",
   "confirm_to_leave_company": "Potvrdit odebrání uživatele {name} z firmy?",

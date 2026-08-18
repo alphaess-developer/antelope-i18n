@@ -37,6 +37,7 @@
   "bound_at": "绑定时间",
   "category": "类别",
   "check_code": "校验码",
+  "city": "城市",
   "comp_name": "公司名称",
   "company": "公司",
   "confirm_to_leave_company": "确认将{name}移出公司？",
