@@ -37,6 +37,7 @@
   "bound_at": "Gebunden bei",
   "category": "Kategorie",
   "check_code": "Prüfcode",
+  "city": "Stadt",
   "comp_name": "Name der Firma",
   "company": "Unternehmen",
   "confirm_to_leave_company": "Bestätigen, dass {name} aus dem Unternehmen herausgezogen wird?",

@@ -37,6 +37,7 @@
   "bound_at": "Bunden",
   "category": "Kategori",
   "check_code": "Kontrollkod",
+  "city": "Stad",
   "comp_name": "Företagsnamn",
   "company": "Företag",
   "confirm_to_leave_company": "Bekräfta att {name} flyttas ut ur företaget?",
