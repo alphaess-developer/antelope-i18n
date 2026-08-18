@@ -505,6 +505,7 @@
   "100061": "Organizacja nie przeszła przeglądu rejestracji",
   "100062": "To konto zostało autoryzowane dla najemcy",
   "100063": "Wybrany kraj znajduje się poza autoryzowanym zakresem danych",
+  "100067": "Użytkownik docelowy nie jest członkiem organizacji najemcy i nie może zostać autoryzowany do logowania między centrami danych",
   "101010": "Brak zezwoleń operacyjnych",
   "101020": "Nie ma danych, które można by wyeksportować",
   "101021": "Jeśli wyeksportowałeś za dużo danych, przefiltruj je i ponownie wyeksportuj",

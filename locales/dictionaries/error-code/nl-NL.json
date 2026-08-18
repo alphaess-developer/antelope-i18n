@@ -505,6 +505,7 @@
   "100061": "De organisatie faalde de registratiebeoordeling",
   "100062": "Deze rekening is geautoriseerd voor de huurder",
   "100063": "Het geselecteerde land valt buiten uw geautoriseerde gegevensbereik",
+  "100067": "De doelgebruiker is geen lid van de organisatie van de huurder en kan niet worden geautoriseerd voor cross-datacenter-aanmelding",
   "101010": "Geen operationele vergunningen",
   "101020": "Er is geen data die geëxporteerd kan worden",
   "101021": "Als je te veel data hebt geëxporteerd, filter dan de data en exporteer ze opnieuw",

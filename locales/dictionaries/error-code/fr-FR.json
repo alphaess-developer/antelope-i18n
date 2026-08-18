@@ -505,6 +505,7 @@
   "100061": "L’organisation a échoué à l’examen d’enregistrement",
   "100062": "Ce compte a été autorisé pour le locataire",
   "100063": "Le pays sélectionné est en dehors de votre périmètre de données autorisé",
+  "100067": "L’utilisateur cible n’est pas membre de l’organisation du locataire et ne peut pas être autorisé pour la connexion multi-centres de données",
   "101010": "Pas d’autorisations opérationnelles",
   "101020": "Il n’y a pas de données exportables",
   "101021": "Si vous avez exporté trop de données, filtrez les données et réexportez-les",

@@ -505,6 +505,7 @@
   "100061": "Organisationen misslyckades med registreringsgranskningen",
   "100062": "Detta konto har godkänts för hyresgästen",
   "100063": "Det valda landet ligger utanför din behöriga dataomfattning",
+  "100067": "Målanvändaren är inte medlem i hyresgästens organisation och kan inte auktoriseras för inloggning över datacenter",
   "101010": "Inga operativa tillstånd",
   "101020": "Det finns ingen data att exportera",
   "101021": "Om det finns för mycket exporterad data, filtrera och exportera den igen",
