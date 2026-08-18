@@ -28,6 +28,7 @@
   "estimated_time_unavailable": "Die geschätzte Restzeit ist nicht verfügbar",
   "first_calibration_date": "Datum der ersten Kalibrierung",
   "first_calibration_time": "Uhrzeit der ersten Kalibrierung",
+  "first_calibration_time_must_be_future": "Die erste Kalibrierungszeit muss nach der aktuellen Zeit liegen.",
   "grid_charged_energy": "Davon aus dem Netz geladen: <strong>{value} kWh</strong> · kumulierter Messwert des Stromzählers",
   "idle": "Leerlauf",
   "last_calibration": "Letzte Kalibrierung",

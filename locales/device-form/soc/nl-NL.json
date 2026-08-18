@@ -28,6 +28,7 @@
   "estimated_time_unavailable": "Estimated remaining time is unavailable",
   "first_calibration_date": "First calibration date",
   "first_calibration_time": "First calibration time",
+  "first_calibration_time_must_be_future": "De tijd van de eerste kalibratie moet later zijn dan de huidige tijd.",
   "grid_charged_energy": "Waarvan uit het net geladen: <strong>{value} kWh</strong> · cumulatieve meterwaarde",
   "idle": "Idle",
   "last_calibration": "Last calibration",

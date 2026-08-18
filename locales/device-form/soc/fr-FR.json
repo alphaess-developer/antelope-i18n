@@ -28,6 +28,7 @@
   "estimated_time_unavailable": "Le temps restant estimé n'est pas disponible",
   "first_calibration_date": "Date du premier calibrage",
   "first_calibration_time": "Heure du premier calibrage",
+  "first_calibration_time_must_be_future": "L’heure du premier calibrage doit être postérieure à l’heure actuelle.",
   "grid_charged_energy": "Dont énergie chargée depuis le réseau : <strong>{value} kWh</strong> · relevé cumulé du compteur",
   "idle": "Inactif",
   "last_calibration": "Dernier calibrage",
