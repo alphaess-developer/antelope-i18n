@@ -28,6 +28,7 @@
   "estimated_time_unavailable": "Estimated remaining time is unavailable",
   "first_calibration_date": "First calibration date",
   "first_calibration_time": "First calibration time",
+  "first_calibration_time_must_be_future": "Godzina pierwszej kalibracji musi być późniejsza niż bieżąca godzina.",
   "grid_charged_energy": "W tym energia z sieci: <strong>{value} kWh</strong> · skumulowany odczyt licznika",
   "idle": "Idle",
   "last_calibration": "Last calibration",

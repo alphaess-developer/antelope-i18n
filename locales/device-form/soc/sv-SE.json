@@ -28,6 +28,7 @@
   "estimated_time_unavailable": "Estimated remaining time is unavailable",
   "first_calibration_date": "First calibration date",
   "first_calibration_time": "First calibration time",
+  "first_calibration_time_must_be_future": "Tiden för den första kalibreringen måste vara senare än den aktuella tiden.",
   "grid_charged_energy": "Varav el från nätet: <strong>{value} kWh</strong> · ackumulerat uppmätt mätarvärde",
   "idle": "Idle",
   "last_calibration": "Last calibration",

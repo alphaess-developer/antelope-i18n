@@ -28,6 +28,7 @@
   "estimated_time_unavailable": "Estimated remaining time is unavailable",
   "first_calibration_date": "First calibration date",
   "first_calibration_time": "First calibration time",
+  "first_calibration_time_must_be_future": "Čas první kalibrace musí být pozdější než aktuální čas.",
   "grid_charged_energy": "Z toho energie ze sítě: <strong>{value} kWh</strong> · kumulativní naměřená hodnota elektroměru",
   "idle": "Idle",
   "last_calibration": "Last calibration",

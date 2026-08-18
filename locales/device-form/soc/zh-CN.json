@@ -28,6 +28,7 @@
   "estimated_time_unavailable": "暂无法预计剩余时间",
   "first_calibration_date": "首次校准日期",
   "first_calibration_time": "首次校准时间",
+  "first_calibration_time_must_be_future": "首次校准时间必须晚于当前时间。",
   "grid_charged_energy": "其中市电充电 <strong>{value} kWh</strong> · 电表实测累计值",
   "idle": "空闲",
   "last_calibration": "上次校准",
