@@ -505,6 +505,7 @@
   "100061": "The organization failed the registration review",
   "100062": "This account has been authorized for the tenant",
   "100063": "The selected country is outside your authorized data scope",
+  "100067": "The target user is not a member of the tenant organization and cannot be authorized for cross-data-center login",
   "101010": "No operation permission",
   "101020": "There is no data that can be exported",
   "101021": "If you have exported too much data, filter the data and re-export it",

@@ -505,6 +505,7 @@
   "100061": "Organizace neprošla registrační kontrolou",
   "100062": "Tento účet byl pro nájemce autorizován",
   "100063": "Vybraná země je mimo váš autorizovaný rozsah dat",
+  "100067": "Cílový uživatel není členem organizace nájemce a nemůže být autorizován pro přihlášení napříč datovými centry",
   "101010": "Žádná provozní povolení",
   "101020": "Neexistují žádná data, která by bylo možné exportovat",
   "101021": "Pokud jste exportovali příliš mnoho dat, filtrujte data a znovu je exportujte",

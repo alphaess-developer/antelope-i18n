@@ -505,6 +505,7 @@
   "100061": "Die Organisation ist bei der Registrierungsprüfung nicht bestanden",
   "100062": "Dieses Konto wurde für den Mieter autorisiert",
   "100063": "Das ausgewählte Land liegt außerhalb Ihres autorisierten Datenbereichs",
+  "100067": "Der Zielbenutzer ist kein Mitglied der Mieterorganisation und kann daher nicht für die Anmeldung über Rechenzentren hinweg autorisiert werden",
   "101010": "Keine Betriebsgenehmigungen",
   "101020": "Es gibt keine Daten, die exportiert werden können",
   "101021": "Wenn du zu viele Daten exportiert hast, filtere die Daten und exportiere sie erneut",
