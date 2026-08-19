@@ -36,6 +36,7 @@
   "partner": "Socio",
   "pv": "Solar",
   "reason": "Motivo",
+  "redirect_uris": "URL de callback",
   "revoke_confirm": "¿Revocar acceso?",
   "scope": "Alcance",
   "scope_configuration": "Configuración del alcance",

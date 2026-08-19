@@ -36,6 +36,7 @@
   "partner": "Partner",
   "pv": "Solar",
   "reason": "Reason",
+  "redirect_uris": "Callback URLs",
   "revoke_confirm": "Revoke access?",
   "scope": "Scope",
   "scope_configuration": "Scope Configuration",

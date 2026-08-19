@@ -36,6 +36,7 @@
   "partner": "Partenaire",
   "pv": "PV",
   "reason": "Raison",
+  "redirect_uris": "URL de rappel",
   "revoke_confirm": "Révoquer l'accès ?",
   "scope": "Portée",
   "scope_configuration": "Configuration de la portée",

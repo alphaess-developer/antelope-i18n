@@ -36,6 +36,7 @@
   "partner": "合作伙伴",
   "pv": "光伏",
   "reason": "原因",
+  "redirect_uris": "回调地址",
   "revoke_confirm": "确认取消授权？",
   "scope": "范围",
   "scope_configuration": "范围配置",

@@ -36,6 +36,7 @@
   "partner": "Partner",
   "pv": "Solarny",
   "reason": "Powód",
+  "redirect_uris": "Adresy URL wywołania zwrotnego",
   "revoke_confirm": "Cofnąć dostęp?",
   "scope": "Zakres",
   "scope_configuration": "Konfiguracja zakresu",

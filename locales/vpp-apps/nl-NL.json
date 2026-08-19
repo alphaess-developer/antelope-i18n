@@ -36,6 +36,7 @@
   "partner": "Partner",
   "pv": "Zonne-energie",
   "reason": "Reden",
+  "redirect_uris": "Callback-URL's",
   "revoke_confirm": "Toegang intrekken?",
   "scope": "Reikwijdte",
   "scope_configuration": "Scopeconfiguratie",

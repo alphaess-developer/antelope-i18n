@@ -36,6 +36,7 @@
   "partner": "Partner",
   "pv": "Solenergi",
   "reason": "Orsak",
+  "redirect_uris": "Callback-URL:er",
   "revoke_confirm": "Återkalla åtkomst?",
   "scope": "Omfattning",
   "scope_configuration": "Konfiguration av omfattning",
