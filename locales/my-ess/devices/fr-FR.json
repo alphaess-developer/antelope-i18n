@@ -152,6 +152,8 @@
   "paypal_payment": "Payer avec PayPal",
   "pending_pay_with_amount": "Paiement en attente · {name} · {amount}",
   "pending_payment_order": "Commande en attente de paiement",
+  "pending_payment_order_submitted_by_end_customer": "Achat de garantie en cours. Votre client final a soumis la demande. Contactez votre client final si vous avez des questions.",
+  "pending_payment_order_submitted_by_installer": "Achat de garantie en cours. Votre installateur a soumis la demande. Contactez votre installateur si vous avez des questions.",
   "performance_warranty": "Garantie de performance",
   "post_code": "Code postal",
   "power": "Puissance",

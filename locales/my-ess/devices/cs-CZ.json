@@ -152,6 +152,8 @@
   "paypal_payment": "Zaplatit přes PayPal",
   "pending_pay_with_amount": "Čeká na platbu · {name} · {amount}",
   "pending_payment_order": "Objednávka čekající na platbu",
+  "pending_payment_order_submitted_by_end_customer": "Probíhá nákup záruky. Váš koncový klient odeslal žádost. Máte-li dotazy, kontaktujte svého koncového klienta.",
+  "pending_payment_order_submitted_by_installer": "Probíhá nákup záruky. Váš instalatér odeslal žádost. Máte-li dotazy, kontaktujte svého instalatéra.",
   "performance_warranty": "Záruka výkonu",
   "post_code": "Poštovní směrovací číslo",
   "power": "NAPÁJENÍ",

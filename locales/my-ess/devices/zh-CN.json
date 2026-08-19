@@ -152,6 +152,8 @@
   "paypal_payment": "PayPal支付",
   "pending_pay_with_amount": "待支付 · {name} · {amount}",
   "pending_payment_order": "待支付订单",
+  "pending_payment_order_submitted_by_end_customer": "质保购买正在处理中。您的终端用户已提交申请，如有疑问请联系您的终端用户。",
+  "pending_payment_order_submitted_by_installer": "质保购买正在处理中。您的安装商已提交申请，如有疑问请联系您的安装商。",
   "performance_warranty": "性能质保",
   "post_code": "邮编",
   "power": "功率",

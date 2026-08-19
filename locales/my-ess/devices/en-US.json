@@ -152,6 +152,8 @@
   "paypal_payment": "Pay with PayPal",
   "pending_pay_with_amount": "Pending payment · {name} · {amount}",
   "pending_payment_order": "Pending Payment Order",
+  "pending_payment_order_submitted_by_end_customer": "Warranty purchase in progress. Your end customer has submitted the request. Contact your end customer if you have questions.",
+  "pending_payment_order_submitted_by_installer": "Warranty purchase in progress. Your installer has submitted the request. Contact your installer if you have questions.",
   "performance_warranty": "Performance Warranty",
   "post_code": "Post Code",
   "power": "Power",

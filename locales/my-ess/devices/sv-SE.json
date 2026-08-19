@@ -152,6 +152,8 @@
   "paypal_payment": "Betala med PayPal",
   "pending_pay_with_amount": "Väntar på betalning · {name} · {amount}",
   "pending_payment_order": "Order som väntar på betalning",
+  "pending_payment_order_submitted_by_end_customer": "Garantiköp pågår. Din slutkund har skickat in begäran. Kontakta din slutkund om du har frågor.",
+  "pending_payment_order_submitted_by_installer": "Garantiköp pågår. Din installatör har skickat in begäran. Kontakta din installatör om du har frågor.",
   "performance_warranty": "Prestandagaranti",
   "post_code": "Postnummer",
   "power": "Effekt",

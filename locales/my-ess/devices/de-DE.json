@@ -152,6 +152,8 @@
   "paypal_payment": "Zahlung mit PayPal",
   "pending_pay_with_amount": "Zahlung ausstehend · {name} · {amount}",
   "pending_payment_order": "Ausstehende Zahlungsbestellung",
+  "pending_payment_order_submitted_by_end_customer": "Der Garantiekauf wird bearbeitet. Ihr Endkunde hat die Anfrage eingereicht. Bei Fragen wenden Sie sich bitte an Ihren Endkunden.",
+  "pending_payment_order_submitted_by_installer": "Der Garantiekauf wird bearbeitet. Ihr Installateur hat die Anfrage eingereicht. Bei Fragen wenden Sie sich bitte an Ihren Installateur.",
   "performance_warranty": "Leistungsgarantie",
   "post_code": "Postleitzahl",
   "power": "Leistung",
