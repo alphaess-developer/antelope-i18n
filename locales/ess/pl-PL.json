@@ -55,6 +55,7 @@
   "protection_system": "Ochrona",
   "pv_installed_capacity": "Zainstalowana moc fotowoltaiczna",
   "remark": "uwagi",
+  "remark_search_tip": "Obsługuje wyszukiwanie rozmyte w uwagach instalatora, sprzedawcy i użytkownika końcowego.",
   "reseller_remark": "Uwaga o resellerze",
   "role_name": "Nazwa roli",
   "run_log": "Wpisy robocze dziennika",

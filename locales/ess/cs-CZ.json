@@ -55,6 +55,7 @@
   "protection_system": "Ochrana",
   "pv_installed_capacity": "Instalovaný výkon FV",
   "remark": "Poznámka",
+  "remark_search_tip": "Podporuje fuzzy vyhledávání v poznámkách instalatéra, prodejce a koncového uživatele.",
   "reseller_remark": "Poznámka k prodejci",
   "role_name": "Název role",
   "run_log": "Provozní protokoly",

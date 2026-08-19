@@ -55,6 +55,7 @@
   "protection_system": "Protezione",
   "pv_installed_capacity": "Capacità installata fotovoltaica",
   "remark": "Nota",
+  "remark_search_tip": "Consente la ricerca fuzzy nelle note dell'installatore, del rivenditore e dell'utente finale.",
   "reseller_remark": "Osservazione sul rivenditore",
   "role_name": "Ruolo",
   "run_log": "Registri correnti",

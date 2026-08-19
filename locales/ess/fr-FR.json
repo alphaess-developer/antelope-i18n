@@ -55,6 +55,7 @@
   "protection_system": "Protection",
   "pv_installed_capacity": "Capacité installée du PV",
   "remark": "Remarque",
+  "remark_search_tip": "Permet une recherche floue dans les remarques de l'installateur, du revendeur et de l'utilisateur final.",
   "reseller_remark": "Remarque du revendeur",
   "role_name": "Nom du rôle",
   "run_log": "Journaux de fonctionnement",

@@ -55,6 +55,7 @@
   "protection_system": "Bescherming",
   "pv_installed_capacity": "Geïnstalleerd PV-vermogen",
   "remark": "Opmerking",
+  "remark_search_tip": "Ondersteunt fuzzy zoeken in opmerkingen van installateur, wederverkoper en eindgebruiker.",
   "reseller_remark": "Opmerking van de wederverkoper",
   "role_name": "Rolnaam",
   "run_log": "Logboeken uitvoeren",
