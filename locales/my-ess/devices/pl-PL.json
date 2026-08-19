@@ -152,6 +152,8 @@
   "paypal_payment": "Zapłać za pomocą PayPal",
   "pending_pay_with_amount": "Oczekuje na płatność · {name} · {amount}",
   "pending_payment_order": "Zamówienie oczekujące na płatność",
+  "pending_payment_order_submitted_by_end_customer": "Zakup gwarancji jest w toku. Twój klient końcowy złożył wniosek. Skontaktuj się z klientem końcowym, jeśli masz pytania.",
+  "pending_payment_order_submitted_by_installer": "Zakup gwarancji jest w toku. Twój instalator złożył wniosek. Skontaktuj się z instalatorem, jeśli masz pytania.",
   "performance_warranty": "Gwarancja wydajności",
   "post_code": "Kod pocztowy",
   "power": "Moc",

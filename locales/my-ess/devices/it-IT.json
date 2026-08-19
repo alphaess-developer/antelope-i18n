@@ -152,6 +152,8 @@
   "paypal_payment": "Paga con PayPal",
   "pending_pay_with_amount": "Pagamento in sospeso · {name} · {amount}",
   "pending_payment_order": "Ordine in attesa di pagamento",
+  "pending_payment_order_submitted_by_end_customer": "Acquisto della garanzia in corso. Il tuo cliente finale ha inviato la richiesta. Contatta il tuo cliente finale in caso di domande.",
+  "pending_payment_order_submitted_by_installer": "Acquisto della garanzia in corso. Il tuo installatore ha inviato la richiesta. Contatta il tuo installatore in caso di domande.",
   "performance_warranty": "Garanzia sulle prestazioni",
   "post_code": "Cap",
   "power": "Potenza",

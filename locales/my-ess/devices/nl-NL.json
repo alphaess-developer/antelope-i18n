@@ -152,6 +152,8 @@
   "paypal_payment": "Betalen met PayPal",
   "pending_pay_with_amount": "Betaling openstaand · {name} · {amount}",
   "pending_payment_order": "Bestelling in afwachting van betaling",
+  "pending_payment_order_submitted_by_end_customer": "Garantieaankoop in behandeling. Uw eindklant heeft het verzoek ingediend. Neem contact op met uw eindklant als u vragen heeft.",
+  "pending_payment_order_submitted_by_installer": "Garantieaankoop in behandeling. Uw installateur heeft het verzoek ingediend. Neem contact op met uw installateur als u vragen heeft.",
   "performance_warranty": "Prestatiegarantie",
   "post_code": "Postcode",
   "power": "Vermogen",
