@@ -36,6 +36,7 @@
   "partner": "Εταίρος",
   "pv": "Φωτοβολταϊκά",
   "reason": "Λόγος",
+  "redirect_uris": "URL επιστροφής κλήσης",
   "revoke_confirm": "Ανάκληση πρόσβασης;",
   "scope": "Σκοπός",
   "scope_configuration": "Διαμόρφωση πεδίου εφαρμογής",

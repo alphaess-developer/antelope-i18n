@@ -36,6 +36,7 @@
   "partner": "Partner",
   "pv": "Solare",
   "reason": "Motivo",
+  "redirect_uris": "URL di callback",
   "revoke_confirm": "Revocare l'accesso?",
   "scope": "Ambito",
   "scope_configuration": "Configurazione dell'ambito",

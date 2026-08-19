@@ -36,6 +36,7 @@
   "partner": "Partner",
   "pv": "PV-Module",
   "reason": "Grund",
+  "redirect_uris": "Callback-URLs",
   "revoke_confirm": "Zugriff entziehen?",
   "scope": "Umfang",
   "scope_configuration": "Bereichskonfiguration",

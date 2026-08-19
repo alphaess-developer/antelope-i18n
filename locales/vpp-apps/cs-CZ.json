@@ -36,6 +36,7 @@
   "partner": "Partner",
   "pv": "Solární",
   "reason": "Důvod",
+  "redirect_uris": "Adresy URL zpětného volání",
   "revoke_confirm": "Odebrat přístup?",
   "scope": "Rozsah",
   "scope_configuration": "Konfigurace zaměřovače",
