@@ -55,6 +55,7 @@
   "protection_system": "Protection",
   "pv_installed_capacity": "PV Installed Capacity",
   "remark": "Remark",
+  "remark_search_tip": "Supports fuzzy search across installer, reseller, and end-user remarks.",
   "reseller_remark": "Reseller Remark",
   "role_name": "RoleName",
   "run_log": "Running Logs",

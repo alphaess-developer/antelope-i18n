@@ -55,6 +55,7 @@
   "protection_system": "Skydd",
   "pv_installed_capacity": "Installerad PV-kapacitet",
   "remark": "Anmärkning",
+  "remark_search_tip": "Stöder fuzzy-sökning i installatörs-, återförsäljar- och slutanvändaranmärkningar.",
   "reseller_remark": "Återförsäljaranteckning",
   "role_name": "Roll",
   "run_log": "Driftloggar",

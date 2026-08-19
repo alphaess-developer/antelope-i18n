@@ -55,6 +55,7 @@
   "protection_system": "Protección",
   "pv_installed_capacity": "Capacidad Instalada Fotovoltaica",
   "remark": "Observación",
+  "remark_search_tip": "Permite búsqueda difusa en observaciones del instalador, distribuidor y usuario final.",
   "reseller_remark": "Observación sobre el vendedor",
   "role_name": "Nombre del rol",
   "run_log": "Registros en ejecución",

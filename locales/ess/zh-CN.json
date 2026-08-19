@@ -55,6 +55,7 @@
   "protection_system": "保护",
   "pv_installed_capacity": "光伏装机容量",
   "remark": "备注",
+  "remark_search_tip": "支持模糊搜索安装商备注、分销商备注和终端用户备注。",
   "reseller_remark": "分销商备注",
   "role_name": "角色",
   "run_log": "运行日志",

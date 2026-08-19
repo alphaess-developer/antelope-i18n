@@ -55,6 +55,7 @@
   "protection_system": "Schutz",
   "pv_installed_capacity": "PV-Gesamtleistung",
   "remark": "Bemerkung",
+  "remark_search_tip": "Ermöglicht die unscharfe Suche in Installateur-, Händler- und Endbenutzerbemerkungen.",
   "reseller_remark": "Wiederverkäuferhinweis",
   "role_name": "Rolle",
   "run_log": "Betriebsprotokolle",
