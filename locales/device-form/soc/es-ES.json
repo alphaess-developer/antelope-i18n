@@ -47,6 +47,7 @@
   "no_permission": "No tiene permiso para realizar esta operación",
   "not_set": "Sin configurar",
   "one_time": "Una vez",
+  "parallel_calibration_notice": "Sistema paralelo maestro-esclavo: el SOC mostrado es a nivel de estación, y esta calibración cubre todas las unidades en paralelo.",
   "periodic": "Periódica",
   "periodic_calibration": "Calibración periódica",
   "repeat": "Repetir",

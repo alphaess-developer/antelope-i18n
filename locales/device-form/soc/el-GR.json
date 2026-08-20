@@ -47,6 +47,7 @@
   "no_permission": "You do not have permission to perform this operation",
   "not_set": "Not set",
   "one_time": "One time",
+  "parallel_calibration_notice": "Παράλληλο σύστημα κύριου-δευτερεύοντος: το εμφανιζόμενο SOC είναι σε επίπεδο σταθμού, και αυτή η βαθμονόμηση καλύπτει όλες τις παράλληλες μονάδες.",
   "periodic": "Recurring",
   "periodic_calibration": "Περιοδική βαθμονόμηση",
   "repeat": "Repeat",

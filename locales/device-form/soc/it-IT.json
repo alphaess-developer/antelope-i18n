@@ -47,6 +47,7 @@
   "no_permission": "Non si dispone dell'autorizzazione per eseguire questa operazione",
   "not_set": "Non impostato",
   "one_time": "Una volta",
+  "parallel_calibration_notice": "Sistema parallelo master-slave: il SOC mostrato è a livello di stazione e questa calibrazione copre tutte le unità in parallelo.",
   "periodic": "Periodica",
   "periodic_calibration": "Calibrazione periodica",
   "repeat": "Ripetizione",
