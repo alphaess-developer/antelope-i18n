@@ -4,6 +4,7 @@
   "active": "Ενεργός",
   "active_apps": "Ενεργή εφαρμογή",
   "app_logo": "Λογότυπο εφαρμογής",
+  "app_secret": "Μυστικό εφαρμογής",
   "application_name": "Όνομα εφαρμογής",
   "authorization_logs": "Αρχεία καταγραφής εξουσιοδότησης",
   "authorizations": "Εξουσιοδοτήσεις",

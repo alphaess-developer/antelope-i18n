@@ -4,6 +4,7 @@
   "active": "Activo",
   "active_apps": "Aplicaciones activas",
   "app_logo": "Logotipo de la app",
+  "app_secret": "Secreto de la aplicación",
   "application_name": "Nombre de la aplicación",
   "authorization_logs": "Registros de autorización",
   "authorizations": "Autorizaciones",

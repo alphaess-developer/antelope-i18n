@@ -4,6 +4,7 @@
   "active": "Aktivní",
   "active_apps": "Aktivní aplikace",
   "app_logo": "Logo aplikace",
+  "app_secret": "Tajný klíč aplikace",
   "application_name": "Název aplikace",
   "authorization_logs": "Autorizační záznamy",
   "authorizations": "Oprávnění",
