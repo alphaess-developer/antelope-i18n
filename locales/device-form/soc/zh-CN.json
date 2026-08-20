@@ -46,6 +46,7 @@
   "no_permission": "您没有执行此操作的权限",
   "not_set": "未设置",
   "one_time": "单次",
+  "parallel_calibration_notice": "主从并机系统：显示为电站级 SOC，校准覆盖全部并机单元。",
   "periodic": "按周期",
   "periodic_calibration": "循环校准",
   "repeat": "重复方式",

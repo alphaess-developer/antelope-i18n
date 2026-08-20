@@ -46,6 +46,7 @@
   "no_permission": "You do not have permission to perform this operation",
   "not_set": "Not set",
   "one_time": "One time",
+  "parallel_calibration_notice": "Paralelní systém master-follower: zobrazený SOC je na úrovni stanice a tato kalibrace se vztahuje na všechny paralelní jednotky.",
   "periodic": "Recurring",
   "periodic_calibration": "Pravidelná kalibrace",
   "repeat": "Repeat",

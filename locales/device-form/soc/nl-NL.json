@@ -46,6 +46,7 @@
   "no_permission": "You do not have permission to perform this operation",
   "not_set": "Not set",
   "one_time": "One time",
+  "parallel_calibration_notice": "Master-follower parallelsysteem: de weergegeven SOC is op stationsniveau, en deze kalibratie omvat alle parallelle eenheden.",
   "periodic": "Recurring",
   "periodic_calibration": "Periodieke kalibratie",
   "repeat": "Repeat",

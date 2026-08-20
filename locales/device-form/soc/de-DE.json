@@ -46,6 +46,7 @@
   "no_permission": "Sie haben keine Berechtigung für diesen Vorgang",
   "not_set": "Nicht festgelegt",
   "one_time": "Einmalig",
+  "parallel_calibration_notice": "Master-Follower-Parallelsystem: Der angezeigte SOC ist der SOC auf Anlagenebene, und diese Kalibrierung umfasst alle parallel geschalteten Einheiten.",
   "periodic": "Wiederkehrend",
   "periodic_calibration": "Zykluskalibrierung",
   "repeat": "Wiederholung",

@@ -46,6 +46,7 @@
   "no_permission": "You do not have permission to perform this operation",
   "not_set": "Not set",
   "one_time": "One time",
+  "parallel_calibration_notice": "System równoległy master-follower: wyświetlany SOC jest na poziomie stacji, a ta kalibracja obejmuje wszystkie jednostki równoległe.",
   "periodic": "Recurring",
   "periodic_calibration": "Kalibracja okresowa",
   "repeat": "Repeat",
