@@ -1,7 +1,7 @@
 {
   "action_rejected": "The operation could not be accepted. Please try again later.",
   "automatic_calibration": "Automatic Calibration",
-  "automatic_calibration_description": "When enabled, calibration runs automatically once or on a recurring schedule. Calibration charges at the maximum available charging power and may purchase electricity from the grid when PV output is insufficient. We recommend scheduling it during a low-tariff period.",
+  "automatic_calibration_description": "När den är aktiverad körs kalibreringen automatiskt enligt det inställda schemat (en gång eller återkommande). Kalibreringen laddar med högsta tillåtna effekt; om solcellsproduktionen inte räcker till köps el från elnätet, vilket kan öka elkostnaderna — vi rekommenderar därför att schemalägga den under en period med lägre eltariff. Vi rekommenderar kalibrering ungefär var 14:e dag.",
   "automatic_calibration_offline_help": "Automatisk kalibrering kan konfigureras även offline. Den körs enligt schemat när enheten är online igen; en schemalagd körning som fortfarande är offline markeras som överhoppad och skjuts upp.",
   "automatic_calibration_running_help": "Inställningarna för automatisk kalibrering kan inte ändras medan kalibreringen pågår.",
   "battery_charge_prohibited": "Batteriladdning förbjuden",
@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Force charge the battery until charging is prohibited to complete an SOC calibration. We recommend calibrating about every 14 days. During calibration, charging uses the maximum available power and may purchase electricity from the grid when PV output is insufficient.",
+  "manual_calibration_description": "Tvångsladda batteriet tills laddning förbjuds för att slutföra en SOC-kalibrering. Vi rekommenderar kalibrering ungefär var 14:e dag. Under kalibreringen laddas med högsta tillgängliga effekt, och <strong>el kan köpas från elnätet om solcellsproduktionen inte räcker till, vilket kan öka dina elkostnader</strong>.",
   "manual_calibration_offline_warning": "Enheten är offline. Kalibrering är tillfälligt inte tillgänglig.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",

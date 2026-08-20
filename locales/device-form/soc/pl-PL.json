@@ -1,7 +1,7 @@
 {
   "action_rejected": "The operation could not be accepted. Please try again later.",
   "automatic_calibration": "Automatic Calibration",
-  "automatic_calibration_description": "When enabled, calibration runs automatically once or on a recurring schedule. Calibration charges at the maximum available charging power and may purchase electricity from the grid when PV output is insufficient. We recommend scheduling it during a low-tariff period.",
+  "automatic_calibration_description": "Po włączeniu kalibracja jest wykonywana automatycznie według ustawionego harmonogramu (jednorazowo lub okresowo). Kalibracja odbywa się z maksymalną dozwoloną mocą ładowania; jeśli produkcja PV jest niewystarczająca, energia zostanie zakupiona z sieci, co może zwiększyć koszty energii elektrycznej — zalecamy zaplanowanie jej na okres niższej stawki. Zalecamy kalibrację co około 14 dni.",
   "automatic_calibration_offline_help": "Automatyczną kalibrację można skonfigurować również w trybie offline. Zostanie wykonana zgodnie z harmonogramem po ponownym połączeniu urządzenia; zaplanowane uruchomienie, które nadal będzie offline, zostanie oznaczone jako pominięte i odroczone.",
   "automatic_calibration_running_help": "Ustawień automatycznej kalibracji nie można zmieniać podczas trwania kalibracji.",
   "battery_charge_prohibited": "Ładowanie akumulatora zabronione",
@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Force charge the battery until charging is prohibited to complete an SOC calibration. We recommend calibrating about every 14 days. During calibration, charging uses the maximum available power and may purchase electricity from the grid when PV output is insufficient.",
+  "manual_calibration_description": "Wymuś ładowanie akumulatora, aż ładowanie zostanie zablokowane, aby zakończyć kalibrację SOC. Zalecamy kalibrację co około 14 dni. Podczas kalibracji ładowanie odbywa się z maksymalną dostępną mocą i <strong>może dojść do zakupu energii z sieci, jeśli produkcja PV jest niewystarczająca, co może zwiększyć koszty energii elektrycznej</strong>.",
   "manual_calibration_offline_warning": "Urządzenie jest offline. Kalibracja jest tymczasowo niedostępna.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",
