@@ -8,6 +8,7 @@
   "calibrate_now": "Jetzt kalibrieren",
   "calibrating": "Wird kalibriert",
   "calibration_cycle": "Kalibrierungszeitraum",
+  "calibration_cycle_hint": "{min}–{max} Tage; empfohlen: {default} Tage",
   "calibration_estimated_time": "Kalibrierung läuft, geschätzte Kalibrierungszeit: {num} min",
   "calibration_progress_message": "Zwangsladung läuft. Warten, bis die Batterie den Ladevorgang sperrt.",
   "calibration_running": "Kalibrierung läuft",

@@ -8,6 +8,7 @@
   "calibrate_now": "Βαθμονόμηση τώρα",
   "calibrating": "Calibrating",
   "calibration_cycle": "Πρόγραμμα βαθμονόμησης",
+  "calibration_cycle_hint": "{min}–{max} ημέρες· συνιστώνται {default} ημέρες",
   "calibration_estimated_time": "Βαθμονόμηση σε εξέλιξη, εκτιμώμενος χρόνος που χρειάζεται: {num} λεπτά",
   "calibration_progress_message": "Η αναγκαστική φόρτιση βρίσκεται σε εξέλιξη. Αναμονή μέχρι η μπαταρία να εισέλθει σε κατάσταση απαγόρευσης φόρτισης.",
   "calibration_running": "Calibration is in progress",

@@ -8,6 +8,7 @@
   "calibrate_now": "Kalibruj teraz",
   "calibrating": "Calibrating",
   "calibration_cycle": "Cykl kalibracji",
+  "calibration_cycle_hint": "{min}–{max} dni; zalecane {default} dni",
   "calibration_estimated_time": "Kalibracja w toku; wymagany szacowany czas: {num} min",
   "calibration_progress_message": "Trwa wymuszone ładowanie. Oczekiwanie, aż akumulator przejdzie do stanu zakazu ładowania.",
   "calibration_running": "Calibration is in progress",
