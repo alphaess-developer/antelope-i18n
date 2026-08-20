@@ -41,6 +41,7 @@
   "next_calibration_date": "Data następnej kalibracji",
   "next_calibration_estimate_once": "Następna kalibracja: <strong>{time}</strong>. Zostanie wykonana tylko raz, po czym automatyczna kalibracja zostanie wyłączona.",
   "next_calibration_estimate_periodic": "Następna kalibracja: <strong>{time}</strong>. Następnie będzie powtarzana co <strong>{days} dni</strong>.",
+  "next_calibration_repeat_hint": "Co {days} dni",
   "next_calibration_time": "Godzina następnej kalibracji",
   "no_battery_mode": "No battery mode",
   "no_permission": "You do not have permission to perform this operation",

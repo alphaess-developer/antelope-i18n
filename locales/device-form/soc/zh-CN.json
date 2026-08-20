@@ -41,6 +41,7 @@
   "next_calibration_date": "下次校准日期",
   "next_calibration_estimate_once": "下次校准：<strong>{time}</strong>，仅执行一次，之后自动校准将关闭。",
   "next_calibration_estimate_periodic": "下次校准：<strong>{time}</strong>，之后每 <strong>{days} 天</strong>重复执行。",
+  "next_calibration_repeat_hint": "每 {days} 天一次",
   "next_calibration_time": "下次校准时间",
   "no_battery_mode": "无电池模式",
   "no_permission": "您没有执行此操作的权限",

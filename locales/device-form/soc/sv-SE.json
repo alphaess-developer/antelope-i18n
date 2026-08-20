@@ -41,6 +41,7 @@
   "next_calibration_date": "Nästa kalibreringsdatum",
   "next_calibration_estimate_once": "Nästa kalibrering: <strong>{time}</strong>. Den utförs bara en gång och sedan stängs automatisk kalibrering av.",
   "next_calibration_estimate_periodic": "Nästa kalibrering: <strong>{time}</strong>. Därefter upprepas den var <strong>{days}:e dag</strong>.",
+  "next_calibration_repeat_hint": "Var {days}:e dag",
   "next_calibration_time": "Nästa kalibreringstid",
   "no_battery_mode": "No battery mode",
   "no_permission": "You do not have permission to perform this operation",

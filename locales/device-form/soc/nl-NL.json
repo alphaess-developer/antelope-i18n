@@ -41,6 +41,7 @@
   "next_calibration_date": "Volgende kalibratiedatum",
   "next_calibration_estimate_once": "Volgende kalibratie: <strong>{time}</strong>. Deze wordt slechts één keer uitgevoerd; daarna wordt automatische kalibratie uitgeschakeld.",
   "next_calibration_estimate_periodic": "Volgende kalibratie: <strong>{time}</strong>. Daarna wordt deze elke <strong>{days} dagen</strong> herhaald.",
+  "next_calibration_repeat_hint": "Elke {days} dagen",
   "next_calibration_time": "Volgende kalibratietijd",
   "no_battery_mode": "No battery mode",
   "no_permission": "You do not have permission to perform this operation",

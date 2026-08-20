@@ -41,6 +41,7 @@
   "next_calibration_date": "Nächstes Kalibrierungsdatum",
   "next_calibration_estimate_once": "Nächste Kalibrierung: <strong>{time}</strong>. Sie wird nur einmal ausgeführt, danach wird die automatische Kalibrierung deaktiviert.",
   "next_calibration_estimate_periodic": "Nächste Kalibrierung: <strong>{time}</strong>. Anschließend wird sie alle <strong>{days} Tage</strong> wiederholt.",
+  "next_calibration_repeat_hint": "Alle {days} Tage",
   "next_calibration_time": "Nächste Kalibrierungszeit",
   "no_battery_mode": "Modus ohne Batterie",
   "no_permission": "Sie haben keine Berechtigung für diesen Vorgang",
