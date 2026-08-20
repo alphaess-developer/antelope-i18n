@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Wymuś ładowanie akumulatora, aż ładowanie zostanie zablokowane, aby zakończyć kalibrację SOC. Zalecamy kalibrację co około 14 dni. Podczas kalibracji ładowanie odbywa się z maksymalną dostępną mocą i może dojść do zakupu energii z sieci, jeśli produkcja PV jest niewystarczająca, <strong>co może zwiększyć koszty energii elektrycznej</strong>.",
+  "manual_calibration_description": "Wymuś ładowanie akumulatora, aż ładowanie zostanie zablokowane, aby zakończyć kalibrację SOC. Zalecamy kalibrację co około 14 dni. Podczas kalibracji ładowanie odbywa się z maksymalną dostępną mocą i <strong>może dojść do zakupu energii z sieci, jeśli produkcja PV jest niewystarczająca, co może zwiększyć koszty energii elektrycznej</strong>.",
   "manual_calibration_offline_warning": "Urządzenie jest offline. Kalibracja jest tymczasowo niedostępna.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",

@@ -33,7 +33,7 @@
   "idle": "Inactivo",
   "last_calibration": "Última calibración",
   "manual_calibration": "Calibración manual",
-  "manual_calibration_description": "Fuerce la carga de la batería hasta que se prohíba la carga para completar una calibración de SOC. Recomendamos calibrar aproximadamente cada 14 días. Durante la calibración se utiliza la máxima potencia disponible y se puede comprar electricidad de la red si la producción fotovoltaica es insuficiente, <strong>lo que puede aumentar sus costes de electricidad</strong>.",
+  "manual_calibration_description": "Fuerce la carga de la batería hasta que se prohíba la carga para completar una calibración de SOC. Recomendamos calibrar aproximadamente cada 14 días. Durante la calibración se utiliza la máxima potencia disponible y <strong>se puede comprar electricidad de la red si la producción fotovoltaica es insuficiente, lo que puede aumentar sus costes de electricidad</strong>.",
   "manual_calibration_offline_warning": "El dispositivo está desconectado. La calibración no está disponible temporalmente.",
   "never_calibrated": "Nunca calibrado",
   "next_calibration": "Próxima calibración",

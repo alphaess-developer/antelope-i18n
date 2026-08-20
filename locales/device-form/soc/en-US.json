@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Force charge the battery until charging is prohibited to complete an SOC calibration. We recommend calibrating about every 14 days. During calibration, charging uses the maximum available power and may purchase electricity from the grid when PV output is insufficient, <strong>which may increase your electricity costs</strong>.",
+  "manual_calibration_description": "Force charge the battery until charging is prohibited to complete an SOC calibration. We recommend calibrating about every 14 days. During calibration, charging uses the maximum available power and <strong>may purchase electricity from the grid when PV output is insufficient, which may increase your electricity costs</strong>.",
   "manual_calibration_offline_warning": "The device is offline. Calibration is temporarily unavailable.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",

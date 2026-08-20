@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Vynuceně nabíjejte baterii, dokud nebude nabíjení zakázáno, aby se dokončila kalibrace SOC. Doporučujeme kalibrovat přibližně každých 14 dní. Během kalibrace se nabíjí maximálním dostupným výkonem a při nedostatečném výkonu FV se může nakupovat elektřina ze sítě, <strong>což může zvýšit náklady na elektřinu</strong>.",
+  "manual_calibration_description": "Vynuceně nabíjejte baterii, dokud nebude nabíjení zakázáno, aby se dokončila kalibrace SOC. Doporučujeme kalibrovat přibližně každých 14 dní. Během kalibrace se nabíjí maximálním dostupným výkonem a <strong>při nedostatečném výkonu FV se může nakupovat elektřina ze sítě, což může zvýšit náklady na elektřinu</strong>.",
   "manual_calibration_offline_warning": "Zařízení je offline. Kalibrace je dočasně nedostupná.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",

@@ -33,7 +33,7 @@
   "idle": "Inactif",
   "last_calibration": "Dernier calibrage",
   "manual_calibration": "Calibrage manuel",
-  "manual_calibration_description": "Forcez la charge de la batterie jusqu'à l'interdiction de charge afin d'effectuer un calibrage SOC. Nous recommandons un calibrage environ tous les 14 jours. Pendant le calibrage, la charge utilise la puissance maximale disponible et peut acheter de l'électricité sur le réseau si la production PV est insuffisante, <strong>ce qui peut augmenter vos coûts d'électricité</strong>.",
+  "manual_calibration_description": "Forcez la charge de la batterie jusqu'à l'interdiction de charge afin d'effectuer un calibrage SOC. Nous recommandons un calibrage environ tous les 14 jours. Pendant le calibrage, la charge utilise la puissance maximale disponible et <strong>peut acheter de l'électricité sur le réseau si la production PV est insuffisante, ce qui peut augmenter vos coûts d'électricité</strong>.",
   "manual_calibration_offline_warning": "L'appareil est hors ligne. Le calibrage est temporairement indisponible.",
   "never_calibrated": "Jamais calibré",
   "next_calibration": "Prochain calibrage",

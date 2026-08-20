@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Forceer het laden van de accu totdat laden wordt geblokkeerd om een SOC-kalibratie te voltooien. We raden aan ongeveer elke 14 dagen te kalibreren. Tijdens de kalibratie wordt geladen met het maximaal beschikbare vermogen en kan er elektriciteit van het net worden gekocht als de PV-opbrengst onvoldoende is, <strong>wat uw elektriciteitskosten kan verhogen</strong>.",
+  "manual_calibration_description": "Forceer het laden van de accu totdat laden wordt geblokkeerd om een SOC-kalibratie te voltooien. We raden aan ongeveer elke 14 dagen te kalibreren. Tijdens de kalibratie wordt geladen met het maximaal beschikbare vermogen en <strong>kan er elektriciteit van het net worden gekocht als de PV-opbrengst onvoldoende is, wat uw elektriciteitskosten kan verhogen</strong>.",
   "manual_calibration_offline_warning": "Het apparaat is offline. Kalibratie is tijdelijk niet beschikbaar.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",

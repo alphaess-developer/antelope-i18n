@@ -33,7 +33,7 @@
   "idle": "Leerlauf",
   "last_calibration": "Letzte Kalibrierung",
   "manual_calibration": "Manuelle Kalibrierung",
-  "manual_calibration_description": "Laden Sie den Akku zwangsweise, bis das Laden gesperrt wird, um eine SOC-Kalibrierung abzuschließen. Wir empfehlen eine Kalibrierung etwa alle 14 Tage. Während der Kalibrierung wird mit der maximal verfügbaren Ladeleistung geladen. Reicht die PV-Leistung nicht aus, kann Strom aus dem Netz bezogen werden, <strong>was zu höheren Stromkosten führen kann</strong>.",
+  "manual_calibration_description": "Laden Sie den Akku zwangsweise, bis das Laden gesperrt wird, um eine SOC-Kalibrierung abzuschließen. Wir empfehlen eine Kalibrierung etwa alle 14 Tage. Während der Kalibrierung wird mit der maximal verfügbaren Ladeleistung geladen. <strong>Reicht die PV-Leistung nicht aus, kann Strom aus dem Netz bezogen werden, was zu höheren Stromkosten führen kann</strong>.",
   "manual_calibration_offline_warning": "Das Gerät ist offline. Eine Kalibrierung ist derzeit nicht möglich.",
   "never_calibrated": "Noch nie kalibriert",
   "next_calibration": "Nächste Kalibrierung",

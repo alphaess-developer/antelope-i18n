@@ -33,7 +33,7 @@
   "idle": "Inattivo",
   "last_calibration": "Ultima calibrazione",
   "manual_calibration": "Calibrazione manuale",
-  "manual_calibration_description": "Forzare la carica della batteria fino al divieto di carica per completare una calibrazione SOC. Si consiglia di calibrare circa ogni 14 giorni. Durante la calibrazione viene utilizzata la massima potenza disponibile e può essere acquistata energia dalla rete se la produzione FV non è sufficiente, <strong>il che può aumentare i costi dell'elettricità</strong>.",
+  "manual_calibration_description": "Forzare la carica della batteria fino al divieto di carica per completare una calibrazione SOC. Si consiglia di calibrare circa ogni 14 giorni. Durante la calibrazione viene utilizzata la massima potenza disponibile e <strong>può essere acquistata energia dalla rete se la produzione FV non è sufficiente, il che può aumentare i costi dell'elettricità</strong>.",
   "manual_calibration_offline_warning": "Il dispositivo è offline. La calibrazione non è temporaneamente disponibile.",
   "never_calibrated": "Mai calibrato",
   "next_calibration": "Prossima calibrazione",

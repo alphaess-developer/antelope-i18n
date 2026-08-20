@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Tvångsladda batteriet tills laddning förbjuds för att slutföra en SOC-kalibrering. Vi rekommenderar kalibrering ungefär var 14:e dag. Under kalibreringen laddas med högsta tillgängliga effekt, och el kan köpas från elnätet om solcellsproduktionen inte räcker till, <strong>vilket kan öka dina elkostnader</strong>.",
+  "manual_calibration_description": "Tvångsladda batteriet tills laddning förbjuds för att slutföra en SOC-kalibrering. Vi rekommenderar kalibrering ungefär var 14:e dag. Under kalibreringen laddas med högsta tillgängliga effekt, och <strong>el kan köpas från elnätet om solcellsproduktionen inte räcker till, vilket kan öka dina elkostnader</strong>.",
   "manual_calibration_offline_warning": "Enheten är offline. Kalibrering är tillfälligt inte tillgänglig.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",
