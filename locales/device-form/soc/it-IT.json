@@ -1,7 +1,7 @@
 {
   "action_rejected": "L'operazione non è stata accettata. Riprovi più tardi.",
   "automatic_calibration": "Calibrazione automatica",
-  "automatic_calibration_description": "Una volta attivata, la calibrazione viene eseguita una sola volta o periodicamente; si consiglia di calibrare circa ogni 14 giorni. Carica alla massima potenza disponibile e può acquistare energia dalla rete se la produzione FV non è sufficiente. Si consiglia di programmarla in una fascia tariffaria ridotta.",
+  "automatic_calibration_description": "Una volta attivata, la calibrazione viene eseguita automaticamente in base alla pianificazione configurata (una sola volta o periodicamente). La calibrazione carica alla massima potenza consentita; se la produzione FV non è sufficiente, verrà acquistata energia dalla rete, il che può aumentare i costi dell'elettricità: si consiglia quindi di programmarla in una fascia tariffaria ridotta. Si consiglia di calibrare circa ogni 14 giorni.",
   "automatic_calibration_offline_help": "La calibrazione automatica può essere configurata anche offline. Verrà eseguita come pianificato quando il dispositivo tornerà online; un'esecuzione ancora offline verrà contrassegnata come saltata e rinviata.",
   "automatic_calibration_running_help": "Le impostazioni della calibrazione automatica non possono essere modificate durante la calibrazione.",
   "battery_charge_prohibited": "Carica della batteria vietata",

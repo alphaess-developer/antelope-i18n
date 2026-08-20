@@ -1,7 +1,7 @@
 {
   "action_rejected": "No se pudo aceptar la operación. Inténtelo de nuevo más tarde.",
   "automatic_calibration": "Calibración automática",
-  "automatic_calibration_description": "Una vez activada, la calibración se ejecuta una vez o periódicamente; recomendamos calibrar aproximadamente cada 14 días. Carga con la potencia máxima disponible y puede comprar electricidad de la red si la producción fotovoltaica es insuficiente. Recomendamos programarla durante un periodo de tarifa reducida.",
+  "automatic_calibration_description": "Una vez activada, la calibración se ejecuta automáticamente según el programa configurado (una vez o periódicamente). La calibración carga con la potencia máxima permitida; si la producción fotovoltaica es insuficiente, se comprará electricidad de la red, lo que puede aumentar sus costes de electricidad, por lo que recomendamos programarla durante un periodo de tarifa reducida. Recomendamos calibrar aproximadamente cada 14 días.",
   "automatic_calibration_offline_help": "La calibración automática puede configurarse sin conexión. Se ejecutará según lo previsto cuando el dispositivo vuelva a estar en línea; una ejecución que siga sin conexión se marcará como omitida y se aplazará.",
   "automatic_calibration_running_help": "La configuración de calibración automática no se puede modificar mientras la calibración está en curso.",
   "battery_charge_prohibited": "Carga de batería prohibida",

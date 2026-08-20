@@ -1,7 +1,7 @@
 {
   "action_rejected": "The operation could not be accepted. Please try again later.",
   "automatic_calibration": "Automatic Calibration",
-  "automatic_calibration_description": "Po włączeniu kalibracja jest wykonywana automatycznie jednorazowo lub okresowo; zalecamy kalibrację co około 14 dni. Kalibracja odbywa się z maksymalną dostępną mocą ładowania i może dojść do zakupu energii z sieci, jeśli produkcja PV jest niewystarczająca. Zalecamy zaplanowanie jej na okres niższej stawki.",
+  "automatic_calibration_description": "Po włączeniu kalibracja jest wykonywana automatycznie według ustawionego harmonogramu (jednorazowo lub okresowo). Kalibracja odbywa się z maksymalną dozwoloną mocą ładowania; jeśli produkcja PV jest niewystarczająca, energia zostanie zakupiona z sieci, co może zwiększyć koszty energii elektrycznej — zalecamy zaplanowanie jej na okres niższej stawki. Zalecamy kalibrację co około 14 dni.",
   "automatic_calibration_offline_help": "Automatyczną kalibrację można skonfigurować również w trybie offline. Zostanie wykonana zgodnie z harmonogramem po ponownym połączeniu urządzenia; zaplanowane uruchomienie, które nadal będzie offline, zostanie oznaczone jako pominięte i odroczone.",
   "automatic_calibration_running_help": "Ustawień automatycznej kalibracji nie można zmieniać podczas trwania kalibracji.",
   "battery_charge_prohibited": "Ładowanie akumulatora zabronione",

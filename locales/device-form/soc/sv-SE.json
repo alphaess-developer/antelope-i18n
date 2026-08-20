@@ -1,7 +1,7 @@
 {
   "action_rejected": "The operation could not be accepted. Please try again later.",
   "automatic_calibration": "Automatic Calibration",
-  "automatic_calibration_description": "När den är aktiverad körs kalibreringen automatiskt en gång eller enligt ett återkommande schema; vi rekommenderar kalibrering ungefär var 14:e dag. Kalibreringen laddar med högsta tillgängliga effekt och kan köpa el från elnätet om solcellsproduktionen inte räcker till. Vi rekommenderar att schemalägga den under en period med lägre eltariff.",
+  "automatic_calibration_description": "När den är aktiverad körs kalibreringen automatiskt enligt det inställda schemat (en gång eller återkommande). Kalibreringen laddar med högsta tillåtna effekt; om solcellsproduktionen inte räcker till köps el från elnätet, vilket kan öka elkostnaderna — vi rekommenderar därför att schemalägga den under en period med lägre eltariff. Vi rekommenderar kalibrering ungefär var 14:e dag.",
   "automatic_calibration_offline_help": "Automatisk kalibrering kan konfigureras även offline. Den körs enligt schemat när enheten är online igen; en schemalagd körning som fortfarande är offline markeras som överhoppad och skjuts upp.",
   "automatic_calibration_running_help": "Inställningarna för automatisk kalibrering kan inte ändras medan kalibreringen pågår.",
   "battery_charge_prohibited": "Batteriladdning förbjuden",

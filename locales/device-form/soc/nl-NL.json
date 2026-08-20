@@ -1,7 +1,7 @@
 {
   "action_rejected": "The operation could not be accepted. Please try again later.",
   "automatic_calibration": "Automatic Calibration",
-  "automatic_calibration_description": "Na activering wordt de kalibratie eenmalig of periodiek automatisch uitgevoerd; we raden aan ongeveer elke 14 dagen te kalibreren. Er wordt geladen met het maximaal beschikbare vermogen en er kan elektriciteit van het net worden gekocht als de PV-opbrengst onvoldoende is. We raden aan dit te plannen tijdens een periode met een laag tarief.",
+  "automatic_calibration_description": "Na activering wordt de kalibratie automatisch uitgevoerd volgens het ingestelde schema (eenmalig of periodiek). Er wordt geladen met het maximaal toegestane vermogen; als de PV-opbrengst onvoldoende is, wordt elektriciteit van het net gekocht, wat uw elektriciteitskosten kan verhogen — we raden daarom aan dit te plannen tijdens een periode met een laag tarief. We raden aan ongeveer elke 14 dagen te kalibreren.",
   "automatic_calibration_offline_help": "Automatische kalibratie kan ook offline worden ingesteld. Deze wordt volgens planning uitgevoerd zodra het apparaat weer online is; een geplande uitvoering die nog offline is, wordt als overgeslagen gemarkeerd en uitgesteld.",
   "automatic_calibration_running_help": "De instellingen voor automatische kalibratie kunnen tijdens de kalibratie niet worden gewijzigd.",
   "battery_charge_prohibited": "Batterijladen verboden",

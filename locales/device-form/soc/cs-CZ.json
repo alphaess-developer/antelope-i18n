@@ -1,7 +1,7 @@
 {
   "action_rejected": "The operation could not be accepted. Please try again later.",
   "automatic_calibration": "Automatic Calibration",
-  "automatic_calibration_description": "Po aktivaci se kalibrace provádí automaticky jednorázově nebo periodicky; doporučujeme kalibrovat přibližně každých 14 dní. Kalibrace nabíjí maximálním dostupným výkonem a při nedostatečném výkonu FV se může nakupovat elektřina ze sítě. Doporučujeme naplánovat ji na období s nižší sazbou.",
+  "automatic_calibration_description": "Po aktivaci se kalibrace provádí automaticky podle nastaveného plánu (jednorázově nebo periodicky). Kalibrace nabíjí maximálním povoleným výkonem; při nedostatečném výkonu FV se bude nakupovat elektřina ze sítě, což může zvýšit náklady na elektřinu — doporučujeme ji proto naplánovat na období s nižší sazbou. Doporučujeme kalibrovat přibližně každých 14 dní.",
   "automatic_calibration_offline_help": "Automatickou kalibraci lze nastavit i offline. Po opětovném připojení zařízení se provede podle plánu; naplánované spuštění, které zůstane offline, bude označeno jako přeskočené a odloženo.",
   "automatic_calibration_running_help": "Nastavení automatické kalibrace nelze během probíhající kalibrace měnit.",
   "battery_charge_prohibited": "Nabíjení baterie zakázáno",

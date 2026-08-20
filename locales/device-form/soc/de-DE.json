@@ -1,7 +1,7 @@
 {
   "action_rejected": "Der Vorgang konnte nicht angenommen werden. Bitte versuchen Sie es später erneut.",
   "automatic_calibration": "Automatische Kalibrierung",
-  "automatic_calibration_description": "Nach der Aktivierung wird die Kalibrierung einmalig oder in regelmäßigen Abständen ausgeführt; wir empfehlen eine Kalibrierung etwa alle 14 Tage. Dabei wird mit der maximal verfügbaren Ladeleistung geladen. Reicht die PV-Leistung nicht aus, kann Strom aus dem Netz bezogen werden. Planen Sie die Kalibrierung möglichst für einen Zeitraum mit niedrigem Tarif.",
+  "automatic_calibration_description": "Nach der Aktivierung erfolgt die Kalibrierung automatisch nach dem festgelegten Zeitplan (einmalig oder wiederkehrend). Bei der Kalibrierung wird mit der maximal zulässigen Ladeleistung geladen; reicht die PV-Leistung nicht aus, wird Strom aus dem Netz bezogen, was die Stromkosten erhöhen kann – planen Sie die Kalibrierung daher möglichst für einen Zeitraum mit niedrigem Tarif. Wir empfehlen eine Kalibrierung etwa alle 14 Tage.",
   "automatic_calibration_offline_help": "Auch im Offline-Zustand kann die automatische Kalibrierung konfiguriert werden. Nach der Wiederherstellung der Verbindung wird sie planmäßig ausgeführt; ein weiterhin offline geplanter Durchlauf wird als übersprungen markiert und verschoben.",
   "automatic_calibration_running_help": "Während der Kalibrierung können die Einstellungen für die automatische Kalibrierung nicht geändert werden.",
   "battery_charge_prohibited": "Batterieladung gesperrt",
