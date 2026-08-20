@@ -4,6 +4,7 @@
   "active": "Active",
   "active_apps": "Active Apps",
   "app_logo": "App Logo",
+  "app_secret": "App Secret",
   "application_name": "Application Name",
   "authorization_logs": "Authorization Logs",
   "authorizations": "Authorizations",

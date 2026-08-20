@@ -4,6 +4,7 @@
   "active": "激活",
   "active_apps": "活跃应用",
   "app_logo": "应用图标",
+  "app_secret": "应用密钥",
   "application_name": "应用名称",
   "authorization_logs": "授权日志",
   "authorizations": "授权",
