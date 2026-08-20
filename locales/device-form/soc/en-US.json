@@ -1,7 +1,7 @@
 {
   "action_rejected": "The operation could not be accepted. Please try again later.",
   "automatic_calibration": "Automatic Calibration",
-  "automatic_calibration_description": "When enabled, calibration runs automatically once or on a recurring schedule. Calibration charges at the maximum available charging power and may purchase electricity from the grid when PV output is insufficient. We recommend scheduling it during a low-tariff period.",
+  "automatic_calibration_description": "When enabled, calibration runs automatically once or on a recurring schedule; we recommend calibrating about every 14 days. Calibration charges at the maximum available charging power and may purchase electricity from the grid when PV output is insufficient. We recommend scheduling it during a low-tariff period.",
   "automatic_calibration_offline_help": "You can still configure automatic calibration while offline. It will run as scheduled when the device is back online; a scheduled run that remains offline will be marked as skipped and deferred.",
   "automatic_calibration_running_help": "Automatic calibration settings cannot be changed while calibration is running.",
   "battery_charge_prohibited": "Battery charge prohibited",
@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Force charge the battery until charging is prohibited to complete an SOC calibration. We recommend calibrating about every 14 days. During calibration, charging uses the maximum available power and may purchase electricity from the grid when PV output is insufficient.",
+  "manual_calibration_description": "Force charge the battery until charging is prohibited to complete an SOC calibration. We recommend calibrating about every 14 days. During calibration, charging uses the maximum available power and may purchase electricity from the grid when PV output is insufficient, <strong>which may increase your electricity costs</strong>.",
   "manual_calibration_offline_warning": "The device is offline. Calibration is temporarily unavailable.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",

@@ -1,7 +1,7 @@
 {
   "action_rejected": "No se pudo aceptar la operación. Inténtelo de nuevo más tarde.",
   "automatic_calibration": "Calibración automática",
-  "automatic_calibration_description": "Una vez activada, la calibración se ejecuta una vez o periódicamente. Carga con la potencia máxima disponible y puede comprar electricidad de la red si la producción fotovoltaica es insuficiente. Recomendamos programarla durante un periodo de tarifa reducida.",
+  "automatic_calibration_description": "Una vez activada, la calibración se ejecuta una vez o periódicamente; recomendamos calibrar aproximadamente cada 14 días. Carga con la potencia máxima disponible y puede comprar electricidad de la red si la producción fotovoltaica es insuficiente. Recomendamos programarla durante un periodo de tarifa reducida.",
   "automatic_calibration_offline_help": "La calibración automática puede configurarse sin conexión. Se ejecutará según lo previsto cuando el dispositivo vuelva a estar en línea; una ejecución que siga sin conexión se marcará como omitida y se aplazará.",
   "automatic_calibration_running_help": "La configuración de calibración automática no se puede modificar mientras la calibración está en curso.",
   "battery_charge_prohibited": "Carga de batería prohibida",
@@ -33,7 +33,7 @@
   "idle": "Inactivo",
   "last_calibration": "Última calibración",
   "manual_calibration": "Calibración manual",
-  "manual_calibration_description": "Fuerce la carga de la batería hasta que se prohíba la carga para completar una calibración de SOC. Recomendamos calibrar aproximadamente cada 14 días. Durante la calibración se utiliza la máxima potencia disponible y se puede comprar electricidad de la red si la producción fotovoltaica es insuficiente.",
+  "manual_calibration_description": "Fuerce la carga de la batería hasta que se prohíba la carga para completar una calibración de SOC. Recomendamos calibrar aproximadamente cada 14 días. Durante la calibración se utiliza la máxima potencia disponible y se puede comprar electricidad de la red si la producción fotovoltaica es insuficiente, <strong>lo que puede aumentar sus costes de electricidad</strong>.",
   "manual_calibration_offline_warning": "El dispositivo está desconectado. La calibración no está disponible temporalmente.",
   "never_calibrated": "Nunca calibrado",
   "next_calibration": "Próxima calibración",

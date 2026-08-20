@@ -1,7 +1,7 @@
 {
   "action_rejected": "操作未被接受，请稍后重试。",
   "automatic_calibration": "自动校准",
-  "automatic_calibration_description": "开启后将按设定计划自动校准（单次或按周期）。校准时将以最大可用充电功率充电，光伏出力不足时可能从电网买电。建议安排在低电价时段。",
+  "automatic_calibration_description": "开启后将按设定计划自动校准（单次或按周期），建议约每 14 天校准一次。校准时将以最大可用充电功率充电，光伏出力不足时可能从电网买电。建议安排在低电价时段。",
   "automatic_calibration_offline_help": "离线时仍可配置，设备恢复在线后按计划执行；到点仍离线的那次记「已跳过」并顺延。",
   "automatic_calibration_running_help": "校准运行期间不可修改配置。",
   "battery_charge_prohibited": "电池禁充",
@@ -33,7 +33,7 @@
   "idle": "空闲",
   "last_calibration": "上次校准",
   "manual_calibration": "手动校准",
-  "manual_calibration_description": "强制充电至电池禁充以完成一次 SOC 校准。建议约每 14 天校准一次。校准期间将以最大可用充电功率充电，光伏出力不足时可能从电网买电。",
+  "manual_calibration_description": "强制充电至电池禁充以完成一次 SOC 校准。建议约每 14 天校准一次。校准期间将以最大可用充电功率充电，光伏出力不足时可能从电网买电，<strong>可能导致电费上涨</strong>。",
   "manual_calibration_offline_warning": "设备离线，暂时无法校准。",
   "never_calibrated": "从未校准",
   "next_calibration": "下次校准",

@@ -1,7 +1,7 @@
 {
   "action_rejected": "The operation could not be accepted. Please try again later.",
   "automatic_calibration": "Automatic Calibration",
-  "automatic_calibration_description": "When enabled, calibration runs automatically once or on a recurring schedule. Calibration charges at the maximum available charging power and may purchase electricity from the grid when PV output is insufficient. We recommend scheduling it during a low-tariff period.",
+  "automatic_calibration_description": "Po aktivaci se kalibrace provádí automaticky jednorázově nebo periodicky; doporučujeme kalibrovat přibližně každých 14 dní. Kalibrace nabíjí maximálním dostupným výkonem a při nedostatečném výkonu FV se může nakupovat elektřina ze sítě. Doporučujeme naplánovat ji na období s nižší sazbou.",
   "automatic_calibration_offline_help": "Automatickou kalibraci lze nastavit i offline. Po opětovném připojení zařízení se provede podle plánu; naplánované spuštění, které zůstane offline, bude označeno jako přeskočené a odloženo.",
   "automatic_calibration_running_help": "Nastavení automatické kalibrace nelze během probíhající kalibrace měnit.",
   "battery_charge_prohibited": "Nabíjení baterie zakázáno",
@@ -33,7 +33,7 @@
   "idle": "Idle",
   "last_calibration": "Last calibration",
   "manual_calibration": "Manual Calibration",
-  "manual_calibration_description": "Force charge the battery until charging is prohibited to complete an SOC calibration. We recommend calibrating about every 14 days. During calibration, charging uses the maximum available power and may purchase electricity from the grid when PV output is insufficient.",
+  "manual_calibration_description": "Vynuceně nabíjejte baterii, dokud nebude nabíjení zakázáno, aby se dokončila kalibrace SOC. Doporučujeme kalibrovat přibližně každých 14 dní. Během kalibrace se nabíjí maximálním dostupným výkonem a při nedostatečném výkonu FV se může nakupovat elektřina ze sítě, <strong>což může zvýšit náklady na elektřinu</strong>.",
   "manual_calibration_offline_warning": "Zařízení je offline. Kalibrace je dočasně nedostupná.",
   "never_calibrated": "Never calibrated",
   "next_calibration": "Next calibration",
