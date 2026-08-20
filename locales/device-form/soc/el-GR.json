@@ -41,6 +41,7 @@
   "next_calibration_date": "Ημερομηνία επόμενης βαθμονόμησης",
   "next_calibration_estimate_once": "Επόμενη βαθμονόμηση: <strong>{time}</strong>. Θα εκτελεστεί μόνο μία φορά και στη συνέχεια η αυτόματη βαθμονόμηση θα απενεργοποιηθεί.",
   "next_calibration_estimate_periodic": "Επόμενη βαθμονόμηση: <strong>{time}</strong>. Στη συνέχεια θα επαναλαμβάνεται κάθε <strong>{days} ημέρες</strong>.",
+  "next_calibration_repeat_hint": "Κάθε {days} ημέρες",
   "next_calibration_time": "Ώρα επόμενης βαθμονόμησης",
   "no_battery_mode": "No battery mode",
   "no_permission": "You do not have permission to perform this operation",

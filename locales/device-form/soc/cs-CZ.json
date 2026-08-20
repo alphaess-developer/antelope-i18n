@@ -41,6 +41,7 @@
   "next_calibration_date": "Datum příští kalibrace",
   "next_calibration_estimate_once": "Další kalibrace: <strong>{time}</strong>. Provede se pouze jednou a poté bude automatická kalibrace vypnuta.",
   "next_calibration_estimate_periodic": "Další kalibrace: <strong>{time}</strong>. Poté se bude opakovat každých <strong>{days} dní</strong>.",
+  "next_calibration_repeat_hint": "Každých {days} dní",
   "next_calibration_time": "Čas příští kalibrace",
   "no_battery_mode": "No battery mode",
   "no_permission": "You do not have permission to perform this operation",
