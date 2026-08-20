@@ -8,6 +8,7 @@
   "calibrate_now": "Kalibrovat nyní",
   "calibrating": "Calibrating",
   "calibration_cycle": "Kalibrační cyklus",
+  "calibration_cycle_hint": "{min}–{max} dní; doporučeno {default} dní",
   "calibration_estimated_time": "Probíhá kalibrace, odhadovaná doba: {num} min",
   "calibration_progress_message": "Probíhá nucené nabíjení. Čeká se, až baterie přejde do stavu zákazu nabíjení.",
   "calibration_running": "Calibration is in progress",

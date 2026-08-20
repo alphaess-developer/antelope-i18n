@@ -8,6 +8,7 @@
   "calibrate_now": "立即校准",
   "calibrating": "校准中",
   "calibration_cycle": "校准周期",
+  "calibration_cycle_hint": "{min}–{max} 天，建议 {default} 天",
   "calibration_estimated_time": "校准中,预计需要校准时间{num}min",
   "calibration_progress_message": "正在强制充电，等待电池进入禁充状态。",
   "calibration_running": "校准正在进行中",

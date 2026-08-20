@@ -8,6 +8,7 @@
   "calibrate_now": "Nu kalibreren",
   "calibrating": "Calibrating",
   "calibration_cycle": "Kalibratiecyclus",
+  "calibration_cycle_hint": "{min}–{max} dagen; {default} dagen aanbevolen",
   "calibration_estimated_time": "Kalibratie wordt uitgevoerd, geschatte benodigde tijd: {num} min",
   "calibration_progress_message": "Geforceerd laden is bezig. Wachten tot de batterij in de laadverbodstatus komt.",
   "calibration_running": "Calibration is in progress",

@@ -8,6 +8,7 @@
   "calibrate_now": "Calibra ora",
   "calibrating": "Calibrazione in corso",
   "calibration_cycle": "Ciclo di calibrazione",
+  "calibration_cycle_hint": "{min}–{max} giorni; si consigliano {default} giorni",
   "calibration_estimated_time": "Calibrazione in corso, tempo stimato necessario: {num} min",
   "calibration_progress_message": "La carica forzata è in corso. In attesa che la batteria entri nello stato di carica vietata.",
   "calibration_running": "Calibrazione in corso",

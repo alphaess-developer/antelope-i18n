@@ -8,6 +8,7 @@
   "calibrate_now": "Kalibrera nu",
   "calibrating": "Calibrating",
   "calibration_cycle": "Kalibreringscykel",
+  "calibration_cycle_hint": "{min}–{max} dagar; {default} dagar rekommenderas",
   "calibration_estimated_time": "Kalibrering pågår, beräknad tid: {num} min",
   "calibration_progress_message": "Tvångsladdning pågår. Väntar på att batteriet ska gå in i laddningsförbudsläge.",
   "calibration_running": "Calibration is in progress",
